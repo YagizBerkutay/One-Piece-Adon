@@ -222,7 +222,7 @@ function cleanAssText(text) {
 
 const manifest = {
   id: "community.onepace.tr.subtitles",
-  version: "1.1.3",
+  version: "1.1.4",
   name: "One Pace TR Altyazı",
   description:
     "One Pace için Türkçe altyazı addon'u. Tüm 35 Sezon (Fishman Island, Marineford, Wano vs.) desteklenir.",
@@ -296,6 +296,7 @@ const fedewSeasonToFolderSeason = {
 
 const codeToSubMap = {};
 const seasonEpToSubMap = {};
+const keyToRelativePathMap = {};
 
 function buildSubtitleMaps() {
   function scanDir(dir) {
@@ -314,12 +315,15 @@ function buildSubtitleMaps() {
           const folderSeason = parseInt(folderMatch[1]);
           const episode = parseInt(folderMatch[2]);
 
+          const key = `${folderSeason}_${episode}`;
           seasonEpToSubMap[`${folderSeason}:${episode}`] = relPath;
+          keyToRelativePathMap[key] = relPath;
 
           const arcDef = arcDefinitions.find(a => a.folderSeason === folderSeason);
           if (arcDef) {
             arcDef.codes.forEach(code => {
               codeToSubMap[`${code}_${episode}`] = relPath;
+              keyToRelativePathMap[`${code}_${episode}`] = relPath;
             });
           }
         }
@@ -341,6 +345,8 @@ function buildSubtitleMaps() {
             codeToSubMap[`WA_${ep}`] = file;
             codeToSubMap[`WAN_${ep}`] = file;
             seasonEpToSubMap[`35:${ep}`] = file;
+            keyToRelativePathMap[`35_${ep}`] = file;
+            keyToRelativePathMap[`WA_${ep}`] = file;
           }
         }
       }
@@ -352,6 +358,55 @@ buildSubtitleMaps();
 console.log(`✅ Evrensel harita yüklendi: ${Object.keys(codeToSubMap).length} Ark Kodu, ${Object.keys(seasonEpToSubMap).length} Klasör Sezonu.`);
 
 // ============================================================
+// ExoPlayer/VLC Uyumlu ASS → VTT Dönüştürücü
+// ============================================================
+
+function cleanAssText(text) {
+  let cleaned = text.replace(/\{[^}]*\}/g, "");
+  cleaned = cleaned.replace(/\\N/g, "\n").replace(/\\n/g, "\n").replace(/\\h/g, " ");
+  cleaned = cleaned.replace(/\\/g, "");
+  // Cümle içi boş satırları kesinlikle sil (Android TV çökmesini engeller)
+  cleaned = cleaned.split("\n").map(l => l.trim()).filter(l => l.length > 0).join("\n");
+  return cleaned.trim();
+}
+
+function convertAssTime(assTime) {
+  const match = assTime.match(/(\d+):(\d{2}):(\d{2})\.(\d{2})/);
+  if (!match) return "00:00:00.000";
+  const hours = match[1].padStart(2, "0");
+  const minutes = match[2];
+  const seconds = match[3];
+  const centiseconds = match[4];
+  const milliseconds = (parseInt(centiseconds) * 10).toString().padStart(3, "0");
+  return `${hours}:${minutes}:${seconds}.${milliseconds}`;
+}
+
+function convertAssToVtt(assContent) {
+  const lines = assContent.split(/\r?\n/);
+  let vttOutput = "WEBVTT\n\n";
+
+  for (const line of lines) {
+    if (line.startsWith("Dialogue:")) {
+      const dialoguePart = line.substring("Dialogue:".length).trim();
+      const parts = dialoguePart.split(",");
+      if (parts.length < 9) continue;
+
+      const startTime = convertAssTime(parts[1].trim());
+      const endTime = convertAssTime(parts[2].trim());
+      const rawText = parts.slice(9).join(",").trim();
+      const cleanText = cleanAssText(rawText);
+
+      if (cleanText.length === 0) continue;
+
+      // Standart W3C WebVTT formatı (Cue ID olmadan direkt zaman damgası)
+      vttOutput += `${startTime} --> ${endTime}\n${cleanText}\n\n`;
+    }
+  }
+
+  return vttOutput;
+}
+
+// ============================================================
 // Subtitle Handler (Çok Katmanlı Evrensel Çözücü)
 // ============================================================
 
@@ -359,6 +414,7 @@ builder.defineSubtitlesHandler(async (args) => {
   console.log(`📝 Altyazı isteği: type=${args.type}, id=${args.id}`);
 
   let filename = null;
+  let subKey = null;
   const decodedId = decodeURIComponent(args.id);
 
   // 1. Ark Kod Kontrolü (örn: SAB_4, TB_3, FI_10, WAN_1, PUN_1)
@@ -366,8 +422,8 @@ builder.defineSubtitlesHandler(async (args) => {
   if (codeMatch) {
     const code = codeMatch[1].toUpperCase();
     const ep = parseInt(codeMatch[2]);
-    const key = `${code}_${ep}`;
-    if (codeToSubMap[key]) filename = codeToSubMap[key];
+    subKey = `${code}_${ep}`;
+    if (codeToSubMap[subKey]) filename = codeToSubMap[subKey];
   }
 
   // 2. Sezon:Bölüm Format Kontrolü (örn: 20:4, 22:4, pp:22:4)
@@ -377,18 +433,21 @@ builder.defineSubtitlesHandler(async (args) => {
       const s = parseInt(parts[parts.length - 2]);
       const ep = parseInt(parts[parts.length - 1]);
       if (!isNaN(s) && !isNaN(ep)) {
+        let folderS = s;
         if (s in fedewSeasonToFolderSeason) {
-          const folderS = fedewSeasonToFolderSeason[s];
-          if (seasonEpToSubMap[`${folderS}:${ep}`]) filename = seasonEpToSubMap[`${folderS}:${ep}`];
+          folderS = fedewSeasonToFolderSeason[s];
         }
-        if (!filename && seasonEpToSubMap[`${s}:${ep}`]) {
+        subKey = `${folderS}_${ep}`;
+        if (seasonEpToSubMap[`${folderS}:${ep}`]) {
+          filename = seasonEpToSubMap[`${folderS}:${ep}`];
+        } else if (seasonEpToSubMap[`${s}:${ep}`]) {
           filename = seasonEpToSubMap[`${s}:${ep}`];
         }
       }
     }
   }
 
-  // 3. Fallback: İletilen tüm URL/Metin içinde Kelime + Bölüm Arama (örn: Sabaody Archipelago 04)
+  // 3. Fallback: Kelime + Bölüm Arama
   if (!filename) {
     const epMatch = decodedId.match(/(?:Bölüm|Episode|Sabaody Archipelago|Thriller Bark|Fishman Island|Wano|Dressrosa|Whole Cake|Punk Hazard|Marineford|Enies Lobby|Water Seven|Skypiea|Alabasta|Arlong Park|Baratie|Syrup Village|Orange Town|Romance Dawn)\s*0*(\d{1,3})/i);
     if (epMatch) {
@@ -397,13 +456,9 @@ builder.defineSubtitlesHandler(async (args) => {
         for (const kw of arcDef.keywords) {
           if (decodedId.toLowerCase().includes(kw)) {
             const key = `${arcDef.folderSeason}:${ep}`;
+            subKey = `${arcDef.folderSeason}_${ep}`;
             if (seasonEpToSubMap[key]) {
               filename = seasonEpToSubMap[key];
-              break;
-            }
-            const codeKey = `${arcDef.codes[0]}_${ep}`;
-            if (codeToSubMap[codeKey]) {
-              filename = codeToSubMap[codeKey];
               break;
             }
           }
@@ -418,6 +473,8 @@ builder.defineSubtitlesHandler(async (args) => {
     return { subtitles: [] };
   }
 
+  if (!subKey) subKey = encodeURIComponent(args.id);
+
   console.log(`   ✅ Eşleşti: ${args.id} → ${filename}`);
 
   const subtitlePath = path.join(SUBTITLES_DIR, filename);
@@ -426,8 +483,12 @@ builder.defineSubtitlesHandler(async (args) => {
     return { subtitles: [] };
   }
 
+  // Saf ASCII VTT URL'si (ExoPlayer TV çökmesini kesin olarak engeller)
   const baseUrl = process.env.BASE_URL || `http://localhost:${PORT}`;
-  const vttUrl = `${baseUrl}/vtt/${encodeURIComponent(filename)}.vtt`;
+  const vttUrl = `${baseUrl}/vtt/sub_${subKey}.vtt`;
+
+  // Haritaya kaydet ki VTT endpoint'i subKey ile alabilsin
+  keyToRelativePathMap[`sub_${subKey}`] = filename;
 
   return {
     subtitles: [
@@ -456,12 +517,10 @@ builder.defineSubtitlesHandler(async (args) => {
 
 const addonInterface = builder.getInterface();
 
-// SDK'nın getRouter fonksiyonunu kullanarak Express router'ı oluştur
 const { getRouter } = require("stremio-addon-sdk");
 const express = require("express");
 const app = express();
 
-// İstek Günlüğü (Son 50 İsteği Kaydet)
 const recentRequests = [];
 app.use((req, res, next) => {
   recentRequests.unshift({
@@ -475,19 +534,16 @@ app.use((req, res, next) => {
   next();
 });
 
-// CORS headers
 app.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader("Access-Control-Allow-Headers", "*");
   next();
 });
 
-// Canlı İstekleri Görme Endpoint'i
 app.get("/recent-requests", (req, res) => {
   res.json(recentRequests);
 });
 
-// Ana sayfa (Landing Page & Install Button)
 app.get("/", (req, res) => {
   const host = req.get("host");
   const protocol = req.protocol;
@@ -521,13 +577,19 @@ app.get("/", (req, res) => {
   `);
 });
 
-// VTT altyazı endpoint'i - .ass dosyasını VTT'ye dönüştürüp sunar
+// VTT altyazı endpoint'i - Temiz ASCII subKey veya bağıntılı yol ile dosya sunar
 app.get("/vtt/*", (req, res) => {
   let relPath = req.params[0];
   if (relPath.endsWith(".vtt")) {
     relPath = relPath.slice(0, -4);
   }
   relPath = decodeURIComponent(relPath);
+
+  // 1. subKey haritasından bak (örn: sub_TB_5 -> 21 - Thriller Bark/Bölüm 5...)
+  if (keyToRelativePathMap[relPath]) {
+    relPath = keyToRelativePathMap[relPath];
+  }
+
   const filePath = path.join(SUBTITLES_DIR, relPath);
 
   console.log(`🎬 VTT dönüştürme isteği: ${relPath}`);
@@ -542,7 +604,7 @@ app.get("/vtt/*", (req, res) => {
     const vttContent = convertAssToVtt(assContent);
 
     res.setHeader("Content-Type", "text/vtt; charset=utf-8");
-    res.setHeader("Cache-Control", "public, max-age=86400"); // 24 saat cache
+    res.setHeader("Cache-Control", "public, max-age=86400");
     res.send(vttContent);
     console.log(`   ✅ VTT başarıyla gönderildi (${vttContent.length} byte)`);
   } catch (err) {
@@ -551,12 +613,9 @@ app.get("/vtt/*", (req, res) => {
   }
 });
 
-// Stremio addon route'larını bağla
 const addonRouter = getRouter(addonInterface);
 app.use("/", addonRouter);
 
-// Sunucuyu 7/24 Uyanık Tutma (Keep-Alive Self-Ping)
-// Render ücretsiz sunucusunun 15 dakika sonra uykuya dalmasını ve 50sn gecikmesini engeller
 const https = require("https");
 setInterval(() => {
   const keepAliveUrl = process.env.BASE_URL || "https://one-piece-adon.onrender.com";
@@ -565,9 +624,8 @@ setInterval(() => {
   }).on("error", (err) => {
     console.log(`⚠️ Keep-alive heartbeat hatası: ${err.message}`);
   });
-}, 4 * 60 * 1000); // Her 4 dakikada bir kendini pingle
+}, 4 * 60 * 1000);
 
-// Sunucuyu başlat
 app.listen(PORT, () => {
   console.log(`\n🏴‍☠️ ════════════════════════════════════════════════`);
   console.log(`   One Pace Türkçe Altyazı Addon'u başlatıldı!`);
