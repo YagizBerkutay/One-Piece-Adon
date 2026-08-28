@@ -18,8 +18,52 @@ const SUBTITLES_DIR = path.join(
 );
 
 // ============================================================
-// Hibrit Bölüm Eşleştirme Haritası (35 Sezonun Tamamı)
+// Hibrit Bölüm Eşleştirme Haritası (Stremio & fedew04 Uyumlu)
 // ============================================================
+
+const folderToFedewSeason = {
+  1: 1,   // Romance Dawn
+  2: 2,   // Orange Town
+  3: 3,   // Syrup Village
+  4: 4,   // Gaimon
+  5: 5,   // Baratie
+  6: 6,   // Arlong Park
+  7: 7,   // The Adventures of Buggy's Crew
+  8: 8,   // Loguetown
+  9: 9,   // Reverse Mountain
+  10: 10, // Whisky Peak
+  11: 11, // Koby-Meppo
+  12: 12, // Little Garden
+  13: 13, // Drum Island
+  14: 14, // Alabasta
+  15: 15, // Jaya
+  16: 16, // Skypiea
+  17: 17, // Long Ring Long Land
+  18: 18, // Water Seven
+  19: 18, // Enies Lobby
+  20: 18, // Post-Enies Lobby
+  21: 19, // Thriller Bark
+  22: 20, // Sabaody Archipelago
+  23: 21, // Amazon Lily
+  24: 22, // Impel Down
+  25: 23, // Straw Hats Adventures
+  26: 24, // Marineford
+  27: 25, // Post-War
+  28: 26, // Return to Sabaody
+  29: 27, // Fishman Island
+  30: 28, // Punk Hazard
+  31: 29, // Dressrosa
+  32: 30, // Zou
+  33: 31, // Whole Cake Island
+  34: 32, // Reverie
+  35: 33  // Wano
+};
+
+const fedewEpisodeOffsetsForSeason18 = {
+  18: 0,  // Water Seven
+  19: 20, // Enies Lobby
+  20: 45  // Post-Enies Lobby
+};
 
 function buildSubtitleMap() {
   const map = {};
@@ -36,7 +80,7 @@ function buildSubtitleMap() {
     console.error("⚠️ static map error:", err.message);
   }
 
-  // 2. Rekürsif tatarak alt klasörlerdeki Türkçe altyazıları eşleştir
+  // 2. Rekürsif tatarak alt klasörlerdeki Türkçe altyazıları hem Klasör Sezonu hem Stremio (fedew04) Sezonuna bağla
   function scanDir(dir) {
     if (!fs.existsSync(dir)) return;
     const items = fs.readdirSync(dir);
@@ -50,9 +94,21 @@ function buildSubtitleMap() {
 
         const folderMatch = relPath.match(/(\d+)\s*-\s*[^/]+[/]Bölüm\s*(\d+)/i);
         if (folderMatch) {
-          const season = parseInt(folderMatch[1]);
+          const folderSeason = parseInt(folderMatch[1]);
           const episode = parseInt(folderMatch[2]);
-          map[`${season}:${episode}`] = relPath;
+
+          // Klasör Sezon Key (örn. 21:3)
+          map[`${folderSeason}:${episode}`] = relPath;
+
+          // Stremio / fedew04 Sezon Key (örn. 19:3 Thriller Bark için)
+          if (folderSeason in folderToFedewSeason) {
+            const fedewSeason = folderToFedewSeason[folderSeason];
+            let fedewEpisode = episode;
+            if (folderSeason in fedewEpisodeOffsetsForSeason18) {
+              fedewEpisode = episode + fedewEpisodeOffsetsForSeason18[folderSeason];
+            }
+            map[`${fedewSeason}:${fedewEpisode}`] = relPath;
+          }
         }
       }
     }
@@ -166,7 +222,7 @@ function cleanAssText(text) {
 
 const manifest = {
   id: "community.onepace.tr.subtitles",
-  version: "1.0.2",
+  version: "1.0.3",
   name: "One Pace TR Altyazı",
   description:
     "One Pace için Türkçe altyazı addon'u. Tüm 35 Sezon (Fishman Island, Marineford, Wano vs.) desteklenir.",
