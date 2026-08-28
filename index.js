@@ -132,20 +132,20 @@ function cleanAssText(text) {
 
 const manifest = {
   id: "community.onepace.tr.subtitles",
-  version: "1.0.0",
+  version: "1.0.1",
   name: "One Pace TR Altyazı",
   description:
-    "One Pace için Türkçe altyazı addon'u. fedew04 One Pace addon'u ile uyumludur.",
+    "One Pace için Türkçe altyazı addon'u. fedew04 ve tüm One Pace / One Piece addon'ları ile uyumludur.",
   logo: "https://i.pinimg.com/originals/4c/46/ee/4c46ee47e0710a6d928454f68fc4ee17.png",
   resources: [
     {
       name: "subtitles",
       types: ["series"],
-      idPrefixes: ["pp"]
+      idPrefixes: ["pp", "pp_onepace", "onepace", "op", "tt", "kitsu"]
     }
   ],
   types: ["series"],
-  idPrefixes: ["pp"],
+  idPrefixes: ["pp", "pp_onepace", "onepace", "op", "tt", "kitsu"],
   catalogs: [],
 };
 
@@ -158,29 +158,54 @@ const builder = new addonBuilder(manifest);
 builder.defineSubtitlesHandler(async (args) => {
   console.log(`📝 Altyazı isteği: type=${args.type}, id=${args.id}`);
 
-  // ID formatı: pp_onepace:SEASON:EPISODE
+  // ID formatları: pp_onepace:SEASON:EPISODE, pp:SEASON:EPISODE, tt0388629:SEASON:EPISODE
   const parts = args.id.split(":");
-  if (parts.length < 3) {
-    console.log(`   ⚠️ Geçersiz ID formatı: ${args.id}`);
+  let season = null;
+  let episode = null;
+
+  if (parts.length >= 3) {
+    season = parseInt(parts[1]);
+    episode = parseInt(parts[2]);
+  } else if (parts.length === 2) {
+    season = parseInt(parts[0]);
+    episode = parseInt(parts[1]);
+  }
+
+  if (isNaN(season) || isNaN(episode)) {
+    console.log(`   ⚠️ Geçersiz Sezon/Bölüm formatı: ${args.id}`);
     return { subtitles: [] };
   }
 
-  const season = parseInt(parts[1]);
-  const episode = parseInt(parts[2]);
   const mapKey = `${season}:${episode}`;
-
   console.log(`   🔍 Aranan: Sezon ${season}, Bölüm ${episode} (key: ${mapKey})`);
 
+  let filename = null;
   const entry = subtitleMap[mapKey];
-  if (!entry) {
+
+  if (entry) {
+    filename = entry.filename;
+    console.log(`   ✅ Map'te bulundu: Bolum ${entry.bolum} → ${filename}`);
+  } else {
+    // Dinamik arama: Klasördeki .ass dosyalarını season/episode veya kelimelerle tara
+    const files = fs.readdirSync(SUBTITLES_DIR);
+    const searchPattern = new RegExp(`(S0*${season}E0*${episode}|Sezon\\s*0*${season}.*Bölüm\\s*0*${episode}|Fishman.*0*${episode}|Wano.*0*${episode})`, "i");
+
+    for (const file of files) {
+      if (file.endsWith(".ass") && searchPattern.test(file)) {
+        filename = file;
+        console.log(`   🔍 Dinamik eşleşme bulundu: ${filename}`);
+        break;
+      }
+    }
+  }
+
+  if (!filename) {
     console.log(`   ❌ Eşleştirme bulunamadı: ${mapKey}`);
     return { subtitles: [] };
   }
 
-  console.log(`   ✅ Bulundu: Bolum ${entry.bolum} → ${entry.filename}`);
-
   // Altyazı dosyasının var olup olmadığını kontrol et
-  const subtitlePath = path.join(SUBTITLES_DIR, entry.filename);
+  const subtitlePath = path.join(SUBTITLES_DIR, filename);
   if (!fs.existsSync(subtitlePath)) {
     console.log(`   ❌ Dosya bulunamadı: ${subtitlePath}`);
     return { subtitles: [] };
@@ -189,7 +214,7 @@ builder.defineSubtitlesHandler(async (args) => {
   // Addon'un kendi sunucusundaki VTT endpoint'ine yönlendir
   const baseUrl =
     process.env.BASE_URL || `http://localhost:${PORT}`;
-  const vttUrl = `${baseUrl}/subtitles/${encodeURIComponent(entry.filename)}.vtt`;
+  const vttUrl = `${baseUrl}/subtitles/${encodeURIComponent(filename)}.vtt`;
 
   return {
     subtitles: [
