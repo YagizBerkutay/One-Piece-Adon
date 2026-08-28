@@ -222,7 +222,7 @@ function cleanAssText(text) {
 
 const manifest = {
   id: "community.onepace.tr.subtitles",
-  version: "1.1.9",
+  version: "1.2.0",
   name: "One Pace TR Altyazı",
   description:
     "One Pace için Türkçe altyazı addon'u. Tüm 35 Sezon (Fishman Island, Marineford, Wano vs.) desteklenir.",
@@ -310,7 +310,8 @@ function buildSubtitleMaps() {
         const relPath = path.relative(SUBTITLES_DIR, fullPath).replace(/\\/g, "/");
         if (relPath.includes("EN-subtitle") || relPath.includes("EN_subtitle")) continue;
 
-        const folderMatch = relPath.match(/(\d+)\s*-\s*[^/]+[/]Bölüm\s*(\d+)/i);
+        // 1. Klasör Yapısı (Linux ve Windows Uyumlu): "21 - Thriller Bark/Bölüm 6..." veya "21 - Thriller Bark/Bolum 6..."
+        const folderMatch = relPath.match(/(\d+)\s*-\s*[^/]+[/](?:Bölüm|Bolum|B%C3%B6l%C3%BCm)\s*(\d+)/i);
         if (folderMatch) {
           const folderSeason = parseInt(folderMatch[1]);
           const episode = parseInt(folderMatch[2]);
@@ -327,35 +328,31 @@ function buildSubtitleMaps() {
             });
           }
         }
+
+        // 2. Kök Klasör Yapısı: "Bolum 6 - tr sub [Orange Town 02].ass"
+        const topMatch = item.match(/Bolum\s*(\d+)\s*-\s*tr sub\s*\[([^\]]+)\s*(\d+)\]/i);
+        if (topMatch) {
+          const arcName = topMatch[2].trim().toLowerCase();
+          const ep = parseInt(topMatch[3]);
+          const arcDef = arcDefinitions.find(a => a.codes.some(c => c.toLowerCase() === arcName || arcName.includes(c.toLowerCase())));
+          if (arcDef) {
+            arcDef.codes.forEach(code => {
+              codeToSubMap[`${code}_${ep}`] = relPath;
+              keyToRelativePathMap[`${code}_${ep}`] = relPath;
+            });
+            seasonEpToSubMap[`${arcDef.folderSeason}:${ep}`] = relPath;
+            keyToRelativePathMap[`${arcDef.folderSeason}_${ep}`] = relPath;
+          }
+        }
       }
     }
   }
 
   scanDir(SUBTITLES_DIR);
-
-  try {
-    const files = fs.readdirSync(SUBTITLES_DIR);
-    for (const file of files) {
-      if (file.endsWith(".ass") && !file.includes("EN-subtitle")) {
-        const topMatch = file.match(/Bolum\s*(\d+)\s*-\s*tr sub\s*\[([^\]]+)\s*(\d+)\]/i);
-        if (topMatch) {
-          const arcName = topMatch[2].trim().toLowerCase();
-          const ep = parseInt(topMatch[3]);
-          if (arcName.startsWith("wano")) {
-            codeToSubMap[`WA_${ep}`] = file;
-            codeToSubMap[`WAN_${ep}`] = file;
-            seasonEpToSubMap[`35:${ep}`] = file;
-            keyToRelativePathMap[`35_${ep}`] = file;
-            keyToRelativePathMap[`WA_${ep}`] = file;
-          }
-        }
-      }
-    }
-  } catch (e) {}
 }
 
 buildSubtitleMaps();
-console.log(`✅ Evrensel harita yüklendi: ${Object.keys(codeToSubMap).length} Ark Kodu, ${Object.keys(seasonEpToSubMap).length} Klasör Sezonu.`);
+console.log(`✅ Evrensel harita yüklendi: ${Object.keys(codeToSubMap).length} Ark Kodu, ${Object.keys(keyToRelativePathMap).length} Anahtar Eşleşmesi.`);
 
 // ============================================================
 // ExoPlayer/VLC Uyumlu ASS → VTT Dönüştürücü (Kronolojik Sıralamalı)
