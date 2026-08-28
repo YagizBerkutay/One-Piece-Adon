@@ -222,7 +222,7 @@ function cleanAssText(text) {
 
 const manifest = {
   id: "community.onepace.tr.subtitles",
-  version: "1.1.8",
+  version: "1.1.9",
   name: "One Pace TR Altyazı",
   description:
     "One Pace için Türkçe altyazı addon'u. Tüm 35 Sezon (Fishman Island, Marineford, Wano vs.) desteklenir.",
@@ -429,12 +429,15 @@ function convertAssTime(assTime) {
 }
 
 function convertAssToVtt(assContent) {
-  const lines = assContent.split(/\r?\n/);
+  // Alt satırsız birleşmiş Dialogue: bloklarını da tam ayrıştırır
+  const dialogueBlocks = assContent.split(/(?=Dialogue:)/);
   const cues = [];
 
-  for (const line of lines) {
-    if (line.startsWith("Dialogue:")) {
-      const dialoguePart = line.substring("Dialogue:".length).trim();
+  for (const block of dialogueBlocks) {
+    const trimmed = block.trim();
+    if (trimmed.startsWith("Dialogue:")) {
+      const dLine = trimmed.split(/\r?\n/)[0];
+      const dialoguePart = dLine.substring("Dialogue:".length).trim();
       const parts = dialoguePart.split(",");
       if (parts.length < 9) continue;
 
@@ -442,7 +445,6 @@ function convertAssToVtt(assContent) {
       const endObj = convertAssTime(parts[2].trim());
       if (!startObj || !endObj) continue;
 
-      // Hatalı süreleri atla
       if (endObj.totalMs <= startObj.totalMs) continue;
 
       const rawText = parts.slice(9).join(",").trim();
