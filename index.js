@@ -222,20 +222,13 @@ function cleanAssText(text) {
 
 const manifest = {
   id: "community.onepace.tr.subtitles",
-  version: "1.0.4",
+  version: "1.0.5",
   name: "One Pace TR Altyazı",
   description:
     "One Pace için Türkçe altyazı addon'u. Tüm 35 Sezon (Fishman Island, Marineford, Wano vs.) desteklenir.",
   logo: "https://i.pinimg.com/originals/4c/46/ee/4c46ee47e0710a6d928454f68fc4ee17.png",
-  resources: [
-    {
-      name: "subtitles",
-      types: ["series"],
-      idPrefixes: ["pp", "pp_onepace", "onepace", "op", "tt", "kitsu"]
-    }
-  ],
-  types: ["series"],
-  idPrefixes: ["pp", "pp_onepace", "onepace", "op", "tt", "kitsu"],
+  resources: ["subtitles"],
+  types: ["series", "movie", "other"],
   catalogs: [],
 };
 
@@ -248,17 +241,27 @@ const builder = new addonBuilder(manifest);
 builder.defineSubtitlesHandler(async (args) => {
   console.log(`📝 Altyazı isteği: type=${args.type}, id=${args.id}`);
 
-  // ID formatları: pp_onepace:SEASON:EPISODE, pp:SEASON:EPISODE, tt0388629:SEASON:EPISODE
-  const parts = args.id.split(":");
+  // ID formatlarından Sezon ve Bölüm numaralarını evrensel olarak çıkar (örn: pp_onepace:19:3, tt0388629:19:3, 19:3, 19x3)
   let season = null;
   let episode = null;
 
+  // Pattern 1: ID içinde 2 veya 3 parçalı sayı dizisi (örn: pp:19:3 veya 19:3 veya tt0388629:19:3)
+  const parts = args.id.split(":");
   if (parts.length >= 3) {
-    season = parseInt(parts[1]);
-    episode = parseInt(parts[2]);
+    season = parseInt(parts[parts.length - 2]);
+    episode = parseInt(parts[parts.length - 1]);
   } else if (parts.length === 2) {
     season = parseInt(parts[0]);
     episode = parseInt(parts[1]);
+  }
+
+  // Pattern 2: Regex ile S19E03 veya 19x3 veya 19-3 bulma yedek kontrolü
+  if (isNaN(season) || isNaN(episode)) {
+    const match = args.id.match(/(?:S|Sezon\s*)?(\d+)[xX:E_-](\d+)/i);
+    if (match) {
+      season = parseInt(match[1]);
+      episode = parseInt(match[2]);
+    }
   }
 
   if (isNaN(season) || isNaN(episode)) {
