@@ -222,7 +222,7 @@ function cleanAssText(text) {
 
 const manifest = {
   id: "community.onepace.tr.subtitles",
-  version: "1.0.8",
+  version: "1.0.9",
   name: "One Pace TR Altyazı",
   description:
     "One Pace için Türkçe altyazı addon'u. Tüm 35 Sezon (Fishman Island, Marineford, Wano vs.) desteklenir.",
@@ -235,42 +235,56 @@ const manifest = {
 const builder = new addonBuilder(manifest);
 
 // ============================================================
-// Ark Kodları & Sezon Dönüştürücü (Çakışmasız Haritalama)
+// Evrensel 35 Sezon Haritalandırma Tanımları
 // ============================================================
 
-const folderSeasonToArcCode = {
-  1: "RD", 2: "OT", 3: "SY", 4: "GA", 5: "BA",
-  6: "AP", 7: "BU", 8: "LT", 9: "RM", 10: "WP",
-  11: "KM", 12: "LG", 13: "DI", 14: "AL", 15: "JA",
-  16: "SK", 17: "LR", 18: "WS", 19: "EL", 20: "PE",
-  21: "TB", 22: "SA", 23: "AM", 24: "ID", 25: "SH",
-  26: "MF", 27: "PW", 28: "RS", 29: "FI", 30: "PH",
-  31: "DR", 32: "ZO", 33: "WC", 34: "RE", 35: "WA"
-};
+const arcDefinitions = [
+  { folderSeason: 1,  codes: ["RD", "ROMA"],       keywords: ["romance", "dawn"] },
+  { folderSeason: 2,  codes: ["OT", "ORA"],        keywords: ["orange", "town"] },
+  { folderSeason: 3,  codes: ["SY", "SYR"],        keywords: ["syrup", "village"] },
+  { folderSeason: 4,  codes: ["GA", "GAI"],        keywords: ["gaimon"] },
+  { folderSeason: 5,  codes: ["BA", "BAR"],        keywords: ["baratie"] },
+  { folderSeason: 6,  codes: ["AP", "ARL"],        keywords: ["arlong", "park"] },
+  { folderSeason: 7,  codes: ["BU", "BUG"],        keywords: ["buggy"] },
+  { folderSeason: 8,  codes: ["LT", "LOG"],        keywords: ["loguetown"] },
+  { folderSeason: 9,  codes: ["RM", "REV"],        keywords: ["reverse", "mountain"] },
+  { folderSeason: 10, codes: ["WP", "WHI"],        keywords: ["whisky", "peak"] },
+  { folderSeason: 11, codes: ["KM", "KOB"],        keywords: ["koby", "meppo"] },
+  { folderSeason: 12, codes: ["LG", "LIT"],        keywords: ["little", "garden"] },
+  { folderSeason: 13, codes: ["DI", "DRU"],        keywords: ["drum", "island"] },
+  { folderSeason: 14, codes: ["AL", "ALA"],        keywords: ["alabasta"] },
+  { folderSeason: 15, codes: ["JA", "JAY"],        keywords: ["jaya"] },
+  { folderSeason: 16, codes: ["SK", "SKY"],        keywords: ["skypiea"] },
+  { folderSeason: 17, codes: ["LR", "LL", "LON"],  keywords: ["long", "ring"] },
+  { folderSeason: 18, codes: ["WS", "WAT"],        keywords: ["water", "seven"] },
+  { folderSeason: 19, codes: ["EL", "ENI"],        keywords: ["enies", "lobby"] },
+  { folderSeason: 20, codes: ["PE", "POS"],        keywords: ["post-enies", "post enies"] },
+  { folderSeason: 21, codes: ["TB", "THR"],        keywords: ["thriller", "bark"] },
+  { folderSeason: 22, codes: ["SA", "SAB"],        keywords: ["sabaody", "archipelago"] },
+  { folderSeason: 23, codes: ["AM", "AZ", "AMA"],  keywords: ["amazon", "lily"] },
+  { folderSeason: 24, codes: ["ID", "IMP"],        keywords: ["impel", "down"] },
+  { folderSeason: 25, codes: ["SH", "STR"],        keywords: ["straw", "hats"] },
+  { folderSeason: 26, codes: ["MF", "MAR"],        keywords: ["marineford"] },
+  { folderSeason: 27, codes: ["PW", "POW"],        keywords: ["post-war", "post war"] },
+  { folderSeason: 28, codes: ["RS", "RET"],        keywords: ["return", "sabaody"] },
+  { folderSeason: 29, codes: ["FI", "FIS"],        keywords: ["fishman", "island"] },
+  { folderSeason: 30, codes: ["PH", "PUN"],        keywords: ["punk", "hazard"] },
+  { folderSeason: 31, codes: ["DR", "DRE"],        keywords: ["dressrosa"] },
+  { folderSeason: 32, codes: ["ZO", "ZOU"],        keywords: ["zou"] },
+  { folderSeason: 33, codes: ["WC", "WCI"],        keywords: ["whole", "cake"] },
+  { folderSeason: 34, codes: ["RE", "REV"],        keywords: ["reverie"] },
+  { folderSeason: 35, codes: ["WA", "WAN"],        keywords: ["wano"] }
+];
 
 const fedewSeasonToFolderSeason = {
   1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8, 9: 9, 10: 10,
   11: 11, 12: 12, 13: 13, 14: 14, 15: 15, 16: 16, 17: 17,
-  18: 18, // Water Seven
-  19: 21, // Thriller Bark
-  20: 22, // Sabaody
-  21: 23, // Amazon Lily
-  22: 24, // Impel Down
-  23: 25, // Straw Hats
-  24: 26, // Marineford
-  25: 27, // Post-War
-  26: 28, // Return to Sabaody
-  27: 29, // Fishman Island
-  28: 30, // Punk Hazard
-  29: 31, // Dressrosa
-  30: 32, // Zou
-  31: 33, // Whole Cake
-  32: 34, // Reverie
-  33: 35  // Wano
+  18: 18, 19: 21, 20: 22, 21: 23, 22: 24, 23: 25, 24: 26, 25: 27,
+  26: 28, 27: 29, 28: 30, 29: 31, 30: 32, 31: 33, 32: 34, 33: 35
 };
 
-const arcCodeMap = {};
-const folderMap = {};
+const codeToSubMap = {};
+const seasonEpToSubMap = {};
 
 function buildSubtitleMaps() {
   function scanDir(dir) {
@@ -289,11 +303,13 @@ function buildSubtitleMaps() {
           const folderSeason = parseInt(folderMatch[1]);
           const episode = parseInt(folderMatch[2]);
 
-          folderMap[`${folderSeason}:${episode}`] = relPath;
+          seasonEpToSubMap[`${folderSeason}:${episode}`] = relPath;
 
-          if (folderSeason in folderSeasonToArcCode) {
-            const code = folderSeasonToArcCode[folderSeason];
-            arcCodeMap[`${code}_${episode}`] = relPath;
+          const arcDef = arcDefinitions.find(a => a.folderSeason === folderSeason);
+          if (arcDef) {
+            arcDef.codes.forEach(code => {
+              codeToSubMap[`${code}_${episode}`] = relPath;
+            });
           }
         }
       }
@@ -302,7 +318,6 @@ function buildSubtitleMaps() {
 
   scanDir(SUBTITLES_DIR);
 
-  // Üst klasördeki Wano gibi özel dosyaları ekle
   try {
     const files = fs.readdirSync(SUBTITLES_DIR);
     for (const file of files) {
@@ -312,8 +327,9 @@ function buildSubtitleMaps() {
           const arcName = topMatch[2].trim().toLowerCase();
           const ep = parseInt(topMatch[3]);
           if (arcName.startsWith("wano")) {
-            arcCodeMap[`WA_${ep}`] = file;
-            folderMap[`35:${ep}`] = file;
+            codeToSubMap[`WA_${ep}`] = file;
+            codeToSubMap[`WAN_${ep}`] = file;
+            seasonEpToSubMap[`35:${ep}`] = file;
           }
         }
       }
@@ -322,38 +338,66 @@ function buildSubtitleMaps() {
 }
 
 buildSubtitleMaps();
-console.log(`✅ Harita yüklendi: ${Object.keys(arcCodeMap).length} Ark Kodu, ${Object.keys(folderMap).length} Klasör Sezonu.`);
+console.log(`✅ Evrensel harita yüklendi: ${Object.keys(codeToSubMap).length} Ark Kodu, ${Object.keys(seasonEpToSubMap).length} Klasör Sezonu.`);
 
 // ============================================================
-// Subtitle Handler
+// Subtitle Handler (Çok Katmanlı Evrensel Çözücü)
 // ============================================================
 
 builder.defineSubtitlesHandler(async (args) => {
   console.log(`📝 Altyazı isteği: type=${args.type}, id=${args.id}`);
 
   let filename = null;
+  const decodedId = decodeURIComponent(args.id);
 
-  // 1. Ark Kod Kontrolü (örn: TB_3, FI_10, WA_1)
-  const arcMatch = args.id.match(/^([A-Z]{2})_(\d+)/i);
-  if (arcMatch) {
-    const codeKey = `${arcMatch[1].toUpperCase()}_${parseInt(arcMatch[2])}`;
-    filename = arcCodeMap[codeKey];
+  // 1. Ark Kod Kontrolü (örn: SAB_4, TB_3, FI_10, WAN_1, PUN_1)
+  const codeMatch = decodedId.match(/([A-Z]{2,4})_(\d+)/i);
+  if (codeMatch) {
+    const code = codeMatch[1].toUpperCase();
+    const ep = parseInt(codeMatch[2]);
+    const key = `${code}_${ep}`;
+    if (codeToSubMap[key]) filename = codeToSubMap[key];
   }
 
-  // 2. Sezon:Bölüm Format Kontrolü (örn: 19:3 veya pp_onepace:19:3)
+  // 2. Sezon:Bölüm Format Kontrolü (örn: 20:4, 22:4, pp:22:4)
   if (!filename) {
-    const parts = args.id.split(":");
+    const parts = decodedId.split(":");
     if (parts.length >= 2) {
       const s = parseInt(parts[parts.length - 2]);
       const ep = parseInt(parts[parts.length - 1]);
       if (!isNaN(s) && !isNaN(ep)) {
         if (s in fedewSeasonToFolderSeason) {
-          const folderSeason = fedewSeasonToFolderSeason[s];
-          filename = folderMap[`${folderSeason}:${ep}`];
+          const folderS = fedewSeasonToFolderSeason[s];
+          if (seasonEpToSubMap[`${folderS}:${ep}`]) filename = seasonEpToSubMap[`${folderS}:${ep}`];
         }
-        if (!filename) {
-          filename = folderMap[`${s}:${ep}`];
+        if (!filename && seasonEpToSubMap[`${s}:${ep}`]) {
+          filename = seasonEpToSubMap[`${s}:${ep}`];
         }
+      }
+    }
+  }
+
+  // 3. Fallback: İletilen tüm URL/Metin içinde Kelime + Bölüm Arama (örn: Sabaody Archipelago 04)
+  if (!filename) {
+    const epMatch = decodedId.match(/(?:Bölüm|Episode|Sabaody Archipelago|Thriller Bark|Fishman Island|Wano|Dressrosa|Whole Cake|Punk Hazard|Marineford|Enies Lobby|Water Seven|Skypiea|Alabasta|Arlong Park|Baratie|Syrup Village|Orange Town|Romance Dawn)\s*0*(\d{1,3})/i);
+    if (epMatch) {
+      const ep = parseInt(epMatch[1]);
+      for (const arcDef of arcDefinitions) {
+        for (const kw of arcDef.keywords) {
+          if (decodedId.toLowerCase().includes(kw)) {
+            const key = `${arcDef.folderSeason}:${ep}`;
+            if (seasonEpToSubMap[key]) {
+              filename = seasonEpToSubMap[key];
+              break;
+            }
+            const codeKey = `${arcDef.codes[0]}_${ep}`;
+            if (codeToSubMap[codeKey]) {
+              filename = codeToSubMap[codeKey];
+              break;
+            }
+          }
+        }
+        if (filename) break;
       }
     }
   }
