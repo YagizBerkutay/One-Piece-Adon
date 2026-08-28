@@ -222,7 +222,7 @@ function cleanAssText(text) {
 
 const manifest = {
   id: "community.onepace.tr.subtitles",
-  version: "1.0.5",
+  version: "1.0.6",
   name: "One Pace TR Altyazı",
   description:
     "One Pace için Türkçe altyazı addon'u. Tüm 35 Sezon (Fishman Island, Marineford, Wano vs.) desteklenir.",
@@ -295,16 +295,21 @@ builder.defineSubtitlesHandler(async (args) => {
   return {
     subtitles: [
       {
-        id: `onepace-tr-${mapKey}`,
+        id: `onepace-tr-${mapKey}-tur`,
         url: vttUrl,
         lang: "tur",
+      },
+      {
+        id: `onepace-tr-${mapKey}-turkish`,
+        url: vttUrl,
+        lang: "Turkish",
       },
     ],
   };
 });
 
 // ============================================================
-// Express Sunucusu (VTT dönüştürme endpoint'i dahil)
+// Express Sunucusu (VTT dönüştürme endpoint'i & Logger dahil)
 // ============================================================
 
 const addonInterface = builder.getInterface();
@@ -314,11 +319,30 @@ const { getRouter } = require("stremio-addon-sdk");
 const express = require("express");
 const app = express();
 
+// İstek Günlüğü (Son 50 İsteği Kaydet)
+const recentRequests = [];
+app.use((req, res, next) => {
+  recentRequests.unshift({
+    time: new Date().toISOString(),
+    method: req.method,
+    url: req.url,
+    ip: req.ip || req.headers["x-forwarded-for"],
+    userAgent: req.headers["user-agent"],
+  });
+  if (recentRequests.length > 50) recentRequests.pop();
+  next();
+});
+
 // CORS headers
 app.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader("Access-Control-Allow-Headers", "*");
   next();
+});
+
+// Canlı İstekleri Görme Endpoint'i
+app.get("/recent-requests", (req, res) => {
+  res.json(recentRequests);
 });
 
 // Ana sayfa (Landing Page & Install Button)
