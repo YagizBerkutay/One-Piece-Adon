@@ -137,7 +137,13 @@ const manifest = {
   description:
     "One Pace için Türkçe altyazı addon'u. fedew04 One Pace addon'u ile uyumludur.",
   logo: "https://i.pinimg.com/originals/4c/46/ee/4c46ee47e0710a6d928454f68fc4ee17.png",
-  resources: ["subtitles"],
+  resources: [
+    {
+      name: "subtitles",
+      types: ["series"],
+      idPrefixes: ["pp"]
+    }
+  ],
   types: ["series"],
   idPrefixes: ["pp"],
   catalogs: [],
@@ -212,6 +218,40 @@ app.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader("Access-Control-Allow-Headers", "*");
   next();
+});
+
+// Ana sayfa (Landing Page & Install Button)
+app.get("/", (req, res) => {
+  const host = req.get("host");
+  const protocol = req.protocol;
+  const manifestUrl = `${protocol}://${host}/manifest.json`;
+  const stremioUrl = manifestUrl.replace(/^https?:\/\//, "stremio://");
+
+  res.send(`
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <meta charset="utf-8">
+      <title>${manifest.name}</title>
+      <style>
+        body { font-family: sans-serif; background: #0b0c10; color: #fff; text-align: center; padding: 50px; }
+        .logo { width: 120px; border-radius: 10px; margin-bottom: 20px; }
+        .btn { display: inline-block; background: #66fcf1; color: #0b0c10; font-weight: bold; padding: 15px 30px; text-decoration: none; border-radius: 5px; font-size: 18px; margin-top: 20px; }
+        .btn:hover { background: #45a29e; }
+        code { background: #1f2833; padding: 5px 10px; border-radius: 4px; color: #66fcf1; display: inline-block; margin-top: 15px; }
+      </style>
+    </head>
+    <body>
+      <img class="logo" src="${manifest.logo}" />
+      <h1>${manifest.name}</h1>
+      <p>${manifest.description}</p>
+      <a class="btn" href="${stremioUrl}">Stremio'ya Yükle</a>
+      <br/><br/>
+      <p>Manuel Manifest URL:</p>
+      <code>${manifestUrl}</code>
+    </body>
+    </html>
+  `);
 });
 
 // VTT altyazı endpoint'i - .ass dosyasını VTT'ye dönüştürüp sunar
