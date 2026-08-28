@@ -222,7 +222,7 @@ function cleanAssText(text) {
 
 const manifest = {
   id: "community.onepace.tr.subtitles",
-  version: "1.1.2",
+  version: "1.1.3",
   name: "One Pace TR Altyazı",
   description:
     "One Pace için Türkçe altyazı addon'u. Tüm 35 Sezon (Fishman Island, Marineford, Wano vs.) desteklenir.",
@@ -554,6 +554,18 @@ app.get("/vtt/*", (req, res) => {
 // Stremio addon route'larını bağla
 const addonRouter = getRouter(addonInterface);
 app.use("/", addonRouter);
+
+// Sunucuyu 7/24 Uyanık Tutma (Keep-Alive Self-Ping)
+// Render ücretsiz sunucusunun 15 dakika sonra uykuya dalmasını ve 50sn gecikmesini engeller
+const https = require("https");
+setInterval(() => {
+  const keepAliveUrl = process.env.BASE_URL || "https://one-piece-adon.onrender.com";
+  https.get(`${keepAliveUrl}/`, (res) => {
+    console.log(`⏰ Keep-alive heartbeat status: ${res.statusCode}`);
+  }).on("error", (err) => {
+    console.log(`⚠️ Keep-alive heartbeat hatası: ${err.message}`);
+  });
+}, 4 * 60 * 1000); // Her 4 dakikada bir kendini pingle
 
 // Sunucuyu başlat
 app.listen(PORT, () => {
