@@ -222,7 +222,7 @@ function cleanAssText(text) {
 
 const manifest = {
   id: "community.onepace.tr.subtitles",
-  version: "1.0.7",
+  version: "1.0.8",
   name: "One Pace TR Altyazı",
   description:
     "One Pace için Türkçe altyazı addon'u. Tüm 35 Sezon (Fishman Island, Marineford, Wano vs.) desteklenir.",
@@ -235,19 +235,94 @@ const manifest = {
 const builder = new addonBuilder(manifest);
 
 // ============================================================
-// fedew04 Arc Kodu → Klasör Sezonu Haritası
+// Ark Kodları & Sezon Dönüştürücü (Çakışmasız Haritalama)
 // ============================================================
 
-const arcCodeToFolderSeason = {
-  "RD": 1,  "OT": 2,  "SY": 3,  "GA": 4,  "BA": 5,
-  "AP": 6,  "BU": 7,  "LT": 8,  "RM": 9,  "WP": 10,
-  "KM": 11, "LG": 12, "DI": 13, "AL": 14, "JA": 15,
-  "SK": 16, "LR": 17, "LL": 17, "WS": 18, "EL": 19,
-  "PE": 20, "TB": 21, "SA": 22, "AM": 23, "AZ": 23,
-  "ID": 24, "SH": 25, "MF": 26, "PW": 27, "RS": 28,
-  "FI": 29, "PH": 30, "DR": 31, "ZO": 32, "WC": 33,
-  "RE": 34, "WA": 35
+const folderSeasonToArcCode = {
+  1: "RD", 2: "OT", 3: "SY", 4: "GA", 5: "BA",
+  6: "AP", 7: "BU", 8: "LT", 9: "RM", 10: "WP",
+  11: "KM", 12: "LG", 13: "DI", 14: "AL", 15: "JA",
+  16: "SK", 17: "LR", 18: "WS", 19: "EL", 20: "PE",
+  21: "TB", 22: "SA", 23: "AM", 24: "ID", 25: "SH",
+  26: "MF", 27: "PW", 28: "RS", 29: "FI", 30: "PH",
+  31: "DR", 32: "ZO", 33: "WC", 34: "RE", 35: "WA"
 };
+
+const fedewSeasonToFolderSeason = {
+  1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8, 9: 9, 10: 10,
+  11: 11, 12: 12, 13: 13, 14: 14, 15: 15, 16: 16, 17: 17,
+  18: 18, // Water Seven
+  19: 21, // Thriller Bark
+  20: 22, // Sabaody
+  21: 23, // Amazon Lily
+  22: 24, // Impel Down
+  23: 25, // Straw Hats
+  24: 26, // Marineford
+  25: 27, // Post-War
+  26: 28, // Return to Sabaody
+  27: 29, // Fishman Island
+  28: 30, // Punk Hazard
+  29: 31, // Dressrosa
+  30: 32, // Zou
+  31: 33, // Whole Cake
+  32: 34, // Reverie
+  33: 35  // Wano
+};
+
+const arcCodeMap = {};
+const folderMap = {};
+
+function buildSubtitleMaps() {
+  function scanDir(dir) {
+    if (!fs.existsSync(dir)) return;
+    const items = fs.readdirSync(dir);
+    for (const item of items) {
+      const fullPath = path.join(dir, item);
+      if (fs.statSync(fullPath).isDirectory()) {
+        scanDir(fullPath);
+      } else if (item.endsWith(".ass")) {
+        const relPath = path.relative(SUBTITLES_DIR, fullPath).replace(/\\/g, "/");
+        if (relPath.includes("EN-subtitle") || relPath.includes("EN_subtitle")) continue;
+
+        const folderMatch = relPath.match(/(\d+)\s*-\s*[^/]+[/]Bölüm\s*(\d+)/i);
+        if (folderMatch) {
+          const folderSeason = parseInt(folderMatch[1]);
+          const episode = parseInt(folderMatch[2]);
+
+          folderMap[`${folderSeason}:${episode}`] = relPath;
+
+          if (folderSeason in folderSeasonToArcCode) {
+            const code = folderSeasonToArcCode[folderSeason];
+            arcCodeMap[`${code}_${episode}`] = relPath;
+          }
+        }
+      }
+    }
+  }
+
+  scanDir(SUBTITLES_DIR);
+
+  // Üst klasördeki Wano gibi özel dosyaları ekle
+  try {
+    const files = fs.readdirSync(SUBTITLES_DIR);
+    for (const file of files) {
+      if (file.endsWith(".ass") && !file.includes("EN-subtitle")) {
+        const topMatch = file.match(/Bolum\s*(\d+)\s*-\s*tr sub\s*\[([^\]]+)\s*(\d+)\]/i);
+        if (topMatch) {
+          const arcName = topMatch[2].trim().toLowerCase();
+          const ep = parseInt(topMatch[3]);
+          if (arcName.startsWith("wano")) {
+            arcCodeMap[`WA_${ep}`] = file;
+            folderMap[`35:${ep}`] = file;
+          }
+        }
+      }
+    }
+  } catch (e) {}
+}
+
+buildSubtitleMaps();
+console.log(`✅ Harita yüklendi: ${Object.keys(arcCodeMap).length} Ark Kodu, ${Object.keys(folderMap).length} Klasör Sezonu.`);
 
 // ============================================================
 // Subtitle Handler
@@ -256,71 +331,39 @@ const arcCodeToFolderSeason = {
 builder.defineSubtitlesHandler(async (args) => {
   console.log(`📝 Altyazı isteği: type=${args.type}, id=${args.id}`);
 
-  let season = null;
-  let episode = null;
-  let mapKey = null;
+  let filename = null;
 
-  // 1. fedew04 Arc Kod Kontrolü (örn: TB_3, FI_10, WA_1)
+  // 1. Ark Kod Kontrolü (örn: TB_3, FI_10, WA_1)
   const arcMatch = args.id.match(/^([A-Z]{2})_(\d+)/i);
   if (arcMatch) {
-    const code = arcMatch[1].toUpperCase();
-    const ep = parseInt(arcMatch[2]);
-    if (code in arcCodeToFolderSeason) {
-      season = arcCodeToFolderSeason[code];
-      episode = ep;
-      mapKey = `${season}:${episode}`;
-    }
+    const codeKey = `${arcMatch[1].toUpperCase()}_${parseInt(arcMatch[2])}`;
+    filename = arcCodeMap[codeKey];
   }
 
-  // 2. Standart Sezon:Bölüm (örn: pp:21:3 veya 19:3)
-  if (!mapKey) {
-    const parts = args.id.split(":");
-    if (parts.length >= 3) {
-      season = parseInt(parts[parts.length - 2]);
-      episode = parseInt(parts[parts.length - 1]);
-    } else if (parts.length === 2) {
-      season = parseInt(parts[0]);
-      episode = parseInt(parts[1]);
-    }
-    if (!isNaN(season) && !isNaN(episode)) {
-      mapKey = `${season}:${episode}`;
-    }
-  }
-
-  // 3. Fallback: Filename parametresinden veya regex ile bulma (örn: filename=[One Pace][446-448] Thriller Bark 03...)
-  if (!mapKey && args.extra && args.extra.filename) {
-    const fnMatch = args.extra.filename.match(/(Thriller Bark|Fishman|Wano|Dressrosa|Whole Cake|Punk Hazard|Marineford|Enies Lobby|Water Seven|Skypiea|Alabasta|Arlong Park|Baratie|Syrup Village|Orange Town|Romance Dawn)\s*0*(\d+)/i);
-    if (fnMatch) {
-      const name = fnMatch[1].toLowerCase();
-      const ep = parseInt(fnMatch[2]);
-      if (name.includes("thriller")) mapKey = `21:${ep}`;
-      else if (name.includes("fishman")) mapKey = `29:${ep}`;
-      else if (name.includes("wano")) mapKey = `35:${ep}`;
-      else if (name.includes("dressrosa")) mapKey = `31:${ep}`;
-      else if (name.includes("whole cake")) mapKey = `33:${ep}`;
-      else if (name.includes("punk hazard")) mapKey = `30:${ep}`;
-      else if (name.includes("marineford")) mapKey = `26:${ep}`;
-      else if (name.includes("enies lobby")) mapKey = `19:${ep}`;
-      else if (name.includes("water seven")) mapKey = `18:${ep}`;
-      else if (name.includes("skypiea")) mapKey = `16:${ep}`;
-      else if (name.includes("alabasta")) mapKey = `14:${ep}`;
-    }
-  }
-
-  if (!mapKey) {
-    console.log(`   ⚠️ Geçersiz ID/Bölüm formatı: ${args.id}`);
-    return { subtitles: [] };
-  }
-
-  console.log(`   🔍 Aranan Key: ${mapKey} (Orijinal ID: ${args.id})`);
-
-  const filename = subtitleMap[mapKey];
+  // 2. Sezon:Bölüm Format Kontrolü (örn: 19:3 veya pp_onepace:19:3)
   if (!filename) {
-    console.log(`   ❌ Eşleştirme bulunamadı: ${mapKey}`);
+    const parts = args.id.split(":");
+    if (parts.length >= 2) {
+      const s = parseInt(parts[parts.length - 2]);
+      const ep = parseInt(parts[parts.length - 1]);
+      if (!isNaN(s) && !isNaN(ep)) {
+        if (s in fedewSeasonToFolderSeason) {
+          const folderSeason = fedewSeasonToFolderSeason[s];
+          filename = folderMap[`${folderSeason}:${ep}`];
+        }
+        if (!filename) {
+          filename = folderMap[`${s}:${ep}`];
+        }
+      }
+    }
+  }
+
+  if (!filename) {
+    console.log(`   ❌ Eşleştirme bulunamadı: ${args.id}`);
     return { subtitles: [] };
   }
 
-  console.log(`   ✅ Eşleşti: ${mapKey} → ${filename}`);
+  console.log(`   ✅ Eşleşti: ${args.id} → ${filename}`);
 
   const subtitlePath = path.join(SUBTITLES_DIR, filename);
   if (!fs.existsSync(subtitlePath)) {
@@ -334,12 +377,12 @@ builder.defineSubtitlesHandler(async (args) => {
   return {
     subtitles: [
       {
-        id: `onepace-tr-${mapKey}-tur`,
+        id: `onepace-tr-${args.id}-tur`,
         url: vttUrl,
         lang: "tur",
       },
       {
-        id: `onepace-tr-${mapKey}-turkish`,
+        id: `onepace-tr-${args.id}-turkish`,
         url: vttUrl,
         lang: "Turkish",
       },
