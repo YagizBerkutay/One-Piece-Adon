@@ -1,4 +1,4 @@
-﻿[Script Info]
+ï»¿[Script Info]
 ScriptType: v4.00+
 PlayResX: 1920
 PlayResY: 1080
@@ -25,473 +25,473 @@ Style: Sign-Reporters,Ink Free,57,&H00040407,&H000000FF,&H00000000,&H00000000,0,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 10,0:01:54.01,0:01:55.57,Main-207+,,0,0,0,,Yangın!
+Dialogue: 10,0:01:54.01,0:01:55.57,Main-207+,,0,0,0,,YangÄ±n!
 Dialogue: 10,0:01:55.57,0:01:57.72,Main-207+,,0,0,0,,Hey! Herkes kendine gelsin!
-Dialogue: 10,0:01:57.72,0:02:01.44,Main-207+,,0,0,0,,Kahretsin! Bu da mı korsanların işi?
-Dialogue: 10,0:02:01.44,0:02:04.65,Main-207+,,0,0,0,,Hala içeride tuzağa düşmüş çok kişi var!
-Dialogue: 10,0:02:04.65,0:02:07.94,Main-207+,,0,0,0,,Ya Iceburg-san? Yukarıda neler oluyor?
+Dialogue: 10,0:01:57.72,0:02:01.44,Main-207+,,0,0,0,,Kahretsin! Bu da mÄ± korsanlarÄ±n iÅŸi?
+Dialogue: 10,0:02:01.44,0:02:04.65,Main-207+,,0,0,0,,Hala iÃ§eride tuzaÄŸa dÃ¼ÅŸmÃ¼ÅŸ Ã§ok kiÅŸi var!
+Dialogue: 10,0:02:04.65,0:02:07.94,Main-207+,,0,0,0,,Ya Iceburg-san? YukarÄ±da neler oluyor?
 Dialogue: 10,0:02:07.94,0:02:09.11,Main-207+,,0,0,0,,Gidelim!
-Dialogue: 10,0:02:09.82,0:02:14.19,Main-207+,,0,0,0,,Çabuk! Diğerleri yangını söndürsün!
-Dialogue: 10,0:02:21.48,0:02:23.85,Main-207+,,0,0,0,,Görünüşe göre ateş yayılmaya başlıyor.
+Dialogue: 10,0:02:09.82,0:02:14.19,Main-207+,,0,0,0,,Ã‡abuk! DiÄŸerleri yangÄ±nÄ± sÃ¶ndÃ¼rsÃ¼n!
+Dialogue: 10,0:02:21.48,0:02:23.85,Main-207+,,0,0,0,,GÃ¶rÃ¼nÃ¼ÅŸe gÃ¶re ateÅŸ yayÄ±lmaya baÅŸlÄ±yor.
 Dialogue: 10,0:02:28.42,0:02:31.38,Main-207+,,0,0,0,,Bu leopar adam neyin nesi bilmiyorum...
-Dialogue: 10,0:02:32.15,0:02:35.01,Main-207+,,0,0,0,,...ama Iceburg-san'a el sürmenize izin vermeyeceğim!
-Dialogue: 10,0:02:35.88,0:02:37.14,Main-207+,,0,0,0,,Durum kötü!
-Dialogue: 10,0:02:37.17,0:02:40.97,Main-207+,,0,0,0,,Etobur Zoan Tipi Meyve kullanıcıları,\Nartan saldırganlık deneyimi de yaşar.
-Dialogue: 10,0:02:41.46,0:02:47.27,Main-207+,,0,0,0,,Evet. Logia türü, zoan türü, paramecia türü.
-Dialogue: 10,0:02:47.27,0:02:49.86,Main-207+,,0,0,0,,Birkaç farklı türde özel yetenek var.
-Dialogue: 10,0:02:50.43,0:02:54.23,Main-207+,,0,0,0,,Zoan türü olarak kazancım,...
-Dialogue: 10,0:02:54.23,0:02:56.73,Main-207+,,0,0,0,,...artan ham fiziksel gücümdür.
-Dialogue: 10,0:02:56.73,0:03:00.41,Main-207+,,0,0,0,,Ne kadar çok çalışırsam, o kadar güçlenirim.
-Dialogue: 10,0:03:00.41,0:03:05.58,Main-207+,,0,0,0,,Zoan türleri, özellikle yakın dövüşte diğer türlerden çok daha üstündür.
-Dialogue: 10,0:03:05.58,0:03:08.50,Main-207+,,0,0,0,,– Iceburg-{\i1}san{\i0}!\N– Ustabaşı!
-Dialogue: 10,0:03:09.80,0:03:12.84,Main-207+,,0,0,0,,Lucci, gemi marangozları yukarı geliyor.
-Dialogue: 10,0:03:13.33,0:03:16.47,Main-207+,,0,0,0,,Anlıyorum. Buna izin veremeyiz.
+Dialogue: 10,0:02:32.15,0:02:35.01,Main-207+,,0,0,0,,...ama Iceburg-san'a el sÃ¼rmenize izin vermeyeceÄŸim!
+Dialogue: 10,0:02:35.88,0:02:37.14,Main-207+,,0,0,0,,Durum kÃ¶tÃ¼!
+Dialogue: 10,0:02:37.17,0:02:40.97,Main-207+,,0,0,0,,Etobur Zoan Tipi Meyve kullanÄ±cÄ±larÄ±,\Nartan saldÄ±rganlÄ±k deneyimi de yaÅŸar.
+Dialogue: 10,0:02:41.46,0:02:47.27,Main-207+,,0,0,0,,Evet. Logia tÃ¼rÃ¼, zoan tÃ¼rÃ¼, paramecia tÃ¼rÃ¼.
+Dialogue: 10,0:02:47.27,0:02:49.86,Main-207+,,0,0,0,,BirkaÃ§ farklÄ± tÃ¼rde Ã¶zel yetenek var.
+Dialogue: 10,0:02:50.43,0:02:54.23,Main-207+,,0,0,0,,Zoan tÃ¼rÃ¼ olarak kazancÄ±m,...
+Dialogue: 10,0:02:54.23,0:02:56.73,Main-207+,,0,0,0,,...artan ham fiziksel gÃ¼cÃ¼mdÃ¼r.
+Dialogue: 10,0:02:56.73,0:03:00.41,Main-207+,,0,0,0,,Ne kadar Ã§ok Ã§alÄ±ÅŸÄ±rsam, o kadar gÃ¼Ã§lenirim.
+Dialogue: 10,0:03:00.41,0:03:05.58,Main-207+,,0,0,0,,Zoan tÃ¼rleri, Ã¶zellikle yakÄ±n dÃ¶vÃ¼ÅŸte diÄŸer tÃ¼rlerden Ã§ok daha Ã¼stÃ¼ndÃ¼r.
+Dialogue: 10,0:03:05.58,0:03:08.50,Main-207+,,0,0,0,,â€“ Iceburg-{\i1}san{\i0}!\Nâ€“ UstabaÅŸÄ±!
+Dialogue: 10,0:03:09.80,0:03:12.84,Main-207+,,0,0,0,,Lucci, gemi marangozlarÄ± yukarÄ± geliyor.
+Dialogue: 10,0:03:13.33,0:03:16.47,Main-207+,,0,0,0,,AnlÄ±yorum. Buna izin veremeyiz.
 Dialogue: 10,0:03:16.47,0:03:18.47,Main-207+,,0,0,0,,{\fad(150,150)}Rankyaku!
-Dialogue: 10,0:03:16.47,0:03:18.47,Attack,,0,0,0,,{\fad(150,150)}Fırtına Tekmesi
-Dialogue: 10,0:03:29.65,0:03:31.49,Main-207+,,0,0,0,,Geri dönün! Çatı çöküyor...
+Dialogue: 10,0:03:16.47,0:03:18.47,Attack,,0,0,0,,{\fad(150,150)}FÄ±rtÄ±na Tekmesi
+Dialogue: 10,0:03:29.65,0:03:31.49,Main-207+,,0,0,0,,Geri dÃ¶nÃ¼n! Ã‡atÄ± Ã§Ã¶kÃ¼yor...
 Dialogue: 10,0:03:41.33,0:03:42.16,Main-207+,,0,0,0,,Nami!
 Dialogue: 10,0:03:51.08,0:03:52.67,Main-207+,,0,0,0,,Chopper!
-Dialogue: 10,0:03:53.90,0:03:55.28,Main-207+,,0,0,0,,Paulie, ne yapıyorsun?!
-Dialogue: 10,0:03:55.28,0:03:57.63,Main-207+,,0,0,0,,Sizi buradan çıkarıyorum!
-Dialogue: 10,0:03:57.63,0:04:00.30,Main-207+,,0,0,0,,İşe yaramaz. Çok kötü yaralanmışsın!
-Dialogue: 10,0:04:01.99,0:04:04.02,Main-207+,,0,0,0,,Onu yere bırak, Paulie.
-Dialogue: 10,0:04:07.94,0:04:11.52,Main-207+,,0,0,0,,Benimle...\Narkadaşmışız gibi konuşma!
+Dialogue: 10,0:03:53.90,0:03:55.28,Main-207+,,0,0,0,,Paulie, ne yapÄ±yorsun?!
+Dialogue: 10,0:03:55.28,0:03:57.63,Main-207+,,0,0,0,,Sizi buradan Ã§Ä±karÄ±yorum!
+Dialogue: 10,0:03:57.63,0:04:00.30,Main-207+,,0,0,0,,Ä°ÅŸe yaramaz. Ã‡ok kÃ¶tÃ¼ yaralanmÄ±ÅŸsÄ±n!
+Dialogue: 10,0:04:01.99,0:04:04.02,Main-207+,,0,0,0,,Onu yere bÄ±rak, Paulie.
+Dialogue: 10,0:04:07.94,0:04:11.52,Main-207+,,0,0,0,,Benimle...\NarkadaÅŸmÄ±ÅŸÄ±z gibi konuÅŸma!
 Dialogue: 10,0:04:15.57,0:04:17.95,Main-207+,,0,0,0,,Kahretsin!
-Dialogue: 10,0:04:18.44,0:04:20.65,Main-207+,,0,0,0,,Nasıl siz olabilirsiniz?!
+Dialogue: 10,0:04:18.44,0:04:20.65,Main-207+,,0,0,0,,NasÄ±l siz olabilirsiniz?!
 Dialogue: 10,0:04:21.59,0:04:22.41,Main-207+,,0,0,0,,Ben...
-Dialogue: 10,0:04:23.29,0:04:25.66,Main-207+,,0,0,0,,...düşünmüştüm ki...
-Dialogue: 10,0:04:26.68,0:04:31.13,Main-207+,,0,0,0,,...düşünmüştüm ki gerçekten arkadaşımsınız!
-Dialogue: 10,0:04:36.27,0:04:37.84,Main-207+,,0,0,0,,Duygularımızı paylaşmadık.
-Dialogue: 10,0:04:49.73,0:04:52.15,Main-207+,,0,0,0,,Güvercin adam!
-Dialogue: 10,0:04:52.15,0:04:53.48,Main-207+,,0,0,0,,Hasır Şapka!
+Dialogue: 10,0:04:23.29,0:04:25.66,Main-207+,,0,0,0,,...dÃ¼ÅŸÃ¼nmÃ¼ÅŸtÃ¼m ki...
+Dialogue: 10,0:04:26.68,0:04:31.13,Main-207+,,0,0,0,,...dÃ¼ÅŸÃ¼nmÃ¼ÅŸtÃ¼m ki gerÃ§ekten arkadaÅŸÄ±msÄ±nÄ±z!
+Dialogue: 10,0:04:36.27,0:04:37.84,Main-207+,,0,0,0,,DuygularÄ±mÄ±zÄ± paylaÅŸmadÄ±k.
+Dialogue: 10,0:04:49.73,0:04:52.15,Main-207+,,0,0,0,,GÃ¼vercin adam!
+Dialogue: 10,0:04:52.15,0:04:53.48,Main-207+,,0,0,0,,HasÄ±r Åapka!
 Dialogue: 10,0:05:00.14,0:05:01.73,Main-207+,,0,0,0,,{\fad(150,150)}Shigan.
 Dialogue: 10,0:05:00.14,0:05:01.73,Attack,,0,0,0,,{\fad(150,150)}Parmak Tabanca
 Dialogue: 10,0:05:03.07,0:05:04.12,Main-207+,,0,0,0,,Luffy!
-Dialogue: 10,0:05:28.14,0:05:30.73,Main-207+,,0,0,0,,Seni adadan atacağım!
+Dialogue: 10,0:05:28.14,0:05:30.73,Main-207+,,0,0,0,,Seni adadan atacaÄŸÄ±m!
 Dialogue: 10,0:05:36.07,0:05:37.98,Main-207+,,0,0,0,,Luffy!
 Dialogue: 10,0:05:40.80,0:05:42.36,Main-207+,,0,0,0,,Seni pislik!
 Dialogue: 10,0:05:42.82,0:05:44.18,Main-207+,,0,0,0,,{\fad(150,150)}Tekkai.
-Dialogue: 10,0:05:42.82,0:05:44.18,Attack,,0,0,0,,{\fad(150,150)}Demir Kütle
+Dialogue: 10,0:05:42.82,0:05:44.18,Attack,,0,0,0,,{\fad(150,150)}Demir KÃ¼tle
 Dialogue: 10,0:06:00.20,0:06:01.38,Main-207+,,0,0,0,,Zoro!
-Dialogue: 10,0:06:09.90,0:06:11.27,Main-207+,,0,0,0,,Sıra sen de.
-Dialogue: 10,0:06:29.92,0:06:31.67,Main-207+,,0,0,0,,Herkes çıktı mı?
-Dialogue: 10,0:06:31.67,0:06:35.50,Main-207+,,0,0,0,,Tekrar içeri giremeyiz!\NHerkesin burada olduğundan emin olun!
-Dialogue: 10,0:06:35.50,0:06:39.62,Main-207+,,0,0,0,,Hey, Iceburg-san nerede? Gördünüz mü?
-Dialogue: 10,0:06:39.62,0:06:42.27,Main-207+,,0,0,0,,Yoksa hala içeride mi?
-Dialogue: 10,0:06:42.27,0:06:43.42,Main-207+,,0,0,0,,Ona bir şey olmaz!
-Dialogue: 10,0:06:44.30,0:06:47.39,Main-207+,,0,0,0,,Yanında üç tane ustabaşı var.\NHala içeride olması mümkün değil.
+Dialogue: 10,0:06:09.90,0:06:11.27,Main-207+,,0,0,0,,SÄ±ra sen de.
+Dialogue: 10,0:06:29.92,0:06:31.67,Main-207+,,0,0,0,,Herkes Ã§Ä±ktÄ± mÄ±?
+Dialogue: 10,0:06:31.67,0:06:35.50,Main-207+,,0,0,0,,Tekrar iÃ§eri giremeyiz!\NHerkesin burada olduÄŸundan emin olun!
+Dialogue: 10,0:06:35.50,0:06:39.62,Main-207+,,0,0,0,,Hey, Iceburg-san nerede? GÃ¶rdÃ¼nÃ¼z mÃ¼?
+Dialogue: 10,0:06:39.62,0:06:42.27,Main-207+,,0,0,0,,Yoksa hala iÃ§eride mi?
+Dialogue: 10,0:06:42.27,0:06:43.42,Main-207+,,0,0,0,,Ona bir ÅŸey olmaz!
+Dialogue: 10,0:06:44.30,0:06:47.39,Main-207+,,0,0,0,,YanÄ±nda Ã¼Ã§ tane ustabaÅŸÄ± var.\NHala iÃ§eride olmasÄ± mÃ¼mkÃ¼n deÄŸil.
 Dialogue: 10,0:06:47.39,0:06:49.32,Main-207+,,0,0,0,,Siz onu aramaya gidin!
-Dialogue: 10,0:06:54.00,0:06:55.14,Main-207+,,0,0,0,,Bu kadın,...
-Dialogue: 10,0:06:55.96,0:06:59.11,Main-207+,,0,0,0,,...Hasır Şapkalar'dan biri. Eminim!
-Dialogue: 10,0:06:59.64,0:07:02.00,Main-207+,,0,0,0,,Pencereden mi atladı?
-Dialogue: 10,0:07:02.00,0:07:05.40,Main-207+,,0,0,0,,Muhtemelen alevler etrafını sardı ve kaçamadı.
-Dialogue: 10,0:07:06.27,0:07:08.29,Main-207+,,0,0,0,,Onunla ne yapacağız?
-Dialogue: 10,0:07:08.29,0:07:12.58,Main-207+,,0,0,0,,Bu insanlar cidden ne zaman duracağını bilmiyor.
-Dialogue: 10,0:07:12.58,0:07:14.90,Main-207+,,0,0,0,,Diğerlerinin nerede olduğunu ona söyleteceğiz!
-Dialogue: 10,0:07:14.90,0:07:18.44,Main-207+,,0,0,0,,Yakaladıktan sonra da \NDenizciler'e teslim edeceğiz!
-Dialogue: 10,0:07:20.91,0:07:24.11,Main-207+,,0,0,0,,Korsanların dediğine kimse inanmayacak.
-Dialogue: 10,0:07:24.11,0:07:26.82,Main-207+,,0,0,0,,Gerçek sonsuza dek karanlıkta kalacak.
+Dialogue: 10,0:06:54.00,0:06:55.14,Main-207+,,0,0,0,,Bu kadÄ±n,...
+Dialogue: 10,0:06:55.96,0:06:59.11,Main-207+,,0,0,0,,...HasÄ±r Åapkalar'dan biri. Eminim!
+Dialogue: 10,0:06:59.64,0:07:02.00,Main-207+,,0,0,0,,Pencereden mi atladÄ±?
+Dialogue: 10,0:07:02.00,0:07:05.40,Main-207+,,0,0,0,,Muhtemelen alevler etrafÄ±nÄ± sardÄ± ve kaÃ§amadÄ±.
+Dialogue: 10,0:07:06.27,0:07:08.29,Main-207+,,0,0,0,,Onunla ne yapacaÄŸÄ±z?
+Dialogue: 10,0:07:08.29,0:07:12.58,Main-207+,,0,0,0,,Bu insanlar cidden ne zaman duracaÄŸÄ±nÄ± bilmiyor.
+Dialogue: 10,0:07:12.58,0:07:14.90,Main-207+,,0,0,0,,DiÄŸerlerinin nerede olduÄŸunu ona sÃ¶yleteceÄŸiz!
+Dialogue: 10,0:07:14.90,0:07:18.44,Main-207+,,0,0,0,,YakaladÄ±ktan sonra da \NDenizciler'e teslim edeceÄŸiz!
+Dialogue: 10,0:07:20.91,0:07:24.11,Main-207+,,0,0,0,,KorsanlarÄ±n dediÄŸine kimse inanmayacak.
+Dialogue: 10,0:07:24.11,0:07:26.82,Main-207+,,0,0,0,,GerÃ§ek sonsuza dek karanlÄ±kta kalacak.
 Dialogue: 10,0:07:28.39,0:07:29.92,Main-207+,,0,0,0,,Iceburg-{\i1}san{\i0}...
-Dialogue: 10,0:07:29.92,0:07:35.40,Main-207+,,0,0,0,,Olağanüstü bir gemi yapım mühendisiydiniz\Nve harika bir şehrin başkanıydınız.
-Dialogue: 10,0:07:36.14,0:07:41.06,Main-207+,,0,0,0,,Ama hiçbir vatandaş, \Nyılmayan Hükümet'e karşı gelemez.
-Dialogue: 10,0:07:49.94,0:07:53.98,Main-207+,,0,0,0,,Gidelim! Tom'un diğer çırağı Franky'den...
-Dialogue: 10,0:07:53.98,0:07:58.79,Main-207+,,0,0,0,,...hayır, Cutty Flam'dan planları çalacağız!
-Dialogue: 10,0:08:12.18,0:08:16.93,Main-207+,,0,0,0,,Nine! Nine! Koca bir ateş var!
+Dialogue: 10,0:07:29.92,0:07:35.40,Main-207+,,0,0,0,,OlaÄŸanÃ¼stÃ¼ bir gemi yapÄ±m mÃ¼hendisiydiniz\Nve harika bir ÅŸehrin baÅŸkanÄ±ydÄ±nÄ±z.
+Dialogue: 10,0:07:36.14,0:07:41.06,Main-207+,,0,0,0,,Ama hiÃ§bir vatandaÅŸ, \NyÄ±lmayan HÃ¼kÃ¼met'e karÅŸÄ± gelemez.
+Dialogue: 10,0:07:49.94,0:07:53.98,Main-207+,,0,0,0,,Gidelim! Tom'un diÄŸer Ã§Ä±raÄŸÄ± Franky'den...
+Dialogue: 10,0:07:53.98,0:07:58.79,Main-207+,,0,0,0,,...hayÄ±r, Cutty Flam'dan planlarÄ± Ã§alacaÄŸÄ±z!
+Dialogue: 10,0:08:12.18,0:08:16.93,Main-207+,,0,0,0,,Nine! Nine! Koca bir ateÅŸ var!
 Dialogue: 10,0:08:16.18,0:08:16.95,Secondary-207+,,0,0,0,,Miyav.
-Dialogue: 10,0:08:16.95,0:08:21.15,Main-207+,,0,0,0,,Galley-La merkezinde kötü bir şey oluyor.
-Dialogue: 10,0:08:23.09,0:08:26.48,Main-207+,,0,0,0,,Kötü bir şey mi? Biri yangın mı çıkartmış?
+Dialogue: 10,0:08:16.95,0:08:21.15,Main-207+,,0,0,0,,Galley-La merkezinde kÃ¶tÃ¼ bir ÅŸey oluyor.
+Dialogue: 10,0:08:23.09,0:08:26.48,Main-207+,,0,0,0,,KÃ¶tÃ¼ bir ÅŸey mi? Biri yangÄ±n mÄ± Ã§Ä±kartmÄ±ÅŸ?
 Dialogue: 10,0:08:26.48,0:08:29.11,Main-207+,,0,0,0,,Bilmem.
-Dialogue: 10,0:08:29.11,0:08:33.20,Main-207+,,0,0,0,,Sadece içimde kötü bir his var.
-Dialogue: 10,0:08:33.20,0:08:35.58,Main-207+,,0,0,0,,Umarım Iceburg iyidir.
-Dialogue: 10,0:08:38.54,0:08:43.62,Main-207+,,0,0,0,,Kahretsin. Bu dünyada öyle kötü şeyler\Nolduğunda, bunun olması beklenir.
-Dialogue: 10,0:08:57.09,0:09:00.77,Main-207+,,0,0,0,,Blueno, Franky senin barında mıydı?
+Dialogue: 10,0:08:29.11,0:08:33.20,Main-207+,,0,0,0,,Sadece iÃ§imde kÃ¶tÃ¼ bir his var.
+Dialogue: 10,0:08:33.20,0:08:35.58,Main-207+,,0,0,0,,UmarÄ±m Iceburg iyidir.
+Dialogue: 10,0:08:38.54,0:08:43.62,Main-207+,,0,0,0,,Kahretsin. Bu dÃ¼nyada Ã¶yle kÃ¶tÃ¼ ÅŸeyler\NolduÄŸunda, bunun olmasÄ± beklenir.
+Dialogue: 10,0:08:57.09,0:09:00.77,Main-207+,,0,0,0,,Blueno, Franky senin barÄ±nda mÄ±ydÄ±?
 Dialogue: 10,0:09:00.77,0:09:01.81,Main-207+,,0,0,0,,Evet.
-Dialogue: 10,0:09:02.19,0:09:04.56,Main-207+,,0,0,0,,Ama Hasır Şapka'yı aramak için gitti.
-Dialogue: 10,0:09:04.56,0:09:06.07,Main-207+,,0,0,0,,Anlıyorum.
-Dialogue: 10,0:09:08.00,0:09:10.65,Main-207+,,0,0,0,,Yerinde duramadı.
-Dialogue: 10,0:09:12.53,0:09:15.58,Main-207+,,0,0,0,,Şanssız kimselere rastlıyoruz.
-Dialogue: 10,0:09:16.88,0:09:17.58,Main-207+,,0,0,0,,Bakın.
-Dialogue: 10,0:09:18.33,0:09:20.54,Main-207+,,0,0,0,,Dinle, Hasır Şapka!
+Dialogue: 10,0:09:02.19,0:09:04.56,Main-207+,,0,0,0,,Ama HasÄ±r Åapka'yÄ± aramak iÃ§in gitti.
+Dialogue: 10,0:09:04.56,0:09:06.07,Main-207+,,0,0,0,,AnlÄ±yorum.
+Dialogue: 10,0:09:08.00,0:09:10.65,Main-207+,,0,0,0,,Yerinde duramadÄ±.
+Dialogue: 10,0:09:12.53,0:09:15.58,Main-207+,,0,0,0,,ÅanssÄ±z kimselere rastlÄ±yoruz.
+Dialogue: 10,0:09:16.88,0:09:17.58,Main-207+,,0,0,0,,BakÄ±n.
+Dialogue: 10,0:09:18.33,0:09:20.54,Main-207+,,0,0,0,,Dinle, HasÄ±r Åapka!
 Dialogue: 10,0:09:21.05,0:09:23.02,Main-207+,,0,0,0,,Uzun Burun elimizde!
-Dialogue: 10,0:09:23.02,0:09:25.00,Main-207+,,0,0,0,,Evet, onu yakaladık!
-Dialogue: 10,0:09:25.00,0:09:27.65,Main-207+,,0,0,0,,Deniz kestanelerinin suşinin içine\Nyuvarlanmasını istemiyorsan...
-Dialogue: 10,0:09:27.65,0:09:30.35,Main-207+,,0,0,0,,Aptal! Bu tamamen yanlış! \NDaha kaç kez söylemeliyim?!
-Dialogue: 10,0:09:30.35,0:09:33.02,Main-207+,,0,0,0,,"Arkadaşının denize yuvarlanmasını\Nistemiyorsan" olacak!
+Dialogue: 10,0:09:23.02,0:09:25.00,Main-207+,,0,0,0,,Evet, onu yakaladÄ±k!
+Dialogue: 10,0:09:25.00,0:09:27.65,Main-207+,,0,0,0,,Deniz kestanelerinin suÅŸinin iÃ§ine\NyuvarlanmasÄ±nÄ± istemiyorsan...
+Dialogue: 10,0:09:27.65,0:09:30.35,Main-207+,,0,0,0,,Aptal! Bu tamamen yanlÄ±ÅŸ! \NDaha kaÃ§ kez sÃ¶ylemeliyim?!
+Dialogue: 10,0:09:30.35,0:09:33.02,Main-207+,,0,0,0,,"ArkadaÅŸÄ±nÄ±n denize yuvarlanmasÄ±nÄ±\Nistemiyorsan" olacak!
 Dialogue: 10,0:09:33.02,0:09:33.92,Main-207+,,0,0,0,,Zenide!
 Dialogue: 10,0:09:33.92,0:09:34.47,Main-207+,,0,0,0,,Denize!!
-Dialogue: 10,0:09:34.93,0:09:37.89,Main-207+,,0,0,0,,Sağır falan mısın sen?!
-Dialogue: 10,0:09:37.89,0:09:41.28,Main-207+,,0,0,0,,Her neyse! Hasır Şapka mesajı\Naldığı sürece önemli değil!
-Dialogue: 10,0:09:41.28,0:09:43.39,Main-207+,,0,0,0,,Bunu kimse anlamazdı!
-Dialogue: 10,0:09:43.39,0:09:45.11,Main-207+,,0,0,0,,Abi bizi öldürürdü.
-Dialogue: 10,0:09:45.11,0:09:47.59,Main-207+,,0,0,0,,Arkadaşının denize atılmasını istemiyorsan,...
-Dialogue: 10,0:09:47.59,0:09:50.51,Main-207+,,0,0,0,,...köprünün altındaki depoya gel!\N Saygılar, Franky!
-Dialogue: 10,0:09:50.51,0:09:51.53,Main-207+,,0,0,0,,Bu şekilde!
-Dialogue: 10,0:09:52.01,0:09:57.00,Main-207+,,0,0,0,,Ama ortaya çıkınca abiden dayak yiyecek.
+Dialogue: 10,0:09:34.93,0:09:37.89,Main-207+,,0,0,0,,SaÄŸÄ±r falan mÄ±sÄ±n sen?!
+Dialogue: 10,0:09:37.89,0:09:41.28,Main-207+,,0,0,0,,Her neyse! HasÄ±r Åapka mesajÄ±\NaldÄ±ÄŸÄ± sÃ¼rece Ã¶nemli deÄŸil!
+Dialogue: 10,0:09:41.28,0:09:43.39,Main-207+,,0,0,0,,Bunu kimse anlamazdÄ±!
+Dialogue: 10,0:09:43.39,0:09:45.11,Main-207+,,0,0,0,,Abi bizi Ã¶ldÃ¼rÃ¼rdÃ¼.
+Dialogue: 10,0:09:45.11,0:09:47.59,Main-207+,,0,0,0,,ArkadaÅŸÄ±nÄ±n denize atÄ±lmasÄ±nÄ± istemiyorsan,...
+Dialogue: 10,0:09:47.59,0:09:50.51,Main-207+,,0,0,0,,...kÃ¶prÃ¼nÃ¼n altÄ±ndaki depoya gel!\N SaygÄ±lar, Franky!
+Dialogue: 10,0:09:50.51,0:09:51.53,Main-207+,,0,0,0,,Bu ÅŸekilde!
+Dialogue: 10,0:09:52.01,0:09:57.00,Main-207+,,0,0,0,,Ama ortaya Ã§Ä±kÄ±nca abiden dayak yiyecek.
 Dialogue: 10,0:09:59.80,0:10:03.84,Main-207+,,0,0,0,,Kim kimi, nerede bekliyor dediniz?
 Dialogue: 10,0:10:03.84,0:10:06.60,Main-207+,,0,0,0,,Hm? Ne istiyorsun?
-Dialogue: 10,0:10:06.60,0:10:09.54,Main-207+,,0,0,0,,Şu anda işimiz var! Defol!
-Dialogue: 10,0:10:09.54,0:10:12.97,Main-207+,,0,0,0,,Yaşamak istiyorsanız, \Nüç saniye içinde cevap vereceksiniz.
+Dialogue: 10,0:10:06.60,0:10:09.54,Main-207+,,0,0,0,,Åu anda iÅŸimiz var! Defol!
+Dialogue: 10,0:10:09.54,0:10:12.97,Main-207+,,0,0,0,,YaÅŸamak istiyorsanÄ±z, \NÃ¼Ã§ saniye iÃ§inde cevap vereceksiniz.
 Dialogue: 10,0:10:12.97,0:10:15.66,Main-207+,,0,0,0,,Ha?!
-Dialogue: 10,0:10:15.66,0:10:18.05,Main-207+,,0,0,0,,Ne şaka ama.
-Dialogue: 10,0:10:18.05,0:10:20.64,Main-207+,,0,0,0,,Kaç kişi olduğumuzu biliyor musun?
-Dialogue: 10,0:10:24.13,0:10:27.21,Main-207+,,0,0,0,,Köprünün altındaki depo nerede?
-Dialogue: 10,0:10:27.21,0:10:30.03,Main-207+,,0,0,0,,Franky orada, değil mi?
-Dialogue: 10,0:10:32.00,0:10:34.67,Main-207+,,0,0,0,,Abiyle ne işin var?
-Dialogue: 10,0:10:34.67,0:10:38.53,Main-207+,,0,0,0,,Onu görmek istiyorsan, önce bizi geçmelisin!
-Dialogue: 10,0:10:52.89,0:10:57.97,Main-207+,,0,0,0,,Doğu Mavi'li bütün arkadaşlarını\Ngemi yüzünden terketmiş!
-Dialogue: 10,0:10:59.28,0:11:01.89,Main-207+,,0,0,0,,Ne diye ağlıyorsunuz?
-Dialogue: 10,0:11:01.89,0:11:05.01,Main-207+,,0,0,0,,Aptal! Ağlamıyorum, aptal!
-Dialogue: 10,0:11:05.01,0:11:10.20,Main-207+,,0,0,0,,Gemiyi savunmak için sadece senin\Nkalmış olman, beni derinden etkiledi!
-Dialogue: 10,0:11:10.20,0:11:13.92,Main-207+,,0,0,0,,Ağlamıyoruz. Kimse ağlamıyor!
-Dialogue: 10,0:11:13.92,0:11:16.44,Main-207+,,0,0,0,,Bunların nesi var böyle?
-Dialogue: 10,0:11:18.83,0:11:23.37,Main-207+,,0,0,0,,Neyse, anlıyorsunuz, değil mi?\NArtık onların arkadaşı değilim!
-Dialogue: 10,0:11:24.75,0:11:26.08,Main-207+,,0,0,0,,Böyle...
-Dialogue: 10,0:11:26.49,0:11:28.84,Main-207+,,0,0,0,,Böylesi bir acının şarkısını söyleyeceğim!
-Dialogue: 10,0:11:28.84,0:11:32.12,Main-207+,,0,0,0,,"Ayrılan Arkadaşlar, Kuzey Rüzgarı Darbesi!"
-Dialogue: 10,0:11:32.12,0:11:34.12,Main-207+,,0,0,0,,Yaşasın! Abi!
-Dialogue: 10,0:11:34.12,0:11:36.09,Main-207+,,0,0,0,,Benimle alay mı ediyorsunuz?!
-Dialogue: 10,0:11:42.32,0:11:47.00,Main-207+,,0,0,0,,Hey, çay hazır mı? Boğazım kurudu.
-Dialogue: 10,0:11:47.00,0:11:50.02,Main-207+,,0,0,0,,– Evet, hemen geliyor.\N– Evet, hemen geliyor.
-Dialogue: 10,0:11:51.61,0:11:55.20,Main-207+,,0,0,0,,Ah, ağlamak beni tüketti.\NAslında ağladığım falan yok.
-Dialogue: 10,0:11:59.80,0:12:03.25,Main-207+,,0,0,0,,Buyur, abi. Biraz sıcak.
-Dialogue: 10,0:12:05.30,0:12:06.71,Main-207+,,0,0,0,,Sağolun.
-Dialogue: 10,0:12:07.35,0:12:10.45,Main-207+,,0,0,0,,Neyse, anladım kardeş.
-Dialogue: 10,0:12:11.63,0:12:13.80,Main-207+,,0,0,0,,Çok sıcak!
+Dialogue: 10,0:10:15.66,0:10:18.05,Main-207+,,0,0,0,,Ne ÅŸaka ama.
+Dialogue: 10,0:10:18.05,0:10:20.64,Main-207+,,0,0,0,,KaÃ§ kiÅŸi olduÄŸumuzu biliyor musun?
+Dialogue: 10,0:10:24.13,0:10:27.21,Main-207+,,0,0,0,,KÃ¶prÃ¼nÃ¼n altÄ±ndaki depo nerede?
+Dialogue: 10,0:10:27.21,0:10:30.03,Main-207+,,0,0,0,,Franky orada, deÄŸil mi?
+Dialogue: 10,0:10:32.00,0:10:34.67,Main-207+,,0,0,0,,Abiyle ne iÅŸin var?
+Dialogue: 10,0:10:34.67,0:10:38.53,Main-207+,,0,0,0,,Onu gÃ¶rmek istiyorsan, Ã¶nce bizi geÃ§melisin!
+Dialogue: 10,0:10:52.89,0:10:57.97,Main-207+,,0,0,0,,DoÄŸu Mavi'li bÃ¼tÃ¼n arkadaÅŸlarÄ±nÄ±\Ngemi yÃ¼zÃ¼nden terketmiÅŸ!
+Dialogue: 10,0:10:59.28,0:11:01.89,Main-207+,,0,0,0,,Ne diye aÄŸlÄ±yorsunuz?
+Dialogue: 10,0:11:01.89,0:11:05.01,Main-207+,,0,0,0,,Aptal! AÄŸlamÄ±yorum, aptal!
+Dialogue: 10,0:11:05.01,0:11:10.20,Main-207+,,0,0,0,,Gemiyi savunmak iÃ§in sadece senin\NkalmÄ±ÅŸ olman, beni derinden etkiledi!
+Dialogue: 10,0:11:10.20,0:11:13.92,Main-207+,,0,0,0,,AÄŸlamÄ±yoruz. Kimse aÄŸlamÄ±yor!
+Dialogue: 10,0:11:13.92,0:11:16.44,Main-207+,,0,0,0,,BunlarÄ±n nesi var bÃ¶yle?
+Dialogue: 10,0:11:18.83,0:11:23.37,Main-207+,,0,0,0,,Neyse, anlÄ±yorsunuz, deÄŸil mi?\NArtÄ±k onlarÄ±n arkadaÅŸÄ± deÄŸilim!
+Dialogue: 10,0:11:24.75,0:11:26.08,Main-207+,,0,0,0,,BÃ¶yle...
+Dialogue: 10,0:11:26.49,0:11:28.84,Main-207+,,0,0,0,,BÃ¶ylesi bir acÄ±nÄ±n ÅŸarkÄ±sÄ±nÄ± sÃ¶yleyeceÄŸim!
+Dialogue: 10,0:11:28.84,0:11:32.12,Main-207+,,0,0,0,,"AyrÄ±lan ArkadaÅŸlar, Kuzey RÃ¼zgarÄ± Darbesi!"
+Dialogue: 10,0:11:32.12,0:11:34.12,Main-207+,,0,0,0,,YaÅŸasÄ±n! Abi!
+Dialogue: 10,0:11:34.12,0:11:36.09,Main-207+,,0,0,0,,Benimle alay mÄ± ediyorsunuz?!
+Dialogue: 10,0:11:42.32,0:11:47.00,Main-207+,,0,0,0,,Hey, Ã§ay hazÄ±r mÄ±? BoÄŸazÄ±m kurudu.
+Dialogue: 10,0:11:47.00,0:11:50.02,Main-207+,,0,0,0,,â€“ Evet, hemen geliyor.\Nâ€“ Evet, hemen geliyor.
+Dialogue: 10,0:11:51.61,0:11:55.20,Main-207+,,0,0,0,,Ah, aÄŸlamak beni tÃ¼ketti.\NAslÄ±nda aÄŸladÄ±ÄŸÄ±m falan yok.
+Dialogue: 10,0:11:59.80,0:12:03.25,Main-207+,,0,0,0,,Buyur, abi. Biraz sÄ±cak.
+Dialogue: 10,0:12:05.30,0:12:06.71,Main-207+,,0,0,0,,SaÄŸolun.
+Dialogue: 10,0:12:07.35,0:12:10.45,Main-207+,,0,0,0,,Neyse, anladÄ±m kardeÅŸ.
+Dialogue: 10,0:12:11.63,0:12:13.80,Main-207+,,0,0,0,,Ã‡ok sÄ±cak!
 Dialogue: 10,0:12:13.80,0:12:15.55,Main-207+,,0,0,0,,Biraz sakin ol!
-Dialogue: 10,0:12:16.71,0:12:19.83,Main-207+,,0,0,0,,Bunun için üzgünüm, abi.
-Dialogue: 10,0:12:19.83,0:12:22.39,Main-207+,,0,0,0,,Sen de çay ister misin?
-Dialogue: 10,0:12:27.15,0:12:28.96,Main-207+,,0,0,0,,Seni suçlamıyorum.
-Dialogue: 10,0:12:28.96,0:12:34.48,Main-207+,,0,0,0,,Hala 200 milyon beliyi çalmış olmamıza içerliyorsun.
-Dialogue: 10,0:12:35.28,0:12:38.26,Main-207+,,0,0,0,,Özellikle de bu kadar büyük\Nbir kavgaya yol açtığı için.
-Dialogue: 10,0:12:40.08,0:12:42.19,Main-207+,,0,0,0,,Olur böyle şeyler.
-Dialogue: 10,0:12:42.19,0:12:44.49,Main-207+,,0,0,0,,Bunun için birilerini içerlemek\Nhiçbir şeyi değiştirmez.
-Dialogue: 10,0:12:45.51,0:12:47.41,Main-207+,,0,0,0,,Ne kadar erkekçe.
-Dialogue: 10,0:12:47.41,0:12:48.82,Main-207+,,0,0,0,,Anlıyorum.
-Dialogue: 10,0:12:49.49,0:12:51.08,Main-207+,,0,0,0,,Çünkü o 200 milyonu...
-Dialogue: 10,0:12:51.99,0:12:54.66,Main-207+,,0,0,0,,...harcadım!
-Dialogue: 10,0:12:54.66,0:12:56.30,Main-207+,,0,0,0,,Seni döveceğim.
-Dialogue: 10,0:12:56.30,0:12:59.52,Main-207+,,0,0,0,,Kendini bu kadar heyecana kaptırma.
-Dialogue: 10,0:12:59.52,0:13:03.26,Main-207+,,0,0,0,,Ben de biraz kendi erkekliğimi göstermeliyim.
-Dialogue: 10,0:13:03.26,0:13:08.36,Main-207+,,0,0,0,,Artık öfkemi bir kenara bırakmam gerekiyor.
-Dialogue: 10,0:13:08.36,0:13:12.19,Main-207+,,0,0,0,,Evim ve hurdalık atölyem Franky Evi, \Nzaten tamamiyle yok edildi.
-Dialogue: 10,0:13:13.08,0:13:16.70,Main-207+,,0,0,0,,Ayrıca adamlarım dövüldü.
+Dialogue: 10,0:12:16.71,0:12:19.83,Main-207+,,0,0,0,,Bunun iÃ§in Ã¼zgÃ¼nÃ¼m, abi.
+Dialogue: 10,0:12:19.83,0:12:22.39,Main-207+,,0,0,0,,Sen de Ã§ay ister misin?
+Dialogue: 10,0:12:27.15,0:12:28.96,Main-207+,,0,0,0,,Seni suÃ§lamÄ±yorum.
+Dialogue: 10,0:12:28.96,0:12:34.48,Main-207+,,0,0,0,,Hala 200 milyon beliyi Ã§almÄ±ÅŸ olmamÄ±za iÃ§erliyorsun.
+Dialogue: 10,0:12:35.28,0:12:38.26,Main-207+,,0,0,0,,Ã–zellikle de bu kadar bÃ¼yÃ¼k\Nbir kavgaya yol aÃ§tÄ±ÄŸÄ± iÃ§in.
+Dialogue: 10,0:12:40.08,0:12:42.19,Main-207+,,0,0,0,,Olur bÃ¶yle ÅŸeyler.
+Dialogue: 10,0:12:42.19,0:12:44.49,Main-207+,,0,0,0,,Bunun iÃ§in birilerini iÃ§erlemek\NhiÃ§bir ÅŸeyi deÄŸiÅŸtirmez.
+Dialogue: 10,0:12:45.51,0:12:47.41,Main-207+,,0,0,0,,Ne kadar erkekÃ§e.
+Dialogue: 10,0:12:47.41,0:12:48.82,Main-207+,,0,0,0,,AnlÄ±yorum.
+Dialogue: 10,0:12:49.49,0:12:51.08,Main-207+,,0,0,0,,Ã‡Ã¼nkÃ¼ o 200 milyonu...
+Dialogue: 10,0:12:51.99,0:12:54.66,Main-207+,,0,0,0,,...harcadÄ±m!
+Dialogue: 10,0:12:54.66,0:12:56.30,Main-207+,,0,0,0,,Seni dÃ¶veceÄŸim.
+Dialogue: 10,0:12:56.30,0:12:59.52,Main-207+,,0,0,0,,Kendini bu kadar heyecana kaptÄ±rma.
+Dialogue: 10,0:12:59.52,0:13:03.26,Main-207+,,0,0,0,,Ben de biraz kendi erkekliÄŸimi gÃ¶stermeliyim.
+Dialogue: 10,0:13:03.26,0:13:08.36,Main-207+,,0,0,0,,ArtÄ±k Ã¶fkemi bir kenara bÄ±rakmam gerekiyor.
+Dialogue: 10,0:13:08.36,0:13:12.19,Main-207+,,0,0,0,,Evim ve hurdalÄ±k atÃ¶lyem Franky Evi, \Nzaten tamamiyle yok edildi.
+Dialogue: 10,0:13:13.08,0:13:16.70,Main-207+,,0,0,0,,AyrÄ±ca adamlarÄ±m dÃ¶vÃ¼ldÃ¼.
 Dialogue: 10,0:13:16.70,0:13:19.16,Main-207+,,0,0,0,,Sizi pislikler!
 Dialogue: 10,0:13:19.16,0:13:20.05,Main-207+,,0,0,0,,Abi!
-Dialogue: 10,0:13:20.05,0:13:22.24,Main-207+,,0,0,0,,Öfkeleniyorsun!
+Dialogue: 10,0:13:20.05,0:13:22.24,Main-207+,,0,0,0,,Ã–fkeleniyorsun!
 Dialogue: 10,0:13:22.24,0:13:24.26,Main-207+,,0,0,0,,Pislikler!
-Dialogue: 10,0:13:34.76,0:13:37.06,Main-207+,,0,0,0,,Evet, bir sürü şey oldu kardeş.
-Dialogue: 10,0:13:37.06,0:13:39.99,Main-207+,,0,0,0,,İkimiz de olanları geride bırakmaya çalışmalıyız.
-Dialogue: 10,0:13:39.99,0:13:43.70,Main-207+,,0,0,0,,El sıkışalım ve dövüşmeye devam edelim.
-Dialogue: 10,0:13:43.70,0:13:45.44,Main-207+,,0,0,0,,Berabere sayalım demek istiyorsun.
+Dialogue: 10,0:13:34.76,0:13:37.06,Main-207+,,0,0,0,,Evet, bir sÃ¼rÃ¼ ÅŸey oldu kardeÅŸ.
+Dialogue: 10,0:13:37.06,0:13:39.99,Main-207+,,0,0,0,,Ä°kimiz de olanlarÄ± geride bÄ±rakmaya Ã§alÄ±ÅŸmalÄ±yÄ±z.
+Dialogue: 10,0:13:39.99,0:13:43.70,Main-207+,,0,0,0,,El sÄ±kÄ±ÅŸalÄ±m ve dÃ¶vÃ¼ÅŸmeye devam edelim.
+Dialogue: 10,0:13:43.70,0:13:45.44,Main-207+,,0,0,0,,Berabere sayalÄ±m demek istiyorsun.
 Dialogue: 10,0:13:45.44,0:13:47.39,Main-207+,,0,0,0,,Berabere say, abi.
-Dialogue: 10,0:13:49.77,0:13:53.20,Main-207+,,0,0,0,,Artık kendi başına olduğuna göre, \Nne yapacaksın?
+Dialogue: 10,0:13:49.77,0:13:53.20,Main-207+,,0,0,0,,ArtÄ±k kendi baÅŸÄ±na olduÄŸuna gÃ¶re, \Nne yapacaksÄ±n?
 Dialogue: 10,0:13:53.20,0:13:55.11,Main-207+,,0,0,0,,Gidecek bir yerin yok.
-Dialogue: 10,0:13:55.11,0:13:59.61,Main-207+,,0,0,0,,Seni himayeme alacağım.\NÇeteme katıl!
-Dialogue: 10,0:14:00.02,0:14:01.89,Main-207+,,0,0,0,,Senden hoşlandım.
-Dialogue: 10,0:14:01.89,0:14:05.57,Main-207+,,0,0,0,,Olmaz. \NBir hurdalıkta çalışmak istemiyorum.
-Dialogue: 10,0:14:06.52,0:14:09.33,Main-207+,,0,0,0,,Tayfamı bırakmış olsam da\N hala bir korsanım!
-Dialogue: 10,0:14:11.00,0:14:14.42,Main-207+,,0,0,0,,"Korsan İnancı" şarkımı dinleyin!
-Dialogue: 10,0:14:14.42,0:14:16.49,Main-207+,,0,0,0,,Yaşasın! Abi!
+Dialogue: 10,0:13:55.11,0:13:59.61,Main-207+,,0,0,0,,Seni himayeme alacaÄŸÄ±m.\NÃ‡eteme katÄ±l!
+Dialogue: 10,0:14:00.02,0:14:01.89,Main-207+,,0,0,0,,Senden hoÅŸlandÄ±m.
+Dialogue: 10,0:14:01.89,0:14:05.57,Main-207+,,0,0,0,,Olmaz. \NBir hurdalÄ±kta Ã§alÄ±ÅŸmak istemiyorum.
+Dialogue: 10,0:14:06.52,0:14:09.33,Main-207+,,0,0,0,,TayfamÄ± bÄ±rakmÄ±ÅŸ olsam da\N hala bir korsanÄ±m!
+Dialogue: 10,0:14:11.00,0:14:14.42,Main-207+,,0,0,0,,"Korsan Ä°nancÄ±" ÅŸarkÄ±mÄ± dinleyin!
+Dialogue: 10,0:14:14.42,0:14:16.49,Main-207+,,0,0,0,,YaÅŸasÄ±n! Abi!
 Dialogue: 10,0:14:16.49,0:14:19.51,Main-207+,,0,0,0,,Yine benimle alay ediyorsunuz!
-Dialogue: 10,0:14:20.00,0:14:24.60,Main-207+,,0,0,0,,Sadece sana göz kulak olmaya çalışıyordum!
+Dialogue: 10,0:14:20.00,0:14:24.60,Main-207+,,0,0,0,,Sadece sana gÃ¶z kulak olmaya Ã§alÄ±ÅŸÄ±yordum!
 Dialogue: 10,0:14:24.60,0:14:26.43,Main-207+,,0,0,0,,Niye umursuyorsun ki?
-Dialogue: 10,0:14:27.09,0:14:30.60,Main-207+,,0,0,0,,Neyse, gerçekten burada\Noturuyor olman doğru mu?
-Dialogue: 10,0:14:30.60,0:14:32.43,Main-207+,,0,0,0,,Gelgit dalgaları yakında burada olacak.
+Dialogue: 10,0:14:27.09,0:14:30.60,Main-207+,,0,0,0,,Neyse, gerÃ§ekten burada\Noturuyor olman doÄŸru mu?
+Dialogue: 10,0:14:30.60,0:14:32.43,Main-207+,,0,0,0,,Gelgit dalgalarÄ± yakÄ±nda burada olacak.
 Dialogue: 10,0:14:32.43,0:14:35.06,Main-207+,,0,0,0,,Evet, biliyorum.
-Dialogue: 10,0:14:35.58,0:14:39.40,Main-207+,,0,0,0,,Aqua Laguna sırasında, \Nhepimiz birbirimize yardım etmeliyiz.
-Dialogue: 10,0:14:42.41,0:14:46.69,Main-207+,,0,0,0,,Gece boyunca, \Nsu, evlerin ikinci katına ulaşacak...
-Dialogue: 10,0:14:46.69,0:14:51.27,Main-207+,,0,0,0,,Arka sokaklardaki veya burundaki\Nher şey suya kapılıp gidecek.
-Dialogue: 10,0:14:51.27,0:14:54.37,Main-207+,,0,0,0,,Gemin burada güvende olacak.
-Dialogue: 10,0:14:54.72,0:14:58.08,Main-207+,,0,0,0,,Ah, sağol. Beni kurtardın.
-Dialogue: 10,0:14:58.08,0:14:59.96,Main-207+,,0,0,0,,Endişelenme, aptal!\N Bu kadar resmi olma!
-Dialogue: 10,0:15:00.40,0:15:04.64,Main-207+,,0,0,0,,Böyle bir felaketin her yıl\Nyaşanması epey can sıkıcı değil mi?
-Dialogue: 10,0:15:04.64,0:15:08.80,Main-207+,,0,0,0,,Evet, herkes yılda bir kez\Nsığınaklara girmeye alıştı.
-Dialogue: 10,0:15:09.51,0:15:14.77,Main-207+,,0,0,0,,Asıl sorun, su seviyesinin her yıl yükselmesi.
-Dialogue: 10,0:15:14.77,0:15:17.77,Main-207+,,0,0,0,,Şu anda görmüş olduğun arka sokaklar,...
-Dialogue: 10,0:15:17.77,0:15:23.28,Main-207+,,0,0,0,,...yüzlerce yıl önce inşa edilmiş\Nolan binaların üstüne yapıldı.
-Dialogue: 10,0:15:23.28,0:15:28.98,Main-207+,,0,0,0,,Çağlar önce Gemi Yapım Adası ve\Narka sokaklar, tek bir kara parçasıydı.
-Dialogue: 10,0:15:28.98,0:15:33.25,Main-207+,,0,0,0,,Ama şimdi, büyük bir kısmı su altında\Nkaldığı için su şehri olarak biliniyor.
-Dialogue: 10,0:15:33.79,0:15:36.83,Main-207+,,0,0,0,,Sokaklar tamamen su kanalları haline geldi.
-Dialogue: 10,0:15:36.83,0:15:40.33,Main-207+,,0,0,0,,Daha doğrusu, yükselen su seviyesi değil.
-Dialogue: 10,0:15:40.33,0:15:43.30,Main-207+,,0,0,0,,Adanın kendisi batıyor.
-Dialogue: 10,0:15:43.30,0:15:47.99,Main-207+,,0,0,0,,Bu durumda şehrin kalan\Nkısımları da yaşanmaz hale gelecek.
-Dialogue: 10,0:15:47.99,0:15:53.81,Main-207+,,0,0,0,,Anlıyorum. \NSu şehri sadece göstermelik değil.
+Dialogue: 10,0:14:35.58,0:14:39.40,Main-207+,,0,0,0,,Aqua Laguna sÄ±rasÄ±nda, \Nhepimiz birbirimize yardÄ±m etmeliyiz.
+Dialogue: 10,0:14:42.41,0:14:46.69,Main-207+,,0,0,0,,Gece boyunca, \Nsu, evlerin ikinci katÄ±na ulaÅŸacak...
+Dialogue: 10,0:14:46.69,0:14:51.27,Main-207+,,0,0,0,,Arka sokaklardaki veya burundaki\Nher ÅŸey suya kapÄ±lÄ±p gidecek.
+Dialogue: 10,0:14:51.27,0:14:54.37,Main-207+,,0,0,0,,Gemin burada gÃ¼vende olacak.
+Dialogue: 10,0:14:54.72,0:14:58.08,Main-207+,,0,0,0,,Ah, saÄŸol. Beni kurtardÄ±n.
+Dialogue: 10,0:14:58.08,0:14:59.96,Main-207+,,0,0,0,,EndiÅŸelenme, aptal!\N Bu kadar resmi olma!
+Dialogue: 10,0:15:00.40,0:15:04.64,Main-207+,,0,0,0,,BÃ¶yle bir felaketin her yÄ±l\NyaÅŸanmasÄ± epey can sÄ±kÄ±cÄ± deÄŸil mi?
+Dialogue: 10,0:15:04.64,0:15:08.80,Main-207+,,0,0,0,,Evet, herkes yÄ±lda bir kez\NsÄ±ÄŸÄ±naklara girmeye alÄ±ÅŸtÄ±.
+Dialogue: 10,0:15:09.51,0:15:14.77,Main-207+,,0,0,0,,AsÄ±l sorun, su seviyesinin her yÄ±l yÃ¼kselmesi.
+Dialogue: 10,0:15:14.77,0:15:17.77,Main-207+,,0,0,0,,Åu anda gÃ¶rmÃ¼ÅŸ olduÄŸun arka sokaklar,...
+Dialogue: 10,0:15:17.77,0:15:23.28,Main-207+,,0,0,0,,...yÃ¼zlerce yÄ±l Ã¶nce inÅŸa edilmiÅŸ\Nolan binalarÄ±n Ã¼stÃ¼ne yapÄ±ldÄ±.
+Dialogue: 10,0:15:23.28,0:15:28.98,Main-207+,,0,0,0,,Ã‡aÄŸlar Ã¶nce Gemi YapÄ±m AdasÄ± ve\Narka sokaklar, tek bir kara parÃ§asÄ±ydÄ±.
+Dialogue: 10,0:15:28.98,0:15:33.25,Main-207+,,0,0,0,,Ama ÅŸimdi, bÃ¼yÃ¼k bir kÄ±smÄ± su altÄ±nda\NkaldÄ±ÄŸÄ± iÃ§in su ÅŸehri olarak biliniyor.
+Dialogue: 10,0:15:33.79,0:15:36.83,Main-207+,,0,0,0,,Sokaklar tamamen su kanallarÄ± haline geldi.
+Dialogue: 10,0:15:36.83,0:15:40.33,Main-207+,,0,0,0,,Daha doÄŸrusu, yÃ¼kselen su seviyesi deÄŸil.
+Dialogue: 10,0:15:40.33,0:15:43.30,Main-207+,,0,0,0,,AdanÄ±n kendisi batÄ±yor.
+Dialogue: 10,0:15:43.30,0:15:47.99,Main-207+,,0,0,0,,Bu durumda ÅŸehrin kalan\NkÄ±sÄ±mlarÄ± da yaÅŸanmaz hale gelecek.
+Dialogue: 10,0:15:47.99,0:15:53.81,Main-207+,,0,0,0,,AnlÄ±yorum. \NSu ÅŸehri sadece gÃ¶stermelik deÄŸil.
 Dialogue: 10,0:15:55.48,0:15:57.29,Main-207+,,0,0,0,,Ama beterin beteri olursa,...
-Dialogue: 10,0:15:57.29,0:16:00.27,Main-207+,,0,0,0,,...her zaman deniz trenine binebilir \Nve başka yere yerleşebilirsiniz!
-Dialogue: 10,0:16:00.27,0:16:04.42,Main-207+,,0,0,0,,Sanırım bunu yapabiliriz! Bugünlerde öyle.
-Dialogue: 10,0:16:04.42,0:16:08.93,Main-207+,,0,0,0,,Deniz treni sadece on yıldır burada.
-Dialogue: 10,0:16:08.93,0:16:13.96,Main-207+,,0,0,0,,Daha öncesinde okyanusu\Ngeçmek o kadar kolay değildi.
+Dialogue: 10,0:15:57.29,0:16:00.27,Main-207+,,0,0,0,,...her zaman deniz trenine binebilir \Nve baÅŸka yere yerleÅŸebilirsiniz!
+Dialogue: 10,0:16:00.27,0:16:04.42,Main-207+,,0,0,0,,SanÄ±rÄ±m bunu yapabiliriz! BugÃ¼nlerde Ã¶yle.
+Dialogue: 10,0:16:04.42,0:16:08.93,Main-207+,,0,0,0,,Deniz treni sadece on yÄ±ldÄ±r burada.
+Dialogue: 10,0:16:08.93,0:16:13.96,Main-207+,,0,0,0,,Daha Ã¶ncesinde okyanusu\NgeÃ§mek o kadar kolay deÄŸildi.
 Dialogue: 10,0:16:13.96,0:16:14.70,Main-207+,,0,0,0,,Ha?
-Dialogue: 10,0:16:15.62,0:16:18.82,Main-207+,,0,0,0,,Doğal olarak, adanın neredeyse\Nhiç girdi çıktı trafiği yoktu.
-Dialogue: 10,0:16:18.82,0:16:22.16,Main-207+,,0,0,0,,Ada sakinlerinin, bir gün adalarının...
-Dialogue: 10,0:16:22.16,0:16:28.18,Main-207+,,0,0,0,,...batarak, dünyadan izole olacağına\Ndair belirsiz bir düşüncesi vardı.
-Dialogue: 10,0:16:39.69,0:16:45.57,Main-207+,,0,0,0,,Deniz treni Üfleyen Tom, adayı iç açıcı\Nolmayan bir gelecekten kurtaran şey oldu.
-Dialogue: 10,0:16:45.57,0:16:49.76,Main-207+,,0,0,0,,Artık herkes, seyire bile ihtiyaç\Nduymadan okyanusun karşısına geçebilir.
-Dialogue: 10,0:16:49.76,0:16:51.99,Main-207+,,0,0,0,,Ne inanılmaz bir başarı!
-Dialogue: 10,0:16:53.61,0:16:58.75,Main-207+,,0,0,0,,Her şey, deniz treninin yaratıcısı, büyük bir gemi yapımcısı olan Tom sayesinde oldu.
-Dialogue: 10,0:17:00.19,0:17:04.16,Main-207+,,0,0,0,,O adam hepimizi kurtardı.
+Dialogue: 10,0:16:15.62,0:16:18.82,Main-207+,,0,0,0,,DoÄŸal olarak, adanÄ±n neredeyse\NhiÃ§ girdi Ã§Ä±ktÄ± trafiÄŸi yoktu.
+Dialogue: 10,0:16:18.82,0:16:22.16,Main-207+,,0,0,0,,Ada sakinlerinin, bir gÃ¼n adalarÄ±nÄ±n...
+Dialogue: 10,0:16:22.16,0:16:28.18,Main-207+,,0,0,0,,...batarak, dÃ¼nyadan izole olacaÄŸÄ±na\Ndair belirsiz bir dÃ¼ÅŸÃ¼ncesi vardÄ±.
+Dialogue: 10,0:16:39.69,0:16:45.57,Main-207+,,0,0,0,,Deniz treni Ãœfleyen Tom, adayÄ± iÃ§ aÃ§Ä±cÄ±\Nolmayan bir gelecekten kurtaran ÅŸey oldu.
+Dialogue: 10,0:16:45.57,0:16:49.76,Main-207+,,0,0,0,,ArtÄ±k herkes, seyire bile ihtiyaÃ§\Nduymadan okyanusun karÅŸÄ±sÄ±na geÃ§ebilir.
+Dialogue: 10,0:16:49.76,0:16:51.99,Main-207+,,0,0,0,,Ne inanÄ±lmaz bir baÅŸarÄ±!
+Dialogue: 10,0:16:53.61,0:16:58.75,Main-207+,,0,0,0,,Her ÅŸey, deniz treninin yaratÄ±cÄ±sÄ±, bÃ¼yÃ¼k bir gemi yapÄ±mcÄ±sÄ± olan Tom sayesinde oldu.
+Dialogue: 10,0:17:00.19,0:17:04.16,Main-207+,,0,0,0,,O adam hepimizi kurtardÄ±.
 Dialogue: 10,0:17:12.22,0:17:14.10,Main-207+,,0,0,0,,Abi!
-Dialogue: 10,0:17:17.18,0:17:18.48,Main-207+,,0,0,0,,Yardım...
-Dialogue: 10,0:17:24.39,0:17:27.87,Main-207+,,0,0,0,,Sizin için abiye merhaba diyeceğim.
-Dialogue: 10,0:17:38.96,0:17:40.46,Main-207+,,0,0,0,,Yeri öğrendik.
+Dialogue: 10,0:17:17.18,0:17:18.48,Main-207+,,0,0,0,,YardÄ±m...
+Dialogue: 10,0:17:24.39,0:17:27.87,Main-207+,,0,0,0,,Sizin iÃ§in abiye merhaba diyeceÄŸim.
+Dialogue: 10,0:17:38.96,0:17:40.46,Main-207+,,0,0,0,,Yeri Ã¶ÄŸrendik.
 Dialogue: 10,0:17:45.46,0:17:46.21,Main-207+,,0,0,0,,Gidelim.
 Dialogue: 10,0:18:05.17,0:18:06.23,Main-207+,,0,0,0,,Ahhh!
-Dialogue: 10,0:18:10.20,0:18:13.24,Main-207+,,0,0,0,,Hey, kardeş.
+Dialogue: 10,0:18:10.20,0:18:13.24,Main-207+,,0,0,0,,Hey, kardeÅŸ.
 Dialogue: 10,0:18:13.24,0:18:13.86,Main-207+,,0,0,0,,Ha?
-Dialogue: 10,0:18:14.54,0:18:16.07,Main-207+,,0,0,0,,Doğrudan konuya gireceğim.
-Dialogue: 10,0:18:16.69,0:18:19.59,Main-207+,,0,0,0,,Gemiyi tamir edince ne yapacaksın?
-Dialogue: 10,0:18:20.23,0:18:21.55,Main-207+,,0,0,0,,Ne mi yapacağım?
-Dialogue: 10,0:18:21.55,0:18:23.80,Main-207+,,0,0,0,,Doğal olarak onunla daha fazla maceraya çıkacağım!
-Dialogue: 10,0:18:23.80,0:18:26.84,Main-207+,,0,0,0,,Sonra bir gün, Doğu Mavi'ye geri döneceğim!
-Dialogue: 10,0:18:27.81,0:18:30.30,Main-207+,,0,0,0,,Elbette bütün dünyayı dolaşacak değilim.
-Dialogue: 10,0:18:30.30,0:18:32.84,Main-207+,,0,0,0,,Ama bu Grand Line'dan geçmiş bir gemi!
-Dialogue: 10,0:18:32.84,0:18:35.98,Main-207+,,0,0,0,,Dönüş muhteşem bir yolculuk olacak!
+Dialogue: 10,0:18:14.54,0:18:16.07,Main-207+,,0,0,0,,DoÄŸrudan konuya gireceÄŸim.
+Dialogue: 10,0:18:16.69,0:18:19.59,Main-207+,,0,0,0,,Gemiyi tamir edince ne yapacaksÄ±n?
+Dialogue: 10,0:18:20.23,0:18:21.55,Main-207+,,0,0,0,,Ne mi yapacaÄŸÄ±m?
+Dialogue: 10,0:18:21.55,0:18:23.80,Main-207+,,0,0,0,,DoÄŸal olarak onunla daha fazla maceraya Ã§Ä±kacaÄŸÄ±m!
+Dialogue: 10,0:18:23.80,0:18:26.84,Main-207+,,0,0,0,,Sonra bir gÃ¼n, DoÄŸu Mavi'ye geri dÃ¶neceÄŸim!
+Dialogue: 10,0:18:27.81,0:18:30.30,Main-207+,,0,0,0,,Elbette bÃ¼tÃ¼n dÃ¼nyayÄ± dolaÅŸacak deÄŸilim.
+Dialogue: 10,0:18:30.30,0:18:32.84,Main-207+,,0,0,0,,Ama bu Grand Line'dan geÃ§miÅŸ bir gemi!
+Dialogue: 10,0:18:32.84,0:18:35.98,Main-207+,,0,0,0,,DÃ¶nÃ¼ÅŸ muhteÅŸem bir yolculuk olacak!
 Dialogue: 10,0:18:35.98,0:18:37.48,Main-207+,,0,0,0,,Gururla-
-Dialogue: 10,0:18:37.48,0:18:40.06,Main-207+,,0,0,0,,Hayır, asla başaramayacaksın.
-Dialogue: 10,0:18:40.60,0:18:42.73,Main-207+,,0,0,0,,Doğu Mavi'ye dönemeyeceksin.
-Dialogue: 10,0:18:43.75,0:18:45.81,Main-207+,,0,0,0,,Çok uzak.
+Dialogue: 10,0:18:37.48,0:18:40.06,Main-207+,,0,0,0,,HayÄ±r, asla baÅŸaramayacaksÄ±n.
+Dialogue: 10,0:18:40.60,0:18:42.73,Main-207+,,0,0,0,,DoÄŸu Mavi'ye dÃ¶nemeyeceksin.
+Dialogue: 10,0:18:43.75,0:18:45.81,Main-207+,,0,0,0,,Ã‡ok uzak.
 Dialogue: 10,0:18:50.15,0:18:51.07,Main-207+,,0,0,0,,Abi!
-Dialogue: 10,0:18:52.99,0:18:56.57,Main-207+,,0,0,0,,Demin gemiyi buraya çıkarırken,...
-Dialogue: 10,0:18:56.57,0:18:58.95,Main-207+,,0,0,0,,...iyice bakma fırsatım oldu.
-Dialogue: 10,0:18:58.95,0:19:01.20,Main-207+,,0,0,0,,O geminin işi bitmiş.
-Dialogue: 10,0:19:01.20,0:19:03.90,Main-207+,,0,0,0,,Galley-La'nın tespiti doğruymuş.
-Dialogue: 10,0:19:03.90,0:19:06.30,Main-207+,,0,0,0,,Hurdacı olarak,...
-Dialogue: 10,0:19:06.30,0:19:08.00,Main-207+,,0,0,0,,...onu parçalamanı öneririm.
-Dialogue: 10,0:19:08.71,0:19:10.92,Main-207+,,0,0,0,,Ne? Bırak saçmalamayı!
-Dialogue: 10,0:19:11.30,0:19:15.33,Main-207+,,0,0,0,,Sana yardım edeyim.\NNasıl yapılacağını göstereceğim.
+Dialogue: 10,0:18:52.99,0:18:56.57,Main-207+,,0,0,0,,Demin gemiyi buraya Ã§Ä±karÄ±rken,...
+Dialogue: 10,0:18:56.57,0:18:58.95,Main-207+,,0,0,0,,...iyice bakma fÄ±rsatÄ±m oldu.
+Dialogue: 10,0:18:58.95,0:19:01.20,Main-207+,,0,0,0,,O geminin iÅŸi bitmiÅŸ.
+Dialogue: 10,0:19:01.20,0:19:03.90,Main-207+,,0,0,0,,Galley-La'nÄ±n tespiti doÄŸruymuÅŸ.
+Dialogue: 10,0:19:03.90,0:19:06.30,Main-207+,,0,0,0,,HurdacÄ± olarak,...
+Dialogue: 10,0:19:06.30,0:19:08.00,Main-207+,,0,0,0,,...onu parÃ§alamanÄ± Ã¶neririm.
+Dialogue: 10,0:19:08.71,0:19:10.92,Main-207+,,0,0,0,,Ne? BÄ±rak saÃ§malamayÄ±!
+Dialogue: 10,0:19:11.30,0:19:15.33,Main-207+,,0,0,0,,Sana yardÄ±m edeyim.\NNasÄ±l yapÄ±lacaÄŸÄ±nÄ± gÃ¶stereceÄŸim.
 Dialogue: 10,0:19:15.33,0:19:18.26,Main-207+,,0,0,0,,Ne? Sen neden bahsediyorsun, pislik?!
-Dialogue: 10,0:19:19.99,0:19:22.05,Main-207+,,0,0,0,,Dur, ne yapıyorsun?!
+Dialogue: 10,0:19:19.99,0:19:22.05,Main-207+,,0,0,0,,Dur, ne yapÄ±yorsun?!
 Dialogue: 10,0:19:22.05,0:19:23.56,Main-207+,,0,0,0,,Dur!
 Dialogue: 10,0:19:23.56,0:19:24.43,Main-207+,,0,0,0,,Abi!
-Dialogue: 10,0:19:24.43,0:19:28.66,Main-207+,,0,0,0,,Gemini parçalamana yardım edeceğimi söyledim.
-Dialogue: 10,0:19:28.66,0:19:32.32,Main-207+,,0,0,0,,Saçmalama!\NBunu yapmana izin vermeyeceğim!
+Dialogue: 10,0:19:24.43,0:19:28.66,Main-207+,,0,0,0,,Gemini parÃ§alamana yardÄ±m edeceÄŸimi sÃ¶yledim.
+Dialogue: 10,0:19:28.66,0:19:32.32,Main-207+,,0,0,0,,SaÃ§malama!\NBunu yapmana izin vermeyeceÄŸim!
 Dialogue: 10,0:19:32.95,0:19:35.32,Main-207+,,0,0,0,,Merry benim gemim!
-Dialogue: 10,0:19:35.61,0:19:38.57,Main-207+,,0,0,0,,Hayır. O artık...
-Dialogue: 10,0:19:38.57,0:19:41.03,Main-207+,,0,0,0,,...bir gemi değil.
+Dialogue: 10,0:19:35.61,0:19:38.57,Main-207+,,0,0,0,,HayÄ±r. O artÄ±k...
+Dialogue: 10,0:19:38.57,0:19:41.03,Main-207+,,0,0,0,,...bir gemi deÄŸil.
 Dialogue: 10,0:19:41.36,0:19:42.22,Main-207+,,0,0,0,,Ne?!
 Dialogue: 10,0:19:42.87,0:19:44.37,Main-207+,,0,0,0,,Ne dedin?
-Dialogue: 10,0:19:44.37,0:19:50.47,Main-207+,,0,0,0,,Demin gemiyi tamir edince ne\Nyapacaksın diye sormuştum.
-Dialogue: 10,0:19:50.47,0:19:55.89,Main-207+,,0,0,0,,Geminle birlikte ölmek istiyor olsaydın,...
-Dialogue: 10,0:19:55.89,0:19:59.09,Main-207+,,0,0,0,,...hiçbir şey söylemezdim.
-Dialogue: 10,0:19:59.51,0:20:05.64,Main-207+,,0,0,0,,Ancak Doğu Mavi'ye döneceğini söyledin.
-Dialogue: 10,0:20:05.64,0:20:09.69,Main-207+,,0,0,0,,Bu yüzden seni durdurmak zorundayım, kardeş.
-Dialogue: 10,0:20:11.71,0:20:16.78,Main-207+,,0,0,0,,Bu gemi artık\Nbir başka kıyı göremeyecek.
-Dialogue: 10,0:20:17.35,0:20:24.38,Main-207+,,0,0,0,,Dinle. Gemilerin bir amacı vardır.\NSeni bir kıyıdan alıp, diğerine götürürler.
-Dialogue: 10,0:20:24.38,0:20:27.67,Main-207+,,0,0,0,,Bu sorumlulukla doğarlar.
-Dialogue: 10,0:20:27.67,0:20:32.13,Main-207+,,0,0,0,,Yani, artık kimseyi taşıyamayan bir gemi...
+Dialogue: 10,0:19:44.37,0:19:50.47,Main-207+,,0,0,0,,Demin gemiyi tamir edince ne\NyapacaksÄ±n diye sormuÅŸtum.
+Dialogue: 10,0:19:50.47,0:19:55.89,Main-207+,,0,0,0,,Geminle birlikte Ã¶lmek istiyor olsaydÄ±n,...
+Dialogue: 10,0:19:55.89,0:19:59.09,Main-207+,,0,0,0,,...hiÃ§bir ÅŸey sÃ¶ylemezdim.
+Dialogue: 10,0:19:59.51,0:20:05.64,Main-207+,,0,0,0,,Ancak DoÄŸu Mavi'ye dÃ¶neceÄŸini sÃ¶yledin.
+Dialogue: 10,0:20:05.64,0:20:09.69,Main-207+,,0,0,0,,Bu yÃ¼zden seni durdurmak zorundayÄ±m, kardeÅŸ.
+Dialogue: 10,0:20:11.71,0:20:16.78,Main-207+,,0,0,0,,Bu gemi artÄ±k\Nbir baÅŸka kÄ±yÄ± gÃ¶remeyecek.
+Dialogue: 10,0:20:17.35,0:20:24.38,Main-207+,,0,0,0,,Dinle. Gemilerin bir amacÄ± vardÄ±r.\NSeni bir kÄ±yÄ±dan alÄ±p, diÄŸerine gÃ¶tÃ¼rÃ¼rler.
+Dialogue: 10,0:20:24.38,0:20:27.67,Main-207+,,0,0,0,,Bu sorumlulukla doÄŸarlar.
+Dialogue: 10,0:20:27.67,0:20:32.13,Main-207+,,0,0,0,,Yani, artÄ±k kimseyi taÅŸÄ±yamayan bir gemi...
 Dialogue: 10,0:20:35.63,0:20:37.13,Main-207+,,0,0,0,,Hey!
 Dialogue: 10,0:20:37.13,0:20:38.80,Main-207+,,0,0,0,,Dur!
-Dialogue: 10,0:20:38.80,0:20:42.05,Main-207+,,0,0,0,,Kimseyi taşıyamazsa,...
-Dialogue: 10,0:20:42.05,0:20:43.93,Main-207+,,0,0,0,,...artık gemi değildir!
+Dialogue: 10,0:20:38.80,0:20:42.05,Main-207+,,0,0,0,,Kimseyi taÅŸÄ±yamazsa,...
+Dialogue: 10,0:20:42.05,0:20:43.93,Main-207+,,0,0,0,,...artÄ±k gemi deÄŸildir!
 Dialogue: 10,0:20:45.43,0:20:46.77,Main-207+,,0,0,0,,Abi!
-Dialogue: 10,0:20:53.65,0:20:57.78,Main-207+,,0,0,0,,KES ŞUNU!
+Dialogue: 10,0:20:53.65,0:20:57.78,Main-207+,,0,0,0,,KES ÅUNU!
 Dialogue: 10,0:21:08.54,0:21:12.54,Main-207+,,0,0,0,,Seni pislik! Merry'den uzak dur!
-Dialogue: 10,0:21:23.59,0:21:26.38,Main-207+,,0,0,0,,Lanet olası!
-Dialogue: 10,0:21:27.76,0:21:30.19,Main-207+,,0,0,0,,Bir türlü anlamıyorsun!
-Dialogue: 10,0:21:35.07,0:21:40.36,Main-207+,,0,0,0,,Kendi gözlerinle bak!
+Dialogue: 10,0:21:23.59,0:21:26.38,Main-207+,,0,0,0,,Lanet olasÄ±!
+Dialogue: 10,0:21:27.76,0:21:30.19,Main-207+,,0,0,0,,Bir tÃ¼rlÃ¼ anlamÄ±yorsun!
+Dialogue: 10,0:21:35.07,0:21:40.36,Main-207+,,0,0,0,,Kendi gÃ¶zlerinle bak!
 Dialogue: 10,0:24:24.59,0:24:26.67,Main-207+,,0,0,0,,Affet beni, Merry.
-Dialogue: 10,0:24:30.93,0:24:32.32,Main-207+,,0,0,0,,Seni tamir edeceğim.
-Dialogue: 10,0:24:32.93,0:24:35.91,Main-207+,,0,0,0,,Seni tamir edeceğim. Seni...
-Dialogue: 10,0:24:37.32,0:24:38.58,Main-207+,,0,0,0,,...kaç kez,...
-Dialogue: 10,0:24:39.40,0:24:43.04,Main-207+,,0,0,0,,...kaç kez gerekirse gereksin\Ntamir edeceğim!
+Dialogue: 10,0:24:30.93,0:24:32.32,Main-207+,,0,0,0,,Seni tamir edeceÄŸim.
+Dialogue: 10,0:24:32.93,0:24:35.91,Main-207+,,0,0,0,,Seni tamir edeceÄŸim. Seni...
+Dialogue: 10,0:24:37.32,0:24:38.58,Main-207+,,0,0,0,,...kaÃ§ kez,...
+Dialogue: 10,0:24:39.40,0:24:43.04,Main-207+,,0,0,0,,...kaÃ§ kez gerekirse gereksin\Ntamir edeceÄŸim!
 Dialogue: 10,0:24:44.06,0:24:46.01,Main-207+,,0,0,0,,Ne olursa olsun!
-Dialogue: 10,0:24:49.68,0:24:52.92,Main-207+,,0,0,0,,Hey! Vazgeç artık, uzun burun!
-Dialogue: 10,0:24:52.92,0:24:54.80,Main-207+,,0,0,0,,Geminin altını gördün!
-Dialogue: 10,0:24:54.80,0:24:59.73,Main-207+,,0,0,0,,Karinası ortadan çatlamış, kaplama yerinden sökülüyor ve yanları da berbat durumda.
-Dialogue: 10,0:24:59.73,0:25:03.31,Main-207+,,0,0,0,,Tekne kısmı bu durumdayken,\Ntek bir dalgadan bile sağ çıkamaz!
-Dialogue: 10,0:25:03.87,0:25:07.07,Main-207+,,0,0,0,,Yama işinin amatörlüğünden bahsetmiyorum bile!
-Dialogue: 10,0:25:15.59,0:25:18.05,Main-207+,,0,0,0,,Kapa şu aptal çeneni!
-Dialogue: 10,0:25:18.05,0:25:20.75,Main-207+,,0,0,0,,Sana yeterince katlandım!
-Dialogue: 10,0:25:20.75,0:25:24.84,Main-207+,,0,0,0,,Bir kelime daha edersen canına\Nokurum, aşağılık hergele!
+Dialogue: 10,0:24:49.68,0:24:52.92,Main-207+,,0,0,0,,Hey! VazgeÃ§ artÄ±k, uzun burun!
+Dialogue: 10,0:24:52.92,0:24:54.80,Main-207+,,0,0,0,,Geminin altÄ±nÄ± gÃ¶rdÃ¼n!
+Dialogue: 10,0:24:54.80,0:24:59.73,Main-207+,,0,0,0,,KarinasÄ± ortadan Ã§atlamÄ±ÅŸ, kaplama yerinden sÃ¶kÃ¼lÃ¼yor ve yanlarÄ± da berbat durumda.
+Dialogue: 10,0:24:59.73,0:25:03.31,Main-207+,,0,0,0,,Tekne kÄ±smÄ± bu durumdayken,\Ntek bir dalgadan bile saÄŸ Ã§Ä±kamaz!
+Dialogue: 10,0:25:03.87,0:25:07.07,Main-207+,,0,0,0,,Yama iÅŸinin amatÃ¶rlÃ¼ÄŸÃ¼nden bahsetmiyorum bile!
+Dialogue: 10,0:25:15.59,0:25:18.05,Main-207+,,0,0,0,,Kapa ÅŸu aptal Ã§eneni!
+Dialogue: 10,0:25:18.05,0:25:20.75,Main-207+,,0,0,0,,Sana yeterince katlandÄ±m!
+Dialogue: 10,0:25:20.75,0:25:24.84,Main-207+,,0,0,0,,Bir kelime daha edersen canÄ±na\Nokurum, aÅŸaÄŸÄ±lÄ±k hergele!
 Dialogue: 10,0:25:34.19,0:25:35.01,Main-207+,,0,0,0,,B...
 Dialogue: 10,0:25:38.19,0:25:39.84,Main-207+,,0,0,0,,Ben...
 Dialogue: 10,0:25:41.55,0:25:43.86,Main-207+,,0,0,0,,...b-b-bunu zaten biliyorum.
 Dialogue: 10,0:25:43.86,0:25:46.57,Main-207+,,0,0,0,,Ha? Ne dedin?!
 Dialogue: 10,0:25:47.46,0:25:48.65,Main-207+,,0,0,0,,Ben...
-Dialogue: 10,0:25:51.23,0:25:54.89,Main-207+,,0,0,0,,...aslında bunları zaten biliyorum.
-Dialogue: 10,0:25:56.58,0:26:01.41,Main-207+,,0,0,0,,Ben zaten Merry'nin işinin bittiğini biliyorum!
+Dialogue: 10,0:25:51.23,0:25:54.89,Main-207+,,0,0,0,,...aslÄ±nda bunlarÄ± zaten biliyorum.
+Dialogue: 10,0:25:56.58,0:26:01.41,Main-207+,,0,0,0,,Ben zaten Merry'nin iÅŸinin bittiÄŸini biliyorum!
 Dialogue: 10,0:26:06.19,0:26:07.58,Main-207+,,0,0,0,,Ben...
-Dialogue: 10,0:26:09.21,0:26:12.55,Main-207+,,0,0,0,,...aslında zaten biliyordum.
-Dialogue: 10,0:26:13.72,0:26:16.39,Main-207+,,0,0,0,,Tespitin sonuçlarını duyunca,...
-Dialogue: 10,0:26:16.91,0:26:22.00,Main-207+,,0,0,0,,...o gün gördüğüm şey doğrulanmış oldu.
-Dialogue: 10,0:26:23.12,0:26:26.84,Main-207+,,0,0,0,,Başlangıçta sadece hayal gibi gelmişti.
-Dialogue: 10,0:26:26.84,0:26:30.05,Main-207+,,0,0,0,,Gerçekte böyle bir şeyin olabilmesinin\Nmümkün olmadığını sanmıştım.
-Dialogue: 10,0:26:31.73,0:26:36.84,Main-207+,,0,0,0,,Ama o sisli ve mehtaplı gecede,...
-Dialogue: 10,0:26:36.84,0:26:39.83,Main-207+,,0,0,0,,...bir tokmak vuruşunun sesini duydum.
-Dialogue: 10,0:26:40.47,0:26:45.38,Main-207+,,0,0,0,,Boş geminin olduğu yönden geliyordu.
-Dialogue: 10,0:26:46.04,0:26:52.76,Main-207+,,0,0,0,,Sonra sesin geminin kendisinden geldiğini farkettim.
-Dialogue: 10,0:26:53.37,0:26:57.60,Main-207+,,0,0,0,,Çok fazla sis vardı ama kesinlikle orada...
-Dialogue: 10,0:26:57.60,0:27:00.10,Main-207+,,0,0,0,,...elinde tokmak olan biri vardı.
-Dialogue: 10,0:27:00.10,0:27:04.02,Main-207+,,0,0,0,,Kim olduğunu asla göremedim.
+Dialogue: 10,0:26:09.21,0:26:12.55,Main-207+,,0,0,0,,...aslÄ±nda zaten biliyordum.
+Dialogue: 10,0:26:13.72,0:26:16.39,Main-207+,,0,0,0,,Tespitin sonuÃ§larÄ±nÄ± duyunca,...
+Dialogue: 10,0:26:16.91,0:26:22.00,Main-207+,,0,0,0,,...o gÃ¼n gÃ¶rdÃ¼ÄŸÃ¼m ÅŸey doÄŸrulanmÄ±ÅŸ oldu.
+Dialogue: 10,0:26:23.12,0:26:26.84,Main-207+,,0,0,0,,BaÅŸlangÄ±Ã§ta sadece hayal gibi gelmiÅŸti.
+Dialogue: 10,0:26:26.84,0:26:30.05,Main-207+,,0,0,0,,GerÃ§ekte bÃ¶yle bir ÅŸeyin olabilmesinin\NmÃ¼mkÃ¼n olmadÄ±ÄŸÄ±nÄ± sanmÄ±ÅŸtÄ±m.
+Dialogue: 10,0:26:31.73,0:26:36.84,Main-207+,,0,0,0,,Ama o sisli ve mehtaplÄ± gecede,...
+Dialogue: 10,0:26:36.84,0:26:39.83,Main-207+,,0,0,0,,...bir tokmak vuruÅŸunun sesini duydum.
+Dialogue: 10,0:26:40.47,0:26:45.38,Main-207+,,0,0,0,,BoÅŸ geminin olduÄŸu yÃ¶nden geliyordu.
+Dialogue: 10,0:26:46.04,0:26:52.76,Main-207+,,0,0,0,,Sonra sesin geminin kendisinden geldiÄŸini farkettim.
+Dialogue: 10,0:26:53.37,0:26:57.60,Main-207+,,0,0,0,,Ã‡ok fazla sis vardÄ± ama kesinlikle orada...
+Dialogue: 10,0:26:57.60,0:27:00.10,Main-207+,,0,0,0,,...elinde tokmak olan biri vardÄ±.
+Dialogue: 10,0:27:00.10,0:27:04.02,Main-207+,,0,0,0,,Kim olduÄŸunu asla gÃ¶remedim.
 Dialogue: 10,0:27:06.29,0:27:09.27,Main-207+,,0,0,0,,Ama ertesi sabah,...
-Dialogue: 10,0:27:09.27,0:27:13.25,Main-207+,,0,0,0,,...geminin kabaca tamir edilmiş olduğunu gördük.
-Dialogue: 10,0:27:13.25,0:27:16.07,Main-207+,,0,0,0,,Kırılan direk bile tamir edilmişti.
-Dialogue: 10,0:27:16.07,0:27:19.58,Main-207+,,0,0,0,,Ama anlamadığım bir şey vardı.
-Dialogue: 10,0:27:20.74,0:27:26.71,Main-207+,,0,0,0,,Merry'yi kim tamir ettiyse, \Nönceden neye benzediğini biliyordu.
-Dialogue: 10,0:27:26.71,0:27:29.73,Main-207+,,0,0,0,,Yaptığımız tüm değişikliklere rağmen,...
-Dialogue: 10,0:27:29.73,0:27:33.57,Main-207+,,0,0,0,,...Merry asıl görünümüne dönmüştü!
-Dialogue: 10,0:27:36.41,0:27:38.51,Main-207+,,0,0,0,,Olup biten her şey çok tuhaftı.
-Dialogue: 10,0:27:38.51,0:27:42.06,Main-207+,,0,0,0,,Nasılsa, asla unutamayacağım bir şey duydum.
-Dialogue: 10,0:27:42.90,0:27:47.52,Main-207+,,0,0,0,,Gerçekten biri konuşuyor muydu yoksa\Nsadece bana mı öyle geldi, bilmiyorum.
-Dialogue: 10,0:27:49.42,0:27:50.48,Flashbacks-207+,,0,0,0,,Endişelenme.
-Dialogue: 10,0:27:53.51,0:27:56.82,Flashbacks-207+,,0,0,0,,{\t(1500,3290,1,\3c&HF9F7F6&\4c&HF9F7F6&)}Sizleri biraz daha taşıyacağım.
+Dialogue: 10,0:27:09.27,0:27:13.25,Main-207+,,0,0,0,,...geminin kabaca tamir edilmiÅŸ olduÄŸunu gÃ¶rdÃ¼k.
+Dialogue: 10,0:27:13.25,0:27:16.07,Main-207+,,0,0,0,,KÄ±rÄ±lan direk bile tamir edilmiÅŸti.
+Dialogue: 10,0:27:16.07,0:27:19.58,Main-207+,,0,0,0,,Ama anlamadÄ±ÄŸÄ±m bir ÅŸey vardÄ±.
+Dialogue: 10,0:27:20.74,0:27:26.71,Main-207+,,0,0,0,,Merry'yi kim tamir ettiyse, \NÃ¶nceden neye benzediÄŸini biliyordu.
+Dialogue: 10,0:27:26.71,0:27:29.73,Main-207+,,0,0,0,,YaptÄ±ÄŸÄ±mÄ±z tÃ¼m deÄŸiÅŸikliklere raÄŸmen,...
+Dialogue: 10,0:27:29.73,0:27:33.57,Main-207+,,0,0,0,,...Merry asÄ±l gÃ¶rÃ¼nÃ¼mÃ¼ne dÃ¶nmÃ¼ÅŸtÃ¼!
+Dialogue: 10,0:27:36.41,0:27:38.51,Main-207+,,0,0,0,,Olup biten her ÅŸey Ã§ok tuhaftÄ±.
+Dialogue: 10,0:27:38.51,0:27:42.06,Main-207+,,0,0,0,,NasÄ±lsa, asla unutamayacaÄŸÄ±m bir ÅŸey duydum.
+Dialogue: 10,0:27:42.90,0:27:47.52,Main-207+,,0,0,0,,GerÃ§ekten biri konuÅŸuyor muydu yoksa\Nsadece bana mÄ± Ã¶yle geldi, bilmiyorum.
+Dialogue: 10,0:27:49.42,0:27:50.48,Flashbacks-207+,,0,0,0,,EndiÅŸelenme.
+Dialogue: 10,0:27:53.51,0:27:56.82,Flashbacks-207+,,0,0,0,,{\t(1500,3290,1,\3c&HF9F7F6&\4c&HF9F7F6&)}Sizleri biraz daha taÅŸÄ±yacaÄŸÄ±m.
 Dialogue: 10,0:27:58.85,0:28:01.15,Main-207+,,0,0,0,,Belki deli olabilirim...
-Dialogue: 10,0:28:01.22,0:28:08.88,Main-207+,,0,0,0,,...ama sanırım o, \NMerry'nin vücut bulmuş haliydi.
-Dialogue: 10,0:28:13.33,0:28:17.80,Main-207+,,0,0,0,,Kesinlikle o zamandan beri\Ngemi sınırına yaklaşıyordu...
-Dialogue: 10,0:28:17.80,0:28:23.37,Main-207+,,0,0,0,,...ve bilmemiz için o şekilde göründü.
-Dialogue: 10,0:28:25.57,0:28:29.60,Main-207+,,0,0,0,,Tespitin sonuçlarını duyunca böyle düşündüm.
-Dialogue: 10,0:28:33.57,0:28:37.61,Main-207+,,0,0,0,,Muhtemelen kafayı sıyırdığımı düşünüyorsun.\NBana inanıp inanmaman umrumda değil.
+Dialogue: 10,0:28:01.22,0:28:08.88,Main-207+,,0,0,0,,...ama sanÄ±rÄ±m o, \NMerry'nin vÃ¼cut bulmuÅŸ haliydi.
+Dialogue: 10,0:28:13.33,0:28:17.80,Main-207+,,0,0,0,,Kesinlikle o zamandan beri\Ngemi sÄ±nÄ±rÄ±na yaklaÅŸÄ±yordu...
+Dialogue: 10,0:28:17.80,0:28:23.37,Main-207+,,0,0,0,,...ve bilmemiz iÃ§in o ÅŸekilde gÃ¶rÃ¼ndÃ¼.
+Dialogue: 10,0:28:25.57,0:28:29.60,Main-207+,,0,0,0,,Tespitin sonuÃ§larÄ±nÄ± duyunca bÃ¶yle dÃ¼ÅŸÃ¼ndÃ¼m.
+Dialogue: 10,0:28:33.57,0:28:37.61,Main-207+,,0,0,0,,Muhtemelen kafayÄ± sÄ±yÄ±rdÄ±ÄŸÄ±mÄ± dÃ¼ÅŸÃ¼nÃ¼yorsun.\NBana inanÄ±p inanmaman umrumda deÄŸil.
 Dialogue: 10,0:28:40.45,0:28:41.70,Main-207+,,0,0,0,,Abi?
-Dialogue: 10,0:28:42.51,0:28:44.62,Main-207+,,0,0,0,,Şimdilik ne düşündüğümü unut.
-Dialogue: 10,0:28:45.07,0:28:49.67,Main-207+,,0,0,0,,Tokmak taşıyan bir denizci\Ngibi görünüyordu, değil mi?
+Dialogue: 10,0:28:42.51,0:28:44.62,Main-207+,,0,0,0,,Åimdilik ne dÃ¼ÅŸÃ¼ndÃ¼ÄŸÃ¼mÃ¼ unut.
+Dialogue: 10,0:28:45.07,0:28:49.67,Main-207+,,0,0,0,,Tokmak taÅŸÄ±yan bir denizci\Ngibi gÃ¶rÃ¼nÃ¼yordu, deÄŸil mi?
 Dialogue: 10,0:28:50.13,0:28:52.22,Main-207+,,0,0,0,,Ne?
-Dialogue: 10,0:28:52.22,0:28:53.25,Main-207+,,0,0,0,,Nasıl bildin?
-Dialogue: 10,0:28:54.91,0:28:56.63,Main-207+,,0,0,0,,Evet kardeş,...
-Dialogue: 10,0:28:56.63,0:28:59.43,Main-207+,,0,0,0,,...gördüğün şey, klabautermann'dı.
+Dialogue: 10,0:28:52.22,0:28:53.25,Main-207+,,0,0,0,,NasÄ±l bildin?
+Dialogue: 10,0:28:54.91,0:28:56.63,Main-207+,,0,0,0,,Evet kardeÅŸ,...
+Dialogue: 10,0:28:56.63,0:28:59.43,Main-207+,,0,0,0,,...gÃ¶rdÃ¼ÄŸÃ¼n ÅŸey, klabautermann'dÄ±.
 Dialogue: 10,0:29:00.11,0:29:02.12,Main-207+,,0,0,0,,K-Klabau...?
 Dialogue: 10,0:29:03.18,0:29:05.52,Main-207+,,0,0,0,,Klabautermann.
-Dialogue: 10,0:29:05.52,0:29:08.56,Main-207+,,0,0,0,,Denizciler arasında bir efsanedir.
-Dialogue: 10,0:29:09.23,0:29:14.22,Main-207+,,0,0,0,,Gerçekten istendiğinde,\Ngeminin içinde bulunan bir ruh.
-Dialogue: 10,0:29:14.22,0:29:16.62,Main-207+,,0,0,0,,Aslında geminin vücut bulmuş hali.
-Dialogue: 10,0:29:18.47,0:29:22.79,Main-207+,,0,0,0,,Bir tokmak taşır ve denizci yağmurluğu giyer.
-Dialogue: 10,0:29:22.79,0:29:24.47,Main-207+,,0,0,0,,Geminin başı derde girdiğinde,...
-Dialogue: 10,0:29:24.47,0:29:28.04,Main-207+,,0,0,0,,{\t(2504,3570,\c&H000000&)}...herkesi uyarmak için koşuşturur.
-Dialogue: 10,0:29:28.04,0:29:32.42,Main-207+,,0,0,0,,İhtiyaç anında denizcilere yardım ettiği bile söylenir.
-Dialogue: 10,0:29:32.42,0:29:36.84,Main-207+,,0,0,0,,{\q2}Ama dürüst olmak gerekirse, ilk defa birinin\Nonu gerçekten gördüğünü söylediğini duyuyorum.
-Dialogue: 10,0:29:38.82,0:29:43.30,Main-207+,,0,0,0,,Sadece derinden sevilen gemiler,\Ndenizcilerine bu tür bir şükran gösterirler.
-Dialogue: 10,0:29:44.00,0:29:49.27,Main-207+,,0,0,0,,Bu gemi bir şekilde sizi sonraki\Nkıyıya ulaştırmayı başardı.
-Dialogue: 10,0:29:49.27,0:29:54.74,Main-207+,,0,0,0,,İnsan şeklinde bile göründü...
-Dialogue: 10,0:29:54.74,0:29:58.41,Main-207+,,0,0,0,,...ve tayfaya onları taşıyacağını söyledi.
-Dialogue: 10,0:29:58.41,0:30:01.74,Main-207+,,0,0,0,,Bu gemi gerçekten çok mutlu olmalı.
+Dialogue: 10,0:29:05.52,0:29:08.56,Main-207+,,0,0,0,,Denizciler arasÄ±nda bir efsanedir.
+Dialogue: 10,0:29:09.23,0:29:14.22,Main-207+,,0,0,0,,GerÃ§ekten istendiÄŸinde,\Ngeminin iÃ§inde bulunan bir ruh.
+Dialogue: 10,0:29:14.22,0:29:16.62,Main-207+,,0,0,0,,AslÄ±nda geminin vÃ¼cut bulmuÅŸ hali.
+Dialogue: 10,0:29:18.47,0:29:22.79,Main-207+,,0,0,0,,Bir tokmak taÅŸÄ±r ve denizci yaÄŸmurluÄŸu giyer.
+Dialogue: 10,0:29:22.79,0:29:24.47,Main-207+,,0,0,0,,Geminin baÅŸÄ± derde girdiÄŸinde,...
+Dialogue: 10,0:29:24.47,0:29:28.04,Main-207+,,0,0,0,,{\t(2504,3570,\c&H000000&)}...herkesi uyarmak iÃ§in koÅŸuÅŸturur.
+Dialogue: 10,0:29:28.04,0:29:32.42,Main-207+,,0,0,0,,Ä°htiyaÃ§ anÄ±nda denizcilere yardÄ±m ettiÄŸi bile sÃ¶ylenir.
+Dialogue: 10,0:29:32.42,0:29:36.84,Main-207+,,0,0,0,,{\q2}Ama dÃ¼rÃ¼st olmak gerekirse, ilk defa birinin\Nonu gerÃ§ekten gÃ¶rdÃ¼ÄŸÃ¼nÃ¼ sÃ¶ylediÄŸini duyuyorum.
+Dialogue: 10,0:29:38.82,0:29:43.30,Main-207+,,0,0,0,,Sadece derinden sevilen gemiler,\Ndenizcilerine bu tÃ¼r bir ÅŸÃ¼kran gÃ¶sterirler.
+Dialogue: 10,0:29:44.00,0:29:49.27,Main-207+,,0,0,0,,Bu gemi bir ÅŸekilde sizi sonraki\NkÄ±yÄ±ya ulaÅŸtÄ±rmayÄ± baÅŸardÄ±.
+Dialogue: 10,0:29:49.27,0:29:54.74,Main-207+,,0,0,0,,Ä°nsan ÅŸeklinde bile gÃ¶rÃ¼ndÃ¼...
+Dialogue: 10,0:29:54.74,0:29:58.41,Main-207+,,0,0,0,,...ve tayfaya onlarÄ± taÅŸÄ±yacaÄŸÄ±nÄ± sÃ¶yledi.
+Dialogue: 10,0:29:58.41,0:30:01.74,Main-207+,,0,0,0,,Bu gemi gerÃ§ekten Ã§ok mutlu olmalÄ±.
 Dialogue: 10,0:30:06.96,0:30:08.45,Main-207+,,0,0,0,,{\i1}Merry{\i0}...
-Dialogue: 10,0:30:14.08,0:30:15.46,Main-207+,,0,0,0,,Anlıyorum....
+Dialogue: 10,0:30:14.08,0:30:15.46,Main-207+,,0,0,0,,AnlÄ±yorum....
 Dialogue: 10,0:30:16.21,0:30:17.67,Main-207+,,0,0,0,,Demek ki o gece...
-Dialogue: 10,0:30:18.41,0:30:21.17,Main-207+,,0,0,0,,...bana konuşan ses...
-Dialogue: 10,0:30:21.99,0:30:24.01,Main-207+,,0,0,0,,...aslında sendin,...
+Dialogue: 10,0:30:18.41,0:30:21.17,Main-207+,,0,0,0,,...bana konuÅŸan ses...
+Dialogue: 10,0:30:21.99,0:30:24.01,Main-207+,,0,0,0,,...aslÄ±nda sendin,...
 Dialogue: 10,0:30:24.59,0:30:25.86,Main-207+,,0,0,0,,{\i1}Merry{\i0}...
-Dialogue: 10,0:30:35.44,0:30:38.65,Main-207+,,0,0,0,,Gerçi bir türlü anlamıyorum.
-Dialogue: 10,0:30:39.13,0:30:45.60,Main-207+,,0,0,0,,Geminin işinin bittiğini bilmene rağmen,\N tayfanla mı dövüştün?
-Dialogue: 10,0:30:47.85,0:30:50.50,Main-207+,,0,0,0,,O kadar basit değil.
-Dialogue: 10,0:30:50.87,0:30:54.28,Main-207+,,0,0,0,,Erkekler çok ahmak!
+Dialogue: 10,0:30:35.44,0:30:38.65,Main-207+,,0,0,0,,GerÃ§i bir tÃ¼rlÃ¼ anlamÄ±yorum.
+Dialogue: 10,0:30:39.13,0:30:45.60,Main-207+,,0,0,0,,Geminin iÅŸinin bittiÄŸini bilmene raÄŸmen,\N tayfanla mÄ± dÃ¶vÃ¼ÅŸtÃ¼n?
+Dialogue: 10,0:30:47.85,0:30:50.50,Main-207+,,0,0,0,,O kadar basit deÄŸil.
+Dialogue: 10,0:30:50.87,0:30:54.28,Main-207+,,0,0,0,,Erkekler Ã§ok ahmak!
 Dialogue: 10,0:30:54.28,0:30:55.92,Main-207+,,0,0,0,,Hepsi aptal!
 Dialogue: 10,0:31:04.73,0:31:06.82,Main-207+,,0,0,0,,Galiba biri geldi.
 Dialogue: 10,0:31:08.00,0:31:12.14,Main-207+,,0,0,0,,"Biri" derken ne demek istiyorsun?\NSadece Zambailer olabilir.
-Dialogue: 10,0:31:12.71,0:31:16.28,Main-207+,,0,0,0,,Ama niye arka girişe geldiler?
-Dialogue: 10,0:31:16.28,0:31:21.00,Main-207+,,0,0,0,,Bilmem.\NHer zaman ana girişi kullanırlar.
-Dialogue: 10,0:31:21.00,0:31:23.86,Main-207+,,0,0,0,,Belki de Hasır Şapka'yı getirmişlerdir!
-Dialogue: 10,0:31:23.86,0:31:25.36,Main-207+,,0,0,0,,Doğru ya!
-Dialogue: 10,0:31:25.36,0:31:29.16,Main-207+,,0,0,0,,Hasır Şapkalar'ı buraya\Nçekmek için seni yem olarak kullanıyordum!
-Dialogue: 10,0:31:29.64,0:31:33.34,Main-207+,,0,0,0,,Gelmeyecekler. Artık arkadaş değiliz!
-Dialogue: 10,0:31:33.34,0:31:34.87,Main-207+,,0,0,0,,Zaten söylemiştim.
-Dialogue: 10,0:31:41.07,0:31:43.80,Main-207+,,0,0,0,,Niye içeri girmiyorlar?
-Dialogue: 10,0:31:44.76,0:31:47.84,Main-207+,,0,0,0,,Tamam, tamam! Hemen açıyorum!
-Dialogue: 10,0:31:49.27,0:31:52.56,Main-207+,,0,0,0,,Tamam, tamam! Sabırlı olun!
-Dialogue: 10,0:31:57.28,0:32:01.02,Main-207+,,0,0,0,,Kardeş, arkadaşlarına geri dön.
-Dialogue: 10,0:32:03.65,0:32:08.00,Main-207+,,0,0,0,,Artık öylece dönemem.\NKaptan'a meydan okudum!
-Dialogue: 10,0:32:08.00,0:32:10.66,Main-207+,,0,0,0,,Ayrıca hala çözülmeyen gemi meselesi var...
-Dialogue: 10,0:32:12.61,0:32:15.00,Main-207+,,0,0,0,,Ne demek çözülmedi?
-Dialogue: 10,0:32:15.00,0:32:20.08,Main-207+,,0,0,0,,Geminin yola çıkamayacağını anladıysan, \Nkonuşulacak ne kaldı ki?
-Dialogue: 10,0:32:24.23,0:32:26.30,Main-207+,,0,0,0,,Gemiyi bana bırak.
-Dialogue: 10,0:32:26.30,0:32:29.18,Main-207+,,0,0,0,,Endişe etme, ben ilgilenirim.
-Dialogue: 10,0:32:29.74,0:32:31.54,Main-207+,,0,0,0,,Demin de dediğim gibi,...
-Dialogue: 10,0:32:31.54,0:32:36.55,Main-207+,,0,0,0,,...yapılabilecek en iyi şey onu parçalara ayırmak olur.
+Dialogue: 10,0:31:12.71,0:31:16.28,Main-207+,,0,0,0,,Ama niye arka giriÅŸe geldiler?
+Dialogue: 10,0:31:16.28,0:31:21.00,Main-207+,,0,0,0,,Bilmem.\NHer zaman ana giriÅŸi kullanÄ±rlar.
+Dialogue: 10,0:31:21.00,0:31:23.86,Main-207+,,0,0,0,,Belki de HasÄ±r Åapka'yÄ± getirmiÅŸlerdir!
+Dialogue: 10,0:31:23.86,0:31:25.36,Main-207+,,0,0,0,,DoÄŸru ya!
+Dialogue: 10,0:31:25.36,0:31:29.16,Main-207+,,0,0,0,,HasÄ±r Åapkalar'Ä± buraya\NÃ§ekmek iÃ§in seni yem olarak kullanÄ±yordum!
+Dialogue: 10,0:31:29.64,0:31:33.34,Main-207+,,0,0,0,,Gelmeyecekler. ArtÄ±k arkadaÅŸ deÄŸiliz!
+Dialogue: 10,0:31:33.34,0:31:34.87,Main-207+,,0,0,0,,Zaten sÃ¶ylemiÅŸtim.
+Dialogue: 10,0:31:41.07,0:31:43.80,Main-207+,,0,0,0,,Niye iÃ§eri girmiyorlar?
+Dialogue: 10,0:31:44.76,0:31:47.84,Main-207+,,0,0,0,,Tamam, tamam! Hemen aÃ§Ä±yorum!
+Dialogue: 10,0:31:49.27,0:31:52.56,Main-207+,,0,0,0,,Tamam, tamam! SabÄ±rlÄ± olun!
+Dialogue: 10,0:31:57.28,0:32:01.02,Main-207+,,0,0,0,,KardeÅŸ, arkadaÅŸlarÄ±na geri dÃ¶n.
+Dialogue: 10,0:32:03.65,0:32:08.00,Main-207+,,0,0,0,,ArtÄ±k Ã¶ylece dÃ¶nemem.\NKaptan'a meydan okudum!
+Dialogue: 10,0:32:08.00,0:32:10.66,Main-207+,,0,0,0,,AyrÄ±ca hala Ã§Ã¶zÃ¼lmeyen gemi meselesi var...
+Dialogue: 10,0:32:12.61,0:32:15.00,Main-207+,,0,0,0,,Ne demek Ã§Ã¶zÃ¼lmedi?
+Dialogue: 10,0:32:15.00,0:32:20.08,Main-207+,,0,0,0,,Geminin yola Ã§Ä±kamayacaÄŸÄ±nÄ± anladÄ±ysan, \NkonuÅŸulacak ne kaldÄ± ki?
+Dialogue: 10,0:32:24.23,0:32:26.30,Main-207+,,0,0,0,,Gemiyi bana bÄ±rak.
+Dialogue: 10,0:32:26.30,0:32:29.18,Main-207+,,0,0,0,,EndiÅŸe etme, ben ilgilenirim.
+Dialogue: 10,0:32:29.74,0:32:31.54,Main-207+,,0,0,0,,Demin de dediÄŸim gibi,...
+Dialogue: 10,0:32:31.54,0:32:36.55,Main-207+,,0,0,0,,...yapÄ±labilecek en iyi ÅŸey onu parÃ§alara ayÄ±rmak olur.
 Dialogue: 10,0:32:36.55,0:32:39.31,Main-207+,,0,0,0,,Gerek yok! Bu benim sorunum!
-Dialogue: 10,0:32:39.31,0:32:43.42,Secondary-207+,,0,0,0,,{\an8}Dediğim gibi! Sizin için onunla ilgileneceğim!
+Dialogue: 10,0:32:39.31,0:32:43.42,Secondary-207+,,0,0,0,,{\an8}DediÄŸim gibi! Sizin iÃ§in onunla ilgileneceÄŸim!
 Dialogue: 10,0:32:40.37,0:32:42.42,Main-207+,,0,0,0,,Zambai?
 Dialogue: 10,0:32:43.42,0:32:44.65,Secondary-207+,,0,0,0,,{\an8}Biraz minnettar ol!
-Dialogue: 10,0:32:44.65,0:32:47.84,Secondary-207+,,0,0,0,,{\an8}Minnettarlık mı? Aptallaşma!
-Dialogue: 10,0:32:48.78,0:32:53.52,Main-207+,,0,0,0,,Anlamıyor musun?\NGemiye de saygısızlık ediyorsun!
-Dialogue: 10,0:32:53.52,0:32:58.02,Main-207+,,0,0,0,,Bu gemi insan şeklinde görünecek\Nkadar hepinizi çok seviyor!
-Dialogue: 10,0:32:58.02,0:33:01.96,Main-207+,,0,0,0,,Devam ederseniz, bir gün okyanusun\Nortasında sizinle birlikte batacak.
-Dialogue: 10,0:33:01.96,0:33:05.40,Main-207+,,0,0,0,,Hey! Bu ölmek için bir yol değil!
-Dialogue: 10,0:33:05.40,0:33:07.42,Main-207+,,0,0,0,,Asla huzur içinde olmayacak!
-Dialogue: 10,0:33:07.85,0:33:11.44,Main-207+,,0,0,0,,O zaman ölmekte olan bir arkadaşın varsa,...
+Dialogue: 10,0:32:44.65,0:32:47.84,Secondary-207+,,0,0,0,,{\an8}MinnettarlÄ±k mÄ±? AptallaÅŸma!
+Dialogue: 10,0:32:48.78,0:32:53.52,Main-207+,,0,0,0,,AnlamÄ±yor musun?\NGemiye de saygÄ±sÄ±zlÄ±k ediyorsun!
+Dialogue: 10,0:32:53.52,0:32:58.02,Main-207+,,0,0,0,,Bu gemi insan ÅŸeklinde gÃ¶rÃ¼necek\Nkadar hepinizi Ã§ok seviyor!
+Dialogue: 10,0:32:58.02,0:33:01.96,Main-207+,,0,0,0,,Devam ederseniz, bir gÃ¼n okyanusun\NortasÄ±nda sizinle birlikte batacak.
+Dialogue: 10,0:33:01.96,0:33:05.40,Main-207+,,0,0,0,,Hey! Bu Ã¶lmek iÃ§in bir yol deÄŸil!
+Dialogue: 10,0:33:05.40,0:33:07.42,Main-207+,,0,0,0,,Asla huzur iÃ§inde olmayacak!
+Dialogue: 10,0:33:07.85,0:33:11.44,Main-207+,,0,0,0,,O zaman Ã¶lmekte olan bir arkadaÅŸÄ±n varsa,...
 Dialogue: 10,0:33:11.44,0:33:15.16,Main-207+,,0,0,0,,...onu son anda terk mi edersin?
-Dialogue: 10,0:33:15.16,0:33:18.81,Main-207+,,0,0,0,,Bahsettiğin şey tamamen farklı!
-Dialogue: 10,0:33:18.81,0:33:21.89,Main-207+,,0,0,0,,Hayır, değil! Aynı şey!
-Dialogue: 10,0:33:21.89,0:33:23.86,Main-207+,,0,0,0,,Bir türlü anlamıyorsun!
+Dialogue: 10,0:33:15.16,0:33:18.81,Main-207+,,0,0,0,,BahsettiÄŸin ÅŸey tamamen farklÄ±!
+Dialogue: 10,0:33:18.81,0:33:21.89,Main-207+,,0,0,0,,HayÄ±r, deÄŸil! AynÄ± ÅŸey!
+Dialogue: 10,0:33:21.89,0:33:23.86,Main-207+,,0,0,0,,Bir tÃ¼rlÃ¼ anlamÄ±yorsun!
 Dialogue: 10,0:33:29.45,0:33:30.91,Main-207+,,0,0,0,,Mozu!
 Dialogue: 10,0:33:36.39,0:33:37.20,Main-207+,,0,0,0,,Kiwi!
-Dialogue: 10,0:33:37.20,0:33:40.12,Main-207+,,0,0,0,,Davetsiz geldiğimiz için kusura bakma.
-Dialogue: 10,0:33:44.61,0:33:48.12,Main-207+,,0,0,0,,Kızlar bizi içeri almak istemedi.
+Dialogue: 10,0:33:37.20,0:33:40.12,Main-207+,,0,0,0,,Davetsiz geldiÄŸimiz iÃ§in kusura bakma.
+Dialogue: 10,0:33:44.61,0:33:48.12,Main-207+,,0,0,0,,KÄ±zlar bizi iÃ§eri almak istemedi.
 Dialogue: 10,0:33:48.12,0:33:52.09,Main-207+,,0,0,0,,Burada ne halt yiyorsunuz?!
 Dialogue: 10,0:33:55.63,0:33:56.31,Main-207+,,0,0,0,,{\fad(150,150)}Tekkai!
-Dialogue: 10,0:33:55.63,0:33:56.31,Attack,,0,0,0,,{\fad(150,150)}Demir Kütle
+Dialogue: 10,0:33:55.63,0:33:56.31,Attack,,0,0,0,,{\fad(150,150)}Demir KÃ¼tle
 Dialogue: 10,0:33:56.31,0:33:58.43,Main-207+,,0,0,0,,Ha? Bu da ne?!
-Dialogue: 10,0:34:02.27,0:34:06.02,Main-207+,,0,0,0,,Blueno! Sen ne yapmaya ça-
+Dialogue: 10,0:34:02.27,0:34:06.02,Main-207+,,0,0,0,,Blueno! Sen ne yapmaya Ã§a-
 Dialogue: 10,0:34:06.62,0:34:10.23,Main-207+,,0,0,0,,Ha? Ah, bu da ne? Seni ukala.
-Dialogue: 10,0:34:10.23,0:34:13.17,Main-207+,,0,0,0,,Benim kim olduğumu sanıyorsun?!
-Dialogue: 10,0:34:14.12,0:34:17.58,Main-207+,,0,0,0,,Benimle kavga etmeye mi çalışıyorsun?
-Dialogue: 10,0:34:20.41,0:34:23.55,Main-207+,,0,0,0,,Sen sadece aşağılık bir barmensin.
-Dialogue: 10,0:34:23.55,0:34:25.88,Main-207+,,0,0,0,,Bu kılık da ne?
-Dialogue: 10,0:34:25.88,0:34:30.09,Main-207+,,0,0,0,,Bugün kendinde değil gibisin! Dinliyor musun?
-Dialogue: 10,0:34:30.09,0:34:30.92,Main-207+,,0,0,0,,Öf.
-Dialogue: 10,0:34:33.10,0:34:34.97,Main-207+,,0,0,0,,Kes şunu, Blueno!
-Dialogue: 10,0:34:42.39,0:34:44.68,Main-207+,,0,0,0,,H-Hey! İ-İyi misin?
-Dialogue: 10,0:34:44.68,0:34:48.39,Main-207+,,0,0,0,,Ölmüş olsaydı ne işimize yarardı? \NGörevimizi unutma.
+Dialogue: 10,0:34:10.23,0:34:13.17,Main-207+,,0,0,0,,Benim kim olduÄŸumu sanÄ±yorsun?!
+Dialogue: 10,0:34:14.12,0:34:17.58,Main-207+,,0,0,0,,Benimle kavga etmeye mi Ã§alÄ±ÅŸÄ±yorsun?
+Dialogue: 10,0:34:20.41,0:34:23.55,Main-207+,,0,0,0,,Sen sadece aÅŸaÄŸÄ±lÄ±k bir barmensin.
+Dialogue: 10,0:34:23.55,0:34:25.88,Main-207+,,0,0,0,,Bu kÄ±lÄ±k da ne?
+Dialogue: 10,0:34:25.88,0:34:30.09,Main-207+,,0,0,0,,BugÃ¼n kendinde deÄŸil gibisin! Dinliyor musun?
+Dialogue: 10,0:34:30.09,0:34:30.92,Main-207+,,0,0,0,,Ã–f.
+Dialogue: 10,0:34:33.10,0:34:34.97,Main-207+,,0,0,0,,Kes ÅŸunu, Blueno!
+Dialogue: 10,0:34:42.39,0:34:44.68,Main-207+,,0,0,0,,H-Hey! Ä°-Ä°yi misin?
+Dialogue: 10,0:34:44.68,0:34:48.39,Main-207+,,0,0,0,,Ã–lmÃ¼ÅŸ olsaydÄ± ne iÅŸimize yarardÄ±? \NGÃ¶revimizi unutma.
 Dialogue: 10,0:34:44.68,0:34:46.12,Secondary-207+,,0,0,0,,{\an8}Kendine gel!
 Dialogue: 10,0:34:48.39,0:34:49.11,Main-207+,,0,0,0,,Afedersin.
 Dialogue: 10,0:34:49.11,0:34:51.44,Main-207+,,0,0,0,,N-N-Neler oluyor?!
-Dialogue: 10,0:34:51.85,0:34:54.91,Main-207+,,0,0,0,,Onlar tersaneden değil mi?!
-Dialogue: 10,0:34:54.91,0:34:57.53,Main-207+,,0,0,0,,Ne? Ondan dayak mı yiyorum?!
+Dialogue: 10,0:34:51.85,0:34:54.91,Main-207+,,0,0,0,,Onlar tersaneden deÄŸil mi?!
+Dialogue: 10,0:34:54.91,0:34:57.53,Main-207+,,0,0,0,,Ne? Ondan dayak mÄ± yiyorum?!
 Dialogue: 10,0:34:57.53,0:34:59.81,Main-207+,,0,0,0,,Neyiniz var sizin?
-Dialogue: 10,0:34:59.81,0:35:02.50,Main-207+,,0,0,0,,"Çok süperim" havaları da ne?
-Dialogue: 10,0:35:02.50,0:35:08.96,Main-207+,,0,0,0,,Himayemdeki masumlarla\Nuğraşmaya nasıl cüret edersiniz?!
-Dialogue: 10,0:35:08.96,0:35:11.05,Main-207+,,0,0,0,,Beni nasıl buldunuz?
-Dialogue: 10,0:35:11.05,0:35:13.42,Main-207+,,0,0,0,,Burası gizli üssüm!
-Dialogue: 10,0:35:13.91,0:35:18.33,Main-207+,,0,0,0,,Bunun konumuzla bir ilgisi yok.\NKısa keseceğim. İyi dinle.
-Dialogue: 10,0:35:18.33,0:35:21.06,Main-207+,,0,0,0,,Bu şehirdeki işimiz sadece göstermelikti.
-Dialogue: 10,0:35:21.49,0:35:24.69,Main-207+,,0,0,0,,Aslında Hükümet'in istihbarat ajanlarıyız.
-Dialogue: 10,0:35:25.48,0:35:28.45,Main-207+,,0,0,0,,Bunun ne anlama geldiğini bildiğinden eminim.
+Dialogue: 10,0:34:59.81,0:35:02.50,Main-207+,,0,0,0,,"Ã‡ok sÃ¼perim" havalarÄ± da ne?
+Dialogue: 10,0:35:02.50,0:35:08.96,Main-207+,,0,0,0,,Himayemdeki masumlarla\NuÄŸraÅŸmaya nasÄ±l cÃ¼ret edersiniz?!
+Dialogue: 10,0:35:08.96,0:35:11.05,Main-207+,,0,0,0,,Beni nasÄ±l buldunuz?
+Dialogue: 10,0:35:11.05,0:35:13.42,Main-207+,,0,0,0,,BurasÄ± gizli Ã¼ssÃ¼m!
+Dialogue: 10,0:35:13.91,0:35:18.33,Main-207+,,0,0,0,,Bunun konumuzla bir ilgisi yok.\NKÄ±sa keseceÄŸim. Ä°yi dinle.
+Dialogue: 10,0:35:18.33,0:35:21.06,Main-207+,,0,0,0,,Bu ÅŸehirdeki iÅŸimiz sadece gÃ¶stermelikti.
+Dialogue: 10,0:35:21.49,0:35:24.69,Main-207+,,0,0,0,,AslÄ±nda HÃ¼kÃ¼met'in istihbarat ajanlarÄ±yÄ±z.
+Dialogue: 10,0:35:25.48,0:35:28.45,Main-207+,,0,0,0,,Bunun ne anlama geldiÄŸini bildiÄŸinden eminim.
 Dialogue: 10,0:35:28.45,0:35:30.90,Main-207+,,0,0,0,,Buna, buraya gelme nedenimiz de dahil.
-Dialogue: 10,0:35:31.28,0:35:34.07,Main-207+,,0,0,0,,Franky, her şeyi biliyoruz.
+Dialogue: 10,0:35:31.28,0:35:34.07,Main-207+,,0,0,0,,Franky, her ÅŸeyi biliyoruz.
 Dialogue: 10,0:35:34.81,0:35:36.91,Main-207+,,0,0,0,,Cutty Flam...
-Dialogue: 10,0:35:36.91,0:35:41.29,Main-207+,,0,0,0,,...sekiz yıl önce öldüğü sanılan,\NTom'un diğer çırağı...
+Dialogue: 10,0:35:36.91,0:35:41.29,Main-207+,,0,0,0,,...sekiz yÄ±l Ã¶nce Ã¶ldÃ¼ÄŸÃ¼ sanÄ±lan,\NTom'un diÄŸer Ã§Ä±raÄŸÄ±...
 Dialogue: 10,0:35:41.96,0:35:43.61,Main-207+,,0,0,0,,...sensin!
-Dialogue: 10,0:35:45.16,0:35:49.31,Main-207+,,0,0,0,,Bunu öğrenebilmenizden etkilendim.
-Dialogue: 10,0:35:49.31,0:35:52.27,Main-207+,,0,0,0,,Aynı zamanda bu durum beni tedirgin ediyor.
+Dialogue: 10,0:35:45.16,0:35:49.31,Main-207+,,0,0,0,,Bunu Ã¶ÄŸrenebilmenizden etkilendim.
+Dialogue: 10,0:35:49.31,0:35:52.27,Main-207+,,0,0,0,,AynÄ± zamanda bu durum beni tedirgin ediyor.
 Dialogue: 10,0:35:53.21,0:35:56.59,Main-207+,,0,0,0,,Aptal Iceburg iyi mi?
-Dialogue: 10,0:35:56.59,0:35:57.55,Main-207+,,0,0,0,,Öldürdük.
-Dialogue: 10,0:36:00.14,0:36:02.52,Main-207+,,0,0,0,,Niye burada olduğumuzu bilmiyormuş gibi davranma.
-Dialogue: 10,0:36:03.25,0:36:05.39,Main-207+,,0,0,0,,Her şeyi biliyoruz.
-Dialogue: 10,0:36:07.08,0:36:09.83,Flashbacks-207+,,0,0,0,,Peşimden gelmeleri an meselesi.
+Dialogue: 10,0:35:56.59,0:35:57.55,Main-207+,,0,0,0,,Ã–ldÃ¼rdÃ¼k.
+Dialogue: 10,0:36:00.14,0:36:02.52,Main-207+,,0,0,0,,Niye burada olduÄŸumuzu bilmiyormuÅŸ gibi davranma.
+Dialogue: 10,0:36:03.25,0:36:05.39,Main-207+,,0,0,0,,Her ÅŸeyi biliyoruz.
+Dialogue: 10,0:36:07.08,0:36:09.83,Flashbacks-207+,,0,0,0,,PeÅŸimden gelmeleri an meselesi.
 Dialogue: 10,0:36:10.70,0:36:13.82,Flashbacks-207+,,0,0,0,,Bunu al ve adadan git, Franky.
-Dialogue: 10,0:36:13.82,0:36:19.53,Main-207+,,0,0,0,,Tom'dan Iceburg'e, Iceburg'den sana.\NBu şekilde miras kaldı.
-Dialogue: 10,0:36:20.70,0:36:22.74,Flashbacks-207+,,0,0,0,,İkiniz de gelin.
-Dialogue: 10,0:36:22.74,0:36:25.25,Flashbacks-207+,,0,0,0,,Size vereceğim önemli bir şey var.
-Dialogue: 10,0:36:25.67,0:36:29.37,Main-207+,,0,0,0,,Uzun bir görevdi ama nihayet şah-mat.
-Dialogue: 10,0:36:29.37,0:36:35.57,Main-207+,,0,0,0,,Şimdi, antik silah Pluton'un planlarını ver, Cutty Flam!
+Dialogue: 10,0:36:13.82,0:36:19.53,Main-207+,,0,0,0,,Tom'dan Iceburg'e, Iceburg'den sana.\NBu ÅŸekilde miras kaldÄ±.
+Dialogue: 10,0:36:20.70,0:36:22.74,Flashbacks-207+,,0,0,0,,Ä°kiniz de gelin.
+Dialogue: 10,0:36:22.74,0:36:25.25,Flashbacks-207+,,0,0,0,,Size vereceÄŸim Ã¶nemli bir ÅŸey var.
+Dialogue: 10,0:36:25.67,0:36:29.37,Main-207+,,0,0,0,,Uzun bir gÃ¶revdi ama nihayet ÅŸah-mat.
+Dialogue: 10,0:36:29.37,0:36:35.57,Main-207+,,0,0,0,,Åimdi, antik silah Pluton'un planlarÄ±nÄ± ver, Cutty Flam!
 Dialogue: 10,0:36:37.06,0:36:39.72,Flashbacks-207+,,0,0,0,,Flam...? Ne tuhaf bir isim.
-Dialogue: 10,0:36:40.08,0:36:42.05,Flashbacks-207+,,0,0,0,,Sana Franky desem nasıl olur?
+Dialogue: 10,0:36:40.08,0:36:42.05,Flashbacks-207+,,0,0,0,,Sana Franky desem nasÄ±l olur?
 Dialogue: 10,0:36:42.63,0:36:44.17,Flashbacks-207+,,0,0,0,,Farketmez.
 Dialogue: 10,0:36:44.17,0:36:46.27,Main-207+,,0,0,0,,Beni dinliyor musun?
-Dialogue: 10,0:36:46.27,0:36:50.44,Main-207+,,0,0,0,,Onları vermeni söyledim, Cutty Flam!
-Dialogue: 10,0:36:50.44,0:36:53.32,Main-207+,,0,0,0,,Sizin gibilere verecek hiçbir şeyim yok!
-Dialogue: 10,0:37:05.41,0:37:09.67,Main-207+,,0,0,0,,N-Ne oldu?!\NÇok hızlıydı! Hiçbir şey göremedim!
-Dialogue: 10,0:37:10.56,0:37:12.88,Main-207+,,0,0,0,,Hey! İyi misin?!
-Dialogue: 10,0:37:18.03,0:37:19.86,Main-207+,,0,0,0,,Burası...
+Dialogue: 10,0:36:46.27,0:36:50.44,Main-207+,,0,0,0,,OnlarÄ± vermeni sÃ¶yledim, Cutty Flam!
+Dialogue: 10,0:36:50.44,0:36:53.32,Main-207+,,0,0,0,,Sizin gibilere verecek hiÃ§bir ÅŸeyim yok!
+Dialogue: 10,0:37:05.41,0:37:09.67,Main-207+,,0,0,0,,N-Ne oldu?!\NÃ‡ok hÄ±zlÄ±ydÄ±! HiÃ§bir ÅŸey gÃ¶remedim!
+Dialogue: 10,0:37:10.56,0:37:12.88,Main-207+,,0,0,0,,Hey! Ä°yi misin?!
+Dialogue: 10,0:37:18.03,0:37:19.86,Main-207+,,0,0,0,,BurasÄ±...
 Dialogue: 10,0:37:19.86,0:37:21.34,Main-207+,,0,0,0,,Ne oldu, Lucci?
 Dialogue: 10,0:37:21.84,0:37:24.56,Main-207+,,0,0,0,,Sence bu pis oda nedir?
-Dialogue: 10,0:37:24.95,0:37:26.52,Main-207+,,0,0,0,,Çizim odası?
+Dialogue: 10,0:37:24.95,0:37:26.52,Main-207+,,0,0,0,,Ã‡izim odasÄ±?
 Dialogue: 10,0:37:26.52,0:37:28.23,Main-207+,,0,0,0,,Oh?
-Dialogue: 10,0:37:28.23,0:37:31.81,Main-207+,,0,0,0,,Burası planları saklamak için harika bir yer olurdu. Arayın!
-Dialogue: 10,0:37:42.11,0:37:44.58,Main-207+,,0,0,0,,İsim levhaları var.
+Dialogue: 10,0:37:28.23,0:37:31.81,Main-207+,,0,0,0,,BurasÄ± planlarÄ± saklamak iÃ§in harika bir yer olurdu. ArayÄ±n!
+Dialogue: 10,0:37:42.11,0:37:44.58,Main-207+,,0,0,0,,Ä°sim levhalarÄ± var.
 Dialogue: 10,0:37:45.37,0:37:47.27,Main-207+,,0,0,0,,Cutty Flam.
 Dialogue: 10,0:37:47.27,0:37:48.66,Main-207+,,0,0,0,,Iceburg.
 Dialogue: 10,0:37:48.66,0:37:49.91,Main-207+,,0,0,0,,Tom.
 Dialogue: 10,0:37:49.91,0:37:51.42,Main-207+,,0,0,0,,Bu isimler...
 Dialogue: 10,0:37:54.37,0:37:55.59,Main-207+,,0,0,0,,Bu...
 Dialogue: 10,0:37:56.84,0:37:59.47,Main-207+,,0,0,0,,Ona dokunma!
-Dialogue: 10,0:38:01.01,0:38:05.72,Main-207+,,0,0,0,,Geçmişimi çiğneme cüreti gösterme!
-Dialogue: 10,0:38:05.72,0:38:09.43,Main-207+,,0,0,0,,Biz burada büyüdük!
-Dialogue: 10,0:38:09.43,0:38:12.72,Main-207+,,0,0,0,,Burası, dünyanın en iyi gemi marangozlarının olduğu...
-Dialogue: 10,0:38:12.72,0:38:16.02,Main-207+,,0,0,0,,...Tom'un İşçileri gemi yapım şirketine aitti!
+Dialogue: 10,0:38:01.01,0:38:05.72,Main-207+,,0,0,0,,GeÃ§miÅŸimi Ã§iÄŸneme cÃ¼reti gÃ¶sterme!
+Dialogue: 10,0:38:05.72,0:38:09.43,Main-207+,,0,0,0,,Biz burada bÃ¼yÃ¼dÃ¼k!
+Dialogue: 10,0:38:09.43,0:38:12.72,Main-207+,,0,0,0,,BurasÄ±, dÃ¼nyanÄ±n en iyi gemi marangozlarÄ±nÄ±n olduÄŸu...
+Dialogue: 10,0:38:12.72,0:38:16.02,Main-207+,,0,0,0,,...Tom'un Ä°ÅŸÃ§ileri gemi yapÄ±m ÅŸirketine aitti!
 Dialogue: 0,0:01:50.17,0:01:54.01,Author,,0,0,0,,{\fad(650,0)}TR: onepacetr.net | kazasker
 Dialogue: 0,0:17:46.45,0:17:56.45,Author,,0,0,0,,{\fad(500,500)}TR: onepacetr.net | kazasker
 Dialogue: 0,0:38:16.02,0:38:22.01,Author,,0,0,0,,{\fad(0,0)}TR: onepacetr.net | kazasker
 Dialogue: 1,0:01:50.17,0:01:54.01,Title-207+,,0,0,0,,{\fad(650,0)}Klabautermann
-Dialogue: 1,0:10:40.58,0:10:43.50,Captions,,0,0,0,,{\an5\fad(394,0)\fscx125\fscy125}Water Seven - Arka Sokaklar\NKuzeydoğu Kıyısı Çöplüğünün Önündeki Büyük Köprü
-Dialogue: 1,0:10:43.54,0:10:45.96,Captions,,0,0,0,,{\an5\fad(437,0)\fscx125\fscy125}Köprü Altındaki Depo\N(Franky'nin Gizli Üssü)
+Dialogue: 1,0:10:40.58,0:10:43.50,Captions,,0,0,0,,{\an5\fad(394,0)\fscx125\fscy125}Water Seven - Arka Sokaklar\NKuzeydoÄŸu KÄ±yÄ±sÄ± Ã‡Ã¶plÃ¼ÄŸÃ¼nÃ¼n Ã–nÃ¼ndeki BÃ¼yÃ¼k KÃ¶prÃ¼
+Dialogue: 1,0:10:43.54,0:10:45.96,Captions,,0,0,0,,{\an5\fad(437,0)\fscx125\fscy125}KÃ¶prÃ¼ AltÄ±ndaki Depo\N(Franky'nin Gizli ÃœssÃ¼)
 Dialogue: 0,0:00:26.26,0:00:31.82,Credits-207+,,0,0,0,,{\pos(722,635)\blur0.5\bord4\c&H000000&}Video Editing
 Dialogue: 1,0:00:26.26,0:00:31.82,Credits-207+,,0,0,0,,{\pos(722,635)\blur0.5\bord0\4a&HFF&}Video Editing
 Dialogue: 2,0:00:26.26,0:00:31.82,Credits-207+,,0,0,0,,{\pos(722,635)\blur0.6\bord0\4a&HFF&}Video Editing
@@ -529,24 +529,24 @@ Dialogue: 1,0:01:38.93,0:01:43.10,Credits-207+,,0,0,0,,{\pos(782,604)\blur0.5\bo
 Dialogue: 2,0:01:38.93,0:01:43.10,Credits-207+,,0,0,0,,{\pos(782,604)\blur0.6\bord0\fscx93\4a&HFF&\fscy98}Translation
 Dialogue: 0,0:01:38.93,0:01:43.10,Credits-207+,,0,0,0,,{\pos(837,660)\blur0.5\bord4\fscx106\fscy106\c&H000000&}Arch1t3cht30\NCrunchyroll\NGaijin\NRokitoki
 Dialogue: 1,0:01:38.93,0:01:43.10,Credits-207+,,0,0,0,,{\pos(837,660)\blur0.5\bord0\fscx106\fscy106\4a&HFF&}Arch1t3cht30\NCrunchyroll\NGaijin\NRokitoki
-Dialogue: 0,0:00:03.99,0:00:08.05,Lyrics-OP5,,0,0,0,,{\fad(75,75)}♪ Sorun yok! Yola çıkalım! ♪
-Dialogue: 0,0:00:08.31,0:00:11.59,Lyrics-OP5,,0,0,0,,♪ Güneşi hep kalbimizde tutacağız! ♪
-Dialogue: 0,0:00:11.73,0:00:15.01,Lyrics-OP5,,0,0,0,,♪ Birleşmiş ellerimiz bize güç veriyor! ♪
-Dialogue: 0,0:00:15.10,0:00:18.68,Lyrics-OP5,,0,0,0,,♪ Hayallerimizi yakalayacağız! ♪
-Dialogue: 0,0:00:26.24,0:00:32.49,Lyrics-OP5,,0,0,0,,♪ Birleşmiş güçlerimizle dev bir dalgaya bineceğiz. ♪
-Dialogue: 0,0:00:33.75,0:00:40.29,Lyrics-OP5,,0,0,1,,♪ İşte işaret! Başarıya doğru acele edelim! ♪
-Dialogue: 0,0:00:40.96,0:00:47.13,Lyrics-OP5,,0,0,0,,♪ Bu bizim yola çıkma vaktimiz. Bir kez demir alınca...
-Dialogue: 0,0:00:47.93,0:00:55.01,Lyrics-OP5,,0,0,0,,...gökkuşağı renkli rüzgarla macera denizine doğru yola çıkacağız! ♪
-Dialogue: 0,0:00:55.06,0:00:58.55,Lyrics-OP5,,0,0,0,,♪ Bu sıkıntıyla dolu bir yolculuk...
-Dialogue: 0,0:00:58.56,0:01:02.27,Lyrics-OP5,,0,0,0,,...ama orada önemli bir şey var. ♪
-Dialogue: 0,0:01:02.40,0:01:06.35,Lyrics-OP5,,0,0,0,,♪ Başın derde girerse,...
-Dialogue: 0,0:01:06.45,0:01:08.36,Lyrics-OP5,,0,0,0,,...yardım etmek için orada olacağım! ♪
-Dialogue: 0,0:01:09.45,0:01:13.36,Lyrics-OP5,,0,0,0,,♪ Sorun yok! Yola çıkalım! ♪
-Dialogue: 0,0:01:13.66,0:01:16.82,Lyrics-OP5,,0,0,0,,♪ Güneşi hep kalbimizde tutacağız! ♪
-Dialogue: 0,0:01:17.17,0:01:20.33,Lyrics-OP5,,0,0,0,,♪ Bir fırtına gelirse omzunu benimkine yasla. ♪
-Dialogue: 0,0:01:20.37,0:01:24.20,Lyrics-OP5,,0,0,0,,{\fad(75,0)}♪ İlerideki umut ışığına bakacağız! ♪
-Dialogue: 0,0:01:24.67,0:01:27.92,Lyrics-OP5,,0,0,0,,♪ Hayallerimizin parçalarını toplarken,...
-Dialogue: 0,0:01:28.39,0:01:31.55,Lyrics-OP5,,0,0,0,,...bize yarının yolunu gösterecekler! ♪
-Dialogue: 0,0:01:31.68,0:01:34.72,Lyrics-OP5,,0,0,0,,♪ Bu yüzden aynı bayrak altında yolculuk ediyoruz. ♪
-Dialogue: 0,0:01:35.10,0:01:38.36,Lyrics-OP5,,0,0,0,,{\fad(0,75)}♪ Hayallerimizi yakalayacağız! ♪
-Dialogue: 0,0:01:38.39,0:01:40.45,Lyrics-OP5,,0,0,0,,{\fad(0,75)}♪ Biz birleşmişiz...
+Dialogue: 0,0:00:03.99,0:00:08.05,Lyrics-OP5,,0,0,0,,{\fad(75,75)}â™ª Sorun yok! Yola Ã§Ä±kalÄ±m! â™ª
+Dialogue: 0,0:00:08.31,0:00:11.59,Lyrics-OP5,,0,0,0,,â™ª GÃ¼neÅŸi hep kalbimizde tutacaÄŸÄ±z! â™ª
+Dialogue: 0,0:00:11.73,0:00:15.01,Lyrics-OP5,,0,0,0,,â™ª BirleÅŸmiÅŸ ellerimiz bize gÃ¼Ã§ veriyor! â™ª
+Dialogue: 0,0:00:15.10,0:00:18.68,Lyrics-OP5,,0,0,0,,â™ª Hayallerimizi yakalayacaÄŸÄ±z! â™ª
+Dialogue: 0,0:00:26.24,0:00:32.49,Lyrics-OP5,,0,0,0,,â™ª BirleÅŸmiÅŸ gÃ¼Ã§lerimizle dev bir dalgaya bineceÄŸiz. â™ª
+Dialogue: 0,0:00:33.75,0:00:40.29,Lyrics-OP5,,0,0,1,,â™ª Ä°ÅŸte iÅŸaret! BaÅŸarÄ±ya doÄŸru acele edelim! â™ª
+Dialogue: 0,0:00:40.96,0:00:47.13,Lyrics-OP5,,0,0,0,,â™ª Bu bizim yola Ã§Ä±kma vaktimiz. Bir kez demir alÄ±nca...
+Dialogue: 0,0:00:47.93,0:00:55.01,Lyrics-OP5,,0,0,0,,...gÃ¶kkuÅŸaÄŸÄ± renkli rÃ¼zgarla macera denizine doÄŸru yola Ã§Ä±kacaÄŸÄ±z! â™ª
+Dialogue: 0,0:00:55.06,0:00:58.55,Lyrics-OP5,,0,0,0,,â™ª Bu sÄ±kÄ±ntÄ±yla dolu bir yolculuk...
+Dialogue: 0,0:00:58.56,0:01:02.27,Lyrics-OP5,,0,0,0,,...ama orada Ã¶nemli bir ÅŸey var. â™ª
+Dialogue: 0,0:01:02.40,0:01:06.35,Lyrics-OP5,,0,0,0,,â™ª BaÅŸÄ±n derde girerse,...
+Dialogue: 0,0:01:06.45,0:01:08.36,Lyrics-OP5,,0,0,0,,...yardÄ±m etmek iÃ§in orada olacaÄŸÄ±m! â™ª
+Dialogue: 0,0:01:09.45,0:01:13.36,Lyrics-OP5,,0,0,0,,â™ª Sorun yok! Yola Ã§Ä±kalÄ±m! â™ª
+Dialogue: 0,0:01:13.66,0:01:16.82,Lyrics-OP5,,0,0,0,,â™ª GÃ¼neÅŸi hep kalbimizde tutacaÄŸÄ±z! â™ª
+Dialogue: 0,0:01:17.17,0:01:20.33,Lyrics-OP5,,0,0,0,,â™ª Bir fÄ±rtÄ±na gelirse omzunu benimkine yasla. â™ª
+Dialogue: 0,0:01:20.37,0:01:24.20,Lyrics-OP5,,0,0,0,,{\fad(75,0)}â™ª Ä°lerideki umut Ä±ÅŸÄ±ÄŸÄ±na bakacaÄŸÄ±z! â™ª
+Dialogue: 0,0:01:24.67,0:01:27.92,Lyrics-OP5,,0,0,0,,â™ª Hayallerimizin parÃ§alarÄ±nÄ± toplarken,...
+Dialogue: 0,0:01:28.39,0:01:31.55,Lyrics-OP5,,0,0,0,,...bize yarÄ±nÄ±n yolunu gÃ¶sterecekler! â™ª
+Dialogue: 0,0:01:31.68,0:01:34.72,Lyrics-OP5,,0,0,0,,â™ª Bu yÃ¼zden aynÄ± bayrak altÄ±nda yolculuk ediyoruz. â™ª
+Dialogue: 0,0:01:35.10,0:01:38.36,Lyrics-OP5,,0,0,0,,{\fad(0,75)}â™ª Hayallerimizi yakalayacaÄŸÄ±z! â™ª
+Dialogue: 0,0:01:38.39,0:01:40.45,Lyrics-OP5,,0,0,0,,{\fad(0,75)}â™ª Biz birleÅŸmiÅŸiz...

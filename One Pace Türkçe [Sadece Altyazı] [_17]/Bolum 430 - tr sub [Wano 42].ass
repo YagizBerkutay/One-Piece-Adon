@@ -1,4 +1,4 @@
-﻿[Script Info]
+ï»¿[Script Info]
 Title: Default Aegisub file
 ScriptType: v4.00+
 WrapStyle: 0
@@ -27,491 +27,491 @@ Style: Dummy,Duality,105,&H00B35679,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:09.99,Warning,,0,0,0,,{\fscx0\fscy0\clip(0,0,0,0)\org(0,0)}Medya oynatıcınız bu bölümde kullanılan altyazı formatını desteklemiyor.\NAltyazılar muhtemelen düzgün çalışmayacaktır.\NLütfen önerilen video oynatıcılardan birini, tercihen mpv kullanın:\Nhttps://mpv.io
-Dialogue: 0,0:01:31.86,0:01:41.85,Warning,,0,0,0,,{\fscx0\fscy0\clip(0,0,0,0)\org(0,0)}Medya oynatıcınız bu bölümde kullanılan altyazı formatını desteklemiyor.\NAltyazılar muhtemelen düzgün çalışmayacaktır.\NLütfen önerilen video oynatıcılardan birini, tercihen mpv kullanın:\Nhttps://mpv.io
+Dialogue: 0,0:00:00.00,0:00:09.99,Warning,,0,0,0,,{\fscx0\fscy0\clip(0,0,0,0)\org(0,0)}Medya oynatÄ±cÄ±nÄ±z bu bÃ¶lÃ¼mde kullanÄ±lan altyazÄ± formatÄ±nÄ± desteklemiyor.\NAltyazÄ±lar muhtemelen dÃ¼zgÃ¼n Ã§alÄ±ÅŸmayacaktÄ±r.\NLÃ¼tfen Ã¶nerilen video oynatÄ±cÄ±lardan birini, tercihen mpv kullanÄ±n:\Nhttps://mpv.io
+Dialogue: 0,0:01:31.86,0:01:41.85,Warning,,0,0,0,,{\fscx0\fscy0\clip(0,0,0,0)\org(0,0)}Medya oynatÄ±cÄ±nÄ±z bu bÃ¶lÃ¼mde kullanÄ±lan altyazÄ± formatÄ±nÄ± desteklemiyor.\NAltyazÄ±lar muhtemelen dÃ¼zgÃ¼n Ã§alÄ±ÅŸmayacaktÄ±r.\NLÃ¼tfen Ã¶nerilen video oynatÄ±cÄ±lardan birini, tercihen mpv kullanÄ±n:\Nhttps://mpv.io
 Dialogue: 50,0:01:35.87,0:01:37.99,Main-207+,,0,0,0,,Neler oluyor burada?!
-Dialogue: 50,0:01:37.99,0:01:40.29,Main-207+,,0,0,0,,Luffy'nin grubu burada ne arıyor?!
-Dialogue: 50,0:01:40.29,0:01:44.25,Main-207+,,0,0,0,,Ayrıca Law da hapishanede olmalıydı!
-Dialogue: 50,0:01:45.04,0:01:47.25,Main-207+,,0,0,0,,Beni hemen bırak, Kanjuro!
-Dialogue: 50,0:01:48.30,0:01:53.93,Main-207+,,0,0,0,,Kin'emon'un planını harfi harfine\NOrochi-{\i1}sama{\i0}'ya rapor ettim!
-Dialogue: 50,0:01:54.30,0:01:58.68,Main-207+,,0,0,0,,Bu konuda hiçbir şey yapmamış olamaz!
-Dialogue: 50,0:01:58.68,0:02:02.85,Main-207+,,0,0,0,,Gerçekten Sunny'nin sıradan bir\Nbombaya yenileceğini mi sandınız?
+Dialogue: 50,0:01:37.99,0:01:40.29,Main-207+,,0,0,0,,Luffy'nin grubu burada ne arÄ±yor?!
+Dialogue: 50,0:01:40.29,0:01:44.25,Main-207+,,0,0,0,,AyrÄ±ca Law da hapishanede olmalÄ±ydÄ±!
+Dialogue: 50,0:01:45.04,0:01:47.25,Main-207+,,0,0,0,,Beni hemen bÄ±rak, Kanjuro!
+Dialogue: 50,0:01:48.30,0:01:53.93,Main-207+,,0,0,0,,Kin'emon'un planÄ±nÄ± harfi harfine\NOrochi-{\i1}sama{\i0}'ya rapor ettim!
+Dialogue: 50,0:01:54.30,0:01:58.68,Main-207+,,0,0,0,,Bu konuda hiÃ§bir ÅŸey yapmamÄ±ÅŸ olamaz!
+Dialogue: 50,0:01:58.68,0:02:02.85,Main-207+,,0,0,0,,GerÃ§ekten Sunny'nin sÄ±radan bir\Nbombaya yenileceÄŸini mi sandÄ±nÄ±z?
 Dialogue: 50,0:02:02.85,0:02:04.52,Main-207+,,0,0,0,,Sizi ahmaklar!
 Dialogue: 50,0:02:04.52,0:02:07.82,Main-207+,,0,0,0,,Bin denizi yara yara...
-Dialogue: 50,0:02:07.82,0:02:11.74,Main-207+,,0,0,0,,ilerleyecek olan Thousand Sunny,\Nkökenini kıymetli Adem Ağacı'ndan alır!
-Dialogue: 50,0:02:11.74,0:02:11.78,Main-207+,,0,0,0,,{\iclip(911.47,872.57,1010.01,1080)}ilerleyecek olan Thousand Sunny,\Nkökenini kıymetli Adem Ağacı'ndan alır!
-Dialogue: 50,0:02:11.78,0:02:11.82,Main-207+,,0,0,0,,{\iclip(862.69,878.49,1058.78,1080)}ilerleyecek olan Thousand Sunny,\Nkökenini kıymetli Adem Ağacı'ndan alır!
-Dialogue: 50,0:02:11.82,0:02:11.86,Main-207+,,0,0,0,,{\iclip(813.77,843.67,1107.48,1086.86)}ilerleyecek olan Thousand Sunny,\Nkökenini kıymetli Adem Ağacı'ndan alır!
-Dialogue: 50,0:02:11.86,0:02:11.90,Main-207+,,0,0,0,,{\iclip(763.88,851.15,1156.74,1080)}ilerleyecek olan Thousand Sunny,\Nkökenini kıymetli Adem Ağacı'ndan alır!
-Dialogue: 50,0:02:11.90,0:02:11.94,Main-207+,,0,0,0,,{\iclip(715.87,842.42,1207.25,1080)}ilerleyecek olan Thousand Sunny,\Nkökenini kıymetli Adem Ağacı'ndan alır!
-Dialogue: 50,0:02:11.94,0:02:11.99,Main-207+,,0,0,0,,{\iclip(666.61,823.09,1255.26,1080)}ilerleyecek olan Thousand Sunny,\Nkökenini kıymetli Adem Ağacı'ndan alır!
-Dialogue: 50,0:02:11.99,0:02:12.03,Main-207+,,0,0,0,,{\iclip(617.97,790.05,1302.66,1080)}ilerleyecek olan Thousand Sunny,\Nkökenini kıymetli Adem Ağacı'ndan alır!
-Dialogue: 50,0:02:12.03,0:02:12.07,Main-207+,,0,0,0,,{\iclip(567.72,797.9,1354.14,1080)}ilerleyecek olan Thousand Sunny,\Nkökenini kıymetli Adem Ağacı'ndan alır!
-Dialogue: 50,0:02:12.07,0:02:12.11,Main-207+,,0,0,0,,{\iclip(520.25,809.07,1400.68,1080)}ilerleyecek olan Thousand Sunny,\Nkökenini kıymetli Adem Ağacı'ndan alır!
-Dialogue: 50,0:02:12.11,0:02:12.15,Main-207+,,0,0,0,,{\iclip(470.93,784.86,1450,1080)}ilerleyecek olan Thousand Sunny,\Nkökenini kıymetli Adem Ağacı'ndan alır!
-Dialogue: 50,0:02:12.45,0:02:16.91,Main-207+,,0,0,0,,O zavallı patlamanın\Nbu gemiyi yok etmesi imkânsız!
-Dialogue: 50,0:02:16.91,0:02:19.33,Main-207+,,0,0,0,,İşe yaramadı mı demek istiyorsun?!
-Dialogue: 50,0:02:19.33,0:02:22.66,Main-207+,,0,0,5,,Elbette yaramadı!\NTek bir çizik bile atamadınız!
-Dialogue: 50,0:02:23.29,0:02:26.46,Main-207+,,0,0,5,,Gerçi yelkenleri yandı ama...
+Dialogue: 50,0:02:07.82,0:02:11.74,Main-207+,,0,0,0,,ilerleyecek olan Thousand Sunny,\NkÃ¶kenini kÄ±ymetli Adem AÄŸacÄ±'ndan alÄ±r!
+Dialogue: 50,0:02:11.74,0:02:11.78,Main-207+,,0,0,0,,{\iclip(911.47,872.57,1010.01,1080)}ilerleyecek olan Thousand Sunny,\NkÃ¶kenini kÄ±ymetli Adem AÄŸacÄ±'ndan alÄ±r!
+Dialogue: 50,0:02:11.78,0:02:11.82,Main-207+,,0,0,0,,{\iclip(862.69,878.49,1058.78,1080)}ilerleyecek olan Thousand Sunny,\NkÃ¶kenini kÄ±ymetli Adem AÄŸacÄ±'ndan alÄ±r!
+Dialogue: 50,0:02:11.82,0:02:11.86,Main-207+,,0,0,0,,{\iclip(813.77,843.67,1107.48,1086.86)}ilerleyecek olan Thousand Sunny,\NkÃ¶kenini kÄ±ymetli Adem AÄŸacÄ±'ndan alÄ±r!
+Dialogue: 50,0:02:11.86,0:02:11.90,Main-207+,,0,0,0,,{\iclip(763.88,851.15,1156.74,1080)}ilerleyecek olan Thousand Sunny,\NkÃ¶kenini kÄ±ymetli Adem AÄŸacÄ±'ndan alÄ±r!
+Dialogue: 50,0:02:11.90,0:02:11.94,Main-207+,,0,0,0,,{\iclip(715.87,842.42,1207.25,1080)}ilerleyecek olan Thousand Sunny,\NkÃ¶kenini kÄ±ymetli Adem AÄŸacÄ±'ndan alÄ±r!
+Dialogue: 50,0:02:11.94,0:02:11.99,Main-207+,,0,0,0,,{\iclip(666.61,823.09,1255.26,1080)}ilerleyecek olan Thousand Sunny,\NkÃ¶kenini kÄ±ymetli Adem AÄŸacÄ±'ndan alÄ±r!
+Dialogue: 50,0:02:11.99,0:02:12.03,Main-207+,,0,0,0,,{\iclip(617.97,790.05,1302.66,1080)}ilerleyecek olan Thousand Sunny,\NkÃ¶kenini kÄ±ymetli Adem AÄŸacÄ±'ndan alÄ±r!
+Dialogue: 50,0:02:12.03,0:02:12.07,Main-207+,,0,0,0,,{\iclip(567.72,797.9,1354.14,1080)}ilerleyecek olan Thousand Sunny,\NkÃ¶kenini kÄ±ymetli Adem AÄŸacÄ±'ndan alÄ±r!
+Dialogue: 50,0:02:12.07,0:02:12.11,Main-207+,,0,0,0,,{\iclip(520.25,809.07,1400.68,1080)}ilerleyecek olan Thousand Sunny,\NkÃ¶kenini kÄ±ymetli Adem AÄŸacÄ±'ndan alÄ±r!
+Dialogue: 50,0:02:12.11,0:02:12.15,Main-207+,,0,0,0,,{\iclip(470.93,784.86,1450,1080)}ilerleyecek olan Thousand Sunny,\NkÃ¶kenini kÄ±ymetli Adem AÄŸacÄ±'ndan alÄ±r!
+Dialogue: 50,0:02:12.45,0:02:16.91,Main-207+,,0,0,0,,O zavallÄ± patlamanÄ±n\Nbu gemiyi yok etmesi imkÃ¢nsÄ±z!
+Dialogue: 50,0:02:16.91,0:02:19.33,Main-207+,,0,0,0,,Ä°ÅŸe yaramadÄ± mÄ± demek istiyorsun?!
+Dialogue: 50,0:02:19.33,0:02:22.66,Main-207+,,0,0,5,,Elbette yaramadÄ±!\NTek bir Ã§izik bile atamadÄ±nÄ±z!
+Dialogue: 50,0:02:23.29,0:02:26.46,Main-207+,,0,0,5,,GerÃ§i yelkenleri yandÄ± ama...
 Dialogue: 50,0:02:30.76,0:02:32.76,Main-207+,,0,0,0,,Kusura bakma, Kin'emon!
-Dialogue: 50,0:02:32.76,0:02:35.55,Main-207+,,0,0,0,,Yelkeni onarması biraz sürdü de!
-Dialogue: 50,0:02:35.55,0:02:36.93,Main-207+,,0,0,0,,Anlıyorum!
-Dialogue: 50,0:02:36.93,0:02:38.85,Main-207+,,0,0,0,,Demek bu yüzden geciktiniz!
+Dialogue: 50,0:02:32.76,0:02:35.55,Main-207+,,0,0,0,,Yelkeni onarmasÄ± biraz sÃ¼rdÃ¼ de!
+Dialogue: 50,0:02:35.55,0:02:36.93,Main-207+,,0,0,0,,AnlÄ±yorum!
+Dialogue: 50,0:02:36.93,0:02:38.85,Main-207+,,0,0,0,,Demek bu yÃ¼zden geciktiniz!
 Dialogue: 50,0:02:38.85,0:02:40.64,Main-207+,,0,0,0,,Hey, Kin!
-Dialogue: 50,0:02:41.47,0:02:44.48,Main-207+,,0,0,0,,Daha kalabalık olmanız gerekmiyor muydu?!
-Dialogue: 50,0:02:45.19,0:02:47.69,Main-207+,,0,0,0,,Beklediğimden daha azsınız.
-Dialogue: 50,0:02:47.69,0:02:50.61,Main-207+,,0,0,0,,Neyse, şu gemileri batıracağım, tamam mı?!
+Dialogue: 50,0:02:41.47,0:02:44.48,Main-207+,,0,0,0,,Daha kalabalÄ±k olmanÄ±z gerekmiyor muydu?!
+Dialogue: 50,0:02:45.19,0:02:47.69,Main-207+,,0,0,0,,BeklediÄŸimden daha azsÄ±nÄ±z.
+Dialogue: 50,0:02:47.69,0:02:50.61,Main-207+,,0,0,0,,Neyse, ÅŸu gemileri batÄ±racaÄŸÄ±m, tamam mÄ±?!
 Dialogue: 50,0:02:51.07,0:02:52.19,Main-207+,,0,0,0,,Kesinlikle.
-Dialogue: 50,0:02:52.19,0:02:55.70,Main-207+,,0,0,0,,Çok daha fazla müttefik görmeyi bekliyorduk.
-Dialogue: 50,0:02:56.95,0:03:00.33,Main-207+,,0,0,0,,Tutsak madenindeki 3.500 mahkûma ne oldu?!
-Dialogue: 50,0:03:00.33,0:03:02.16,Main-207+,,0,0,0,,Evet, onları göremiyorum.
-Dialogue: 50,0:03:02.62,0:03:06.12,Main-207+,,0,0,0,,Sefirler, yakuzalar'ı toplamak için\Nfarklı bölgelere seyahat ettiler...
-Dialogue: 50,0:03:06.12,0:03:09.29,Main-207+,,0,0,0,,200'den fazla olmalılar.
-Dialogue: 50,0:03:09.29,0:03:13.84,Main-207+,,0,0,0,,Itachi Limanı'nda Inuarashi'nin 200 Silahşoru...
-Dialogue: 50,0:03:13.84,0:03:17.84,Main-207+,,0,0,0,,ve Atama Dağı Hırsızları'ndan 280 kişi vardı!
-Dialogue: 50,0:03:17.84,0:03:22.43,Main-207+,,0,0,0,,Herkesin bizimle, onardığımız gemileriyle\Nburada buluşması gerekiyordu!
-Dialogue: 50,0:03:22.43,0:03:26.64,Main-207+,,0,0,0,,Üstelik herkese yetecek kadar\Nbüyük bir silah sevkiyatı da...
-Dialogue: 50,0:03:26.64,0:03:29.27,Main-207+,,0,0,0,,Ringo’dan buraya ulaşmış olmalıydı!
+Dialogue: 50,0:02:52.19,0:02:55.70,Main-207+,,0,0,0,,Ã‡ok daha fazla mÃ¼ttefik gÃ¶rmeyi bekliyorduk.
+Dialogue: 50,0:02:56.95,0:03:00.33,Main-207+,,0,0,0,,Tutsak madenindeki 3.500 mahkÃ»ma ne oldu?!
+Dialogue: 50,0:03:00.33,0:03:02.16,Main-207+,,0,0,0,,Evet, onlarÄ± gÃ¶remiyorum.
+Dialogue: 50,0:03:02.62,0:03:06.12,Main-207+,,0,0,0,,Sefirler, yakuzalar'Ä± toplamak iÃ§in\NfarklÄ± bÃ¶lgelere seyahat ettiler...
+Dialogue: 50,0:03:06.12,0:03:09.29,Main-207+,,0,0,0,,200'den fazla olmalÄ±lar.
+Dialogue: 50,0:03:09.29,0:03:13.84,Main-207+,,0,0,0,,Itachi LimanÄ±'nda Inuarashi'nin 200 SilahÅŸoru...
+Dialogue: 50,0:03:13.84,0:03:17.84,Main-207+,,0,0,0,,ve Atama DaÄŸÄ± HÄ±rsÄ±zlarÄ±'ndan 280 kiÅŸi vardÄ±!
+Dialogue: 50,0:03:17.84,0:03:22.43,Main-207+,,0,0,0,,Herkesin bizimle, onardÄ±ÄŸÄ±mÄ±z gemileriyle\Nburada buluÅŸmasÄ± gerekiyordu!
+Dialogue: 50,0:03:22.43,0:03:26.64,Main-207+,,0,0,0,,Ãœstelik herkese yetecek kadar\NbÃ¼yÃ¼k bir silah sevkiyatÄ± da...
+Dialogue: 50,0:03:26.64,0:03:29.27,Main-207+,,0,0,0,,Ringoâ€™dan buraya ulaÅŸmÄ±ÅŸ olmalÄ±ydÄ±!
 Dialogue: 50,0:03:29.69,0:03:31.73,Main-207+,,0,0,0,,Hey, Kin'emon!
 Dialogue: 50,0:03:31.73,0:03:33.15,Main-207+,,0,0,0,,Bir sorun mu oldu?
-Dialogue: 50,0:03:44.33,0:03:48.00,Main-207+,,0,0,0,,Bendeniz... büyük bir hata yaptım.
-Dialogue: 50,0:03:50.38,0:03:52.42,Main-207+,,0,0,0,,Luffy-{\i1}dono{\i0}, çok üzgünüm!
-Dialogue: 50,0:03:53.09,0:03:56.59,Main-207+,,0,0,0,,Yaptığımız plan tümüyle sızdı...
-Dialogue: 50,0:03:58.13,0:04:01.72,Main-207+,,0,0,0,,Diğerlerinin başına ne geldiğini bilmiyorum!
-Dialogue: 50,0:04:02.14,0:04:04.22,Main-207+,,0,0,0,,Demek bu yüzden kimse yok!
-Dialogue: 50,0:04:04.22,0:04:06.39,Main-207+,,0,0,0,,Yani bu savaşta yalnız mıyız?!
+Dialogue: 50,0:03:44.33,0:03:48.00,Main-207+,,0,0,0,,Bendeniz... bÃ¼yÃ¼k bir hata yaptÄ±m.
+Dialogue: 50,0:03:50.38,0:03:52.42,Main-207+,,0,0,0,,Luffy-{\i1}dono{\i0}, Ã§ok Ã¼zgÃ¼nÃ¼m!
+Dialogue: 50,0:03:53.09,0:03:56.59,Main-207+,,0,0,0,,YaptÄ±ÄŸÄ±mÄ±z plan tÃ¼mÃ¼yle sÄ±zdÄ±...
+Dialogue: 50,0:03:58.13,0:04:01.72,Main-207+,,0,0,0,,DiÄŸerlerinin baÅŸÄ±na ne geldiÄŸini bilmiyorum!
+Dialogue: 50,0:04:02.14,0:04:04.22,Main-207+,,0,0,0,,Demek bu yÃ¼zden kimse yok!
+Dialogue: 50,0:04:04.22,0:04:06.39,Main-207+,,0,0,0,,Yani bu savaÅŸta yalnÄ±z mÄ±yÄ±z?!
 Dialogue: 50,0:04:06.39,0:04:08.98,Main-207+,,0,0,0,,Ne?! Olamaz!
-Dialogue: 50,0:04:08.98,0:04:11.52,Main-207+,,0,0,0,,Bizler neler olduğunu biliyoruz!
-Dialogue: 50,0:04:11.52,0:04:14.90,Main-207+,,0,0,0,,Aslanlı gemiyi batırmakta\Nbaşarısız olmuş olabiliriz...
-Dialogue: 50,0:04:14.90,0:04:19.70,Main-207+,,0,0,0,,Ama dün gece limana demir atmış\Ntüm gemileri batırmayı başardık!
-Dialogue: 50,0:04:19.70,0:04:22.41,Main-207+,,0,0,0,,Orochi-{\i1}sama{\i0} titiz bir adamdır.
-Dialogue: 50,0:04:22.74,0:04:26.37,Main-207+,,0,0,0,,Bize bölgeleri birbirine bağlayan\Nana köprülerin hepsini yıkma emri verdi!
-Dialogue: 50,0:04:27.75,0:04:29.58,Main-207+,,0,0,0,,Şimdi çaktınız mı?
+Dialogue: 50,0:04:08.98,0:04:11.52,Main-207+,,0,0,0,,Bizler neler olduÄŸunu biliyoruz!
+Dialogue: 50,0:04:11.52,0:04:14.90,Main-207+,,0,0,0,,AslanlÄ± gemiyi batÄ±rmakta\NbaÅŸarÄ±sÄ±z olmuÅŸ olabiliriz...
+Dialogue: 50,0:04:14.90,0:04:19.70,Main-207+,,0,0,0,,Ama dÃ¼n gece limana demir atmÄ±ÅŸ\NtÃ¼m gemileri batÄ±rmayÄ± baÅŸardÄ±k!
+Dialogue: 50,0:04:19.70,0:04:22.41,Main-207+,,0,0,0,,Orochi-{\i1}sama{\i0} titiz bir adamdÄ±r.
+Dialogue: 50,0:04:22.74,0:04:26.37,Main-207+,,0,0,0,,Bize bÃ¶lgeleri birbirine baÄŸlayan\Nana kÃ¶prÃ¼lerin hepsini yÄ±kma emri verdi!
+Dialogue: 50,0:04:27.75,0:04:29.58,Main-207+,,0,0,0,,Åimdi Ã§aktÄ±nÄ±z mÄ±?
 Dialogue: 50,0:04:29.58,0:04:33.00,Main-207+,,0,0,0,,Sizi kurtarmaya kimse gelmeyecek!
 Dialogue: 50,0:04:33.00,0:04:38.42,Main-207+,,0,0,0,,Buraya gelseler bile, gemileri olmadan\NOnigashima'ya varamayacaklar!
-Dialogue: 50,0:04:38.42,0:04:42.47,Main-207+,,0,0,0,,Ayrıca bu fırsatı kaçırırsanız,\Nbir daha denemek için şansınız olmayacak!
-Dialogue: 50,0:04:42.47,0:04:47.43,Main-207+,,0,0,0,,Dışarı saldığımız tüm isyancıları\Nyarın birer birer öldürmeye başlayacağız!
-Dialogue: 50,0:04:48.94,0:04:52.44,Main-207+,,0,0,0,,Ayrıca henüz bahsetmediğimiz\Nbir konu daha var!
-Dialogue: 50,0:04:52.44,0:04:53.94,Main-207+,,0,0,0,,Kusura bakmayın.
-Dialogue: 50,0:04:53.94,0:04:56.98,Main-207+,,0,0,0,,Sizi daha fazla umutsuzluğa\Nsürüklemek istemezdik...
+Dialogue: 50,0:04:38.42,0:04:42.47,Main-207+,,0,0,0,,AyrÄ±ca bu fÄ±rsatÄ± kaÃ§Ä±rÄ±rsanÄ±z,\Nbir daha denemek iÃ§in ÅŸansÄ±nÄ±z olmayacak!
+Dialogue: 50,0:04:42.47,0:04:47.43,Main-207+,,0,0,0,,DÄ±ÅŸarÄ± saldÄ±ÄŸÄ±mÄ±z tÃ¼m isyancÄ±larÄ±\NyarÄ±n birer birer Ã¶ldÃ¼rmeye baÅŸlayacaÄŸÄ±z!
+Dialogue: 50,0:04:48.94,0:04:52.44,Main-207+,,0,0,0,,AyrÄ±ca henÃ¼z bahsetmediÄŸimiz\Nbir konu daha var!
+Dialogue: 50,0:04:52.44,0:04:53.94,Main-207+,,0,0,0,,Kusura bakmayÄ±n.
+Dialogue: 50,0:04:53.94,0:04:56.98,Main-207+,,0,0,0,,Sizi daha fazla umutsuzluÄŸa\NsÃ¼rÃ¼klemek istemezdik...
 Dialogue: 50,0:04:57.53,0:04:58.74,Main-207+,,0,0,0,,Ne?!
-Dialogue: 50,0:04:59.07,0:05:03.49,Main-207+,,0,0,0,,Bugünkü ziyafet, sıradan bir\NAteş Festivali şöleni değil...
-Dialogue: 50,0:05:03.87,0:05:06.24,Main-207+,,0,0,0,,Bu ziyafet, Canavar Korsanları ile...
-Dialogue: 50,0:05:06.24,0:05:11.21,Main-207+,,0,0,0,,ünlü Big Mom Korsanları\Narasındaki ittifakın kutlamasıdır!
-Dialogue: 50,0:05:13.13,0:05:15.17,Main-207+,,0,0,0,,Kaido ve Big Mom mı?!
-Dialogue: 50,0:05:15.17,0:05:17.21,Main-207+,,0,0,0,,İki Yonko'nun ittifakı mı?!
-Dialogue: 50,0:05:17.21,0:05:21.22,Main-207+,,0,0,0,,Hem Kaptan Kaido hem de Big Mom bizim tarafımızda!
-Dialogue: 50,0:05:21.22,0:05:23.97,Main-207+,,0,0,0,,Böylesi bir güçle nasıl baş edebilirler?!
-Dialogue: 50,0:05:23.97,0:05:26.76,Main-207+,,0,0,0,,En Kötü Nesil mi?! Onlar bir hiç!
-Dialogue: 50,0:05:26.76,0:05:30.48,Main-207+,,0,0,0,,Haydi hepsini batırıp şu işi bitirelim!
-Dialogue: 50,0:05:30.48,0:05:31.85,Main-207+,,0,0,0,,Ateşe hazır olun!
-Dialogue: 50,0:05:39.40,0:05:41.95,Main-207+,,0,0,0,,Ne bu kibirli tavırlar?!
+Dialogue: 50,0:04:59.07,0:05:03.49,Main-207+,,0,0,0,,BugÃ¼nkÃ¼ ziyafet, sÄ±radan bir\NAteÅŸ Festivali ÅŸÃ¶leni deÄŸil...
+Dialogue: 50,0:05:03.87,0:05:06.24,Main-207+,,0,0,0,,Bu ziyafet, Canavar KorsanlarÄ± ile...
+Dialogue: 50,0:05:06.24,0:05:11.21,Main-207+,,0,0,0,,Ã¼nlÃ¼ Big Mom KorsanlarÄ±\NarasÄ±ndaki ittifakÄ±n kutlamasÄ±dÄ±r!
+Dialogue: 50,0:05:13.13,0:05:15.17,Main-207+,,0,0,0,,Kaido ve Big Mom mÄ±?!
+Dialogue: 50,0:05:15.17,0:05:17.21,Main-207+,,0,0,0,,Ä°ki Yonko'nun ittifakÄ± mÄ±?!
+Dialogue: 50,0:05:17.21,0:05:21.22,Main-207+,,0,0,0,,Hem Kaptan Kaido hem de Big Mom bizim tarafÄ±mÄ±zda!
+Dialogue: 50,0:05:21.22,0:05:23.97,Main-207+,,0,0,0,,BÃ¶ylesi bir gÃ¼Ã§le nasÄ±l baÅŸ edebilirler?!
+Dialogue: 50,0:05:23.97,0:05:26.76,Main-207+,,0,0,0,,En KÃ¶tÃ¼ Nesil mi?! Onlar bir hiÃ§!
+Dialogue: 50,0:05:26.76,0:05:30.48,Main-207+,,0,0,0,,Haydi hepsini batÄ±rÄ±p ÅŸu iÅŸi bitirelim!
+Dialogue: 50,0:05:30.48,0:05:31.85,Main-207+,,0,0,0,,AteÅŸe hazÄ±r olun!
+Dialogue: 50,0:05:39.40,0:05:41.95,Main-207+,,0,0,0,,Ne bu kibirli tavÄ±rlar?!
 Dialogue: 50,0:05:43.03,0:05:44.53,Main-207+,,0,0,0,,Yeterince duydum.
 Dialogue: 50,0:05:44.53,0:05:45.91,Main-207+,,0,0,0,,Herkes, geride dursun.
 Dialogue: 50,0:05:46.24,0:05:47.49,Main-207+,,0,0,0,,Embesil...
 Dialogue: 50,0:05:47.49,0:05:48.87,Main-207+,,0,0,0,,Sen geride dur!
-Dialogue: 50,0:05:49.12,0:05:49.20,Main-207+,,0,0,0,,{\iclip(m 855.83 121.4 l 861.44 102.46 871.96 84.91 882.48 72.98 899.32 57.54 909.14 51.93 921.77 49.82 935.8 53.33 956.84 64.56 954.04 40 954.04 26.67 956.14 17.54 968.07 -3.51 1059.13 39.27 1019.85 234.27 243.72 108.4 252.45 99.59 254.51 86.19 252.79 74.86 247.3 59.75 240.43 47.73 229.44 36.74 221.54 34 200.24 39.49 186.85 41.9 171.74 42.93 194.79 220.49)}{\an8\pos(615,27)}Ne yapıyorsun, Tra-o?!
-Dialogue: 50,0:05:49.20,0:05:49.29,Main-207+,,0,0,0,,{\clip(m 907.26 120.3 l 926.46 104.26 948.82 95.51 962.19 95.75 978.71 99.64 989.41 105.72 989.41 92.59 994.03 78.5 1002.77 62.46 1013.71 50.55 1028.54 41.07 1045.06 33.54 1064.26 30.38 1078.6 32.32 1089.3 36.45 1018.09 2.19 158.43 16.72 163.7 30.74 184.64 154.46)}{\an8\pos(615,27)}Ne yapıyorsun, Tra-o?!
-Dialogue: 50,0:05:49.29,0:05:50.79,Main-207+,,0,0,0,,{\an8\pos(615,27)}Ne yapıyorsun, Tra-o?!
+Dialogue: 50,0:05:49.12,0:05:49.20,Main-207+,,0,0,0,,{\iclip(m 855.83 121.4 l 861.44 102.46 871.96 84.91 882.48 72.98 899.32 57.54 909.14 51.93 921.77 49.82 935.8 53.33 956.84 64.56 954.04 40 954.04 26.67 956.14 17.54 968.07 -3.51 1059.13 39.27 1019.85 234.27 243.72 108.4 252.45 99.59 254.51 86.19 252.79 74.86 247.3 59.75 240.43 47.73 229.44 36.74 221.54 34 200.24 39.49 186.85 41.9 171.74 42.93 194.79 220.49)}{\an8\pos(615,27)}Ne yapÄ±yorsun, Tra-o?!
+Dialogue: 50,0:05:49.20,0:05:49.29,Main-207+,,0,0,0,,{\clip(m 907.26 120.3 l 926.46 104.26 948.82 95.51 962.19 95.75 978.71 99.64 989.41 105.72 989.41 92.59 994.03 78.5 1002.77 62.46 1013.71 50.55 1028.54 41.07 1045.06 33.54 1064.26 30.38 1078.6 32.32 1089.3 36.45 1018.09 2.19 158.43 16.72 163.7 30.74 184.64 154.46)}{\an8\pos(615,27)}Ne yapÄ±yorsun, Tra-o?!
+Dialogue: 50,0:05:49.29,0:05:50.79,Main-207+,,0,0,0,,{\an8\pos(615,27)}Ne yapÄ±yorsun, Tra-o?!
 Dialogue: 50,0:05:50.79,0:05:53.17,Main-207+,,0,0,0,,{\an8\pos(615,27)}Hallederim dedim ya!
 Dialogue: 50,0:05:53.17,0:05:54.38,Main-207+,,0,125,0,,{\an9}Sanki halledebilirsin de!
-Dialogue: 50,0:05:54.38,0:05:57.04,Main-207+,,0,0,0,,Hayır, asıl siz ikiniz geri çekilin!
+Dialogue: 50,0:05:54.38,0:05:57.04,Main-207+,,0,0,0,,HayÄ±r, asÄ±l siz ikiniz geri Ã§ekilin!
 Dialogue: 50,0:05:57.04,0:05:58.42,Main-207+,,0,0,0,,Ben hallederim!
 Dialogue: 50,0:05:58.75,0:06:00.88,Main-207+,,0,0,0,,{\an8\pos(594,27)}Hassiktir, Dikenli!
-Dialogue: 50,0:06:00.88,0:06:02.72,Main-207+,,0,0,0,,{\an8\pos(1540,27)}Kapa' çeneni!
-Dialogue: 50,0:06:02.72,0:06:02.80,Main-207+,,0,0,0,,{\clip(m 1067.22 101.56 l 1078.51 58.51 1086.87 24.24 676.95 30.17 674.21 44.67 668.66 67.55 663.61 89.92 662.04 97.38 841.11 173.16)}{\an8\pos(894,27)}Sözümü dinleyin, gerzekler!
-Dialogue: 50,0:06:02.80,0:06:02.88,Main-207+,,0,0,0,,{\clip(m 546.6 34.13 l 547.46 59.84 548.97 100.03 549.62 120.34 1182.56 137.87 1219.21 76.28 1244.09 32.81)}{\an8\pos(894,27)}Sözümü dinleyin, gerzekler!
-Dialogue: 50,0:06:02.88,0:06:04.84,Main-207+,,0,0,0,,{\an8\pos(894,27)}Sözümü dinleyin, gerzekler!
-Dialogue: 50,0:06:04.84,0:06:05.89,Main-207+,,0,0,0,,Öf be!
-Dialogue: 50,0:06:05.89,0:06:07.39,Main-207+,,0,0,0,,Oraya ilk varan kazanır!
-Dialogue: 50,0:06:07.39,0:06:08.97,Main-207+,,0,0,0,,Seni şerefsiz!
-Dialogue: 50,0:06:08.97,0:06:10.98,Main-207+,,0,0,0,,İlk varan ben olacağım!
-Dialogue: 50,0:06:10.98,0:06:12.10,Main-207+,,0,0,0,,Anca rüyanda!
+Dialogue: 50,0:06:00.88,0:06:02.72,Main-207+,,0,0,0,,{\an8\pos(1540,27)}Kapa' Ã§eneni!
+Dialogue: 50,0:06:02.72,0:06:02.80,Main-207+,,0,0,0,,{\clip(m 1067.22 101.56 l 1078.51 58.51 1086.87 24.24 676.95 30.17 674.21 44.67 668.66 67.55 663.61 89.92 662.04 97.38 841.11 173.16)}{\an8\pos(894,27)}SÃ¶zÃ¼mÃ¼ dinleyin, gerzekler!
+Dialogue: 50,0:06:02.80,0:06:02.88,Main-207+,,0,0,0,,{\clip(m 546.6 34.13 l 547.46 59.84 548.97 100.03 549.62 120.34 1182.56 137.87 1219.21 76.28 1244.09 32.81)}{\an8\pos(894,27)}SÃ¶zÃ¼mÃ¼ dinleyin, gerzekler!
+Dialogue: 50,0:06:02.88,0:06:04.84,Main-207+,,0,0,0,,{\an8\pos(894,27)}SÃ¶zÃ¼mÃ¼ dinleyin, gerzekler!
+Dialogue: 50,0:06:04.84,0:06:05.89,Main-207+,,0,0,0,,Ã–f be!
+Dialogue: 50,0:06:05.89,0:06:07.39,Main-207+,,0,0,0,,Oraya ilk varan kazanÄ±r!
+Dialogue: 50,0:06:07.39,0:06:08.97,Main-207+,,0,0,0,,Seni ÅŸerefsiz!
+Dialogue: 50,0:06:08.97,0:06:10.98,Main-207+,,0,0,0,,Ä°lk varan ben olacaÄŸÄ±m!
+Dialogue: 50,0:06:10.98,0:06:12.10,Main-207+,,0,0,0,,Anca rÃ¼yanda!
 Dialogue: 50,0:06:18.27,0:06:19.32,Main-207+,,0,0,0,,{\pos(311,1053)}Tra-o!
-Dialogue: 50,0:06:19.32,0:06:20.53,Main-207+,,0,0,0,,{\pos(1614,1053)}Lanet olası...
-Dialogue: 50,0:06:20.53,0:06:22.99,Main-207+,,0,0,0,,Bu yağmurda "Oda"mın\Nhızına erişemezsiniz!
-Dialogue: 50,0:06:22.99,0:06:26.87,Main-207+,,0,0,0,,Buna hile denir! Yeteneğin adil değil!
+Dialogue: 50,0:06:19.32,0:06:20.53,Main-207+,,0,0,0,,{\pos(1614,1053)}Lanet olasÄ±...
+Dialogue: 50,0:06:20.53,0:06:22.99,Main-207+,,0,0,0,,Bu yaÄŸmurda "Oda"mÄ±n\NhÄ±zÄ±na eriÅŸemezsiniz!
+Dialogue: 50,0:06:22.99,0:06:26.87,Main-207+,,0,0,0,,Buna hile denir! YeteneÄŸin adil deÄŸil!
 Dialogue: 50,0:06:26.87,0:06:27.87,Main-207+,,0,0,0,,Kimin umurunda?
-Dialogue: 50,0:06:27.87,0:06:30.16,Main-207+,,0,0,0,,Şovmenin tekisin!
-Dialogue: 50,0:06:30.16,0:06:31.75,Main-207+,,0,0,0,,Şu konuşana da bak.
+Dialogue: 50,0:06:27.87,0:06:30.16,Main-207+,,0,0,0,,Åovmenin tekisin!
+Dialogue: 50,0:06:30.16,0:06:31.75,Main-207+,,0,0,0,,Åu konuÅŸana da bak.
 Dialogue: 50,0:06:31.75,0:06:33.29,Main-207+,,0,0,0,,Defolun!
 Dialogue: 50,0:06:33.29,0:06:35.33,Main-207+,,0,0,0,,Tek bir darbe ile hepsini indirebilirim!
-Dialogue: 50,0:06:35.33,0:06:39.96,Main-207+,,0,0,0,,Yani benim tek bir darbede\Nindiremeyeceğimi mi söylüyorsun?!
-Dialogue: 50,0:06:40.38,0:06:41.51,Main-207+,,0,0,0,,Ben yapacağım.
+Dialogue: 50,0:06:35.33,0:06:39.96,Main-207+,,0,0,0,,Yani benim tek bir darbede\NindiremeyeceÄŸimi mi sÃ¶ylÃ¼yorsun?!
+Dialogue: 50,0:06:40.38,0:06:41.51,Main-207+,,0,0,0,,Ben yapacaÄŸÄ±m.
 Dialogue: 50,0:06:41.51,0:06:43.55,Main-207+,,0,0,0,,Siz ikiniz tam bir eziksiniz.
-Dialogue: 50,0:06:43.55,0:06:44.97,Main-207+,,0,0,0,,İtirazı olan?
-Dialogue: 50,0:06:44.97,0:06:46.64,Main-207+,,0,0,0,,– Ezik mi?!\N– Ezik mi?!
+Dialogue: 50,0:06:43.55,0:06:44.97,Main-207+,,0,0,0,,Ä°tirazÄ± olan?
+Dialogue: 50,0:06:44.97,0:06:46.64,Main-207+,,0,0,0,,â€“ Ezik mi?!\Nâ€“ Ezik mi?!
 Dialogue: 50,0:06:46.64,0:06:48.26,Main-207+,,0,0,0,,Sen kime ezik diyorsun?!
 Dialogue: 50,0:06:48.26,0:06:50.31,Main-207+,,0,0,0,,Ben kimseye yenilmem!
-Dialogue: 50,0:06:50.31,0:06:51.77,Main-207+,,0,0,0,,Yoluma çıkmayın!
-Dialogue: 50,0:06:51.77,0:06:55.23,Main-207+,,0,0,0,,B-Buradan canlı çıkmayı\Ndüşünmüyorsunuz herhâlde!
-Dialogue: 50,0:06:55.23,0:06:57.40,Main-207+,,0,0,0,,Havlamayı kesin, sizi salyalılar!
-Dialogue: 50,0:06:57.40,0:06:59.07,Main-207+,,0,0,0,,Onlarla ben ilgileneceğim!
+Dialogue: 50,0:06:50.31,0:06:51.77,Main-207+,,0,0,0,,Yoluma Ã§Ä±kmayÄ±n!
+Dialogue: 50,0:06:51.77,0:06:55.23,Main-207+,,0,0,0,,B-Buradan canlÄ± Ã§Ä±kmayÄ±\NdÃ¼ÅŸÃ¼nmÃ¼yorsunuz herhÃ¢lde!
+Dialogue: 50,0:06:55.23,0:06:57.40,Main-207+,,0,0,0,,HavlamayÄ± kesin, sizi salyalÄ±lar!
+Dialogue: 50,0:06:57.40,0:06:59.07,Main-207+,,0,0,0,,Onlarla ben ilgileneceÄŸim!
 Dialogue: 50,0:06:59.57,0:07:00.65,Main-207+,,0,0,0,,Kes sesini!
-Dialogue: 50,0:07:00.65,0:07:01.98,Main-207+,,0,0,0,,Göreceğiz!
+Dialogue: 50,0:07:00.65,0:07:01.98,Main-207+,,0,0,0,,GÃ¶receÄŸiz!
 Dialogue: 50,0:07:06.82,0:07:07.66,Main-207+,,0,0,0,,{\fad(150,150)}Oda!
-Dialogue: 50,0:07:39.61,0:07:41.69,Main-207+,,0,0,0,,{\fad(150,150)}Sıçrayan Adam!
+Dialogue: 50,0:07:39.61,0:07:41.69,Main-207+,,0,0,0,,{\fad(150,150)}SÄ±Ã§rayan Adam!
 Dialogue: 50,0:07:48.32,0:07:50.28,Main-207+,,0,0,0,,{\fad(150,150)}Punk Rotten!
-Dialogue: 50,0:08:01.09,0:08:02.84,Main-207+,,0,0,0,,{\fad(150,150)}Enjeksiyon Vuruşu!
-Dialogue: 50,0:08:35.75,0:08:37.12,Main-207+,,0,0,0,,Hey, gördün mü?
-Dialogue: 50,0:08:37.12,0:08:39.21,Main-207+,,0,0,0,,Kimmiş ezik bakalım?!
-Dialogue: 50,0:08:39.54,0:08:41.50,Main-207+,,0,0,0,,Bir şeyi açıklığa kavuşturalım.
-Dialogue: 50,0:08:42.21,0:08:44.92,Main-207+,,0,0,0,,Gemiyi batıran bendim.
-Dialogue: 50,0:08:44.92,0:08:46.92,Main-207+,,0,0,0,,Kör müsün sen?!
-Dialogue: 50,0:08:47.34,0:08:48.55,Main-207+,,0,0,0,,Saçmalamayı kesin!
-Dialogue: 50,0:08:48.55,0:08:50.47,Main-207+,,0,0,0,,Batıran bendim!
-Dialogue: 50,0:08:50.47,0:08:53.64,Main-207+,,0,0,0,,Onların müttefik olduğunu sanıyordum...
+Dialogue: 50,0:08:01.09,0:08:02.84,Main-207+,,0,0,0,,{\fad(150,150)}Enjeksiyon VuruÅŸu!
+Dialogue: 50,0:08:35.75,0:08:37.12,Main-207+,,0,0,0,,Hey, gÃ¶rdÃ¼n mÃ¼?
+Dialogue: 50,0:08:37.12,0:08:39.21,Main-207+,,0,0,0,,KimmiÅŸ ezik bakalÄ±m?!
+Dialogue: 50,0:08:39.54,0:08:41.50,Main-207+,,0,0,0,,Bir ÅŸeyi aÃ§Ä±klÄ±ÄŸa kavuÅŸturalÄ±m.
+Dialogue: 50,0:08:42.21,0:08:44.92,Main-207+,,0,0,0,,Gemiyi batÄ±ran bendim.
+Dialogue: 50,0:08:44.92,0:08:46.92,Main-207+,,0,0,0,,KÃ¶r mÃ¼sÃ¼n sen?!
+Dialogue: 50,0:08:47.34,0:08:48.55,Main-207+,,0,0,0,,SaÃ§malamayÄ± kesin!
+Dialogue: 50,0:08:48.55,0:08:50.47,Main-207+,,0,0,0,,BatÄ±ran bendim!
+Dialogue: 50,0:08:50.47,0:08:53.64,Main-207+,,0,0,0,,OnlarÄ±n mÃ¼ttefik olduÄŸunu sanÄ±yordum...
 Dialogue: 50,0:08:57.89,0:08:58.60,Main-207+,,0,0,0,,O...?!
 Dialogue: 50,0:09:00.73,0:09:02.81,Main-207+,,0,0,0,,Kyoshiro Ailesi'nin gemisi!
 Dialogue: 50,0:09:02.81,0:09:05.07,Main-207+,,0,0,0,,Kyoshiro geldi!
-Dialogue: 50,0:09:05.07,0:09:07.53,Main-207+,,0,0,0,,Artık güvendeyiz!
-Dialogue: 50,0:09:07.53,0:09:09.86,Main-207+,,0,0,0,,Başınız biraz belada sanki.
-Dialogue: 50,0:09:09.86,0:09:15.20,Main-207+,,0,0,0,,Orochi-{\i1}sama{\i0}'nın emrettiği gibi\NKızıl Kınları batırmalıydık ama...
-Dialogue: 50,0:09:15.58,0:09:16.62,Main-207+,,0,0,0,,Pekâlâ.
-Dialogue: 50,0:09:16.62,0:09:18.91,Main-207+,,0,0,0,,Düşmanı batıralım mı diyorsun?
+Dialogue: 50,0:09:05.07,0:09:07.53,Main-207+,,0,0,0,,ArtÄ±k gÃ¼vendeyiz!
+Dialogue: 50,0:09:07.53,0:09:09.86,Main-207+,,0,0,0,,BaÅŸÄ±nÄ±z biraz belada sanki.
+Dialogue: 50,0:09:09.86,0:09:15.20,Main-207+,,0,0,0,,Orochi-{\i1}sama{\i0}'nÄ±n emrettiÄŸi gibi\NKÄ±zÄ±l KÄ±nlarÄ± batÄ±rmalÄ±ydÄ±k ama...
+Dialogue: 50,0:09:15.58,0:09:16.62,Main-207+,,0,0,0,,PekÃ¢lÃ¢.
+Dialogue: 50,0:09:16.62,0:09:18.91,Main-207+,,0,0,0,,DÃ¼ÅŸmanÄ± batÄ±ralÄ±m mÄ± diyorsun?
 Dialogue: 50,0:09:18.91,0:09:20.00,Main-207+,,0,0,0,,Hallederiz!
-Dialogue: 50,0:09:24.88,0:09:27.51,Main-207+,,0,0,0,,Ne yapıyorsunuz, Patron!
-Dialogue: 50,0:09:34.22,0:09:36.22,Main-207+,,0,0,0,,Sizi batırmaya gerek yok.
-Dialogue: 50,0:09:36.22,0:09:40.31,Main-207+,,0,0,0,,O yüzden sadece bu tarafa dönük toplarınızı kestim.
-Dialogue: 50,0:09:40.31,0:09:42.81,Main-207+,,0,0,0,,Şu herif... onu hatırlıyorum.
-Dialogue: 50,0:09:42.81,0:09:45.82,Main-207+,,0,0,0,,Dikkat edin! İyi bir kılıç ustasıdır!
-Dialogue: 50,0:09:45.82,0:09:48.07,Main-207+,,0,0,0,,Şogun'un köpeği!
+Dialogue: 50,0:09:24.88,0:09:27.51,Main-207+,,0,0,0,,Ne yapÄ±yorsunuz, Patron!
+Dialogue: 50,0:09:34.22,0:09:36.22,Main-207+,,0,0,0,,Sizi batÄ±rmaya gerek yok.
+Dialogue: 50,0:09:36.22,0:09:40.31,Main-207+,,0,0,0,,O yÃ¼zden sadece bu tarafa dÃ¶nÃ¼k toplarÄ±nÄ±zÄ± kestim.
+Dialogue: 50,0:09:40.31,0:09:42.81,Main-207+,,0,0,0,,Åu herif... onu hatÄ±rlÄ±yorum.
+Dialogue: 50,0:09:42.81,0:09:45.82,Main-207+,,0,0,0,,Dikkat edin! Ä°yi bir kÄ±lÄ±Ã§ ustasÄ±dÄ±r!
+Dialogue: 50,0:09:45.82,0:09:48.07,Main-207+,,0,0,0,,Åogun'un kÃ¶peÄŸi!
 Dialogue: 50,0:09:48.07,0:09:51.78,Main-207+,,0,0,0,,Patron Hyogoro'nun yerini alan bir yakuza o!
-Dialogue: 50,0:09:54.74,0:09:56.99,Main-207+,,0,0,0,,Kızıl Kın samurayları!
-Dialogue: 50,0:09:57.45,0:10:00.70,Main-207+,,0,0,0,,Bendeniz Çiçek Başkenti'nden bir yakuzayım!
-Dialogue: 50,0:10:00.70,0:10:03.42,Main-207+,,0,0,0,,İnsanlar bana Pinekleyen Kyoshiro der!
-Dialogue: 50,0:10:03.87,0:10:09.59,Main-207+,,0,0,0,,Kyoshiro Ailesi, 200 kişilik bir kuvvet!\NLütfen size katılmamıza izin verin!
-Dialogue: 50,0:10:10.38,0:10:11.55,Main-207+,,0,0,0,,– Ne?!\N– Ne?!
-Dialogue: 50,0:10:11.55,0:10:13.09,Main-207+,,0,0,0,,Dalga mı geçiyorsun, Patron?!
-Dialogue: 50,0:10:13.09,0:10:14.51,Main-207+,,0,0,0,,Bu da ne demek şimdi?!
-Dialogue: 50,0:10:14.51,0:10:16.14,Main-207+,,0,0,0,,Sen Orochi'nin adamısın!
-Dialogue: 50,0:10:16.14,0:10:18.10,Main-207+,,0,0,0,,Bize yardım etme yükümlülüğün nedir?
-Dialogue: 50,0:10:21.27,0:10:26.02,Main-207+,,0,0,0,,Kozuki Hanesi'ne olan bağlılığım ve\Nminnettarlığım tarif edilemez…
-Dialogue: 50,0:10:29.23,0:10:31.94,Main-207+,,0,0,0,,Özellikle de seni hiç unutamıyorum, Kin-{\i1}san{\i0}!
-Dialogue: 50,0:10:32.86,0:10:34.11,Main-207+,,0,0,0,,Kin-{\i1}san{\i0} mı?!
-Dialogue: 50,0:10:34.11,0:10:38.49,Main-207+,,0,0,0,,40 yıl önce, Dağ Tanrısı Olayı\Nbaşkenti sarsmıştı!
-Dialogue: 50,0:10:41.91,0:10:45.29,Main-207+,,0,0,0,,Halk bunun için Oden-{\i1}san{\i0}'ı suçlamıştı...
-Dialogue: 50,0:10:46.17,0:10:47.92,Main-207+,,0,0,0,,Ama yanıldılar.
-Dialogue: 50,0:10:47.92,0:10:54.80,Main-207+,,0,0,0,,Asıl suçlu, küçük bir domuzu satmaya\Nçalışan açgözlü bir genç olan sendin!
+Dialogue: 50,0:09:54.74,0:09:56.99,Main-207+,,0,0,0,,KÄ±zÄ±l KÄ±n samuraylarÄ±!
+Dialogue: 50,0:09:57.45,0:10:00.70,Main-207+,,0,0,0,,Bendeniz Ã‡iÃ§ek BaÅŸkenti'nden bir yakuzayÄ±m!
+Dialogue: 50,0:10:00.70,0:10:03.42,Main-207+,,0,0,0,,Ä°nsanlar bana Pinekleyen Kyoshiro der!
+Dialogue: 50,0:10:03.87,0:10:09.59,Main-207+,,0,0,0,,Kyoshiro Ailesi, 200 kiÅŸilik bir kuvvet!\NLÃ¼tfen size katÄ±lmamÄ±za izin verin!
+Dialogue: 50,0:10:10.38,0:10:11.55,Main-207+,,0,0,0,,â€“ Ne?!\Nâ€“ Ne?!
+Dialogue: 50,0:10:11.55,0:10:13.09,Main-207+,,0,0,0,,Dalga mÄ± geÃ§iyorsun, Patron?!
+Dialogue: 50,0:10:13.09,0:10:14.51,Main-207+,,0,0,0,,Bu da ne demek ÅŸimdi?!
+Dialogue: 50,0:10:14.51,0:10:16.14,Main-207+,,0,0,0,,Sen Orochi'nin adamÄ±sÄ±n!
+Dialogue: 50,0:10:16.14,0:10:18.10,Main-207+,,0,0,0,,Bize yardÄ±m etme yÃ¼kÃ¼mlÃ¼lÃ¼ÄŸÃ¼n nedir?
+Dialogue: 50,0:10:21.27,0:10:26.02,Main-207+,,0,0,0,,Kozuki Hanesi'ne olan baÄŸlÄ±lÄ±ÄŸÄ±m ve\NminnettarlÄ±ÄŸÄ±m tarif edilemezâ€¦
+Dialogue: 50,0:10:29.23,0:10:31.94,Main-207+,,0,0,0,,Ã–zellikle de seni hiÃ§ unutamÄ±yorum, Kin-{\i1}san{\i0}!
+Dialogue: 50,0:10:32.86,0:10:34.11,Main-207+,,0,0,0,,Kin-{\i1}san{\i0} mÄ±?!
+Dialogue: 50,0:10:34.11,0:10:38.49,Main-207+,,0,0,0,,40 yÄ±l Ã¶nce, DaÄŸ TanrÄ±sÄ± OlayÄ±\NbaÅŸkenti sarsmÄ±ÅŸtÄ±!
+Dialogue: 50,0:10:41.91,0:10:45.29,Main-207+,,0,0,0,,Halk bunun iÃ§in Oden-{\i1}san{\i0}'Ä± suÃ§lamÄ±ÅŸtÄ±...
+Dialogue: 50,0:10:46.17,0:10:47.92,Main-207+,,0,0,0,,Ama yanÄ±ldÄ±lar.
+Dialogue: 50,0:10:47.92,0:10:54.80,Main-207+,,0,0,0,,AsÄ±l suÃ§lu, kÃ¼Ã§Ã¼k bir domuzu satmaya\NÃ§alÄ±ÅŸan aÃ§gÃ¶zlÃ¼ bir genÃ§ olan sendin!
 Dialogue: 50,0:10:59.22,0:11:00.39,Main-207+,,0,0,0,,Ne?
-Dialogue: 50,0:11:00.39,0:11:03.43,Main-207+,,0,0,0,,Bu hikâyeyi bilebilecek sadece tek kişi tanıyorum.
-Dialogue: 50,0:11:05.44,0:11:08.27,Flashbacks-207+,,0,0,0,,Bu yüzden ona Dağ Tanrısı deniyor!{Wano 34 - 11:06}
+Dialogue: 50,0:11:00.39,0:11:03.43,Main-207+,,0,0,0,,Bu hikÃ¢yeyi bilebilecek sadece tek kiÅŸi tanÄ±yorum.
+Dialogue: 50,0:11:05.44,0:11:08.27,Flashbacks-207+,,0,0,0,,Bu yÃ¼zden ona DaÄŸ TanrÄ±sÄ± deniyor!{Wano 34 - 11:06}
 Dialogue: 50,0:11:08.27,0:11:09.48,Flashbacks-207+,,0,0,0,,Ne?!
 Dialogue: 50,0:11:09.48,0:11:11.40,Flashbacks-207+,,0,0,0,,Olamaz!
 Dialogue: 50,0:11:11.40,0:11:13.90,Flashbacks-207+,,0,0,0,,Bunun sorumlusu benim!{Wano 34 - 11:44}
 Dialogue: 50,0:11:15.82,0:11:16.95,Main-207+,,0,0,0,,Yoksa...?
 Dialogue: 50,0:11:17.45,0:11:18.95,Main-207+,,0,0,0,,Sen misin, Denjiro?!
 Dialogue: 50,0:11:18.95,0:11:19.58,Main-207+,,0,0,0,,Ne?!
-Dialogue: 50,0:11:19.58,0:11:20.58,Main-207+,,0,0,0,,Denjiro-{\i1}san{\i0} mı?!
-Dialogue: 50,0:11:26.29,0:11:28.08,Main-207+,,0,0,0,,Çok doğru!
-Dialogue: 50,0:11:28.08,0:11:29.92,Main-207+,,0,0,0,,Sanırım beni tanıyamadınız...
-Dialogue: 50,0:11:30.96,0:11:33.51,Main-207+,,0,0,0,,Sizi gördüğüm gibi\Nkendimi tanıtmak istedim,
-Dialogue: 50,0:11:33.51,0:11:36.88,Main-207+,,0,0,0,,fakat her ihtimale karşı\Ndüşman olarak kaldım.
-Dialogue: 50,0:11:36.88,0:11:39.76,Main-207+,,0,0,0,,Görünüşe göre, kimliğimi açık etseymişim...
-Dialogue: 50,0:11:39.76,0:11:44.64,Main-207+,,0,0,0,,Orochi'nin casusu tarafından\Naçığa çıkarılır ve öldürülürdüm!
+Dialogue: 50,0:11:19.58,0:11:20.58,Main-207+,,0,0,0,,Denjiro-{\i1}san{\i0} mÄ±?!
+Dialogue: 50,0:11:26.29,0:11:28.08,Main-207+,,0,0,0,,Ã‡ok doÄŸru!
+Dialogue: 50,0:11:28.08,0:11:29.92,Main-207+,,0,0,0,,SanÄ±rÄ±m beni tanÄ±yamadÄ±nÄ±z...
+Dialogue: 50,0:11:30.96,0:11:33.51,Main-207+,,0,0,0,,Sizi gÃ¶rdÃ¼ÄŸÃ¼m gibi\Nkendimi tanÄ±tmak istedim,
+Dialogue: 50,0:11:33.51,0:11:36.88,Main-207+,,0,0,0,,fakat her ihtimale karÅŸÄ±\NdÃ¼ÅŸman olarak kaldÄ±m.
+Dialogue: 50,0:11:36.88,0:11:39.76,Main-207+,,0,0,0,,GÃ¶rÃ¼nÃ¼ÅŸe gÃ¶re, kimliÄŸimi aÃ§Ä±k etseymiÅŸim...
+Dialogue: 50,0:11:39.76,0:11:44.64,Main-207+,,0,0,0,,Orochi'nin casusu tarafÄ±ndan\NaÃ§Ä±ÄŸa Ã§Ä±karÄ±lÄ±r ve Ã¶ldÃ¼rÃ¼lÃ¼rdÃ¼m!
 Dialogue: 50,0:11:46.35,0:11:47.60,Main-207+,,0,0,0,,Denjiro!
 Dialogue: 50,0:11:47.60,0:11:49.40,Main-207+,,0,0,0,,Sus!
-Dialogue: 50,0:11:49.40,0:11:53.19,Main-207+,,0,0,0,,En sonuna kadar,\NOrochi'nin güvenini elimde tuttuğum için...
-Dialogue: 50,0:11:53.19,0:11:58.07,Main-207+,,0,0,0,,Rasetsu Hapishanesi'ndeki 1.000\Nsamurayı kurtarma şansı yakaladım!
-Dialogue: 50,0:11:58.07,0:11:59.24,Main-207+,,0,0,0,,Şuraya bakın!
-Dialogue: 50,0:11:59.24,0:12:00.41,Main-207+,,0,0,0,,Düşman birlikleri mi?!
-Dialogue: 50,0:12:02.03,0:12:04.16,Main-207+,,0,0,0,,Toplamda 1.200 kişiyiz!
-Dialogue: 50,0:12:04.16,0:12:06.41,Main-207+,,0,0,0,,Size katılmamıza izin verin!
-Dialogue: 50,0:12:12.29,0:12:14.21,Main-207+,,0,0,0,,Artık zamanı geldi!
-Dialogue: 50,0:12:14.21,0:12:16.01,Main-207+,,0,0,0,,Sonunda savaşabileceğiz!
-Dialogue: 50,0:12:16.01,0:12:20.51,Main-207+,,0,0,0,,P-Patron Kyoshiro,\NDokuz Kızıl Kın'dan biri miymiş?!
+Dialogue: 50,0:11:49.40,0:11:53.19,Main-207+,,0,0,0,,En sonuna kadar,\NOrochi'nin gÃ¼venini elimde tuttuÄŸum iÃ§in...
+Dialogue: 50,0:11:53.19,0:11:58.07,Main-207+,,0,0,0,,Rasetsu Hapishanesi'ndeki 1.000\NsamurayÄ± kurtarma ÅŸansÄ± yakaladÄ±m!
+Dialogue: 50,0:11:58.07,0:11:59.24,Main-207+,,0,0,0,,Åuraya bakÄ±n!
+Dialogue: 50,0:11:59.24,0:12:00.41,Main-207+,,0,0,0,,DÃ¼ÅŸman birlikleri mi?!
+Dialogue: 50,0:12:02.03,0:12:04.16,Main-207+,,0,0,0,,Toplamda 1.200 kiÅŸiyiz!
+Dialogue: 50,0:12:04.16,0:12:06.41,Main-207+,,0,0,0,,Size katÄ±lmamÄ±za izin verin!
+Dialogue: 50,0:12:12.29,0:12:14.21,Main-207+,,0,0,0,,ArtÄ±k zamanÄ± geldi!
+Dialogue: 50,0:12:14.21,0:12:16.01,Main-207+,,0,0,0,,Sonunda savaÅŸabileceÄŸiz!
+Dialogue: 50,0:12:16.01,0:12:20.51,Main-207+,,0,0,0,,P-Patron Kyoshiro,\NDokuz KÄ±zÄ±l KÄ±n'dan biri miymiÅŸ?!
 Dialogue: 50,0:12:20.51,0:12:23.01,Main-207+,,0,0,0,,Derhal Onigashima'ya haber edin!
 Dialogue: 50,0:12:23.01,0:12:24.56,Main-207+,,0,0,0,,H-Hemen!
 Dialogue: 50,0:12:31.40,0:12:32.73,Main-207+,,0,0,0,,Denjiro...
-Dialogue: 50,0:12:33.27,0:12:34.57,Main-207+,,0,0,0,,Ayrıca Kin-{\i1}san{\i0}!
+Dialogue: 50,0:12:33.27,0:12:34.57,Main-207+,,0,0,0,,AyrÄ±ca Kin-{\i1}san{\i0}!
 Dialogue: 50,0:12:34.57,0:12:35.15,Main-207+,,0,0,0,,Ha?
-Dialogue: 50,0:12:35.15,0:12:37.82,Main-207+,,0,0,0,,Zeki bir adam olduğunu biliyordum!
-Dialogue: 50,0:12:37.82,0:12:42.28,Main-207+,,0,0,0,,Bu sembol büyük savaşın tarihini ve\Nbuluşma noktasını ifade ediyor!
-Dialogue: 50,0:12:42.28,0:12:44.66,Flashbacks-207+,,0,0,0,,Engereğin üzerinde…{Wano 10 - 04:11}
-Dialogue: 50,0:12:45.24,0:12:47.00,Flashbacks-207+,,0,0,0,,yanan iki kuş...
-Dialogue: 50,0:12:47.00,0:12:51.13,Flashbacks-207+,,0,0,0,,ve isyan anlamına gelen ters hilal!
-Dialogue: 50,0:12:51.13,0:12:54.84,Flashbacks-207+,,0,0,0,,"Ateş Festivali günü. Akşam alacasında.\NKuşun ikinci saati.
-Dialogue: 50,0:12:54.84,0:12:57.26,Flashbacks-207+,,0,0,0,,Habu Limanında."
-Dialogue: 50,0:12:57.26,0:13:00.22,Main-207+,,0,0,0,,Orijinal sembolde bu iki çizgi yoktu.
-Dialogue: 50,0:13:01.76,0:13:05.76,Main-207+,,0,0,0,,Bu broşür Orochi'ye sızdırıldı...
-Dialogue: 50,0:13:06.52,0:13:11.73,Main-207+,,0,0,0,,ama Yasuie-{\i1}sama{\i0},\Nölmeden önce sembolü değiştirdi!
-Dialogue: 50,0:13:11.73,0:13:14.40,Main-207+,,0,0,0,,Yeni eklenen bu iki çizgi...
-Dialogue: 50,0:13:14.40,0:13:18.36,Main-207+,,0,0,0,,ortadaki harfleri kaldırıyor!
-Dialogue: 50,0:13:18.36,0:13:23.03,Main-207+,,0,0,0,,Yani orta kısmı olmayan "Habuminato" \Nyeni buluşma noktası anlamına gelen...
+Dialogue: 50,0:12:35.15,0:12:37.82,Main-207+,,0,0,0,,Zeki bir adam olduÄŸunu biliyordum!
+Dialogue: 50,0:12:37.82,0:12:42.28,Main-207+,,0,0,0,,Bu sembol bÃ¼yÃ¼k savaÅŸÄ±n tarihini ve\NbuluÅŸma noktasÄ±nÄ± ifade ediyor!
+Dialogue: 50,0:12:42.28,0:12:44.66,Flashbacks-207+,,0,0,0,,EngereÄŸin Ã¼zerindeâ€¦{Wano 10 - 04:11}
+Dialogue: 50,0:12:45.24,0:12:47.00,Flashbacks-207+,,0,0,0,,yanan iki kuÅŸ...
+Dialogue: 50,0:12:47.00,0:12:51.13,Flashbacks-207+,,0,0,0,,ve isyan anlamÄ±na gelen ters hilal!
+Dialogue: 50,0:12:51.13,0:12:54.84,Flashbacks-207+,,0,0,0,,"AteÅŸ Festivali gÃ¼nÃ¼. AkÅŸam alacasÄ±nda.\NKuÅŸun ikinci saati.
+Dialogue: 50,0:12:54.84,0:12:57.26,Flashbacks-207+,,0,0,0,,Habu LimanÄ±nda."
+Dialogue: 50,0:12:57.26,0:13:00.22,Main-207+,,0,0,0,,Orijinal sembolde bu iki Ã§izgi yoktu.
+Dialogue: 50,0:13:01.76,0:13:05.76,Main-207+,,0,0,0,,Bu broÅŸÃ¼r Orochi'ye sÄ±zdÄ±rÄ±ldÄ±...
+Dialogue: 50,0:13:06.52,0:13:11.73,Main-207+,,0,0,0,,ama Yasuie-{\i1}sama{\i0},\NÃ¶lmeden Ã¶nce sembolÃ¼ deÄŸiÅŸtirdi!
+Dialogue: 50,0:13:11.73,0:13:14.40,Main-207+,,0,0,0,,Yeni eklenen bu iki Ã§izgi...
+Dialogue: 50,0:13:14.40,0:13:18.36,Main-207+,,0,0,0,,ortadaki harfleri kaldÄ±rÄ±yor!
+Dialogue: 50,0:13:18.36,0:13:23.03,Main-207+,,0,0,0,,Yani orta kÄ±smÄ± olmayan "Habuminato" \Nyeni buluÅŸma noktasÄ± anlamÄ±na gelen...
 Dialogue: 50,0:13:23.53,0:13:24.74,Main-207+,,0,0,0,,"Hato" oluyor!
-Dialogue: 50,0:13:28.20,0:13:29.96,Main-207+,,0,0,0,,Yani Yasuie-{\i1}sama{\i0}'nın sevdiği...
-Dialogue: 50,0:13:29.96,0:13:33.96,Main-207+,,0,0,0,,akçaağaç ormanının harika manzarasına sahip olan Habu Limanı rıhtımı.
+Dialogue: 50,0:13:28.20,0:13:29.96,Main-207+,,0,0,0,,Yani Yasuie-{\i1}sama{\i0}'nÄ±n sevdiÄŸi...
+Dialogue: 50,0:13:29.96,0:13:33.96,Main-207+,,0,0,0,,akÃ§aaÄŸaÃ§ ormanÄ±nÄ±n harika manzarasÄ±na sahip olan Habu LimanÄ± rÄ±htÄ±mÄ±.
 Dialogue: 50,0:13:35.46,0:13:36.05,Main-207+,,0,0,0,,Ne?
 Dialogue: 50,0:13:36.05,0:13:37.92,Main-207+,,0,0,0,,Ne?!
-Dialogue: 50,0:13:37.92,0:13:43.47,Main-207+,,0,0,0,,Engereğin üstündeki iki çizgiyi\Ngören herkes bu mesajı kolayca anlardı.
-Dialogue: 50,0:13:45.47,0:13:49.52,Main-207+,,0,0,0,,Ama Orochi'nin casusunun aranızda olduğunu anlayıp...
-Dialogue: 50,0:13:49.52,0:13:54.81,Main-207+,,0,0,0,,limanı bilerek "tokage" diye yanlış okudun!
-Dialogue: 50,0:13:55.19,0:14:00.03,Flashbacks-207+,,0,0,0,,Wano'nun her limanı\Nadını bir hayvandan alır.{Wano 30 - 04:42}
-Dialogue: 50,0:14:00.03,0:14:04.45,Flashbacks-207+,,0,0,0,,Biraz uzun olsa da bir yılana\Nbacak eklersen kertenkele olur.{Wano 30 - 04:57}
-Dialogue: 50,0:14:04.45,0:14:06.99,Flashbacks-207+,,0,0,0,,Udon'daki Togake Limanı.
-Dialogue: 50,0:14:08.87,0:14:13.29,Main-207+,,0,0,0,,Doğru... o resim kertenkeleye benzemiyordu.
-Dialogue: 50,0:14:13.29,0:14:17.34,Main-207+,,0,0,0,,Ona güvendim çünkü\NKin-{\i1}san{\i0} kendinden hep çok emindir.
-Dialogue: 50,0:14:17.34,0:14:20.46,Main-207+,,0,0,0,,Casus, tuzağına düşüp...
-Dialogue: 50,0:14:21.01,0:14:24.80,Main-207+,,0,0,0,,Orochi'ye Tokage Limanı'nın yeni\Nbuluşma noktası olduğunu söyledi!
-Dialogue: 50,0:14:26.60,0:14:30.35,Main-207+,,0,0,0,,Bu da sadece başkentte duran\Nbir zalimin ahmaklığıdır!
-Dialogue: 50,0:14:30.35,0:14:35.65,Main-207+,,0,0,0,,Orochi bölgeler arasındaki mesafeyi yanlış\Nhesaplayıp dün geceye kadar boş oturdu!
-Dialogue: 50,0:14:35.65,0:14:40.36,Main-207+,,0,0,0,,O zamana kadar\Ntüm müttefikleriniz köprüleri geçmişti...
-Dialogue: 50,0:14:40.94,0:14:43.95,Main-207+,,0,0,0,,ve ihtiyacınız olan bütün gemiler de\Nlimandan ayrılmıştı!
+Dialogue: 50,0:13:37.92,0:13:43.47,Main-207+,,0,0,0,,EngereÄŸin Ã¼stÃ¼ndeki iki Ã§izgiyi\NgÃ¶ren herkes bu mesajÄ± kolayca anlardÄ±.
+Dialogue: 50,0:13:45.47,0:13:49.52,Main-207+,,0,0,0,,Ama Orochi'nin casusunun aranÄ±zda olduÄŸunu anlayÄ±p...
+Dialogue: 50,0:13:49.52,0:13:54.81,Main-207+,,0,0,0,,limanÄ± bilerek "tokage" diye yanlÄ±ÅŸ okudun!
+Dialogue: 50,0:13:55.19,0:14:00.03,Flashbacks-207+,,0,0,0,,Wano'nun her limanÄ±\NadÄ±nÄ± bir hayvandan alÄ±r.{Wano 30 - 04:42}
+Dialogue: 50,0:14:00.03,0:14:04.45,Flashbacks-207+,,0,0,0,,Biraz uzun olsa da bir yÄ±lana\Nbacak eklersen kertenkele olur.{Wano 30 - 04:57}
+Dialogue: 50,0:14:04.45,0:14:06.99,Flashbacks-207+,,0,0,0,,Udon'daki Togake LimanÄ±.
+Dialogue: 50,0:14:08.87,0:14:13.29,Main-207+,,0,0,0,,DoÄŸru... o resim kertenkeleye benzemiyordu.
+Dialogue: 50,0:14:13.29,0:14:17.34,Main-207+,,0,0,0,,Ona gÃ¼vendim Ã§Ã¼nkÃ¼\NKin-{\i1}san{\i0} kendinden hep Ã§ok emindir.
+Dialogue: 50,0:14:17.34,0:14:20.46,Main-207+,,0,0,0,,Casus, tuzaÄŸÄ±na dÃ¼ÅŸÃ¼p...
+Dialogue: 50,0:14:21.01,0:14:24.80,Main-207+,,0,0,0,,Orochi'ye Tokage LimanÄ±'nÄ±n yeni\NbuluÅŸma noktasÄ± olduÄŸunu sÃ¶yledi!
+Dialogue: 50,0:14:26.60,0:14:30.35,Main-207+,,0,0,0,,Bu da sadece baÅŸkentte duran\Nbir zalimin ahmaklÄ±ÄŸÄ±dÄ±r!
+Dialogue: 50,0:14:30.35,0:14:35.65,Main-207+,,0,0,0,,Orochi bÃ¶lgeler arasÄ±ndaki mesafeyi yanlÄ±ÅŸ\NhesaplayÄ±p dÃ¼n geceye kadar boÅŸ oturdu!
+Dialogue: 50,0:14:35.65,0:14:40.36,Main-207+,,0,0,0,,O zamana kadar\NtÃ¼m mÃ¼ttefikleriniz kÃ¶prÃ¼leri geÃ§miÅŸti...
+Dialogue: 50,0:14:40.94,0:14:43.95,Main-207+,,0,0,0,,ve ihtiyacÄ±nÄ±z olan bÃ¼tÃ¼n gemiler de\Nlimandan ayrÄ±lmÄ±ÅŸtÄ±!
 Dialogue: 50,0:14:43.95,0:14:46.24,Main-207+,,0,0,0,,Sadece arta kalan gemiler yok edildi!
-Dialogue: 50,0:14:46.66,0:14:50.87,Main-207+,,0,0,0,,Tam da planladığın gibi, 4.200 askerin hepsi...
-Dialogue: 50,0:14:51.29,0:14:55.00,Main-207+,,0,0,0,,Habu Limanı rıhtımında\Nzamanı gelene kadar gizlice beklediler!
-Dialogue: 50,0:14:56.08,0:14:58.00,Main-207+,,0,0,0,,Yani herkes güvende mi?!
-Dialogue: 50,0:15:13.52,0:15:18.48,Main-207+,,0,0,0,,Yirmi yıl geçmesine rağmen, Oden-{\i1}sama{\i0}'nın o efsanevi ölümünü hâlâ unutamıyorum!
-Dialogue: 50,0:15:18.86,0:15:22.65,Main-207+,,0,0,0,,Kozuki Hanesi'nin geri döneceğine\Ninanarak yaşadık hayatımızı!
-Dialogue: 50,0:15:23.03,0:15:26.36,Main-207+,,0,0,0,,Sizinleyiz, Kızıl Kın samurayları!
-Dialogue: 50,0:15:26.36,0:15:28.49,Main-207+,,0,0,0,,Her şey hazır!
-Dialogue: 50,0:15:31.08,0:15:35.41,Main-207+,,0,0,0,,Onigashima Baskını,\Ntam da planlandığı gibi olacak!
-Dialogue: 50,0:15:36.67,0:15:41.04,Main-207+,,0,0,0,,1.200 kişiyi de eklersek\Ntoplamda 5.400 kişi oluyoruz!
+Dialogue: 50,0:14:46.66,0:14:50.87,Main-207+,,0,0,0,,Tam da planladÄ±ÄŸÄ±n gibi, 4.200 askerin hepsi...
+Dialogue: 50,0:14:51.29,0:14:55.00,Main-207+,,0,0,0,,Habu LimanÄ± rÄ±htÄ±mÄ±nda\NzamanÄ± gelene kadar gizlice beklediler!
+Dialogue: 50,0:14:56.08,0:14:58.00,Main-207+,,0,0,0,,Yani herkes gÃ¼vende mi?!
+Dialogue: 50,0:15:13.52,0:15:18.48,Main-207+,,0,0,0,,Yirmi yÄ±l geÃ§mesine raÄŸmen, Oden-{\i1}sama{\i0}'nÄ±n o efsanevi Ã¶lÃ¼mÃ¼nÃ¼ hÃ¢lÃ¢ unutamÄ±yorum!
+Dialogue: 50,0:15:18.86,0:15:22.65,Main-207+,,0,0,0,,Kozuki Hanesi'nin geri dÃ¶neceÄŸine\Ninanarak yaÅŸadÄ±k hayatÄ±mÄ±zÄ±!
+Dialogue: 50,0:15:23.03,0:15:26.36,Main-207+,,0,0,0,,Sizinleyiz, KÄ±zÄ±l KÄ±n samuraylarÄ±!
+Dialogue: 50,0:15:26.36,0:15:28.49,Main-207+,,0,0,0,,Her ÅŸey hazÄ±r!
+Dialogue: 50,0:15:31.08,0:15:35.41,Main-207+,,0,0,0,,Onigashima BaskÄ±nÄ±,\Ntam da planlandÄ±ÄŸÄ± gibi olacak!
+Dialogue: 50,0:15:36.67,0:15:41.04,Main-207+,,0,0,0,,1.200 kiÅŸiyi de eklersek\Ntoplamda 5.400 kiÅŸi oluyoruz!
 Dialogue: 50,0:15:41.04,0:15:43.55,Main-207+,,0,0,0,,Haydi gidelim!
-Dialogue: 50,0:15:48.01,0:15:49.85,Main-207+,,0,0,0,,İstikamet Onigashima!
-Dialogue: 50,0:15:53.10,0:15:54.56,Main-207+,,0,0,0,,Şuna bakın!
-Dialogue: 50,0:15:56.35,0:16:00.02,Main-207+,,0,0,0,,Tam olarak ne olduğunu anlayamadım\Nama sanırım şu an her şey yolunda!
-Dialogue: 50,0:16:00.02,0:16:01.82,Main-207+,,0,0,0,,Çok fazlalar!
+Dialogue: 50,0:15:48.01,0:15:49.85,Main-207+,,0,0,0,,Ä°stikamet Onigashima!
+Dialogue: 50,0:15:53.10,0:15:54.56,Main-207+,,0,0,0,,Åuna bakÄ±n!
+Dialogue: 50,0:15:56.35,0:16:00.02,Main-207+,,0,0,0,,Tam olarak ne olduÄŸunu anlayamadÄ±m\Nama sanÄ±rÄ±m ÅŸu an her ÅŸey yolunda!
+Dialogue: 50,0:16:00.02,0:16:01.82,Main-207+,,0,0,0,,Ã‡ok fazlalar!
 Dialogue: 50,0:16:01.82,0:16:04.11,Main-207+,,0,0,0,,Mahvolduk!
-Dialogue: 50,0:16:04.11,0:16:05.99,Main-207+,,0,0,0,,Onigashima'dan haber var mı?!
-Dialogue: 50,0:16:05.99,0:16:10.12,Main-207+,,0,0,0,,Arıyorum ama kimse açmıyor!\NMuhtemelen ziyafetle meşguller!
-Dialogue: 50,0:16:11.03,0:16:12.41,Thoughts-207+,,0,0,0,,Ne büyük felaket!
-Dialogue: 50,0:16:12.41,0:16:14.83,Thoughts-207+,,0,0,0,,Hiçbir şeyi engelleyememişiz!
-Dialogue: 50,0:16:14.83,0:16:18.08,Thoughts-207+,,0,0,0,,Kahrolası, Kin'emon!
+Dialogue: 50,0:16:04.11,0:16:05.99,Main-207+,,0,0,0,,Onigashima'dan haber var mÄ±?!
+Dialogue: 50,0:16:05.99,0:16:10.12,Main-207+,,0,0,0,,ArÄ±yorum ama kimse aÃ§mÄ±yor!\NMuhtemelen ziyafetle meÅŸguller!
+Dialogue: 50,0:16:11.03,0:16:12.41,Thoughts-207+,,0,0,0,,Ne bÃ¼yÃ¼k felaket!
+Dialogue: 50,0:16:12.41,0:16:14.83,Thoughts-207+,,0,0,0,,HiÃ§bir ÅŸeyi engelleyememiÅŸiz!
+Dialogue: 50,0:16:14.83,0:16:18.08,Thoughts-207+,,0,0,0,,KahrolasÄ±, Kin'emon!
 Dialogue: 50,0:16:18.75,0:16:20.08,Main-207+,,0,0,0,,Kin-{\i1}san{\i0}!
-Dialogue: 50,0:16:20.08,0:16:22.29,Main-207+,,0,0,0,,Sen gerçekten bizim liderimizsin!
-Dialogue: 50,0:16:22.29,0:16:24.96,Main-207+,,0,0,0,,Ve beklediğim gibi,\Nsaygımı hak eden bir adamsın!
-Dialogue: 50,0:16:38.44,0:16:40.44,Thoughts-207+,,0,0,0,,Demek {\i1}tokage{\i0} limanı değil...
-Dialogue: 50,0:16:41.10,0:16:43.11,Thoughts-207+,,0,0,0,,asıl mekan rıhtımmış...
+Dialogue: 50,0:16:20.08,0:16:22.29,Main-207+,,0,0,0,,Sen gerÃ§ekten bizim liderimizsin!
+Dialogue: 50,0:16:22.29,0:16:24.96,Main-207+,,0,0,0,,Ve beklediÄŸim gibi,\NsaygÄ±mÄ± hak eden bir adamsÄ±n!
+Dialogue: 50,0:16:38.44,0:16:40.44,Thoughts-207+,,0,0,0,,Demek {\i1}tokage{\i0} limanÄ± deÄŸil...
+Dialogue: 50,0:16:41.10,0:16:43.11,Thoughts-207+,,0,0,0,,asÄ±l mekan rÄ±htÄ±mmÄ±ÅŸ...
 Dialogue: 50,0:16:41.10,0:16:43.11,Note-207+,,0,0,0,,(Hato)
-Dialogue: 50,0:16:52.87,0:16:55.83,Main-207+,,0,0,0,,Dürüst ol, Kin'emon.
-Dialogue: 50,0:16:55.83,0:17:00.75,Main-207+,,0,0,0,,Senin böyle bir plan\Nyapamayacağını hepimiz biliyoruz.
-Dialogue: 50,0:17:01.67,0:17:03.17,Main-207+,,0,0,0,,Artık her şey yolunda.
-Dialogue: 50,0:17:03.17,0:17:04.80,Main-207+,,0,0,0,,Kızmayacağız, itiraf et.
+Dialogue: 50,0:16:52.87,0:16:55.83,Main-207+,,0,0,0,,DÃ¼rÃ¼st ol, Kin'emon.
+Dialogue: 50,0:16:55.83,0:17:00.75,Main-207+,,0,0,0,,Senin bÃ¶yle bir plan\NyapamayacaÄŸÄ±nÄ± hepimiz biliyoruz.
+Dialogue: 50,0:17:01.67,0:17:03.17,Main-207+,,0,0,0,,ArtÄ±k her ÅŸey yolunda.
+Dialogue: 50,0:17:03.17,0:17:04.80,Main-207+,,0,0,0,,KÄ±zmayacaÄŸÄ±z, itiraf et.
 Dialogue: 50,0:17:04.80,0:17:05.50,Main-207+,,0,0,0,,Durun.
-Dialogue: 50,0:17:06.05,0:17:09.30,Main-207+,,0,0,0,,Gerçekten {\i1}tokage{\i0} sandın, değil mi?
+Dialogue: 50,0:17:06.05,0:17:09.30,Main-207+,,0,0,0,,GerÃ§ekten {\i1}tokage{\i0} sandÄ±n, deÄŸil mi?
 Dialogue: 50,0:17:09.30,0:17:10.18,Main-207+,,0,0,0,,Durun dedim!
-Dialogue: 50,0:17:10.59,0:17:12.72,Main-207+,,0,0,0,,Sonuçta, her şey yoluna girdi!
-Dialogue: 50,0:17:12.72,0:17:14.01,Main-207+,,0,0,0,,Şansın yaver gitti.
-Dialogue: 50,0:17:17.31,0:17:20.85,Main-207+,,0,0,0,,Bu savaş, bendenizin son savaşı olabilir.
-Dialogue: 50,0:17:22.02,0:17:25.36,Main-207+,,0,0,0,,Sanırım hayatımın en büyük\Nşansını kullanmış oldum.
-Dialogue: 50,0:17:27.23,0:17:29.61,Main-207+,,0,0,0,,Hakikaten şeytan tüyü varmış sende!
+Dialogue: 50,0:17:10.59,0:17:12.72,Main-207+,,0,0,0,,SonuÃ§ta, her ÅŸey yoluna girdi!
+Dialogue: 50,0:17:12.72,0:17:14.01,Main-207+,,0,0,0,,ÅansÄ±n yaver gitti.
+Dialogue: 50,0:17:17.31,0:17:20.85,Main-207+,,0,0,0,,Bu savaÅŸ, bendenizin son savaÅŸÄ± olabilir.
+Dialogue: 50,0:17:22.02,0:17:25.36,Main-207+,,0,0,0,,SanÄ±rÄ±m hayatÄ±mÄ±n en bÃ¼yÃ¼k\NÅŸansÄ±nÄ± kullanmÄ±ÅŸ oldum.
+Dialogue: 50,0:17:27.23,0:17:29.61,Main-207+,,0,0,0,,Hakikaten ÅŸeytan tÃ¼yÃ¼ varmÄ±ÅŸ sende!
 Dialogue: 50,0:17:29.61,0:17:31.03,Main-207+,,0,0,0,,Kin'emon-{\i1}dono{\i0}!
-Dialogue: 50,0:17:31.03,0:17:32.78,Main-207+,,0,0,0,,Canımız liderimiz!
-Dialogue: 50,0:17:32.78,0:17:38.91,Main-207+,,0,0,0,,O hâlde biz de tüm şansımızı kullanmış olduk,\Nne de olsa aynı amacı paylaşıyoruz!
-Dialogue: 50,0:17:42.62,0:17:44.33,Main-207+,,0,0,0,,Bu doğru, Kin-{\i1}sama{\i0}!
-Dialogue: 50,0:17:44.33,0:17:46.13,Main-207+,,0,0,0,,Yalnız ölmene izin vermeyeceğiz!
-Dialogue: 50,0:17:46.50,0:17:49.21,Main-207+,,0,0,0,,Samurayları olarak Oden-{\i1}sama{\i0}'ya\Nbirlikte hizmet ettik!
-Dialogue: 50,0:17:49.21,0:17:53.97,Main-207+,,0,0,0,,Farklı yollardan gelsek de\Nson direnişimizde tek yüreğiz! İyi belle bunu!
+Dialogue: 50,0:17:31.03,0:17:32.78,Main-207+,,0,0,0,,CanÄ±mÄ±z liderimiz!
+Dialogue: 50,0:17:32.78,0:17:38.91,Main-207+,,0,0,0,,O hÃ¢lde biz de tÃ¼m ÅŸansÄ±mÄ±zÄ± kullanmÄ±ÅŸ olduk,\Nne de olsa aynÄ± amacÄ± paylaÅŸÄ±yoruz!
+Dialogue: 50,0:17:42.62,0:17:44.33,Main-207+,,0,0,0,,Bu doÄŸru, Kin-{\i1}sama{\i0}!
+Dialogue: 50,0:17:44.33,0:17:46.13,Main-207+,,0,0,0,,YalnÄ±z Ã¶lmene izin vermeyeceÄŸiz!
+Dialogue: 50,0:17:46.50,0:17:49.21,Main-207+,,0,0,0,,SamuraylarÄ± olarak Oden-{\i1}sama{\i0}'ya\Nbirlikte hizmet ettik!
+Dialogue: 50,0:17:49.21,0:17:53.97,Main-207+,,0,0,0,,FarklÄ± yollardan gelsek de\Nson direniÅŸimizde tek yÃ¼reÄŸiz! Ä°yi belle bunu!
 Dialogue: 50,0:18:02.35,0:18:06.23,Main-207+,,0,0,0,,Sizin gibi serserilerin tesellisi ancak bu kadar olur.
-Dialogue: 50,0:18:08.98,0:18:10.99,Main-207+,,0,0,0,,Kaldır kılıcını, Kin-{\i1}san{\i0}!
-Dialogue: 50,0:18:10.99,0:18:13.45,Main-207+,,0,0,0,,İlk taarruzu çoktan kazandık!
-Dialogue: 50,0:18:18.95,0:18:21.37,Main-207+,,0,0,0,,Kaderimize kucak açalım!
-Dialogue: 50,0:18:22.41,0:18:25.38,Main-207+,,0,0,0,,Oden-{\i1}sama{\i0}'nın intikamını birlikte alacağız!
+Dialogue: 50,0:18:08.98,0:18:10.99,Main-207+,,0,0,0,,KaldÄ±r kÄ±lÄ±cÄ±nÄ±, Kin-{\i1}san{\i0}!
+Dialogue: 50,0:18:10.99,0:18:13.45,Main-207+,,0,0,0,,Ä°lk taarruzu Ã§oktan kazandÄ±k!
+Dialogue: 50,0:18:18.95,0:18:21.37,Main-207+,,0,0,0,,Kaderimize kucak aÃ§alÄ±m!
+Dialogue: 50,0:18:22.41,0:18:25.38,Main-207+,,0,0,0,,Oden-{\i1}sama{\i0}'nÄ±n intikamÄ±nÄ± birlikte alacaÄŸÄ±z!
 Dialogue: 50,0:18:26.79,0:18:29.05,Main-207+,,0,0,0,,Kin'emon-{\i1}dono{\i0}!
-Dialogue: 50,0:18:29.05,0:18:32.30,Main-207+,,0,0,0,,Ne pahası olursa olsun,\NWano'ya değişimi getireceğiz!
+Dialogue: 50,0:18:29.05,0:18:32.30,Main-207+,,0,0,0,,Ne pahasÄ± olursa olsun,\NWano'ya deÄŸiÅŸimi getireceÄŸiz!
 Dialogue: 50,0:18:37.43,0:18:39.22,Main-207+,,0,0,0,,Geberesice Kin'emon...
 Dialogue: 50,0:18:39.22,0:18:40.97,Main-207+,,0,0,0,,Onigashima'ya rapor vermem gerek.
-Dialogue: 50,0:18:40.97,0:18:44.39,Main-207+,,0,0,0,,Orochi-{\i1}sama{\i0}'nın bana\Nbiçtiği rolü layıkıyla tamamladım!
-Dialogue: 50,0:18:46.02,0:18:48.15,Main-207+,,0,0,0,,Yapacak sadece tek bir şey kaldı!
-Dialogue: 50,0:18:56.49,0:18:57.62,Main-207+,,0,0,0,,İzin vermem!
-Dialogue: 50,0:18:58.41,0:19:01.66,Main-207+,,0,0,0,,Momonosuke-{\i1}sama{\i0}'yı almana izin vermeyeceğim!
+Dialogue: 50,0:18:40.97,0:18:44.39,Main-207+,,0,0,0,,Orochi-{\i1}sama{\i0}'nÄ±n bana\NbiÃ§tiÄŸi rolÃ¼ layÄ±kÄ±yla tamamladÄ±m!
+Dialogue: 50,0:18:46.02,0:18:48.15,Main-207+,,0,0,0,,Yapacak sadece tek bir ÅŸey kaldÄ±!
+Dialogue: 50,0:18:56.49,0:18:57.62,Main-207+,,0,0,0,,Ä°zin vermem!
+Dialogue: 50,0:18:58.41,0:19:01.66,Main-207+,,0,0,0,,Momonosuke-{\i1}sama{\i0}'yÄ± almana izin vermeyeceÄŸim!
 Dialogue: 50,0:19:06.17,0:19:08.34,Main-207+,,0,0,0,,Kawamatsu! Bekle, geliyorum!
-Dialogue: 50,0:19:08.34,0:19:10.71,Main-207+,,0,0,0,,Yapma! Boğulursun!
-Dialogue: 50,0:19:10.71,0:19:15.22,Main-207+,,0,0,0,,Hayallerimizi çiğneyip bizi umutsuzluğa\Nsürüklemekten zevk mi alıyorsun?
+Dialogue: 50,0:19:08.34,0:19:10.71,Main-207+,,0,0,0,,Yapma! BoÄŸulursun!
+Dialogue: 50,0:19:10.71,0:19:15.22,Main-207+,,0,0,0,,Hayallerimizi Ã§iÄŸneyip bizi umutsuzluÄŸa\NsÃ¼rÃ¼klemekten zevk mi alÄ±yorsun?
 Dialogue: 50,0:19:15.22,0:19:17.18,Main-207+,,0,0,0,,Kanjuro!
-Dialogue: 50,0:19:18.51,0:19:21.43,Main-207+,,0,0,0,,Evet! Hayatımın en güzel günlerini yaşıyorum!
-Dialogue: 50,0:19:22.35,0:19:25.35,Main-207+,,0,0,0,,Aldatmaca, ihanet ve ardından sürpriz son!
-Dialogue: 50,0:19:25.35,0:19:28.11,Main-207+,,0,0,0,,Dünyada bundan daha iyi bir oyun yok!
-Dialogue: 50,0:19:29.94,0:19:33.57,Main-207+,,0,0,0,,Ve hepiniz de yardakçıyı mükemmel oynadınız!
+Dialogue: 50,0:19:18.51,0:19:21.43,Main-207+,,0,0,0,,Evet! HayatÄ±mÄ±n en gÃ¼zel gÃ¼nlerini yaÅŸÄ±yorum!
+Dialogue: 50,0:19:22.35,0:19:25.35,Main-207+,,0,0,0,,Aldatmaca, ihanet ve ardÄ±ndan sÃ¼rpriz son!
+Dialogue: 50,0:19:25.35,0:19:28.11,Main-207+,,0,0,0,,DÃ¼nyada bundan daha iyi bir oyun yok!
+Dialogue: 50,0:19:29.94,0:19:33.57,Main-207+,,0,0,0,,Ve hepiniz de yardakÃ§Ä±yÄ± mÃ¼kemmel oynadÄ±nÄ±z!
 Dialogue: 50,0:19:36.61,0:19:39.70,Main-207+,,0,0,0,,Kanjuro!
-Dialogue: 50,0:19:44.08,0:19:48.33,Main-207+,,0,0,0,,Finalde sahne\NKozuki kanıyla kırmızıya boyanacak!
+Dialogue: 50,0:19:44.08,0:19:48.33,Main-207+,,0,0,0,,Finalde sahne\NKozuki kanÄ±yla kÄ±rmÄ±zÄ±ya boyanacak!
 Dialogue: 50,0:19:55.47,0:19:57.30,Main-207+,,0,0,0,,Kawamatsu!
 Dialogue: 50,0:19:57.30,0:19:59.14,Main-207+,,0,0,0,,Momonosuke-{\i1}sama{\i0}!
-Dialogue: 50,0:19:59.55,0:20:01.30,Main-207+,,0,0,0,,Endişelenme, Momonosuke.
-Dialogue: 50,0:20:01.30,0:20:04.06,Main-207+,,0,0,0,,Kız kardeşini de seninle ölüme göndereceğim.
+Dialogue: 50,0:19:59.55,0:20:01.30,Main-207+,,0,0,0,,EndiÅŸelenme, Momonosuke.
+Dialogue: 50,0:20:01.30,0:20:04.06,Main-207+,,0,0,0,,KÄ±z kardeÅŸini de seninle Ã¶lÃ¼me gÃ¶ndereceÄŸim.
 Dialogue: 50,0:20:04.06,0:20:05.31,Main-207+,,0,0,0,,Kawamatsu!
-Dialogue: 50,0:20:05.31,0:20:08.27,Main-207+,,0,0,0,,Yemin olsun ki\NHiyori'yi bulup onu da öldüreceğim!
-Dialogue: 50,0:20:08.27,0:20:10.94,Main-207+,,0,0,0,,Onun hayatta olduğunu biliyorum!
+Dialogue: 50,0:20:05.31,0:20:08.27,Main-207+,,0,0,0,,Yemin olsun ki\NHiyori'yi bulup onu da Ã¶ldÃ¼receÄŸim!
+Dialogue: 50,0:20:08.27,0:20:10.94,Main-207+,,0,0,0,,Onun hayatta olduÄŸunu biliyorum!
 Dialogue: 50,0:20:14.40,0:20:15.99,Main-207+,,0,0,0,,Kanjuro!
-Dialogue: 50,0:20:15.99,0:20:19.16,Main-207+,,0,0,0,,Ne zamandan beri bu kadar\Niyi uçabilen bir kuş çizebiliyorsun?!
-Dialogue: 50,0:20:19.16,0:20:25.25,Main-207+,,0,0,0,,Senden gördüğümüz tek şey\Nıslanınca silinen berbat karalamalardı!
-Dialogue: 50,0:20:26.00,0:20:27.33,Main-207+,,0,0,0,,Çok yüksek!
-Dialogue: 50,0:20:27.33,0:20:28.92,Main-207+,,0,0,0,,İndir beni!
-Dialogue: 50,0:20:28.92,0:20:29.79,Main-207+,,0,0,0,,Çok korkuyorum!
+Dialogue: 50,0:20:15.99,0:20:19.16,Main-207+,,0,0,0,,Ne zamandan beri bu kadar\Niyi uÃ§abilen bir kuÅŸ Ã§izebiliyorsun?!
+Dialogue: 50,0:20:19.16,0:20:25.25,Main-207+,,0,0,0,,Senden gÃ¶rdÃ¼ÄŸÃ¼mÃ¼z tek ÅŸey\NÄ±slanÄ±nca silinen berbat karalamalardÄ±!
+Dialogue: 50,0:20:26.00,0:20:27.33,Main-207+,,0,0,0,,Ã‡ok yÃ¼ksek!
+Dialogue: 50,0:20:27.33,0:20:28.92,Main-207+,,0,0,0,,Ä°ndir beni!
+Dialogue: 50,0:20:28.92,0:20:29.79,Main-207+,,0,0,0,,Ã‡ok korkuyorum!
 Dialogue: 50,0:20:29.79,0:20:31.17,Main-207+,,0,0,0,,Kimse yok mu?!
 Dialogue: 50,0:20:31.67,0:20:32.79,Main-207+,,0,0,0,,Kanjuro?
 Dialogue: 50,0:20:32.79,0:20:33.84,Main-207+,,0,0,0,,Momo?
 Dialogue: 50,0:20:33.84,0:20:35.51,Main-207+,,0,0,0,,Hey! Nereye gidiyorsunuz?!
-Dialogue: 50,0:20:35.51,0:20:37.92,Main-207+,,0,0,0,,Hoşça kalın, aptallar!
-Dialogue: 50,0:20:41.18,0:20:45.43,Main-207+,,0,0,0,,Ne yaparsanız yapın,\NKaido-{\i1}sama{\i0}'nın ordusunu yenemezsiniz!
-Dialogue: 50,0:20:45.43,0:20:48.14,Main-207+,,0,0,0,,Adaya adım bile atamayacaksınız!
-Dialogue: 50,0:20:51.94,0:20:56.86,Main-207+,,0,0,0,,Yardım edin!
+Dialogue: 50,0:20:35.51,0:20:37.92,Main-207+,,0,0,0,,HoÅŸÃ§a kalÄ±n, aptallar!
+Dialogue: 50,0:20:41.18,0:20:45.43,Main-207+,,0,0,0,,Ne yaparsanÄ±z yapÄ±n,\NKaido-{\i1}sama{\i0}'nÄ±n ordusunu yenemezsiniz!
+Dialogue: 50,0:20:45.43,0:20:48.14,Main-207+,,0,0,0,,Adaya adÄ±m bile atamayacaksÄ±nÄ±z!
+Dialogue: 50,0:20:51.94,0:20:56.86,Main-207+,,0,0,0,,YardÄ±m edin!
 Dialogue: 50,0:20:56.86,0:20:58.24,Main-207+,,0,0,0,,Bekle!
 Dialogue: 50,0:20:58.24,0:20:59.91,Main-207+,,0,0,0,,Momonosuke-{\i1}sama{\i0}!
-Dialogue: 50,0:20:59.91,0:21:02.70,Main-207+,,0,0,0,,Kızıl Kınlar'dan Kanjuro bize ihanet etti!
+Dialogue: 50,0:20:59.91,0:21:02.70,Main-207+,,0,0,0,,KÄ±zÄ±l KÄ±nlar'dan Kanjuro bize ihanet etti!
 Dialogue: 50,0:21:02.70,0:21:04.62,Main-207+,,0,0,0,,Momonosuke-{\i1}sama{\i0}!
 Dialogue: 50,0:21:04.62,0:21:05.91,Main-207+,,0,0,0,,Neden?!
-Dialogue: 50,0:21:08.21,0:21:12.79,Main-207+,,0,0,0,,Yani casus Kanjuro muymuş, Robin-{\i1}chan{\i0}?
-Dialogue: 50,0:21:12.79,0:21:14.17,Main-207+,,0,0,0,,Öyle görünüyor.
-Dialogue: 50,0:21:14.17,0:21:15.75,Main-207+,,0,0,0,,Momo-{\i1}chan{\i0}'a yardım etmeliyiz!
+Dialogue: 50,0:21:08.21,0:21:12.79,Main-207+,,0,0,0,,Yani casus Kanjuro muymuÅŸ, Robin-{\i1}chan{\i0}?
+Dialogue: 50,0:21:12.79,0:21:14.17,Main-207+,,0,0,0,,Ã–yle gÃ¶rÃ¼nÃ¼yor.
+Dialogue: 50,0:21:14.17,0:21:15.75,Main-207+,,0,0,0,,Momo-{\i1}chan{\i0}'a yardÄ±m etmeliyiz!
 Dialogue: 50,0:21:15.75,0:21:17.71,Main-207+,,0,0,0,,Ne?!
 Dialogue: 50,0:21:24.26,0:21:25.85,Main-207+,,0,0,0,,Luffy!
-Dialogue: 50,0:21:25.85,0:21:29.10,Main-207+,,0,0,0,,Kanjuro, düşman casusuymuş!
-Dialogue: 50,0:21:29.10,0:21:31.60,Main-207+,,0,0,0,,Momo'yu kaçırıyor!
+Dialogue: 50,0:21:25.85,0:21:29.10,Main-207+,,0,0,0,,Kanjuro, dÃ¼ÅŸman casusuymuÅŸ!
+Dialogue: 50,0:21:29.10,0:21:31.60,Main-207+,,0,0,0,,Momo'yu kaÃ§Ä±rÄ±yor!
 Dialogue: 50,0:21:31.60,0:21:32.52,Main-207+,,0,0,0,,Ne?!
 Dialogue: 50,0:21:32.52,0:21:34.02,Main-207+,,0,0,0,,Emin misin?!
-Dialogue: 50,0:21:34.02,0:21:37.15,Main-207+,,0,0,0,,Bunca zamandır bize yalan mı söyledi?!
-Dialogue: 50,0:21:38.86,0:21:40.70,Main-207+,,0,0,0,,Şerefsiz!
-Dialogue: 50,0:21:44.95,0:21:46.83,Main-207+,,0,0,0,,Bulutlara doğru uçuyor!
-Dialogue: 50,0:21:47.24,0:21:48.62,Main-207+,,0,0,0,,Onu indireceğim!
-Dialogue: 50,0:21:50.25,0:21:54.84,Main-207+,,0,0,0,,{\fad(150,150)}Ölümcül Yeşil Yıldız: Çınar Şuriken!
-Dialogue: 50,0:22:01.22,0:22:03.26,Main-207+,,0,0,0,,Üzgünüm ama...
-Dialogue: 50,0:22:03.26,0:22:06.76,Main-207+,,0,0,0,,siz amatörlere ayıracak vaktim yok!
+Dialogue: 50,0:21:34.02,0:21:37.15,Main-207+,,0,0,0,,Bunca zamandÄ±r bize yalan mÄ± sÃ¶yledi?!
+Dialogue: 50,0:21:38.86,0:21:40.70,Main-207+,,0,0,0,,Åerefsiz!
+Dialogue: 50,0:21:44.95,0:21:46.83,Main-207+,,0,0,0,,Bulutlara doÄŸru uÃ§uyor!
+Dialogue: 50,0:21:47.24,0:21:48.62,Main-207+,,0,0,0,,Onu indireceÄŸim!
+Dialogue: 50,0:21:50.25,0:21:54.84,Main-207+,,0,0,0,,{\fad(150,150)}Ã–lÃ¼mcÃ¼l YeÅŸil YÄ±ldÄ±z: Ã‡Ä±nar Åuriken!
+Dialogue: 50,0:22:01.22,0:22:03.26,Main-207+,,0,0,0,,ÃœzgÃ¼nÃ¼m ama...
+Dialogue: 50,0:22:03.26,0:22:06.76,Main-207+,,0,0,0,,siz amatÃ¶rlere ayÄ±racak vaktim yok!
 Dialogue: 50,0:22:18.07,0:22:19.94,Main-207+,,0,0,0,,Bu bulut da ne?!
 Dialogue: 50,0:22:19.94,0:22:21.61,Main-207+,,0,0,0,,Yapma, Sanji-{\i1}dono{\i0}!
 Dialogue: 50,0:22:21.61,0:22:22.95,Main-207+,,0,0,0,,Geri gel!
-Dialogue: 50,0:22:22.95,0:22:24.49,Main-207+,,0,0,0,,İçimde kötü bir his var!
-Dialogue: 50,0:22:26.70,0:22:29.41,Main-207+,,0,0,0,,Eminim daha önce hiç \Ngörmediğimiz bir teknik...
-Dialogue: 50,0:22:29.41,0:22:31.41,Main-207+,,0,0,0,,{\fad(150,150)}Mürekkep Bulutu!
-Dialogue: 50,0:22:35.29,0:22:37.38,Main-207+,,0,0,0,,Mürekkep oklar, yağmur gibi yağın!
-Dialogue: 50,0:22:46.51,0:22:49.56,Main-207+,,0,0,0,,{\fad(150,150)}Ukiyo Portresi: Akşam Duşu!
-Dialogue: 50,0:22:55.98,0:22:57.31,Main-207+,,0,0,0,,Dümeni çevir!
+Dialogue: 50,0:22:22.95,0:22:24.49,Main-207+,,0,0,0,,Ä°Ã§imde kÃ¶tÃ¼ bir his var!
+Dialogue: 50,0:22:26.70,0:22:29.41,Main-207+,,0,0,0,,Eminim daha Ã¶nce hiÃ§ \NgÃ¶rmediÄŸimiz bir teknik...
+Dialogue: 50,0:22:29.41,0:22:31.41,Main-207+,,0,0,0,,{\fad(150,150)}MÃ¼rekkep Bulutu!
+Dialogue: 50,0:22:35.29,0:22:37.38,Main-207+,,0,0,0,,MÃ¼rekkep oklar, yaÄŸmur gibi yaÄŸÄ±n!
+Dialogue: 50,0:22:46.51,0:22:49.56,Main-207+,,0,0,0,,{\fad(150,150)}Ukiyo Portresi: AkÅŸam DuÅŸu!
+Dialogue: 50,0:22:55.98,0:22:57.31,Main-207+,,0,0,0,,DÃ¼meni Ã§evir!
 Dialogue: 50,0:22:57.31,0:22:59.02,Main-207+,,0,0,0,,Buluttan uzak durun!
-Dialogue: 50,0:23:02.86,0:23:03.78,Main-207+,,0,0,0,,Hayır!
+Dialogue: 50,0:23:02.86,0:23:03.78,Main-207+,,0,0,0,,HayÄ±r!
 Dialogue: 50,0:23:03.78,0:23:05.11,Main-207+,,0,0,0,,Nami-{\i1}san{\i0}!
-Dialogue: 50,0:23:08.58,0:23:12.79,Main-207+,,0,0,0,,Nami ve Robin'in kalbine ok atacak tek kişi...
+Dialogue: 50,0:23:08.58,0:23:12.79,Main-207+,,0,0,0,,Nami ve Robin'in kalbine ok atacak tek kiÅŸi...
 Dialogue: 50,0:23:12.79,0:23:15.87,Main-207+,,0,0,0,,benim!
 Dialogue: 50,0:23:15.87,0:23:17.38,Main-207+,,0,0,0,,Sanji!
-Dialogue: 50,0:23:19.75,0:23:22.88,Main-207+,,0,0,0,,Dur artık, Kanjuro!
-Dialogue: 50,0:23:22.88,0:23:26.34,Main-207+,,0,0,0,,Hepsi ölecek!
-Dialogue: 50,0:23:26.34,0:23:27.39,Main-207+,,0,0,0,,Çok doğru...
-Dialogue: 50,0:23:28.22,0:23:30.47,Main-207+,,0,0,0,,Hepsi ölecek...
-Dialogue: 50,0:23:31.18,0:23:32.56,Main-207+,,0,0,0,,önünde sonunda!
+Dialogue: 50,0:23:19.75,0:23:22.88,Main-207+,,0,0,0,,Dur artÄ±k, Kanjuro!
+Dialogue: 50,0:23:22.88,0:23:26.34,Main-207+,,0,0,0,,Hepsi Ã¶lecek!
+Dialogue: 50,0:23:26.34,0:23:27.39,Main-207+,,0,0,0,,Ã‡ok doÄŸru...
+Dialogue: 50,0:23:28.22,0:23:30.47,Main-207+,,0,0,0,,Hepsi Ã¶lecek...
+Dialogue: 50,0:23:31.18,0:23:32.56,Main-207+,,0,0,0,,Ã¶nÃ¼nde sonunda!
 Dialogue: 50,0:23:34.31,0:23:36.77,Main-207+,,0,0,0,,Baban Oden...
-Dialogue: 50,0:23:37.27,0:23:40.48,Main-207+,,0,0,0,,ve annen Toki'nin o boş umudu,
-Dialogue: 50,0:23:41.15,0:23:45.86,Main-207+,,0,0,0,,o aptalların ölümünü sadece 20 yıl geciktirdi!
-Dialogue: 50,0:23:49.91,0:23:56.92,Main-207+,,0,0,0,,Şu öfkeli ve intikam dolu samurayların başındaki kişinin,
-Dialogue: 50,0:23:56.92,0:24:02.84,Main-207+,,0,0,0,,yüksekten korkan bir ödlek olması\Nne kadar da ironik.
+Dialogue: 50,0:23:37.27,0:23:40.48,Main-207+,,0,0,0,,ve annen Toki'nin o boÅŸ umudu,
+Dialogue: 50,0:23:41.15,0:23:45.86,Main-207+,,0,0,0,,o aptallarÄ±n Ã¶lÃ¼mÃ¼nÃ¼ sadece 20 yÄ±l geciktirdi!
+Dialogue: 50,0:23:49.91,0:23:56.92,Main-207+,,0,0,0,,Åu Ã¶fkeli ve intikam dolu samuraylarÄ±n baÅŸÄ±ndaki kiÅŸinin,
+Dialogue: 50,0:23:56.92,0:24:02.84,Main-207+,,0,0,0,,yÃ¼ksekten korkan bir Ã¶dlek olmasÄ±\Nne kadar da ironik.
 Dialogue: 50,0:24:08.26,0:24:10.72,Main-207+,,0,0,0,,Tam bir komedi!
 Dialogue: 50,0:24:11.10,0:24:13.14,Main-207+,,0,0,0,,Biliyorum...
-Dialogue: 50,0:24:15.98,0:24:19.98,Main-207+,,0,0,0,,Ben Kozuki Oden değilim...
+Dialogue: 50,0:24:15.98,0:24:19.98,Main-207+,,0,0,0,,Ben Kozuki Oden deÄŸilim...
 Dialogue: 50,0:24:19.98,0:24:22.57,Main-207+,,0,0,0,,Bunu herkesten daha iyi biliyorum...
-Dialogue: 50,0:24:27.32,0:24:28.82,Thoughts-207+,,0,0,0,,Ne yapmalıyım?!
-Dialogue: 50,0:24:28.82,0:24:29.91,Thoughts-207+,,0,0,0,,Hiçbir şey...
+Dialogue: 50,0:24:27.32,0:24:28.82,Thoughts-207+,,0,0,0,,Ne yapmalÄ±yÄ±m?!
+Dialogue: 50,0:24:28.82,0:24:29.91,Thoughts-207+,,0,0,0,,HiÃ§bir ÅŸey...
 Dialogue: 50,0:24:31.53,0:24:32.99,Main-207+,,0,0,0,,M...
 Dialogue: 50,0:24:32.99,0:24:34.48,Main-207+,,0,0,0,,Mi...
-Dialogue: 50,0:24:35.87,0:24:38.04,Thoughts-207+,,0,0,0,,Ne demeye çalışıyorum?
-Dialogue: 50,0:24:38.83,0:24:42.75,Thoughts-207+,,0,0,0,,Öyle bir şey söylersem\Nkimse bana yardım etmeyecek!
+Dialogue: 50,0:24:35.87,0:24:38.04,Thoughts-207+,,0,0,0,,Ne demeye Ã§alÄ±ÅŸÄ±yorum?
+Dialogue: 50,0:24:38.83,0:24:42.75,Thoughts-207+,,0,0,0,,Ã–yle bir ÅŸey sÃ¶ylersem\Nkimse bana yardÄ±m etmeyecek!
 Dialogue: 50,0:24:44.21,0:24:45.30,Thoughts-207+,,0,0,0,,Ama...
 Dialogue: 50,0:24:52.18,0:24:53.89,Main-207+,,0,0,0,,Millet!
 Dialogue: 50,0:24:53.89,0:24:59.73,Main-207+,,0,0,0,,Beni duyabiliyor musunuz?!
 Dialogue: 50,0:24:59.73,0:25:01.15,Main-207+,,0,0,0,,Momonosuke-{\i1}sama{\i0}!
-Dialogue: 50,0:25:02.23,0:25:06.74,Main-207+,,0,0,0,,Hepiniz dinleyin, benim için endişelenmeyin!
-Dialogue: 50,0:25:07.69,0:25:11.82,Main-207+,,0,0,0,,İstedikleri tam olarak bu!
-Dialogue: 50,0:25:12.99,0:25:16.79,Main-207+,,0,0,0,,Kendi başımın çaresine bakarım!
-Dialogue: 50,0:25:16.79,0:25:23.17,Main-207+,,0,0,0,,Kaido'yla Orochi'yi devirip\NWano'yu kurtarmanız için size sesleniyorum!
-Dialogue: 50,0:25:28.84,0:25:33.47,Main-207+,,0,0,0,,Sözleri öylesine asil ve dokunaklı ki!
+Dialogue: 50,0:25:02.23,0:25:06.74,Main-207+,,0,0,0,,Hepiniz dinleyin, benim iÃ§in endiÅŸelenmeyin!
+Dialogue: 50,0:25:07.69,0:25:11.82,Main-207+,,0,0,0,,Ä°stedikleri tam olarak bu!
+Dialogue: 50,0:25:12.99,0:25:16.79,Main-207+,,0,0,0,,Kendi baÅŸÄ±mÄ±n Ã§aresine bakarÄ±m!
+Dialogue: 50,0:25:16.79,0:25:23.17,Main-207+,,0,0,0,,Kaido'yla Orochi'yi devirip\NWano'yu kurtarmanÄ±z iÃ§in size sesleniyorum!
+Dialogue: 50,0:25:28.84,0:25:33.47,Main-207+,,0,0,0,,SÃ¶zleri Ã¶ylesine asil ve dokunaklÄ± ki!
 Dialogue: 50,0:25:34.18,0:25:35.89,Main-207+,,0,0,0,,Momonosuke-{\i1}sama{\i0}!
 Dialogue: 50,0:25:38.02,0:25:40.19,Main-207+,,0,0,0,,Momonosuke-{\i1}sama{\i0}!
-Dialogue: 50,0:25:40.73,0:25:44.06,Main-207+,,0,0,0,,Bizim bücür Momo,\Nsonunda bir erkek gibi ayaklandı!
-Dialogue: 50,0:25:46.90,0:25:48.36,Main-207+,,0,0,0,,Çok doğru, Momo!
+Dialogue: 50,0:25:40.73,0:25:44.06,Main-207+,,0,0,0,,Bizim bÃ¼cÃ¼r Momo,\Nsonunda bir erkek gibi ayaklandÄ±!
+Dialogue: 50,0:25:46.90,0:25:48.36,Main-207+,,0,0,0,,Ã‡ok doÄŸru, Momo!
 Dialogue: 50,0:25:50.03,0:25:51.24,Main-207+,,0,0,0,,Sen...
 Dialogue: 50,0:25:51.95,0:25:55.03,Main-207+,,0,0,0,,korkak ve aptal bir velet olabilirsin...
-Dialogue: 50,0:25:55.37,0:25:59.08,Main-207+,,0,0,0,,ama yüksekten atmayı iyi beceriyorsun, seni topuzlu bücür!
-Dialogue: 50,0:25:59.08,0:26:02.08,Main-207+,,0,0,0,,Momonosuke-{\i1}sama{\i0}'yla öyle konuşmaya nasıl cüret ediyor?!
-Dialogue: 50,0:26:02.08,0:26:03.42,Main-207+,,0,0,0,,Kim o şerefsiz?!
-Dialogue: 50,0:26:03.42,0:26:04.88,Main-207+,,0,0,0,,Doğrayın onu!
+Dialogue: 50,0:25:55.37,0:25:59.08,Main-207+,,0,0,0,,ama yÃ¼ksekten atmayÄ± iyi beceriyorsun, seni topuzlu bÃ¼cÃ¼r!
+Dialogue: 50,0:25:59.08,0:26:02.08,Main-207+,,0,0,0,,Momonosuke-{\i1}sama{\i0}'yla Ã¶yle konuÅŸmaya nasÄ±l cÃ¼ret ediyor?!
+Dialogue: 50,0:26:02.08,0:26:03.42,Main-207+,,0,0,0,,Kim o ÅŸerefsiz?!
+Dialogue: 50,0:26:03.42,0:26:04.88,Main-207+,,0,0,0,,DoÄŸrayÄ±n onu!
 Dialogue: 50,0:26:05.54,0:26:07.75,Main-207+,,0,0,0,,Hayatta kal!
-Dialogue: 50,0:26:07.75,0:26:11.84,Main-207+,,0,0,0,,Seni kesinlikle kurtaracağım!
-Dialogue: 50,0:26:15.05,0:26:16.39,Main-207+,,0,0,0,,Çünkü biz dostuz!
-Dialogue: 50,0:26:40.41,0:26:41.41,Main-207+,,0,0,0,,Pekâlâ...
+Dialogue: 50,0:26:07.75,0:26:11.84,Main-207+,,0,0,0,,Seni kesinlikle kurtaracaÄŸÄ±m!
+Dialogue: 50,0:26:15.05,0:26:16.39,Main-207+,,0,0,0,,Ã‡Ã¼nkÃ¼ biz dostuz!
+Dialogue: 50,0:26:40.41,0:26:41.41,Main-207+,,0,0,0,,PekÃ¢lÃ¢...
 Dialogue: 50,0:26:44.58,0:26:46.79,Main-207+,,0,0,0,,Gidelim, Onigashima'ya!
-Dialogue: 50,0:26:46.79,0:26:48.50,Main-207+,,0,0,0,,– Evet!\N– Evet!
+Dialogue: 50,0:26:46.79,0:26:48.50,Main-207+,,0,0,0,,â€“ Evet!\Nâ€“ Evet!
 Dialogue: 50,0:27:04.60,0:27:05.98,Main-207+,,0,0,0,,Luffy!
-Dialogue: 50,0:27:05.98,0:27:08.77,Main-207+,,0,0,0,,Bir düşman gemisi kaçıyor!
-Dialogue: 50,0:27:10.28,0:27:11.48,Main-207+,,0,0,0,,Aldırma.
-Dialogue: 50,0:27:11.48,0:27:15.61,Main-207+,,0,0,0,,Biz de zaten o yöne gidiyoruz,\Nonu sonra batırırız.
-Dialogue: 50,0:27:16.70,0:27:19.53,Main-207+,,0,0,0,,Ne?! Bir gemi daha var sanıyordum.
-Dialogue: 50,0:27:19.53,0:27:21.49,Main-207+,,0,0,0,,Doğrudur, onu çoktan batırdım.
+Dialogue: 50,0:27:05.98,0:27:08.77,Main-207+,,0,0,0,,Bir dÃ¼ÅŸman gemisi kaÃ§Ä±yor!
+Dialogue: 50,0:27:10.28,0:27:11.48,Main-207+,,0,0,0,,AldÄ±rma.
+Dialogue: 50,0:27:11.48,0:27:15.61,Main-207+,,0,0,0,,Biz de zaten o yÃ¶ne gidiyoruz,\Nonu sonra batÄ±rÄ±rÄ±z.
+Dialogue: 50,0:27:16.70,0:27:19.53,Main-207+,,0,0,0,,Ne?! Bir gemi daha var sanÄ±yordum.
+Dialogue: 50,0:27:19.53,0:27:21.49,Main-207+,,0,0,0,,DoÄŸrudur, onu Ã§oktan batÄ±rdÄ±m.
 Dialogue: 50,0:27:24.04,0:27:27.04,Main-207+,,0,0,0,,Kin-{\i1}sama{\i0}! Kusura bakma.
 Dialogue: 50,0:27:27.04,0:27:29.17,Main-207+,,0,0,0,,Onu kurtarmam gerekirdi.
-Dialogue: 50,0:27:29.17,0:27:31.13,Main-207+,,0,0,0,,İyi olmana sevindim.
-Dialogue: 50,0:27:31.13,0:27:34.30,Main-207+,,0,0,0,,Henüz Momonosuke-{\i1}sama{\i0}'ya kıyacaklarını sanmıyorum.
+Dialogue: 50,0:27:29.17,0:27:31.13,Main-207+,,0,0,0,,Ä°yi olmana sevindim.
+Dialogue: 50,0:27:31.13,0:27:34.30,Main-207+,,0,0,0,,HenÃ¼z Momonosuke-{\i1}sama{\i0}'ya kÄ±yacaklarÄ±nÄ± sanmÄ±yorum.
 Dialogue: 50,0:27:34.76,0:27:37.01,Main-207+,,0,0,0,,Bu arada, Denjiro!
 Dialogue: 50,0:27:37.01,0:27:38.34,Main-207+,,0,0,0,,Senin...
-Dialogue: 50,0:27:39.05,0:27:40.85,Main-207+,,0,0,0,,yüzüne ne oldu?!
-Dialogue: 50,0:27:43.85,0:27:45.98,Main-207+,,0,0,0,,Uzun hikâye.
-Dialogue: 50,0:27:47.98,0:27:50.19,Main-207+,,0,0,0,,Sizleri gördüğüme çok sevindim!
+Dialogue: 50,0:27:39.05,0:27:40.85,Main-207+,,0,0,0,,yÃ¼zÃ¼ne ne oldu?!
+Dialogue: 50,0:27:43.85,0:27:45.98,Main-207+,,0,0,0,,Uzun hikÃ¢ye.
+Dialogue: 50,0:27:47.98,0:27:50.19,Main-207+,,0,0,0,,Sizleri gÃ¶rdÃ¼ÄŸÃ¼me Ã§ok sevindim!
 Dialogue: 50,0:27:50.19,0:27:52.11,Main-207+,,0,0,0,,Millet!
-Dialogue: 50,0:27:52.11,0:27:53.36,Main-207+,,0,0,0,,İyi misiniz?!
-Dialogue: 50,0:27:53.36,0:27:57.53,Main-207+,,0,0,0,,Birkaç yaralı ve enkaza dönmüş gemiler var!
-Dialogue: 50,0:27:57.53,0:27:59.95,Main-207+,,0,0,0,,Hadi gidip adaya ayak basalım!
-Dialogue: 50,0:27:59.95,0:28:03.58,Main-207+,,0,0,0,,Denizde ölmeyi hiç istemeyiz!
+Dialogue: 50,0:27:52.11,0:27:53.36,Main-207+,,0,0,0,,Ä°yi misiniz?!
+Dialogue: 50,0:27:53.36,0:27:57.53,Main-207+,,0,0,0,,BirkaÃ§ yaralÄ± ve enkaza dÃ¶nmÃ¼ÅŸ gemiler var!
+Dialogue: 50,0:27:57.53,0:27:59.95,Main-207+,,0,0,0,,Hadi gidip adaya ayak basalÄ±m!
+Dialogue: 50,0:27:59.95,0:28:03.58,Main-207+,,0,0,0,,Denizde Ã¶lmeyi hiÃ§ istemeyiz!
 Dialogue: 50,0:28:03.58,0:28:04.45,Main-207+,,0,0,0,,Hey!
-Dialogue: 50,0:28:06.04,0:28:09.00,Main-207+,,0,0,0,,Burası samuray bakımevi değil!
-Dialogue: 50,0:28:12.75,0:28:13.96,Main-207+,,0,0,0,,– Size emanetiz.\N– Size emanetiz.
-Dialogue: 50,0:28:14.96,0:28:16.67,Main-207+,,0,0,0,,Hayır, değilsiniz!
-Dialogue: 50,0:28:16.67,0:28:17.68,Main-207+,,0,0,0,,İnin!
-Dialogue: 50,0:28:18.51,0:28:19.97,Main-207+,,0,0,0,,Çocuklar!
-Dialogue: 50,0:28:20.43,0:28:22.93,Main-207+,,0,0,0,,Hasır Şapkalar'ın arkasında kalmayın!
-Dialogue: 50,0:28:22.93,0:28:24.56,Main-207+,,0,0,0,,– Evet!\N– Evet!
+Dialogue: 50,0:28:06.04,0:28:09.00,Main-207+,,0,0,0,,BurasÄ± samuray bakÄ±mevi deÄŸil!
+Dialogue: 50,0:28:12.75,0:28:13.96,Main-207+,,0,0,0,,â€“ Size emanetiz.\Nâ€“ Size emanetiz.
+Dialogue: 50,0:28:14.96,0:28:16.67,Main-207+,,0,0,0,,HayÄ±r, deÄŸilsiniz!
+Dialogue: 50,0:28:16.67,0:28:17.68,Main-207+,,0,0,0,,Ä°nin!
+Dialogue: 50,0:28:18.51,0:28:19.97,Main-207+,,0,0,0,,Ã‡ocuklar!
+Dialogue: 50,0:28:20.43,0:28:22.93,Main-207+,,0,0,0,,HasÄ±r Åapkalar'Ä±n arkasÄ±nda kalmayÄ±n!
+Dialogue: 50,0:28:22.93,0:28:24.56,Main-207+,,0,0,0,,â€“ Evet!\Nâ€“ Evet!
 Dialogue: 50,0:28:30.61,0:28:32.61,Main-207+,,0,0,0,,O da neydi?! Nereden geldi?!
-Dialogue: 50,0:28:34.82,0:28:36.65,Main-207+,,0,0,0,,Şu kaçan gemiden!
+Dialogue: 50,0:28:34.82,0:28:36.65,Main-207+,,0,0,0,,Åu kaÃ§an gemiden!
 Dialogue: 50,0:28:38.49,0:28:40.03,Main-207+,,0,0,0,,Uzun menzilli top mu?!
-Dialogue: 50,0:28:40.03,0:28:43.08,Main-207+,,0,0,0,,Sadece mesafeyi koruyorlarmış!
-Dialogue: 50,0:28:43.08,0:28:45.75,Main-207+,,0,0,0,,O kadar uzaktan bizi nasıl vurabiliyorlar?!
-Dialogue: 50,0:28:50.88,0:28:54.80,Main-207+,,0,0,0,,Wano silahları dünyada bir numaradır!
-Dialogue: 50,0:28:55.17,0:29:03.51,Main-207+,,0,0,0,,Wano'nun fabrikaları sayesinde\Ndevasa bir silah deposuna sahibiz!
-Dialogue: 50,0:29:03.51,0:29:08.10,Main-207+,,0,0,0,,Sıkıyorsa yine deminki gibi üzerimize uçun!
-Dialogue: 50,0:29:13.65,0:29:14.86,Main-207+,,0,0,0,,Geri basın!
-Dialogue: 50,0:29:14.86,0:29:16.57,Main-207+,,0,0,0,,Çok yakınız!
-Dialogue: 50,0:29:27.83,0:29:31.00,Main-207+,,0,0,0,,Kahretsin!\NPozisyon almaya çalıştıkları belliydi...
+Dialogue: 50,0:28:40.03,0:28:43.08,Main-207+,,0,0,0,,Sadece mesafeyi koruyorlarmÄ±ÅŸ!
+Dialogue: 50,0:28:43.08,0:28:45.75,Main-207+,,0,0,0,,O kadar uzaktan bizi nasÄ±l vurabiliyorlar?!
+Dialogue: 50,0:28:50.88,0:28:54.80,Main-207+,,0,0,0,,Wano silahlarÄ± dÃ¼nyada bir numaradÄ±r!
+Dialogue: 50,0:28:55.17,0:29:03.51,Main-207+,,0,0,0,,Wano'nun fabrikalarÄ± sayesinde\Ndevasa bir silah deposuna sahibiz!
+Dialogue: 50,0:29:03.51,0:29:08.10,Main-207+,,0,0,0,,SÄ±kÄ±yorsa yine deminki gibi Ã¼zerimize uÃ§un!
+Dialogue: 50,0:29:13.65,0:29:14.86,Main-207+,,0,0,0,,Geri basÄ±n!
+Dialogue: 50,0:29:14.86,0:29:16.57,Main-207+,,0,0,0,,Ã‡ok yakÄ±nÄ±z!
+Dialogue: 50,0:29:27.83,0:29:31.00,Main-207+,,0,0,0,,Kahretsin!\NPozisyon almaya Ã§alÄ±ÅŸtÄ±klarÄ± belliydi...
 Dialogue: 50,0:29:33.58,0:29:35.30,Main-207+,,0,0,0,,Tam yol ileri!
-Dialogue: 50,0:29:35.30,0:29:36.80,Main-207+,,0,0,0,,Yaklaşmamız gerek!
-Dialogue: 50,0:29:40.22,0:29:44.18,Main-207+,,0,0,0,,Kaç samuray gemisi batırdıkları\Numurumda bile değil!
+Dialogue: 50,0:29:35.30,0:29:36.80,Main-207+,,0,0,0,,YaklaÅŸmamÄ±z gerek!
+Dialogue: 50,0:29:40.22,0:29:44.18,Main-207+,,0,0,0,,KaÃ§ samuray gemisi batÄ±rdÄ±klarÄ±\Numurumda bile deÄŸil!
 Dialogue: 50,0:29:51.69,0:29:52.69,Main-207+,,0,0,0,,Eyvah!
-Dialogue: 50,0:29:52.69,0:29:54.73,Main-207+,,0,0,0,,Bu şekilde mesafeyi korurlarsa...
-Dialogue: 50,0:29:56.07,0:29:58.28,Main-207+,,0,0,0,,hepimiz denizin dibini boylayacağız!
-Dialogue: 50,0:30:05.03,0:30:06.99,Main-207+,,0,0,0,,Artık bitti!
-Dialogue: 50,0:30:07.45,0:30:10.16,Main-207+,,0,0,0,,Yapabilecekleri bir şey kalmadı!
-Dialogue: 50,0:30:20.67,0:30:22.63,Main-207+,,0,0,0,,Ateş! Ateş!
-Dialogue: 50,0:30:27.31,0:30:30.89,Main-207+,,0,0,0,,{\fad(150,150)}Balıkadam Karatesi:
-Dialogue: 50,0:30:30.89,0:30:34.23,Main-207+,,0,0,0,,{\fad(150,0)}Mızrak Dalgası!
-Dialogue: 50,0:30:52.25,0:30:53.29,Main-207+,,0,0,0,,Gövde yarıldı!
-Dialogue: 50,0:30:53.29,0:30:54.37,Main-207+,,0,0,0,,Yardım edin!
-Dialogue: 50,0:30:54.37,0:30:55.38,Main-207+,,0,0,0,,Düşüyorum!
-Dialogue: 50,0:31:01.17,0:31:04.38,Main-207+,,0,0,0,,{\fad(150,150)}Balıkadam Karatesi:
-Dialogue: 50,0:31:04.38,0:31:08.93,Main-207+,,0,0,0,,{\fad(150,150)}Mızrak Dalgalı Yağmur Banyosu!
+Dialogue: 50,0:29:52.69,0:29:54.73,Main-207+,,0,0,0,,Bu ÅŸekilde mesafeyi korurlarsa...
+Dialogue: 50,0:29:56.07,0:29:58.28,Main-207+,,0,0,0,,hepimiz denizin dibini boylayacaÄŸÄ±z!
+Dialogue: 50,0:30:05.03,0:30:06.99,Main-207+,,0,0,0,,ArtÄ±k bitti!
+Dialogue: 50,0:30:07.45,0:30:10.16,Main-207+,,0,0,0,,Yapabilecekleri bir ÅŸey kalmadÄ±!
+Dialogue: 50,0:30:20.67,0:30:22.63,Main-207+,,0,0,0,,AteÅŸ! AteÅŸ!
+Dialogue: 50,0:30:27.31,0:30:30.89,Main-207+,,0,0,0,,{\fad(150,150)}BalÄ±kadam Karatesi:
+Dialogue: 50,0:30:30.89,0:30:34.23,Main-207+,,0,0,0,,{\fad(150,0)}MÄ±zrak DalgasÄ±!
+Dialogue: 50,0:30:52.25,0:30:53.29,Main-207+,,0,0,0,,GÃ¶vde yarÄ±ldÄ±!
+Dialogue: 50,0:30:53.29,0:30:54.37,Main-207+,,0,0,0,,YardÄ±m edin!
+Dialogue: 50,0:30:54.37,0:30:55.38,Main-207+,,0,0,0,,DÃ¼ÅŸÃ¼yorum!
+Dialogue: 50,0:31:01.17,0:31:04.38,Main-207+,,0,0,0,,{\fad(150,150)}BalÄ±kadam Karatesi:
+Dialogue: 50,0:31:04.38,0:31:08.93,Main-207+,,0,0,0,,{\fad(150,150)}MÄ±zrak DalgalÄ± YaÄŸmur Banyosu!
 Dialogue: 50,0:31:19.44,0:31:21.73,Main-207+,,0,0,0,,Uzun menzilli toplar...
-Dialogue: 50,0:31:25.24,0:31:27.07,Main-207+,,0,0,0,,Bir şeyler oluyor.
-Dialogue: 50,0:31:27.45,0:31:29.91,Main-207+,,0,0,0,,Belki de boğularak ölen bir bebeğin hayaleti...
-Dialogue: 50,0:31:30.45,0:31:32.16,Main-207+,,0,0,0,,onları öldürüyordur.
-Dialogue: 50,0:31:32.95,0:31:35.96,Main-207+,,0,0,0,,Şu anda bu dediğin bile\Nkulağa çok tatlı geliyor!
+Dialogue: 50,0:31:25.24,0:31:27.07,Main-207+,,0,0,0,,Bir ÅŸeyler oluyor.
+Dialogue: 50,0:31:27.45,0:31:29.91,Main-207+,,0,0,0,,Belki de boÄŸularak Ã¶len bir bebeÄŸin hayaleti...
+Dialogue: 50,0:31:30.45,0:31:32.16,Main-207+,,0,0,0,,onlarÄ± Ã¶ldÃ¼rÃ¼yordur.
+Dialogue: 50,0:31:32.95,0:31:35.96,Main-207+,,0,0,0,,Åu anda bu dediÄŸin bile\NkulaÄŸa Ã§ok tatlÄ± geliyor!
 Dialogue: 50,0:31:35.96,0:31:37.29,Main-207+,,0,0,0,,Neler oluyor orada?!
 Dialogue: 50,0:31:46.88,0:31:48.14,Main-207+,,0,0,0,,Kim var orada?
 Dialogue: 50,0:31:50.76,0:31:52.47,Main-207+,,0,0,0,,Millet!
-Dialogue: 50,0:31:53.14,0:31:55.44,Main-207+,,0,0,0,,Bir saniyeliğine beni dinleyin...
+Dialogue: 50,0:31:53.14,0:31:55.44,Main-207+,,0,0,0,,Bir saniyeliÄŸine beni dinleyin...
 Dialogue: 50,0:31:58.77,0:32:01.90,Main-207+,,0,0,0,,Denizin dibinde olan...
-Dialogue: 50,0:32:01.90,0:32:07.11,Main-207+,,0,0,0,,Ryugu Krallığı'nın\NBalıkadam Bölgesi'nde doğdum.
-Dialogue: 50,0:32:09.99,0:32:15.96,Main-207+,,0,0,0,,Hizmet ettiğim herkese büyük sıkıntılar yaşattım.
-Dialogue: 50,0:32:16.33,0:32:22.46,Main-207+,,0,0,0,,Şimdi, tayfanın en yeni üyesi olarak\NPatron Hasır Şapka-{\i1}san{\i0}'ın...
+Dialogue: 50,0:32:01.90,0:32:07.11,Main-207+,,0,0,0,,Ryugu KrallÄ±ÄŸÄ±'nÄ±n\NBalÄ±kadam BÃ¶lgesi'nde doÄŸdum.
+Dialogue: 50,0:32:09.99,0:32:15.96,Main-207+,,0,0,0,,Hizmet ettiÄŸim herkese bÃ¼yÃ¼k sÄ±kÄ±ntÄ±lar yaÅŸattÄ±m.
+Dialogue: 50,0:32:16.33,0:32:22.46,Main-207+,,0,0,0,,Åimdi, tayfanÄ±n en yeni Ã¼yesi olarak\NPatron HasÄ±r Åapka-{\i1}san{\i0}'Ä±n...
 Dialogue: 50,0:32:22.96,0:32:25.84,Main-207+,,0,0,0,,sake kadehini yudumluyorum.
 Dialogue: 50,0:32:30.51,0:32:32.60,Main-207+,,0,0,0,,Herkes bana...
-Dialogue: 50,0:32:32.60,0:32:36.10,Main-207+,,0,0,0,,Denizin Şövalyesi, Jinbe der!
-Dialogue: 50,0:32:39.19,0:32:40.77,Main-207+,,0,0,0,,Şaka olmalı!
-Dialogue: 50,0:32:40.77,0:32:43.98,Main-207+,,0,0,0,,Hasır Şapkalar'a mı katılacaksın?!
-Dialogue: 50,0:32:45.49,0:32:48.95,Main-207+,,0,0,0,,{\an8}Kendimi alçakgönüllülükle tanıtıyorum...
-Dialogue: 50,0:32:48.95,0:32:52.33,Main-207+,,0,0,0,,{\an8}ve uyumlu kardeşliğimizi dört gözle bekliyorum!
-Dialogue: 50,0:32:59.25,0:33:01.13,Main-207+,,0,0,0,,– Jinbe-{\i1}san{\i0}!\N– Jinbe!
-Dialogue: 50,0:33:01.13,0:33:02.42,Main-207+,,0,0,0,,– Patron!\N– Patron!
-Dialogue: 50,0:33:02.42,0:33:04.25,Main-207+,,0,0,0,,– Jinbe!\N– Jinbe!
-Dialogue: 50,0:33:06.80,0:33:10.80,Main-207+,,0,0,0,,Beni hoşgörüyle karşıladığınız için teşekkürler!
+Dialogue: 50,0:32:32.60,0:32:36.10,Main-207+,,0,0,0,,Denizin ÅÃ¶valyesi, Jinbe der!
+Dialogue: 50,0:32:39.19,0:32:40.77,Main-207+,,0,0,0,,Åaka olmalÄ±!
+Dialogue: 50,0:32:40.77,0:32:43.98,Main-207+,,0,0,0,,HasÄ±r Åapkalar'a mÄ± katÄ±lacaksÄ±n?!
+Dialogue: 50,0:32:45.49,0:32:48.95,Main-207+,,0,0,0,,{\an8}Kendimi alÃ§akgÃ¶nÃ¼llÃ¼lÃ¼kle tanÄ±tÄ±yorum...
+Dialogue: 50,0:32:48.95,0:32:52.33,Main-207+,,0,0,0,,{\an8}ve uyumlu kardeÅŸliÄŸimizi dÃ¶rt gÃ¶zle bekliyorum!
+Dialogue: 50,0:32:59.25,0:33:01.13,Main-207+,,0,0,0,,â€“ Jinbe-{\i1}san{\i0}!\Nâ€“ Jinbe!
+Dialogue: 50,0:33:01.13,0:33:02.42,Main-207+,,0,0,0,,â€“ Patron!\Nâ€“ Patron!
+Dialogue: 50,0:33:02.42,0:33:04.25,Main-207+,,0,0,0,,â€“ Jinbe!\Nâ€“ Jinbe!
+Dialogue: 50,0:33:06.80,0:33:10.80,Main-207+,,0,0,0,,Beni hoÅŸgÃ¶rÃ¼yle karÅŸÄ±ladÄ±ÄŸÄ±nÄ±z iÃ§in teÅŸekkÃ¼rler!
 Dialogue: 50,0:33:10.80,0:33:11.93,Main-207+,,0,0,0,,Luffy!
-Dialogue: 50,0:33:11.93,0:33:14.93,Main-207+,,0,0,0,,Sana söz verdiğim gibi sağ salim döndüm!
-Dialogue: 50,0:33:15.26,0:33:18.10,Main-207+,,0,0,0,,Savaşa yetişebildiğime sevindim!
-Dialogue: 2,0:01:38.04,0:01:40.29,Title-207+,,0,0,0,,{\fscx110\fscy110\bord0\c&HE5E6E6&\blur0.6\fad(725,0)}Kin'emon'un Zekice Planı
-Dialogue: 1,0:01:38.04,0:01:40.29,Title-207+,,0,0,0,,{\fscx110\fscy110\1c&H010101&\3c&H010101&\1a&HFF&\blur0.6\fad(725,0)\t(684,725,\1a&H00&)}Kin'emon'un Zekice Planı
+Dialogue: 50,0:33:11.93,0:33:14.93,Main-207+,,0,0,0,,Sana sÃ¶z verdiÄŸim gibi saÄŸ salim dÃ¶ndÃ¼m!
+Dialogue: 50,0:33:15.26,0:33:18.10,Main-207+,,0,0,0,,SavaÅŸa yetiÅŸebildiÄŸime sevindim!
+Dialogue: 2,0:01:38.04,0:01:40.29,Title-207+,,0,0,0,,{\fscx110\fscy110\bord0\c&HE5E6E6&\blur0.6\fad(725,0)}Kin'emon'un Zekice PlanÄ±
+Dialogue: 1,0:01:38.04,0:01:40.29,Title-207+,,0,0,0,,{\fscx110\fscy110\1c&H010101&\3c&H010101&\1a&HFF&\blur0.6\fad(725,0)\t(684,725,\1a&H00&)}Kin'emon'un Zekice PlanÄ±
 Dialogue: 0,0:13:18.36,0:13:23.53,Captions-207+,,0,0,0,,{\fnElmer_P HenNeko\bord0\c&H090606&\fscx200\fscy200\blur1\pos(966,855)\frz1.516}Habuminato
 Dialogue: 0,0:13:22.70,0:13:22.78,Captions-207+,,0,0,0,,{\fnElmer_P HenNeko\bord0\c&H090606&\fscx1200\fscy200\blur1\frz1.516\pos(967.6,869.4)\clip(m 983.4 765.16 l 1066.17 821.82 1152.39 747.43 1021.34 739.05)}/
 Dialogue: 0,0:13:22.78,0:13:22.87,Captions-207+,,0,0,0,,{\fnElmer_P HenNeko\bord0\c&H090606&\fscx1200\fscy200\blur1\frz1.516\pos(967.6,869.4)\clip(m 898.17 800.15 l 932.66 849.42 1145.5 776.5 1095.24 715.89)}/
@@ -526,202 +526,202 @@ Dialogue: 0,0:13:23.69,0:13:23.74,Captions-207+,,0,0,0,,{\fnElmer_P HenNeko\bord
 Dialogue: 0,0:13:23.74,0:13:23.78,Captions-207+,,0,0,0,,{\fnElmer_P HenNeko\bord0\c&H090606&\fscx200\fscy200\blur1\frz0.3101\pos(955.77,835.84)}Hato
 Dialogue: 0,0:13:23.78,0:13:23.82,Captions-207+,,0,0,0,,{\fnElmer_P HenNeko\bord0\c&H090606&\fscx200\fscy200\blur1\frz0.3101\pos(953.96,833.79)}Hato
 Dialogue: 0,0:13:23.82,0:13:24.99,Captions-207+,,0,0,0,,{\fnElmer_P HenNeko\bord0\c&H090606&\fscx200\fscy200\blur1\frz0.3101\pos(955,835)\fad(0,436)}Hato
-Dialogue: 0,0:13:24.58,0:13:26.54,Captions-207+,,0,0,0,,{\bord0\c&H090606&\fscx200\fscy200\blur1\pos(955,835)\fad(433,0)\frz0.3101}Rıhtım
-Dialogue: 0,0:13:26.54,0:13:26.58,Captions-207+,,0,0,0,,{\bord0\c&H090606&\fscx200\fscy200\blur1\pos(955,835)\frz0.3101\clip(m 815.12 791.47 l 851.41 805.31 861.88 800.39 906.48 811.77 922.78 809 961.23 824.07 973.23 818.84 1003.99 821 1012.6 816.69 1100.26 831.15 1109.8 868.37 789.59 853.91)}Rıhtım
-Dialogue: 0,0:13:26.58,0:13:26.62,Captions-207+,,0,0,0,,{\bord0\c&H090606&\fscx200\fscy200\blur1\pos(955,835)\frz0.3101\clip(m 809.89 800.69 l 849.88 814.84 856.34 808.38 908.94 821.61 916.01 818.84 962.15 830.84 972.61 826.23 1003.68 831.15 1010.14 824.07 1097.19 839.15 1094.42 866.83 792.67 847.45)}Rıhtım
+Dialogue: 0,0:13:24.58,0:13:26.54,Captions-207+,,0,0,0,,{\bord0\c&H090606&\fscx200\fscy200\blur1\pos(955,835)\fad(433,0)\frz0.3101}RÄ±htÄ±m
+Dialogue: 0,0:13:26.54,0:13:26.58,Captions-207+,,0,0,0,,{\bord0\c&H090606&\fscx200\fscy200\blur1\pos(955,835)\frz0.3101\clip(m 815.12 791.47 l 851.41 805.31 861.88 800.39 906.48 811.77 922.78 809 961.23 824.07 973.23 818.84 1003.99 821 1012.6 816.69 1100.26 831.15 1109.8 868.37 789.59 853.91)}RÄ±htÄ±m
+Dialogue: 0,0:13:26.58,0:13:26.62,Captions-207+,,0,0,0,,{\bord0\c&H090606&\fscx200\fscy200\blur1\pos(955,835)\frz0.3101\clip(m 809.89 800.69 l 849.88 814.84 856.34 808.38 908.94 821.61 916.01 818.84 962.15 830.84 972.61 826.23 1003.68 831.15 1010.14 824.07 1097.19 839.15 1094.42 866.83 792.67 847.45)}RÄ±htÄ±m
 Dialogue: 0,0:13:24.58,0:13:26.54,Captions-207+,,0,0,0,,{\an5\fnElmer_P HenNeko\bord0\c&H090606&\fscx125\fscy125\blur1\fad(433,0)\frz0.3101\pos(953.4,266)}(Hato)
 Dialogue: 0,0:13:26.54,0:13:26.58,Captions-207+,,0,0,0,,{\an5\fnElmer_P HenNeko\bord0\c&H090606&\fscx125\fscy125\blur1\frz0.3101\pos(953.4,266)\clip(m 857.05 266.22 l 882.76 257.31 906.4 254.24 918.41 246.29 936.34 242.83 947.79 238.3 974.15 238.51 980.85 230.09 1203.93 233.22 1092.02 340.72 795.28 350.78)}(Hato)
 Dialogue: 0,0:13:26.58,0:13:26.62,Captions-207+,,0,0,0,,{\an5\fnElmer_P HenNeko\bord0\c&H090606&\fscx125\fscy125\blur1\frz0.3101\pos(953.4,266)\clip(m 856.57 260.92 l 880.49 251.97 890.3 249.05 905.1 249.05 913.88 244.24 918.18 240.27 940.21 236.83 948.12 232.18 975.49 234.59 1032.63 239.06 1056.44 248.14 1057.59 284.19 1023.46 318.32 847.07 311.8)}(Hato)
 Dialogue: 0,0:13:26.62,0:13:26.66,Captions-207+,,0,0,0,,{\an5\fnElmer_P HenNeko\bord0\c&H090606&\fscx125\fscy125\blur1\frz0.3101\pos(953.4,266)\clip(m 857.52 254.24 l 871.06 249.43 879.38 247.01 900.59 244.29 910.65 239.61 917.71 235.24 1099.2 225.6 1099.2 321.6 811.2 324.8)}(Hato)
-Dialogue: 1,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\fscx220\fscy220\bord0\c&H010304&\blur0.8}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H89714C&\3c&H89714C&\clip(507,849,512,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H88714D&\3c&H88714D&\clip(512,849,517,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H87714D&\3c&H87714D&\clip(517,849,522,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H86714E&\3c&H86714E&\clip(522,849,527,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H85714F&\3c&H85714F&\clip(527,849,532,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H847150&\3c&H847150&\clip(532,849,537,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H837150&\3c&H837150&\clip(537,849,542,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H817151&\3c&H817151&\clip(542,849,547,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H807152&\3c&H807152&\clip(547,849,552,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H7F7152&\3c&H7F7152&\clip(552,849,557,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H7E7153&\3c&H7E7153&\clip(557,849,562,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H7D7054&\3c&H7D7054&\clip(562,849,567,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H7C7055&\3c&H7C7055&\clip(567,849,572,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H7B7055&\3c&H7B7055&\clip(572,849,577,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H7A7056&\3c&H7A7056&\clip(577,849,582,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H797057&\3c&H797057&\clip(582,849,587,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H787057&\3c&H787057&\clip(587,849,592,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H777058&\3c&H777058&\clip(592,849,597,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H767059&\3c&H767059&\clip(597,849,602,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H75705A&\3c&H75705A&\clip(602,849,607,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H73705A&\3c&H73705A&\clip(607,849,612,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H72705B&\3c&H72705B&\clip(612,849,617,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H71705C&\3c&H71705C&\clip(617,849,622,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H70705D&\3c&H70705D&\clip(622,849,627,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H6F705D&\3c&H6F705D&\clip(627,849,632,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H6E705E&\3c&H6E705E&\clip(632,849,637,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H6D705F&\3c&H6D705F&\clip(637,849,642,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H6C705F&\3c&H6C705F&\clip(642,849,647,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H6B7060&\3c&H6B7060&\clip(647,849,652,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H6A7061&\3c&H6A7061&\clip(652,849,657,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H697062&\3c&H697062&\clip(657,849,662,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H686F62&\3c&H686F62&\clip(662,849,667,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H676F63&\3c&H676F63&\clip(667,849,672,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H656F64&\3c&H656F64&\clip(672,849,677,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H646F64&\3c&H646F64&\clip(677,849,682,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H636F65&\3c&H636F65&\clip(682,849,687,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H626F66&\3c&H626F66&\clip(687,849,692,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H616F67&\3c&H616F67&\clip(692,849,697,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H606F67&\3c&H606F67&\clip(697,849,702,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H5F6F68&\3c&H5F6F68&\clip(702,849,707,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H5E6F69&\3c&H5E6F69&\clip(707,849,712,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H5D6F69&\3c&H5D6F69&\clip(712,849,717,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H5C6F6A&\3c&H5C6F6A&\clip(717,849,722,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H5B6F6B&\3c&H5B6F6B&\clip(722,849,727,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H5A6F6C&\3c&H5A6F6C&\clip(727,849,732,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H596F6C&\3c&H596F6C&\clip(732,849,737,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H576F6D&\3c&H576F6D&\clip(737,849,742,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H566F6E&\3c&H566F6E&\clip(742,849,747,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H556F6E&\3c&H556F6E&\clip(747,849,752,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H546F6F&\3c&H546F6F&\clip(752,849,757,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H536F70&\3c&H536F70&\clip(757,849,762,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H526F71&\3c&H526F71&\clip(762,849,767,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H516E71&\3c&H516E71&\clip(767,849,772,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H506E72&\3c&H506E72&\clip(772,849,777,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H4F6E73&\3c&H4F6E73&\clip(777,849,782,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H4E6E74&\3c&H4E6E74&\clip(782,849,787,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H4D6E74&\3c&H4D6E74&\clip(787,849,792,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H4C6E75&\3c&H4C6E75&\clip(792,849,797,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H4A6E76&\3c&H4A6E76&\clip(797,849,802,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H496E76&\3c&H496E76&\clip(802,849,807,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H486E77&\3c&H486E77&\clip(807,849,812,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H476E78&\3c&H476E78&\clip(812,849,817,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H466E79&\3c&H466E79&\clip(817,849,822,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H456E79&\3c&H456E79&\clip(822,849,827,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H446E7A&\3c&H446E7A&\clip(827,849,832,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H436E7B&\3c&H436E7B&\clip(832,849,837,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H426E7B&\3c&H426E7B&\clip(837,849,842,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H416E7C&\3c&H416E7C&\clip(842,849,847,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H406E7D&\3c&H406E7D&\clip(847,849,852,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H3F6E7E&\3c&H3F6E7E&\clip(852,849,857,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H3E6E7E&\3c&H3E6E7E&\clip(857,849,862,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H3C6E7F&\3c&H3C6E7F&\clip(862,849,867,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H3B6E80&\3c&H3B6E80&\clip(867,849,872,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H3A6D80&\3c&H3A6D80&\clip(872,849,877,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H396D81&\3c&H396D81&\clip(877,849,882,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H386D82&\3c&H386D82&\clip(882,849,887,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H376D83&\3c&H376D83&\clip(887,849,892,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H366D83&\3c&H366D83&\clip(892,849,897,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H356D84&\3c&H356D84&\clip(897,849,902,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H346D85&\3c&H346D85&\clip(902,849,907,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H336D85&\3c&H336D85&\clip(907,849,912,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H326D86&\3c&H326D86&\clip(912,849,917,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H316D87&\3c&H316D87&\clip(917,849,922,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H306D88&\3c&H306D88&\clip(922,849,927,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H2E6D88&\3c&H2E6D88&\clip(927,849,932,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H2D6D89&\3c&H2D6D89&\clip(932,849,937,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H2C6D8A&\3c&H2C6D8A&\clip(937,849,942,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H2B6D8B&\3c&H2B6D8B&\clip(942,849,947,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H2A6D8B&\3c&H2A6D8B&\clip(947,849,952,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H296D8C&\3c&H296D8C&\clip(952,849,957,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H286D8D&\3c&H286D8D&\clip(957,849,962,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H276D8D&\3c&H276D8D&\clip(962,849,967,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H266D8E&\3c&H266D8E&\clip(967,849,972,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H256C8F&\3c&H256C8F&\clip(972,849,977,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H246C90&\3c&H246C90&\clip(977,849,982,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H236C90&\3c&H236C90&\clip(982,849,987,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H226C91&\3c&H226C91&\clip(987,849,992,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H206C92&\3c&H206C92&\clip(992,849,997,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H1F6C92&\3c&H1F6C92&\clip(997,849,1002,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H1E6C93&\3c&H1E6C93&\clip(1002,849,1007,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H1D6C94&\3c&H1D6C94&\clip(1007,849,1012,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H1C6C95&\3c&H1C6C95&\clip(1012,849,1017,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H1B6C95&\3c&H1B6C95&\clip(1017,849,1022,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H1A6C96&\3c&H1A6C96&\clip(1022,849,1027,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H1A6C96&\3c&H1A6C96&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1025,774,1030,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H1B6D97&\3c&H1B6D97&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1030,774,1035,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H1C6E97&\3c&H1C6E97&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1035,774,1040,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H1D6F98&\3c&H1D6F98&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1040,774,1045,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H1F7099&\3c&H1F7099&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1045,774,1050,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H207199&\3c&H207199&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1050,774,1055,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H21729A&\3c&H21729A&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1055,774,1060,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H22739A&\3c&H22739A&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1060,774,1065,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H23749B&\3c&H23749B&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1065,774,1070,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H24759C&\3c&H24759C&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1070,774,1075,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H25769C&\3c&H25769C&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1075,774,1080,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H26779D&\3c&H26779D&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1080,774,1085,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H28789E&\3c&H28789E&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1085,774,1090,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H29799E&\3c&H29799E&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1090,774,1095,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H2A799F&\3c&H2A799F&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1095,774,1100,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H2B7A9F&\3c&H2B7A9F&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1100,774,1105,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H2C7BA0&\3c&H2C7BA0&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1105,774,1110,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H2D7CA1&\3c&H2D7CA1&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1110,774,1115,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H2E7DA1&\3c&H2E7DA1&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1115,774,1120,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H307EA2&\3c&H307EA2&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1120,774,1125,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H317FA3&\3c&H317FA3&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1125,774,1130,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H3280A3&\3c&H3280A3&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1130,774,1135,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H3381A4&\3c&H3381A4&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1135,774,1140,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H3482A4&\3c&H3482A4&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1140,774,1145,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H3583A5&\3c&H3583A5&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1145,774,1150,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H3684A6&\3c&H3684A6&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1150,774,1155,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H3785A6&\3c&H3785A6&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1155,774,1160,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H3986A7&\3c&H3986A7&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1160,774,1165,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H3A87A8&\3c&H3A87A8&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1165,774,1170,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H3B88A8&\3c&H3B88A8&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1170,774,1175,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H3C89A9&\3c&H3C89A9&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1175,774,1180,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H3D8AA9&\3c&H3D8AA9&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1180,774,1185,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H3E8BAA&\3c&H3E8BAA&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1185,774,1190,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H3F8CAB&\3c&H3F8CAB&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1190,774,1195,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H418DAB&\3c&H418DAB&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1195,774,1200,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H428EAC&\3c&H428EAC&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1200,774,1205,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H438FAD&\3c&H438FAD&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1205,774,1210,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H4490AD&\3c&H4490AD&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1210,774,1215,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H4591AE&\3c&H4591AE&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1215,774,1220,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H4692AE&\3c&H4692AE&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1220,774,1225,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H4793AF&\3c&H4793AF&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1225,774,1230,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H4894B0&\3c&H4894B0&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1230,774,1235,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H4A94B0&\3c&H4A94B0&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1235,774,1240,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H4B95B1&\3c&H4B95B1&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1240,774,1245,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H4C96B2&\3c&H4C96B2&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1245,774,1250,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H4D97B2&\3c&H4D97B2&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1250,774,1255,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H4E98B3&\3c&H4E98B3&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1255,774,1260,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H4F99B3&\3c&H4F99B3&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1260,774,1265,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H509AB4&\3c&H509AB4&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1265,774,1270,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H519BB5&\3c&H519BB5&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1270,774,1275,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H539CB5&\3c&H539CB5&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1275,774,1280,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H549DB6&\3c&H549DB6&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1280,774,1285,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H559EB7&\3c&H559EB7&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1285,774,1290,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H569FB7&\3c&H569FB7&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1290,774,1295,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H57A0B8&\3c&H57A0B8&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1295,774,1300,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H58A1B8&\3c&H58A1B8&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1300,774,1305,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H59A2B9&\3c&H59A2B9&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1305,774,1310,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H5BA3BA&\3c&H5BA3BA&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1310,774,1315,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H5CA4BA&\3c&H5CA4BA&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1315,774,1320,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H5DA5BB&\3c&H5DA5BB&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1320,774,1325,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H5EA6BC&\3c&H5EA6BC&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1325,774,1330,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H5FA7BC&\3c&H5FA7BC&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1330,774,1335,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H60A8BD&\3c&H60A8BD&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1335,774,1340,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H61A9BD&\3c&H61A9BD&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1340,774,1345,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H62AABE&\3c&H62AABE&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1345,774,1350,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H64ABBF&\3c&H64ABBF&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1350,774,1355,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H65ACBF&\3c&H65ACBF&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1355,774,1360,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H66ADC0&\3c&H66ADC0&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1360,774,1365,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H67AEC1&\3c&H67AEC1&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1365,774,1370,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H68AFC1&\3c&H68AFC1&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1370,774,1375,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H69AFC2&\3c&H69AFC2&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1375,774,1380,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H6AB0C2&\3c&H6AB0C2&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1380,774,1385,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H6CB1C3&\3c&H6CB1C3&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1385,774,1390,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H6DB2C4&\3c&H6DB2C4&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1390,774,1395,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H6EB3C4&\3c&H6EB3C4&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1395,774,1400,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H6FB4C5&\3c&H6FB4C5&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1400,774,1405,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H70B5C6&\3c&H70B5C6&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1405,774,1410,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H71B6C6&\3c&H71B6C6&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1410,774,1415,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H72B7C7&\3c&H72B7C7&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1415,774,1420,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H73B8C7&\3c&H73B8C7&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1420,774,1425,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H75B9C8&\3c&H75B9C8&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1425,774,1430,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H76BAC9&\3c&H76BAC9&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1430,774,1435,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H77BBC9&\3c&H77BBC9&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1435,774,1440,1037)}"Denizin Şövalyesi",  Jinbe
-Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H78BCCA&\3c&H78BCCA&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1440,774,1445,1037)}"Denizin Şövalyesi",  Jinbe
+Dialogue: 1,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\fscx220\fscy220\bord0\c&H010304&\blur0.8}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H89714C&\3c&H89714C&\clip(507,849,512,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H88714D&\3c&H88714D&\clip(512,849,517,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H87714D&\3c&H87714D&\clip(517,849,522,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H86714E&\3c&H86714E&\clip(522,849,527,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H85714F&\3c&H85714F&\clip(527,849,532,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H847150&\3c&H847150&\clip(532,849,537,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H837150&\3c&H837150&\clip(537,849,542,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H817151&\3c&H817151&\clip(542,849,547,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H807152&\3c&H807152&\clip(547,849,552,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H7F7152&\3c&H7F7152&\clip(552,849,557,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H7E7153&\3c&H7E7153&\clip(557,849,562,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H7D7054&\3c&H7D7054&\clip(562,849,567,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H7C7055&\3c&H7C7055&\clip(567,849,572,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H7B7055&\3c&H7B7055&\clip(572,849,577,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H7A7056&\3c&H7A7056&\clip(577,849,582,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H797057&\3c&H797057&\clip(582,849,587,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H787057&\3c&H787057&\clip(587,849,592,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H777058&\3c&H777058&\clip(592,849,597,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H767059&\3c&H767059&\clip(597,849,602,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H75705A&\3c&H75705A&\clip(602,849,607,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H73705A&\3c&H73705A&\clip(607,849,612,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H72705B&\3c&H72705B&\clip(612,849,617,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H71705C&\3c&H71705C&\clip(617,849,622,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H70705D&\3c&H70705D&\clip(622,849,627,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H6F705D&\3c&H6F705D&\clip(627,849,632,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H6E705E&\3c&H6E705E&\clip(632,849,637,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H6D705F&\3c&H6D705F&\clip(637,849,642,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H6C705F&\3c&H6C705F&\clip(642,849,647,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H6B7060&\3c&H6B7060&\clip(647,849,652,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H6A7061&\3c&H6A7061&\clip(652,849,657,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H697062&\3c&H697062&\clip(657,849,662,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H686F62&\3c&H686F62&\clip(662,849,667,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H676F63&\3c&H676F63&\clip(667,849,672,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H656F64&\3c&H656F64&\clip(672,849,677,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H646F64&\3c&H646F64&\clip(677,849,682,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H636F65&\3c&H636F65&\clip(682,849,687,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H626F66&\3c&H626F66&\clip(687,849,692,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H616F67&\3c&H616F67&\clip(692,849,697,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H606F67&\3c&H606F67&\clip(697,849,702,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H5F6F68&\3c&H5F6F68&\clip(702,849,707,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H5E6F69&\3c&H5E6F69&\clip(707,849,712,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H5D6F69&\3c&H5D6F69&\clip(712,849,717,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H5C6F6A&\3c&H5C6F6A&\clip(717,849,722,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H5B6F6B&\3c&H5B6F6B&\clip(722,849,727,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H5A6F6C&\3c&H5A6F6C&\clip(727,849,732,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H596F6C&\3c&H596F6C&\clip(732,849,737,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H576F6D&\3c&H576F6D&\clip(737,849,742,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H566F6E&\3c&H566F6E&\clip(742,849,747,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H556F6E&\3c&H556F6E&\clip(747,849,752,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H546F6F&\3c&H546F6F&\clip(752,849,757,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H536F70&\3c&H536F70&\clip(757,849,762,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H526F71&\3c&H526F71&\clip(762,849,767,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H516E71&\3c&H516E71&\clip(767,849,772,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H506E72&\3c&H506E72&\clip(772,849,777,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H4F6E73&\3c&H4F6E73&\clip(777,849,782,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H4E6E74&\3c&H4E6E74&\clip(782,849,787,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H4D6E74&\3c&H4D6E74&\clip(787,849,792,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H4C6E75&\3c&H4C6E75&\clip(792,849,797,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H4A6E76&\3c&H4A6E76&\clip(797,849,802,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H496E76&\3c&H496E76&\clip(802,849,807,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H486E77&\3c&H486E77&\clip(807,849,812,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H476E78&\3c&H476E78&\clip(812,849,817,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H466E79&\3c&H466E79&\clip(817,849,822,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H456E79&\3c&H456E79&\clip(822,849,827,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H446E7A&\3c&H446E7A&\clip(827,849,832,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H436E7B&\3c&H436E7B&\clip(832,849,837,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H426E7B&\3c&H426E7B&\clip(837,849,842,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H416E7C&\3c&H416E7C&\clip(842,849,847,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H406E7D&\3c&H406E7D&\clip(847,849,852,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H3F6E7E&\3c&H3F6E7E&\clip(852,849,857,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H3E6E7E&\3c&H3E6E7E&\clip(857,849,862,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H3C6E7F&\3c&H3C6E7F&\clip(862,849,867,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H3B6E80&\3c&H3B6E80&\clip(867,849,872,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H3A6D80&\3c&H3A6D80&\clip(872,849,877,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H396D81&\3c&H396D81&\clip(877,849,882,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H386D82&\3c&H386D82&\clip(882,849,887,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H376D83&\3c&H376D83&\clip(887,849,892,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H366D83&\3c&H366D83&\clip(892,849,897,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H356D84&\3c&H356D84&\clip(897,849,902,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H346D85&\3c&H346D85&\clip(902,849,907,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H336D85&\3c&H336D85&\clip(907,849,912,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H326D86&\3c&H326D86&\clip(912,849,917,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H316D87&\3c&H316D87&\clip(917,849,922,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H306D88&\3c&H306D88&\clip(922,849,927,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H2E6D88&\3c&H2E6D88&\clip(927,849,932,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H2D6D89&\3c&H2D6D89&\clip(932,849,937,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H2C6D8A&\3c&H2C6D8A&\clip(937,849,942,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H2B6D8B&\3c&H2B6D8B&\clip(942,849,947,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H2A6D8B&\3c&H2A6D8B&\clip(947,849,952,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H296D8C&\3c&H296D8C&\clip(952,849,957,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H286D8D&\3c&H286D8D&\clip(957,849,962,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H276D8D&\3c&H276D8D&\clip(962,849,967,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H266D8E&\3c&H266D8E&\clip(967,849,972,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H256C8F&\3c&H256C8F&\clip(972,849,977,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H246C90&\3c&H246C90&\clip(977,849,982,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H236C90&\3c&H236C90&\clip(982,849,987,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H226C91&\3c&H226C91&\clip(987,849,992,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H206C92&\3c&H206C92&\clip(992,849,997,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H1F6C92&\3c&H1F6C92&\clip(997,849,1002,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H1E6C93&\3c&H1E6C93&\clip(1002,849,1007,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H1D6C94&\3c&H1D6C94&\clip(1007,849,1012,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H1C6C95&\3c&H1C6C95&\clip(1012,849,1017,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H1B6C95&\3c&H1B6C95&\clip(1017,849,1022,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\c&H1A6C96&\3c&H1A6C96&\clip(1022,849,1027,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H1A6C96&\3c&H1A6C96&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1025,774,1030,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H1B6D97&\3c&H1B6D97&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1030,774,1035,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H1C6E97&\3c&H1C6E97&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1035,774,1040,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H1D6F98&\3c&H1D6F98&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1040,774,1045,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H1F7099&\3c&H1F7099&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1045,774,1050,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H207199&\3c&H207199&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1050,774,1055,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H21729A&\3c&H21729A&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1055,774,1060,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H22739A&\3c&H22739A&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1060,774,1065,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H23749B&\3c&H23749B&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1065,774,1070,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H24759C&\3c&H24759C&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1070,774,1075,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H25769C&\3c&H25769C&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1075,774,1080,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H26779D&\3c&H26779D&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1080,774,1085,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H28789E&\3c&H28789E&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1085,774,1090,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H29799E&\3c&H29799E&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1090,774,1095,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H2A799F&\3c&H2A799F&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1095,774,1100,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H2B7A9F&\3c&H2B7A9F&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1100,774,1105,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H2C7BA0&\3c&H2C7BA0&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1105,774,1110,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H2D7CA1&\3c&H2D7CA1&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1110,774,1115,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H2E7DA1&\3c&H2E7DA1&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1115,774,1120,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H307EA2&\3c&H307EA2&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1120,774,1125,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H317FA3&\3c&H317FA3&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1125,774,1130,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H3280A3&\3c&H3280A3&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1130,774,1135,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H3381A4&\3c&H3381A4&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1135,774,1140,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H3482A4&\3c&H3482A4&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1140,774,1145,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H3583A5&\3c&H3583A5&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1145,774,1150,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H3684A6&\3c&H3684A6&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1150,774,1155,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H3785A6&\3c&H3785A6&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1155,774,1160,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H3986A7&\3c&H3986A7&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1160,774,1165,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H3A87A8&\3c&H3A87A8&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1165,774,1170,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H3B88A8&\3c&H3B88A8&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1170,774,1175,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H3C89A9&\3c&H3C89A9&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1175,774,1180,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H3D8AA9&\3c&H3D8AA9&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1180,774,1185,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H3E8BAA&\3c&H3E8BAA&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1185,774,1190,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H3F8CAB&\3c&H3F8CAB&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1190,774,1195,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H418DAB&\3c&H418DAB&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1195,774,1200,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H428EAC&\3c&H428EAC&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1200,774,1205,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H438FAD&\3c&H438FAD&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1205,774,1210,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H4490AD&\3c&H4490AD&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1210,774,1215,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H4591AE&\3c&H4591AE&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1215,774,1220,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H4692AE&\3c&H4692AE&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1220,774,1225,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H4793AF&\3c&H4793AF&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1225,774,1230,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H4894B0&\3c&H4894B0&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1230,774,1235,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H4A94B0&\3c&H4A94B0&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1235,774,1240,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H4B95B1&\3c&H4B95B1&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1240,774,1245,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H4C96B2&\3c&H4C96B2&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1245,774,1250,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H4D97B2&\3c&H4D97B2&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1250,774,1255,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H4E98B3&\3c&H4E98B3&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1255,774,1260,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H4F99B3&\3c&H4F99B3&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1260,774,1265,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H509AB4&\3c&H509AB4&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1265,774,1270,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H519BB5&\3c&H519BB5&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1270,774,1275,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H539CB5&\3c&H539CB5&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1275,774,1280,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H549DB6&\3c&H549DB6&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1280,774,1285,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H559EB7&\3c&H559EB7&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1285,774,1290,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H569FB7&\3c&H569FB7&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1290,774,1295,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H57A0B8&\3c&H57A0B8&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1295,774,1300,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H58A1B8&\3c&H58A1B8&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1300,774,1305,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H59A2B9&\3c&H59A2B9&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1305,774,1310,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H5BA3BA&\3c&H5BA3BA&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1310,774,1315,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H5CA4BA&\3c&H5CA4BA&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1315,774,1320,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H5DA5BB&\3c&H5DA5BB&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1320,774,1325,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H5EA6BC&\3c&H5EA6BC&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1325,774,1330,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H5FA7BC&\3c&H5FA7BC&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1330,774,1335,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H60A8BD&\3c&H60A8BD&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1335,774,1340,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H61A9BD&\3c&H61A9BD&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1340,774,1345,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H62AABE&\3c&H62AABE&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1345,774,1350,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H64ABBF&\3c&H64ABBF&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1350,774,1355,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H65ACBF&\3c&H65ACBF&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1355,774,1360,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H66ADC0&\3c&H66ADC0&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1360,774,1365,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H67AEC1&\3c&H67AEC1&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1365,774,1370,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H68AFC1&\3c&H68AFC1&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1370,774,1375,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H69AFC2&\3c&H69AFC2&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1375,774,1380,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H6AB0C2&\3c&H6AB0C2&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1380,774,1385,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H6CB1C3&\3c&H6CB1C3&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1385,774,1390,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H6DB2C4&\3c&H6DB2C4&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1390,774,1395,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H6EB3C4&\3c&H6EB3C4&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1395,774,1400,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H6FB4C5&\3c&H6FB4C5&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1400,774,1405,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H70B5C6&\3c&H70B5C6&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1405,774,1410,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H71B6C6&\3c&H71B6C6&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1410,774,1415,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H72B7C7&\3c&H72B7C7&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1415,774,1420,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H73B8C7&\3c&H73B8C7&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1420,774,1425,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H75B9C8&\3c&H75B9C8&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1425,774,1430,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H76BAC9&\3c&H76BAC9&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1430,774,1435,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H77BBC9&\3c&H77BBC9&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1435,774,1440,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
+Dialogue: 0,0:32:36.10,0:32:38.81,Captions-207+,,0,0,0,,{\fnDry Brush\c&H78BCCA&\3c&H78BCCA&\pos(976,1010)\bord5\fscx220\fscy220\blur0.8\clip(1440,774,1445,1037)}"Denizin ÅÃ¶valyesi",  Jinbe
 Dialogue: 2,0:32:43.98,0:32:54.16,Captions-207+,Sign,0,0,0,,{\an7\pos(0,0)\bord0\c&HA9D4DE&\p1}m 1420 969.2 l 1417 968.9 b 1417 966.4 1419.1 965.8 1420.7 966 1426.4 966.4 1431.3 964.1 1436.3 962.2 1436.8 962.2 1437.3 962.2 1437.8 962.3 1443.8 964.3 1449.8 962.6 1455.4 961.4 1460.9 960.3 1465.8 960 1470.9 961.8 1473.5 962.6 1476.2 963.6 1479.3 963.2 1479.1 959.3 1473.6 957.9 1475.6 953.4 1473.6 957.4 1470.5 958.5 1466.7 958.3 1464.2 958.1 1461.3 958.4 1460.5 955.3 1459.5 951.9 1462.7 951.5 1465.1 950.2 1464.1 947.9 1461.9 946.9 1460.7 944.9 1458.5 941.5 1457.3 941.7 1455.2 945.4 1454.6 946.4 1454.2 947.5 1452.8 948.2 1450.4 947.2 1448.8 944.5 1445.7 944.3 1444.2 944.3 1444.1 942.4 1444.4 941 1445.3 936.8 1445.3 933.9 1439.7 932.2 1436.8 931.3 1432.3 928 1433 922.8 1433.2 921.6 1433.1 920.4 1431.8 919.8 1429.2 918.8 1429.1 916.3 1428.4 914.1 1422.7 913 1420.9 911.2 1420.2 905.5 1419.7 901.5 1421.7 898.8 1424.9 896.9 1428 895 1431.6 895.5 1434.2 898 1434.9 895.6 1433.7 894.9 1431.7 895 1426.6 895.1 1422.8 893.6 1419.2 889.4 1416.8 886.6 1414 883.9 1412.3 880.1 1409.9 881.9 1411 885.3 1408 885.8 1405.2 886.3 1404.4 884 1402.8 882.7 1400.7 882.6 1399.4 883.7 1397.9 885.4 1401.9 889 1403.5 894.5 1408.4 897.1 1409 897.5 1409.6 898 1409.6 898.7 1410.2 904.8 1414.4 910 1413.3 916.5 1412.8 919.4 1412.6 922.4 1409.4 923.5 1406.5 924.5 1405.5 921.7 1404.1 920 1403.7 919.7 1403.3 919.4 1402.3 919.6 1400.7 922.1 1401 924.7 1402.2 927.3 1403.6 927.9 1404.5 927.3 1405.4 926.8 1407 926.1 1408.6 925.9 1409.9 927.4 1411.3 928.9 1411.3 930.8 1410.6 932.6 1409.9 934.3 1408.2 935.5 1406.6 934.8 1401.5 932.8 1398.6 936.6 1395 938.7 1392.9 940.5 1391.1 942.8 1388.2 943.5 1387.7 943.7 1387.3 943.7 1386.8 943.8 1380.1 946.1 1374.5 943.5 1369.5 939.4 1367.7 937.9 1365.8 938.1 1363.8 938.2 1360.1 938.5 1357.1 937.7 1355.1 934 1353.3 930.7 1350 929.5 1346.3 929 1342 928.5 1338.4 927.2 1339 921.3 1334.5 927 1332.8 927.1 1330.2 922.3 1325.9 922.8 1323.1 921.3 1322 917.6 1318.2 916.9 1312.9 917.6 1314.3 910.7 1312.2 911.4 1312.1 913.2 1310.8 914 1308.3 915.5 1305.9 914.6 1305.9 911.7 1306 909.3 1305.2 907.5 1304.3 906.2 1296 904.4 1288.1 906.2 1280.3 906.8 1278.5 907 1277.6 907.8 1276.9 909.2 1276 911.2 1274.8 913.4 1272.2 913 1269.5 912.5 1271.1 909.5 1269.9 907.7 1267.5 907.1 1265.2 906 1262.5 904.8 1260.7 909.3 1257.5 908.3 1254.1 907.1 1255.2 907.9 1256.7 908.1 1257.6 909 1258.5 910 1259.1 911.7 1257.9 912 1254.3 912.8 1254.1 915.7 1253 918.3 1252.1 920.4 1249.9 919.6 1248.2 918.6 1246.5 917.7 1246 915.7 1244.5 914.6 1241.6 916.7 1238.7 918.3 1236.6 921.7 1234.1 926 1228.5 925.8 1222.4 921.9 1219.7 927.2 1213.3 927.1 1209.2 930.7 1208.1 931.6 1206.8 931.9 1205.5 930.8 1204.2 929.7 1203.9 928.2 1204.8 926.8 1206.2 924.6 1206.8 922.5 1206.5 919.8 1206.1 916.3 1210.2 917.2 1211.9 915.6 1206.4 916.5 1206.2 916.5 1205.7 921.7 1205.3 925.6 1202.6 927.9 1199.8 929.9 1197.4 931.5 1195.2 930.3 1194.2 927.7 1193.1 924.6 1192 921.5 1192.9 917.1 1190.5 919.3 1191.4 921.2 1191.4 922.8 1191.4 924.3 1191.9 926.4 1190.4 926.9 1186.7 928.1 1184.1 930.9 1180.8 932.5 1176.6 934.5 1174.4 931.4 1173.2 927.9 1165.8 929.1 1166 935.9 1164 940.5 1162.8 943.2 1167.3 944.8 1169.3 946.6 1171.7 948.8 1174.4 951.2 1178.5 949.4 1180.1 948.7 1180.9 950.8 1181.3 952.3 1182 955.4 1184 957.5 1187.2 959.2 1187.8 955.9 1186.2 950.7 1192.5 951.8 1195.1 960.2 1201.3 964.1 1209.4 965.8 1211.6 966.2 1213.7 967.1 1215.7 966.1 1220.1 963.9 1223.6 967 1227.6 967.6 1228.6 967.7 1228.8 969 1228.4 970 1223.7 973.3 1218.4 971.4 1213.4 971.8 1204.8 972.6 1196.2 971.1 1187.6 970.7 1178.4 970.3 1171.8 965.8 1166.7 958.5 1166.1 957.6 1165.3 957.1 1164.3 957 1161 956.5 1160 954.4 1158.9 951.4 1156.7 945.2 1152.9 940 1146.3 937.8 1143.3 936.8 1140.8 935.4 1139.3 932.5 1138.7 930.3 1139.2 928.2 1140.4 926.4 1141.9 924.2 1142.6 922.3 1142 919.2 1141.4 915.9 1144.8 913.1 1148.2 912.5 1151.2 912 1152 910.8 1152.2 908.1 1152.9 900 1156.9 899.3 1164.1 900.5 1166 900.8 1167.8 901.8 1169.7 902.4 1173.7 903.7 1177.3 903.8 1179.5 899.3 1180.6 897.1 1182.5 897 1184.6 898 1187.3 899.4 1189.5 901.3 1191.5 903.7 1196.1 909.4 1198.8 909.5 1204.3 904.8 1206.8 902.6 1207.6 899.4 1209.8 897.1 1210.7 896.1 1210.2 894.9 1208.9 894.2 1207.8 893.6 1206.5 893.2 1205.2 892.9 1197.2 891.1 1195.6 889 1196.1 880.8 1196.2 880.3 1196.3 879.8 1196.5 879.4 1197.6 876.7 1197.9 873.8 1197.9 870.9 1198.1 867.5 1200.3 864.8 1201.9 861.9 1203.2 859.8 1205.5 859.1 1208 859.4 1211.2 859.8 1214.4 860.2 1216.3 856.5 1216.9 855.4 1218.3 855.1 1219.3 855.9 1223.7 859.1 1227.3 856.7 1230.6 854.2 1233.2 852.2 1235 852.4 1237.6 854.4 1242.9 858.3 1248.1 862.5 1253.7 866 1257.3 868.3 1261 869.3 1265.1 868.4 1268 867.7 1270.2 868.2 1271.9 871 1274 874.3 1276.9 874.6 1279.9 871.9 1282.2 869.8 1284.9 868.7 1288 868.7 1288.5 868.7 1289.2 868.8 1289.5 868.5 1296.8 862.7 1302.7 868.5 1309.1 870.7 1310.4 871.2 1311.7 871.8 1311.9 873.3 1312.7 877.8 1315.6 879.7 1319.8 880.2 1320.6 880.3 1321.3 880.9 1321.4 882.1 1321.1 884.7 1317.8 883.9 1316.7 885.7 1318.1 893 1321.2 892.2 1306.8 896.6 1311 897.2 1314.6 897.4 1317.6 899.8 1318.8 900.7 1320.5 899.8 1321.9 899.3 1325.2 898.2 1328.4 898.4 1331.6 899.9 1335.3 901.6 1338.7 904.2 1343.2 903.4 1344.3 903.1 1345.5 904 1346.2 904.9 1349.9 909.4 1355 912.5 1356.8 918.4 1358 922.3 1361.5 924.4 1364.7 926.4 1365.7 927 1367.4 927.1 1367.7 928.1 1369.8 934 1375.7 934.5 1380 937.4 1382.4 938.9 1384.9 939.4 1387.3 937.2 1393.6 932.7 1394.5 929.4 1390.9 922.3 1387.8 916.2 1391.5 910.2 1398.3 910.1 1403.3 909.9 1404.3 908.3 1401.7 904 1400.6 902.3 1399.9 900.4 1399.3 898.6 1397.9 895 1396.2 891.8 1392.2 890.7 1390.6 890.3 1389.9 888.9 1388.9 887.8 1384.9 883.5 1383.1 877.8 1379.9 872.9 1378.5 870.7 1378.5 866.9 1381.2 864.6 1383.8 862.5 1386.7 862.7 1389.4 865 1390.4 865.9 1391.6 866.4 1392.9 866.8 1396.2 867.6 1397.9 869.6 1398.2 873.1 1398.6 877.3 1400 877.8 1403.8 875.8 1408.6 873.1 1413.2 873 1417.9 876.1 1423.2 879.6 1429 882 1434.9 884.5 1437.1 885.4 1438.9 886.8 1440.5 888.5 1442.4 890.6 1442.8 892.6 1441.2 895.2 1436.9 902.3 1437.5 905.6 1444.1 911 1446.3 912.8 1447.6 914.6 1446.3 917.3 1445 920 1447.8 921.6 1447.6 923.9 1447.8 930.5 1448 930.8 1454.4 930.7 1461.2 930.5 1467 932.9 1472.5 936.4 1474 937.3 1475.6 937.7 1477.2 937.7 1479.1 937.8 1480.8 938.2 1482.5 939.1 1489.4 942.6 1489.8 944.2 1485 949.9 1486.3 952.3 1488.7 951.7 1490.7 952.1 1497.5 953.5 1497.9 954.2 1494.1 959.9 1493.7 960.5 1493.2 961 1492.7 961.5 1490 963.8 1487.5 966.2 1485.8 969.4 1484.4 969.7 1483.4 968.7 1482.2 968.3 1471.5 967.8 1460.7 967.5 1449.9 967.9 1446.4 967.3 1443 967.1 1439.6 968.5 1433.1 969 1426.5 967.6 1420 969.2
 Dialogue: 3,0:32:43.98,0:32:54.16,Captions-207+,Sign,0,0,0,,{\an7\pos(0,0)\bord0\c&H87B5CA&\p1}m 1619.2 769 b 1622.5 770.9 1625.8 772.8 1629.1 774.8 1631.4 781.5 1630.9 788.4 1630.5 795.2 1630.5 795.9 1630.6 796.5 1631.1 797 l 1631.1 796.9 b 1630.8 808.8 1631.4 820.8 1630.6 832.7 1630.2 838.6 1632.5 844.5 1630.8 850.5 1630.4 851.6 1629.6 852.3 1628.5 852.7 1623.6 852.4 1619.2 848.5 1620 843.4 1621.1 836.4 1617.9 830.6 1616.5 824.3 1616.2 822.9 1615.3 822.1 1613.8 821.9 1612.3 821.8 1610.7 821.7 1610.4 819.8 1611.3 816.9 1610.6 815.9 1607.2 815.6 1603.5 815.2 1600 814.3 1596.6 816.8 1593 815.2 1589.2 813.9 1586.4 810.9 1586.5 809.3 1588 806.8 1584.4 807.8 1583.4 807.9 1582.5 807.8 1581.7 807.1 1580.4 804.1 1582.3 803.3 1584.7 802.9 1587.5 802.5 1590.3 802.1 1592 799.3 1593.2 796.3 1594.4 793.4 1596.8 790.9 1599.4 788.3 1599.4 784.7 1599.5 781.3 1598.9 779.5 1597.4 779.4 1596 778.9 1591.6 777.6 1588.2 775.5 1588.6 770.1 1588.7 769 1587.9 768.3 1587.3 767.5 1583.8 763.6 1582.7 758.6 1581.7 753.7 1580.9 749.1 1576.6 748.2 1573.5 746.2 1567.6 742.5 1567.5 742.7 1569.7 736.4 1570 735.7 1570.2 735.1 1570 734.4 1570 734.1 1569.8 733.8 1569.5 733.6 1568.4 733 1567.6 733.6 1567 734.4 1565.8 735.8 1564.5 736.7 1562.7 735.7 1561 734.8 1559.4 733.6 1559.6 731.5 1560.2 727.2 1559.4 722.9 1560 718.6 1561.3 714.5 1565.2 714.4 1568.4 713.6 1570.9 713 1571.6 715.4 1571.9 717.4 1572.2 719.7 1572.5 721.9 1575 723 1575.7 724.3 1576.4 725.6 1577 726.8 1581 734 1585.8 740.4 1591 746.6 1592.3 747.8 1593.5 749.3 1595.2 750 1599.2 753.6 1603.1 757.2 1607.1 760.8 1609 762.5 1610.8 764.5 1613.1 766 l 1613 765.9 b 1614.8 767.6 1617 768.2 1619.2 769
 Dialogue: 4,0:32:43.98,0:32:54.16,Captions-207+,Sign,0,0,0,,{\an7\pos(0,0)\bord0\c&HA5D1DC&\p1}m 1197 880 b 1197.7 883.8 1198.3 887.6 1198.9 890.8 1203 891.5 1206.3 891.7 1209.1 892.8 1210.4 893.2 1212 896.5 1211.6 897 1208.1 901.5 1205.6 907 1199.6 909.2 1195.4 910.9 1193.6 907.8 1191.2 905.7 1188.9 903.6 1186.8 901.2 1184.4 899.3 1182.6 897.9 1180.9 897.6 1180 900.6 1178.6 904.8 1175.1 905 1171.6 904.3 1167.5 903.5 1163.4 902.6 1159.4 901.6 1153.8 900.2 1154.1 904.6 1153.2 907.7 1152.5 909.9 1152.3 912.2 1151.8 915 1145.7 911.2 1145.2 917.1 1141.4 918.9 1146.5 920.6 1144.7 922.4 1142.9 924.9 1141.4 926.9 1140.9 929.6 1140 932 1137.5 932 1137.3 928.5 1134.7 928.8 1131.5 926.6 1129.3 922.9 1125.1 922 1123 920.7 1121 919.4 1118.9 918.1 1116.5 913 1111.1 912.9 1106.8 911.2 1104.3 910.3 1102.7 909.2 1102.1 906.7 1100.8 899.7 1101.8 892.6 1101.5 885.6 1101.4 883.1 1101.5 880.7 1101.5 878.2 1101.4 877.7 1101.6 877.2 1102 876.8 1104.6 877 1104.2 879.1 1104.1 880.5 1103.7 885.7 1105.8 890 1108.4 894.1 1110.5 897.5 1112.9 900.7 1114.9 904.1 1116.1 906.1 1117.4 907.6 1120.1 906.8 1122.8 906.1 1123.2 908.6 1124.5 910.2 1128.4 908.5 1131 909.5 1131 914.7 1134.6 912.8 1138.8 913.1 1140.2 908.9 1139.7 908.1 1139 908.3 1138.3 908.3 1136.6 908.3 1135.5 907.4 1135.4 905.6 1135.3 904 1136.5 903.5 1137.8 902.9 1142.8 900.5 1144.4 894.8 1140.5 890.8 1136.8 887.1 1134.8 881.2 1128.4 880.4 1126.9 880.2 1126.4 878.7 1126.8 877.2 1128.2 872 1130.2 867.1 1133.3 862.7 1134.7 860.6 1137.1 858.9 1140.1 860.1 1144.3 864.1 1142.8 870.3 1146 874.8 1147.4 876.6 1148.1 878.5 1150.7 878.3 1153.7 878.2 1154.9 880.1 1155.5 882.5 1156.3 885.6 1157.2 888.6 1157 891.9 1156.9 892.9 1156.5 894.2 1158 894.9 1160 894.4 1159.6 892.7 1159.7 891.3 1159.8 886.2 1161.5 881.5 1162.9 876.8 1163.6 874.5 1164 872.7 1162.8 870.6 1161.6 868.5 1161.7 866.4 1163.6 864.7 1165.6 863 1167.6 863.1 1170.1 864.2 1174.1 866 1177.9 867.9 1179.9 872.1 1180.4 873.2 1181.6 873.7 1182.7 874.1 1183.6 874.4 1184.4 874.8 1185.3 875.2 1189.2 875.8 1191.6 878.3 1193.1 881.6 1195.1 882.4 1195.2 879.4 1197 880
@@ -906,9 +906,9 @@ Dialogue: 188,0:32:43.98,0:32:54.16,Captions-207+,Sign,0,0,0,,{\an7\pos(0,0)\bor
 Dialogue: 189,0:32:43.98,0:32:54.16,Captions-207+,Sign,0,0,0,,{\an7\pos(0,0)\bord0\c&H8BBBCF&\p1}m 1436.8 821 b 1436.3 821.4 1435.8 821.9 1435.6 821.8 1435.2 821.6 1434.9 821.1 1434.5 820.8 1434.9 820.6 1435.3 820.2 1435.6 820.2 1436 820.2 1436.3 820.6 1436.8 821
 Dialogue: 190,0:32:43.98,0:32:54.16,Captions-207+,Sign,0,0,0,,{\an7\pos(0,0)\bord0\c&H8BBBCF&\p1}m 1442.4 827.4 b 1441.1 828.1 1440.6 828.5 1440.1 828.6 1439.9 828.7 1439.3 827.8 1439.3 827.7 1439.7 827.3 1440.1 826.8 1440.6 826.6 1441 826.5 1441.5 827 1442.4 827.4
 Dialogue: 191,0:32:43.98,0:32:54.16,Captions-207+,Sign,0,0,0,,{\an7\pos(0,0)\bord0\c&H90BED0&\p1}m 1268 779 b 1268.3 780.3 1268.7 781.7 1269 783 1268.7 781.7 1268.3 780.3 1268 779
-Dialogue: 200,0:32:43.98,0:32:54.16,Captions-207+,,0,0,0,,{\an5\pos(1368,850)\bord0\c&H050508&\blur0.8\fscx70\fscy70}Hasır Şapka Korsanları'nın Dümencisi\N{\fscx100\fscy100}"Denizin Şövalyesi", Jinbe\N{\fscx75\fscy75}\NKelle Ödülü: 438 Milyon Beli
-Dialogue: 0,0:00:25.13,0:00:27.26,Credits-207+,,0,0,0,,{\pos(330,669)\blur0.3\bord3.4\fscx83\fscy88\fsp2\b600\c&H000000&}Video Düzenleme
-Dialogue: 1,0:00:25.13,0:00:27.26,Credits-207+,,0,0,0,,{\pos(330,669)\blur0.4\bord0\fscx83\fscy88\fsp2\b600\4a&HFF&}Video Düzenleme
+Dialogue: 200,0:32:43.98,0:32:54.16,Captions-207+,,0,0,0,,{\an5\pos(1368,850)\bord0\c&H050508&\blur0.8\fscx70\fscy70}HasÄ±r Åapka KorsanlarÄ±'nÄ±n DÃ¼mencisi\N{\fscx100\fscy100}"Denizin ÅÃ¶valyesi", Jinbe\N{\fscx75\fscy75}\NKelle Ã–dÃ¼lÃ¼: 438 Milyon Beli
+Dialogue: 0,0:00:25.13,0:00:27.26,Credits-207+,,0,0,0,,{\pos(330,669)\blur0.3\bord3.4\fscx83\fscy88\fsp2\b600\c&H000000&}Video DÃ¼zenleme
+Dialogue: 1,0:00:25.13,0:00:27.26,Credits-207+,,0,0,0,,{\pos(330,669)\blur0.4\bord0\fscx83\fscy88\fsp2\b600\4a&HFF&}Video DÃ¼zenleme
 Dialogue: 0,0:00:25.13,0:00:27.26,Credits-207+,,0,0,0,,{\pos(350,720)\blur0.3\bord4\fscx120\fscy120\b600\c&H000000&}fedew\NFeeso\NGigglebot\NSewil
 Dialogue: 1,0:00:25.13,0:00:27.26,Credits-207+,,0,0,0,,{\pos(350,720)\blur0.4\bord0\fscx120\fscy120\b600\4a&HFF&}fedew\NFeeso\NGigglebot\NSewil
 Dialogue: 2,0:00:25.13,0:00:27.26,Credits-207+,,0,0,0,,{\pos(350,720)\blur0.4\bord0\fscx120\fscy120\b600\4a&HFF&}fedew\NFeeso\NGigglebot\NSewil
@@ -922,9 +922,9 @@ Dialogue: 1,0:00:30.85,0:00:32.56,Credits-207+,,0,0,0,,{\blur0.4\bord0\fscx85\fs
 Dialogue: 0,0:00:30.85,0:00:32.56,Credits-207+,,0,0,0,,{\blur0.3\bord4\fscx110\fscy110\c&H000000&\b600\pos(358,705)}Gab
 Dialogue: 1,0:00:30.85,0:00:32.56,Credits-207+,,0,0,0,,{\blur0.4\bord0\fscx110\fscy110\4a&HFF&\b600\pos(358,705)}Gab
 Dialogue: 2,0:00:30.85,0:00:32.56,Credits-207+,,0,0,0,,{\blur0.4\bord0\fscx110\fscy110\4a&HFF&\b600\pos(358,705)}Gab
-Dialogue: 0,0:00:34.77,0:00:39.27,Credits-207+,,0,0,0,,{\an5\blur0.3\bord4\fscx110\fscy110\c&H000000&\b600\pos(965,148.4)}Müzik
-Dialogue: 1,0:00:34.77,0:00:39.27,Credits-207+,,0,0,0,,{\an5\blur0.4\bord0\fscx110\fscy110\4a&HFF&\b600\pos(965,148.4)}Müzik
-Dialogue: 2,0:00:34.77,0:00:39.27,Credits-207+,,0,0,0,,{\an5\blur0.4\bord0\fscx110\fscy110\4a&HFF&\b600\pos(965,148.4)}Müzik
+Dialogue: 0,0:00:34.77,0:00:39.27,Credits-207+,,0,0,0,,{\an5\blur0.3\bord4\fscx110\fscy110\c&H000000&\b600\pos(965,148.4)}MÃ¼zik
+Dialogue: 1,0:00:34.77,0:00:39.27,Credits-207+,,0,0,0,,{\an5\blur0.4\bord0\fscx110\fscy110\4a&HFF&\b600\pos(965,148.4)}MÃ¼zik
+Dialogue: 2,0:00:34.77,0:00:39.27,Credits-207+,,0,0,0,,{\an5\blur0.4\bord0\fscx110\fscy110\4a&HFF&\b600\pos(965,148.4)}MÃ¼zik
 Dialogue: 0,0:00:34.77,0:00:39.27,Credits-207+,,0,0,0,,{\an5\blur0.3\bord4\fscx110\fscy110\c&H000000&\b600\pos(965,213.4)}Halee
 Dialogue: 1,0:00:34.77,0:00:39.27,Credits-207+,,0,0,0,,{\an5\blur0.4\bord0\fscx110\fscy110\4a&HFF&\b600\pos(965,213.4)}Halee
 Dialogue: 2,0:00:34.77,0:00:39.27,Credits-207+,,0,0,0,,{\an5\blur0.4\bord0\fscx110\fscy110\4a&HFF&\b600\pos(965,213.4)}Halee
@@ -933,13 +933,13 @@ Dialogue: 1,0:00:39.36,0:00:40.61,Credits-207+,,0,0,0,,{\pos(442,589)\blur0.4\bo
 Dialogue: 0,0:00:39.36,0:00:40.61,Credits-207+,,0,0,0,,{\pos(467,640)\blur0.3\bord4\fscx100\fscy100\b600\c&H000000&}Datenshi
 Dialogue: 1,0:00:39.36,0:00:40.61,Credits-207+,,0,0,0,,{\pos(467,640)\blur0.4\bord0\fscx100\fscy100\b600\4a&HFF&}Datenshi
 Dialogue: 2,0:00:39.36,0:00:40.61,Credits-207+,,0,0,0,,{\pos(467,640)\blur0.4\bord0\fscx100\fscy100\b600\4a&HFF&}Datenshi
-Dialogue: 0,0:00:40.65,0:00:43.07,Credits-207+,,0,0,0,,{\blur0.3\bord3.4\fscx83\fscy88\fsp3\c&H000000&\b600\pos(800,620)}Çeviri [TR]
-Dialogue: 1,0:00:40.65,0:00:43.07,Credits-207+,,0,0,0,,{\blur0.4\bord0\fscx83\fscy88\fsp3\4a&HFF&\b600\pos(800,620)}Çeviri [TR]
+Dialogue: 0,0:00:40.65,0:00:43.07,Credits-207+,,0,0,0,,{\blur0.3\bord3.4\fscx83\fscy88\fsp3\c&H000000&\b600\pos(800,620)}Ã‡eviri [TR]
+Dialogue: 1,0:00:40.65,0:00:43.07,Credits-207+,,0,0,0,,{\blur0.4\bord0\fscx83\fscy88\fsp3\4a&HFF&\b600\pos(800,620)}Ã‡eviri [TR]
 Dialogue: 0,0:00:40.65,0:00:43.07,Credits-207+,,0,0,0,,{\blur0.3\bord4\fscx95\fscy95\c&H000000&\b600\pos(820,671)}Zyrecon\NJack Cohle\N{\fs35}-onepacetr.net-
 Dialogue: 1,0:00:40.65,0:00:43.07,Credits-207+,,0,0,0,,{\blur0.4\bord0\fscx95\fscy95\4a&HFF&\b600\pos(820,671)}Zyrecon\NJack Cohle\N{\fs35}-onepacetr.net-
 Dialogue: 2,0:00:40.65,0:00:43.07,Credits-207+,,0,0,0,,{\blur0.4\bord0\fscx95\fscy95\4a&HFF&\b600\pos(820,671)}Zyrecon\NJack Cohle\N{\fs35}-onepacetr.net-
-Dialogue: 0,0:00:43.19,0:00:44.70,Credits-207+,,0,0,0,,{\blur0.3\bord3.4\fscx85\fscy90\fsp3\c&H000000&\b600\pos(806,660)}Altyazı Düzenleme [TR]
-Dialogue: 1,0:00:43.19,0:00:44.70,Credits-207+,,0,0,0,,{\blur0.4\bord0\fscx85\fscy90\fsp3\4a&HFF&\b600\pos(806,660)}Altyazı Düzenleme [TR]
+Dialogue: 0,0:00:43.19,0:00:44.70,Credits-207+,,0,0,0,,{\blur0.3\bord3.4\fscx85\fscy90\fsp3\c&H000000&\b600\pos(806,660)}AltyazÄ± DÃ¼zenleme [TR]
+Dialogue: 1,0:00:43.19,0:00:44.70,Credits-207+,,0,0,0,,{\blur0.4\bord0\fscx85\fscy90\fsp3\4a&HFF&\b600\pos(806,660)}AltyazÄ± DÃ¼zenleme [TR]
 Dialogue: 0,0:00:43.19,0:00:44.70,Credits-207+,,0,0,0,,{\blur0.3\bord4\fscx110\fscy110\c&H000000&\b600\pos(830,711)}Jack Cohle\N{\fs35}-onepacetr.net-
 Dialogue: 1,0:00:43.19,0:00:44.70,Credits-207+,,0,0,0,,{\blur0.4\bord0\fscx110\fscy110\4a&HFF&\b600\pos(830,711)}Jack Cohle\N{\fs35}-onepacetr.net-
 Dialogue: 2,0:00:43.19,0:00:44.70,Credits-207+,,0,0,0,,{\blur0.4\bord0\fscx110\fscy110\4a&HFF&\b600\pos(830,711)}Jack Cohle\N{\fs35}-onepacetr.net-
@@ -45021,27 +45021,27 @@ Dialogue: 0,0:01:23.31,0:01:23.35,Karaoke,,0,0,0,fx,{\fad(255,0,255,-643,-593,-3
 Dialogue: 0,0:01:23.35,0:01:23.40,Karaoke,,0,0,0,fx,{\fad(255,0,255,-684,-634,-384,116)\an7\pos(1128.62,181.76)\frz97.91\bord0\blur1\1c&HCFC9F8&\p1}m 6.93 24.67 b 9.6 10.76 -2.73 11.66 -11.63 -3.82 -16.89 -13.58 -2.94 -23.82 3.17 -17.48 11.15 -8.21 17.63 12.52 7.96 24.32
 Dialogue: 0,0:01:23.40,0:01:23.44,Karaoke,,0,0,0,fx,{\fad(255,0,255,-726,-676,-426,74)\an7\pos(1124.39,185.45)\frz99.52\bord0\blur1\1c&HCFC9F8&\p1}m 7.42 25.06 b 10.6 11.07 -2.76 12.69 -12.13 -3.63 -18.13 -14.12 -3.25 -25.06 3.12 -18.69 11.41 -9.01 18.13 12.69 8.5 24.7
 Dialogue: 0,0:01:23.44,0:01:23.48,Karaoke,,0,0,0,fx,{\fad(255,0,255,-768,-718,-468,32)\an7\pos(1120.42,188.91)\frz101.03\bord0\blur1\1c&HCFC9F8&\p1}m 7.42 25.06 b 10.6 11.07 -2.76 12.69 -12.13 -3.63 -18.13 -14.12 -3.25 -25.06 3.12 -18.69 11.41 -9.01 18.13 12.69 8.5 24.7
-Dialogue: 2,0:00:00.02,0:00:03.15,Translation,TR,0,0,0,notkara,{\an2\fad(150,150)\fscx125\fscy125)\fscx100\fscy100)}Sınırları olmayan haritayı aç ve sonra
-Dialogue: 0,0:00:03.14,0:00:06.34,Translation,TR,0,0,0,notkara,{\an2\fad(150,150)\fscx100\fscy100))}okyanusun bilinmeyen kıyılarına doğru ilerle
-Dialogue: 0,0:00:06.34,0:00:10.73,Translation,TR,0,0,0,notkara,{\an2\fad(150,150)\fscx100\fscy100))}HEMEN YELKEN AÇALIM, yelkenlerimizi yükseğe kaldıralım
-Dialogue: 0,0:00:10.73,0:00:13.72,Translation,TR,0,0,0,notkara,{\an2\fad(150,150)\fscx100\fscy100))}Rüzgârı sırtımıza alalım
-Dialogue: 0,0:00:18.85,0:00:23.06,Translation,TR,0,0,0,notkara,{\an2\fad(150,150)\fscx100\fscy100))}PES ETME, başladığımız işi bitirmenin zamanı geldi
-Dialogue: 0,0:00:23.25,0:00:26.03,Translation,TR,0,0,0,notkara,{\an2\fad(150,150)\fscx100\fscy100))}O yüzden cesaretin kırılmasın
-Dialogue: 0,0:00:26.34,0:00:29.79,Translation,TR,0,0,0,notkara,{\an2\fad(150,150)\fscx100\fscy100))}Fırtınalı günlerde gözyaşlarını gülerek uzaklaştır
-Dialogue: 0,0:00:29.99,0:00:34.22,Translation,TR,0,0,0,notkara,{\an2\fad(150,150)\fscx100\fscy100))}HAYKIR, kendini kötü hissettiğinde daima hatırla
-Dialogue: 0,0:00:34.56,0:00:36.82,Translation,TR,0,0,0,notkara,{\an2\fad(150,150)\fscx100\fscy100))}Arkadaşların bunun için yanında
+Dialogue: 2,0:00:00.02,0:00:03.15,Translation,TR,0,0,0,notkara,{\an2\fad(150,150)\fscx125\fscy125)\fscx100\fscy100)}SÄ±nÄ±rlarÄ± olmayan haritayÄ± aÃ§ ve sonra
+Dialogue: 0,0:00:03.14,0:00:06.34,Translation,TR,0,0,0,notkara,{\an2\fad(150,150)\fscx100\fscy100))}okyanusun bilinmeyen kÄ±yÄ±larÄ±na doÄŸru ilerle
+Dialogue: 0,0:00:06.34,0:00:10.73,Translation,TR,0,0,0,notkara,{\an2\fad(150,150)\fscx100\fscy100))}HEMEN YELKEN AÃ‡ALIM, yelkenlerimizi yÃ¼kseÄŸe kaldÄ±ralÄ±m
+Dialogue: 0,0:00:10.73,0:00:13.72,Translation,TR,0,0,0,notkara,{\an2\fad(150,150)\fscx100\fscy100))}RÃ¼zgÃ¢rÄ± sÄ±rtÄ±mÄ±za alalÄ±m
+Dialogue: 0,0:00:18.85,0:00:23.06,Translation,TR,0,0,0,notkara,{\an2\fad(150,150)\fscx100\fscy100))}PES ETME, baÅŸladÄ±ÄŸÄ±mÄ±z iÅŸi bitirmenin zamanÄ± geldi
+Dialogue: 0,0:00:23.25,0:00:26.03,Translation,TR,0,0,0,notkara,{\an2\fad(150,150)\fscx100\fscy100))}O yÃ¼zden cesaretin kÄ±rÄ±lmasÄ±n
+Dialogue: 0,0:00:26.34,0:00:29.79,Translation,TR,0,0,0,notkara,{\an2\fad(150,150)\fscx100\fscy100))}FÄ±rtÄ±nalÄ± gÃ¼nlerde gÃ¶zyaÅŸlarÄ±nÄ± gÃ¼lerek uzaklaÅŸtÄ±r
+Dialogue: 0,0:00:29.99,0:00:34.22,Translation,TR,0,0,0,notkara,{\an2\fad(150,150)\fscx100\fscy100))}HAYKIR, kendini kÃ¶tÃ¼ hissettiÄŸinde daima hatÄ±rla
+Dialogue: 0,0:00:34.56,0:00:36.82,Translation,TR,0,0,0,notkara,{\an2\fad(150,150)\fscx100\fscy100))}ArkadaÅŸlarÄ±n bunun iÃ§in yanÄ±nda
 Dialogue: 0,0:00:36.85,0:00:38.98,Translation,TR,0,0,0,notkara,{\an2\fad(150,150)\fscx100\fscy100))}Numara yapmana gerek yok,
-Dialogue: 0,0:00:38.98,0:00:42.90,Translation,TR,0,0,0,notkara,{\an2\fad(150,150)\fscx100\fscy100))}tayfan her zaman arkanı kollayacak
-Dialogue: 0,0:00:43.27,0:00:47.00,Translation,TR,0,0,0,notkara,{\an2\fad(150,150)\fscx100\fscy100))}Mutlak karanlığın karşısında bile
+Dialogue: 0,0:00:38.98,0:00:42.90,Translation,TR,0,0,0,notkara,{\an2\fad(150,150)\fscx100\fscy100))}tayfan her zaman arkanÄ± kollayacak
+Dialogue: 0,0:00:43.27,0:00:47.00,Translation,TR,0,0,0,notkara,{\an2\fad(150,150)\fscx100\fscy100))}Mutlak karanlÄ±ÄŸÄ±n karÅŸÄ±sÄ±nda bile
 Dialogue: 0,0:00:47.23,0:00:48.58,Translation,TR,0,0,0,notkara,{\an2\fad(150,150)\fscx100\fscy100))}Hadi, CESUR OL
-Dialogue: 0,0:00:48.61,0:00:49.99,Translation,TR,0,0,0,notkara,{\an2\fad(150,150)\fscx100\fscy100))}İyi olacağız
+Dialogue: 0,0:00:48.61,0:00:49.99,Translation,TR,0,0,0,notkara,{\an2\fad(150,150)\fscx100\fscy100))}Ä°yi olacaÄŸÄ±z
 Dialogue: 0,0:00:50.29,0:00:53.78,Translation,TR,0,0,0,notkara,{\an2\fad(150,150)\fscx100\fscy100))}Birlikteyken asla yenilmeyiz
-Dialogue: 0,0:00:54.00,0:00:56.77,Translation,TR,0,0,0,notkara,{\an2\fad(150,150)\fscx100\fscy100))}Sınırları olmayan haritayı aç ve sonra
-Dialogue: 0,0:00:56.79,0:00:59.63,Translation,TR,0,0,0,notkara,{\an2\fad(150,150)\fscx100\fscy100))}okyanusun bilinmeyen kıyılarına doğru ilerle
-Dialogue: 0,0:00:59.93,0:01:04.21,Translation,TR,0,0,0,notkara,{\an2\fad(150,150)\fscx100\fscy100))}Tüm harika yolculuklar tek bir adımla başlar
+Dialogue: 0,0:00:54.00,0:00:56.77,Translation,TR,0,0,0,notkara,{\an2\fad(150,150)\fscx100\fscy100))}SÄ±nÄ±rlarÄ± olmayan haritayÄ± aÃ§ ve sonra
+Dialogue: 0,0:00:56.79,0:00:59.63,Translation,TR,0,0,0,notkara,{\an2\fad(150,150)\fscx100\fscy100))}okyanusun bilinmeyen kÄ±yÄ±larÄ±na doÄŸru ilerle
+Dialogue: 0,0:00:59.93,0:01:04.21,Translation,TR,0,0,0,notkara,{\an2\fad(150,150)\fscx100\fscy100))}TÃ¼m harika yolculuklar tek bir adÄ±mla baÅŸlar
 Dialogue: 0,0:01:04.28,0:01:05.22,Translation,TR,0,0,0,notkara,{\an2\fad(150,150)\fscx100\fscy100))}HAYAL ET
-Dialogue: 0,0:01:05.22,0:01:08.00,Translation,TR,0,0,0,notkara,{\an2\fad(150,150)\fscx100\fscy100))}Sınırları olmayan haritayı aç ve sonra
-Dialogue: 0,0:01:08.00,0:01:10.74,Translation,TR,0,0,0,notkara,{\an2\fad(150,150)\fscx100\fscy100))}savunmaya and içtiğimiz o bayrağı çek göğe
-Dialogue: 0,0:01:10.89,0:01:13.63,Translation,TR,0,0,0,notkara,{\an2\fad(150,150)\fscx100\fscy100))}Zirveye ulaşana kadar asla durmayacağız
+Dialogue: 0,0:01:05.22,0:01:08.00,Translation,TR,0,0,0,notkara,{\an2\fad(150,150)\fscx100\fscy100))}SÄ±nÄ±rlarÄ± olmayan haritayÄ± aÃ§ ve sonra
+Dialogue: 0,0:01:08.00,0:01:10.74,Translation,TR,0,0,0,notkara,{\an2\fad(150,150)\fscx100\fscy100))}savunmaya and iÃ§tiÄŸimiz o bayraÄŸÄ± Ã§ek gÃ¶ÄŸe
+Dialogue: 0,0:01:10.89,0:01:13.63,Translation,TR,0,0,0,notkara,{\an2\fad(150,150)\fscx100\fscy100))}Zirveye ulaÅŸana kadar asla durmayacaÄŸÄ±z
 Dialogue: 0,0:01:13.70,0:01:18.10,Translation,TR,0,0,0,notkara,{\an2\fad(150,150)\fscx100\fscy100))}Sonuna kadar kendin olmaya devam et
-Dialogue: 0,0:01:18.23,0:01:22.94,Translation,TR,0,0,0,notkara,{\an2\fad(150,150)\fscx100\fscy100))}Yelken aç ve yakala, KURDUĞUN HAYALİ
+Dialogue: 0,0:01:18.23,0:01:22.94,Translation,TR,0,0,0,notkara,{\an2\fad(150,150)\fscx100\fscy100))}Yelken aÃ§ ve yakala, KURDUÄUN HAYALÄ°

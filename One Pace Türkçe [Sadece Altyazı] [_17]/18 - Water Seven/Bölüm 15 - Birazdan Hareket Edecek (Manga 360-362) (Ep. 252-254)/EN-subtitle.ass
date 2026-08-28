@@ -1,4 +1,4 @@
-﻿[Script Info]
+ï»¿[Script Info]
 ScriptType: v4.00+
 PlayResX: 1920
 PlayResY: 1080
@@ -28,7 +28,7 @@ Dialogue: 50,0:02:12.82,0:02:16.16,Main-207+,,0,0,0,,Well, CP9 is coming soon.
 Dialogue: 50,0:02:16.16,0:02:19.99,Main-207+,,0,0,0,,Nico Robin, go on ahead and get on board.
 Dialogue: 50,0:02:19.99,0:02:21.58,Main-207+,,0,0,0,,Now!
 Dialogue: 50,0:02:21.58,0:02:24.04,Main-207+,,0,0,0,,Hey, you two! Hurry up and take her away!
-Dialogue: 50,0:02:24.04,0:02:24.92,Main-207+,,0,0,0,,– Yes, sir!\N– Yes, sir!
+Dialogue: 50,0:02:24.04,0:02:24.92,Main-207+,,0,0,0,,â€“ Yes, sir!\Nâ€“ Yes, sir!
 Dialogue: 50,0:02:27.54,0:02:32.47,Main-207+,,0,0,0,,{A government official, marines... \Nand Robin-chan...-OG}Government officials, Marines... and Robin.{WF}
 Dialogue: 50,0:02:34.68,0:02:37.89,Main-207+,,0,0,0,,{Now... how should I play it?-OG}{Alright... how should I handle this?-WF}Alright... How should I make my entrance?{PP+WF}{literal TL is like "Well then... how should I go out?" (as in how should he make his entrance)-PP}
 Dialogue: 50,0:02:37.85,0:02:42.31,Flashbacks-207+,,0,0,0,,{\alpha&HFF&\t(16,58,\1a&H00&\3a&H00&\4a&H78&)\c&H000000&\3c&H000000&\4c&H000000&\t(17,433,1,\c&HFFFFFF&\3c&H525252&\4c&H000000&)}{\t(3978,4437,1,\c&H000000&\3c&H000000&\4c&H000000&)}{I carry a darkness within me\Nthat you all don't know about.-OG}None of you know\Nthe darkness I carry within me.{Z}{W7 08 @10:20}
@@ -41,8 +41,8 @@ Dialogue: 50,0:03:08.38,0:03:11.59,Thoughts-207+,,0,0,0,,{Oh, I've been waiting 
 Dialogue: 50,0:03:17.43,0:03:20.26,Main-207+,,0,0,0,,{Is she doing it on purpose \Nbecause she wants me to rescue her after all?-OG}Could it be she's waiting for {\i1}me{\i0} to save her?{WF}
 Dialogue: 50,0:03:33.32,0:03:34.44,Main-207+,,0,0,0,,{Corgi-san!-OG}Corgi, sir!{WF}
 Dialogue: 50,0:03:34.90,0:03:36.49,Main-207+,,0,0,0,,{CP9 is here!-OG}CP9 has arrived!{WF}
-Dialogue: 50,0:03:38.32,0:03:40.41,Secondary-207+,,0,0,0,,{\an8}– You bastard! Let me go!
-Dialogue: 50,0:03:38.32,0:03:40.41,Secondary-207+,,0,0,0,,{I said let me go!!-OG}{\an8}– Please let me go!{Figured this would distinguish between Franky and Usopp more, WF}
+Dialogue: 50,0:03:38.32,0:03:40.41,Secondary-207+,,0,0,0,,{\an8}â€“ You bastard! Let me go!
+Dialogue: 50,0:03:38.32,0:03:40.41,Secondary-207+,,0,0,0,,{I said let me go!!-OG}{\an8}â€“ Please let me go!{Figured this would distinguish between Franky and Usopp more, WF}
 Dialogue: 50,0:03:40.41,0:03:44.04,Secondary-207+,,0,0,0,,{I'm saying you guys're scary!-OG}{\an8}You guys are freaking me out!{WF}
 Dialogue: 50,0:03:42.24,0:03:44.04,Main-207+,,0,0,0,,{That's Rob Lucci-san.-OG}That's {\i1}the{\i0} Rob Lucci.{WF}
 Dialogue: 50,0:03:44.04,0:03:45.50,Main-207+,,0,0,0,,{How intimidating...-OG}What a presence...{PP}
@@ -50,11 +50,11 @@ Dialogue: 50,0:03:46.46,0:03:49.33,Main-207+,,0,0,0,,{So, they're CP9...-OG}So t
 Dialogue: 50,0:03:51.34,0:03:53.17,Main-207+,,0,0,0,,{How many times do I have to tell you?!-OG}Hey, are you listening?!{CPS, WF}
 Dialogue: 50,0:03:52.63,0:03:54.55,Secondary-207+,,0,0,0,,{You guys're scary!-OG}{\an8}Seriously, you're scaring me!{WF}
 Dialogue: 50,0:03:53.17,0:03:54.55,Main-207+,,0,0,0,,Let me go, you bastard!
-Dialogue: 50,0:03:54.55,0:03:55.67,Main-207+,,0,0,0,,{Let me go!-OG}Let me–{WF}
+Dialogue: 50,0:03:54.55,0:03:55.67,Main-207+,,0,0,0,,{Let me go!-OG}Let meâ€“{WF}
 Dialogue: 50,0:03:56.13,0:03:57.63,Main-207+,,0,0,0,,{Hey! Where are you taking me?!-OG}Hey, where are you taking me?!{WF}
 Dialogue: 50,0:03:57.63,0:04:02.56,Main-207+,,0,0,0,,{You guys're not gonna get away with this!-OG}You guys{guys'ren't} won't get away with this!{WF}
 Dialogue: 50,0:04:02.56,0:04:04.43,Main-207+,,0,0,0,,{Just wait and see!-OG}Just you wait!{WF}
-Dialogue: 50,0:04:04.43,0:04:06.93,Main-207+,,0,0,0,,{I've got \Neight thousand men under me and...-OG}I've got 8,000 men under my comman–{WF}
+Dialogue: 50,0:04:04.43,0:04:06.93,Main-207+,,0,0,0,,{I've got \Neight thousand men under me and...-OG}I've got 8,000 men under my commanâ€“{WF}
 Dialogue: 50,0:04:08.19,0:04:09.90,Main-207+,,0,0,0,,Usopp...!
 Dialogue: 50,0:04:10.90,0:04:13.27,Main-207+,,0,0,0,,{Good work on your long-term \Nmission, sirs and madam!-OG}Great work on your long mission, agents!{CPS, WF}
 Dialogue: 50,0:04:16.24,0:04:18.11,Main-207+,,0,0,0,,{Lucci-san, here is your coat.-OG}Lucci, sir, here's your coat.{WF}
@@ -66,7 +66,7 @@ Dialogue: 50,0:04:29.33,0:04:31.08,Main-207+,,0,0,0,,{Stay focused!-OG}Look shar
 Dialogue: 50,0:04:31.08,0:04:32.92,Main-207+,,0,0,0,,Everyone, get on the train!
 Dialogue: 50,0:04:33.67,0:04:35.51,Main-207+,,0,0,0,,Everyone, get on the sea train!
 Dialogue: 50,0:04:35.51,0:04:38.22,Main-207+,,0,0,0,,{Get ready to leave for Enies Lobby!-OG}Prepare to depart for Enies Lobby!{WF}
-Dialogue: 50,0:04:38.22,0:04:40.18,Main-207+,,0,0,0,,{I said let me go!-OG}I {\i1}said{\i0} let me g–{WF}
+Dialogue: 50,0:04:38.22,0:04:40.18,Main-207+,,0,0,0,,{I said let me go!-OG}I {\i1}said{\i0} let me gâ€“{WF}
 Dialogue: 50,0:04:43.14,0:04:45.89,Thoughts-207+,,0,0,0,,Who the hell are they?
 Dialogue: 50,0:04:47.48,0:04:48.68,Main-207+,,0,0,0,,In any case...
 Dialogue: 50,0:04:49.19,0:04:52.19,Main-207+,,0,0,0,,"Sorry I dragged you down till the end"?{Throwback to W7 04 @24:20}
@@ -117,11 +117,11 @@ Dialogue: 50,0:06:48.14,0:06:49.76,Main-207+,,0,0,0,,{Okay. Got it.-OG}Okay, got
 Dialogue: 50,0:06:50.22,0:06:52.73,Main-207+,,0,0,0,,{Hey... guys...!-OG}Hey... you guys.{WF}
 Dialogue: 50,0:06:53.48,0:06:55.23,Main-207+,,0,0,0,,{Paulie-san! You're okay!-OG}You're okay, Mr. Paulie!{WF}
 Dialogue: 50,0:06:55.77,0:06:59.40,Main-207+,,0,0,0,,Give this girl and her friend a hand.
-Dialogue: 50,0:06:59.40,0:07:00.73,Main-207+,,0,0,0,,– What?!\N– What?!
+Dialogue: 50,0:06:59.40,0:07:00.73,Main-207+,,0,0,0,,â€“ What?!\Nâ€“ What?!
 Dialogue: 50,0:07:00.73,0:07:03.28,Main-207+,,0,0,0,,{G-Give them a hand, you said, Paulie?!-OG}Y-You want us to help them, Mr. Paulie?!{WF}
 Dialogue: 50,0:07:03.28,0:07:07.66,Main-207+,,0,0,0,,{They're the culprits who tried \Nto kill Iceburg-san!-OG}But these people tried to kill Mr. Iceburg!{WF}
 Dialogue: 50,0:07:07.66,0:07:10.28,Main-207+,,0,0,0,,{We should restrain these two!-OG}We should tie these two up instead!{WF}
-Dialogue: 50,0:07:10.28,0:07:12.58,Main-207+,,0,0,0,,{Lucci-san and Kaku-san are still missing and...-OG}Mr. Lucci and Mr. Kaku are still missing–{WF}
+Dialogue: 50,0:07:10.28,0:07:12.58,Main-207+,,0,0,0,,{Lucci-san and Kaku-san are still missing and...-OG}Mr. Lucci and Mr. Kaku are still missingâ€“{WF}
 Dialogue: 50,0:07:10.03,0:07:11.04,Secondary-207+,,0,0,0,,That's right!
 Dialogue: 50,0:07:12.58,0:07:15.33,Main-207+,,0,0,0,,{The assassination culprits\Nare not the Straw Hats!-OG}The Straw Hats are not the assassins!{Muphen}
 Dialogue: 50,0:07:15.33,0:07:16.67,Main-207+,,0,0,0,,{They're innocent!-OG}They are innocent!{Panda}
@@ -143,12 +143,12 @@ Dialogue: 50,0:08:04.80,0:08:06.63,Main-207+,,0,0,0,,{Paulie-san! Hey!-OG}Mr. Pa
 Dialogue: 50,0:08:06.63,0:08:08.26,Main-207+,,0,0,0,,Is what you just told us true?!
 Dialogue: 50,0:08:09.05,0:08:11.30,Main-207+,,0,0,0,,{Quit your jabbering and help them already!-OG}Quit your jabbering and make this right!{WF}{the "help them already" part's translation is like "to take responsibility for their mistake"-PP}
 Dialogue: 50,0:08:11.30,0:08:13.06,Main-207+,,0,0,0,,{Are you trying to hurt Galley-La's name?!-OG}You wanna sully Galley-La's name?!{CPS, WF}
-Dialogue: 50,0:08:13.47,0:08:15.31,Main-207+,,0,0,0,,– N-No, foreman!\N– N-No, foreman!
+Dialogue: 50,0:08:13.47,0:08:15.31,Main-207+,,0,0,0,,â€“ N-No, foreman!\Nâ€“ N-No, foreman!
 Dialogue: 50,0:08:15.31,0:08:16.23,Main-207+,,0,0,0,,{We apologize!-OG}Our apologies!{WF}
-Dialogue: 50,0:08:16.23,0:08:17.89,Main-207+,,0,0,0,,– We're sorry!\N– We're sorry!
+Dialogue: 50,0:08:16.23,0:08:17.89,Main-207+,,0,0,0,,â€“ We're sorry!\Nâ€“ We're sorry!
 Dialogue: 50,0:08:17.89,0:08:19.48,Main-207+,,0,0,0,,{Tell us what to do! We'll help you guys!-OG}Whatever you need, let us know!{CPS, WF}
 Dialogue: 50,0:08:19.48,0:08:21.86,Main-207+,,0,0,0,,{Bring yagaras out! Open the cage!-OG}Bring the yagaras out! Open the cage!{PP+Lorphex}
-Dialogue: 50,0:08:21.86,0:08:23.69,Main-207+,,0,0,0,,– Yeah!\N– Yeah!
+Dialogue: 50,0:08:21.86,0:08:23.69,Main-207+,,0,0,0,,â€“ Yeah!\Nâ€“ Yeah!
 Dialogue: 50,0:08:25.23,0:08:27.11,Main-207+,,0,0,0,,{Visiting their hometowns, huh?-OG}They moved back home, huh?{WF}
 Dialogue: 50,0:08:29.45,0:08:32.45,Main-207+,,0,0,0,,{It's probably not good \Nto give them all the details.-OG}They don't need to know the details.{WF}
 Dialogue: 50,0:08:32.83,0:08:37.83,Main-207+,,0,0,0,,{We don't have to make them feel \Nthe pain we felt, right?-OG}It's bad enough\Nthat they broke our trust, right?{WF}{he's saying sth like "The two of us experiencing that feeling (of getting betrayed) is enough, right?"-PP}
@@ -162,7 +162,7 @@ Dialogue: 50,0:09:00.27,0:09:02.65,Main-207+,,0,0,0,,Sanji!
 Dialogue: 50,0:09:02.65,0:09:04.90,Main-207+,,0,0,0,,{\fscx80\fscy80\bord3.04\shad3.04}{Usopp, come back to us.-OG}Usopp, come back!{WF}
 Dialogue: 50,0:09:05.52,0:09:07.40,Main-207+,,0,0,0,,Everyone, please shout with me!
 Dialogue: 50,0:09:07.40,0:09:09.78,Main-207+,,0,0,0,,{Okay, got it! Guys! Got that?!-OG}Roger! You guys got that?!{WF}
-Dialogue: 50,0:09:09.78,0:09:11.36,Main-207+,,0,0,0,,– Yeah!\N– Yeah!
+Dialogue: 50,0:09:09.78,0:09:11.36,Main-207+,,0,0,0,,â€“ Yeah!\Nâ€“ Yeah!
 Dialogue: 50,0:09:11.36,0:09:14.12,Main-207+,,0,0,0,,{Hello! Luffy!-OG}Hey! Luffy!{PP}
 Dialogue: 50,0:09:14.12,0:09:15.87,Main-207+,,0,0,0,,Zoro!
 Dialogue: 50,0:09:15.87,0:09:18.37,Main-207+,,0,0,0,,Sanji!
@@ -221,8 +221,8 @@ Dialogue: 50,0:12:55.75,0:12:57.05,Main-207+,,0,0,0,,Zoro!
 Dialogue: 50,0:12:57.42,0:12:59.80,Main-207+,,0,0,0,,Sanji!
 Dialogue: 50,0:12:59.80,0:13:02.05,Main-207+,,0,0,0,,Come out!
 Dialogue: 50,0:13:02.05,0:13:04.60,Main-207+,,0,0,0,,{Let's go rescue Robin!-OG}We've gotta rescue Robin!{WF}
-Dialogue: 50,0:13:04.60,0:13:07.02,Main-207+,,0,0,0,,– Straw Hat!\N– Straw Hat!
-Dialogue: 50,0:13:07.47,0:13:10.06,Main-207+,,0,0,0,,– Roronoa!\N– Roronoa!{WF}
+Dialogue: 50,0:13:04.60,0:13:07.02,Main-207+,,0,0,0,,â€“ Straw Hat!\Nâ€“ Straw Hat!
+Dialogue: 50,0:13:07.47,0:13:10.06,Main-207+,,0,0,0,,â€“ Roronoa!\Nâ€“ Roronoa!{WF}
 Dialogue: 50,0:13:14.36,0:13:16.73,Main-207+,,0,0,0,,Where are you guys?
 Dialogue: 50,0:13:17.07,0:13:18.44,Main-207+,,0,0,0,,What about this way?!
 Dialogue: 50,0:13:18.44,0:13:19.82,Main-207+,,0,0,0,,{Hello!-OG}Hey!{PP}
@@ -236,7 +236,7 @@ Dialogue: 50,0:13:32.71,0:13:34.46,Main-207+,,0,0,0,,Dammit!
 Dialogue: 50,0:13:34.46,0:13:37.13,Main-207+,,0,0,0,,Straw Hat! Roronoa!
 Dialogue: 50,0:13:44.85,0:13:46.01,Main-207+,,0,0,0,,{Lucci-san!-OG}Lucci, sir!{WF}
 Dialogue: 50,0:13:46.01,0:13:50.23,Main-207+,,0,0,0,,{Since the waves \Nare getting quite high, we're departing a bit early.-OG}The waves are getting too high,\Nso we're departing a bit early.{WF}
-Dialogue: 50,0:13:50.77,0:13:52.35,Main-207+,,0,0,0,,{Could it cause you any trou–-OG}Is that an issue–{WF}
+Dialogue: 50,0:13:50.77,0:13:52.35,Main-207+,,0,0,0,,{Could it cause you any trouâ€“-OG}Is that an issueâ€“{WF}
 Dialogue: 50,0:13:51.35,0:13:52.35,Secondary-207+,,0,0,0,,No.
 Dialogue: 50,0:13:52.35,0:13:53.27,Main-207+,,0,0,0,,Depart.
 Dialogue: 50,0:13:54.23,0:13:55.90,Main-207+,,0,0,0,,Yes, sir. Well, then...
@@ -257,7 +257,7 @@ Dialogue: 50,0:15:16.90,0:15:21.19,Flashbacks-207+,,0,0,0,,{\alpha&HFF&\t(16,58,
 Dialogue: 50,0:15:21.19,0:15:23.07,Flashbacks-207+,,0,0,0,,So let me stay on this ship.
 Dialogue: 50,0:15:23.07,0:15:28.53,FlashbacksSecondary-207+,,0,0,0,,{\an8}Mellorine! Mellorine! Mellorine!{Needs to be in secondary flashback style during typesetting}
 Dialogue: 50,0:15:23.44,0:15:27.07,Flashbacks-207+,,0,0,0,,{Oh, I see... Then I guess\Nwe have no choice... Okay.-OG}Oh, I see... Then I guess\Nwe have no choice. Welcome aboard.{Z}
-Dialogue: 50,0:15:27.07,0:15:28.53,Flashbacks-207+,,0,0,0,,– Luffy!\N– Luffy!
+Dialogue: 50,0:15:27.07,0:15:28.53,Flashbacks-207+,,0,0,0,,â€“ Luffy!\Nâ€“ Luffy!
 Dialogue: 50,0:15:28.99,0:15:31.37,Flashbacks-207+,,0,0,0,,Don't worry.
 Dialogue: 50,0:15:31.37,0:15:34.04,Flashbacks-207+,,0,0,0,,{\t(2229,0,1,\c&H000000&\3c&H000000&\4c&H000000&)}{She isn't a bad person.-OG}She's not a bad person.{WF}
 Dialogue: 50,0:15:44.76,0:15:47.13,Main-207+,,0,0,0,,{I-It started moving.-OG}H-Hey, I think we're moving.{WF}
@@ -285,7 +285,7 @@ Dialogue: 50,0:17:42.50,0:17:45.01,Main-207+,,0,0,0,,{No matter what he's thinki
 Dialogue: 50,0:17:45.01,0:17:47.51,Main-207+,,0,0,0,,{that train was for government use,-OG}That train is for government use only.{WF}
 Dialogue: 50,0:17:47.51,0:17:49.60,Main-207+,,0,0,0,,{so he'll get caught and it'll all be over for him.-OG}They'll catch him and that'll be that.{WF}
 Dialogue: 50,0:17:51.30,0:17:52.30,Main-207+,,0,0,0,,Huh?
-Dialogue: 50,0:17:52.30,0:17:54.51,Main-207+,,0,0,0,,That's Galley-La's... Paul–
+Dialogue: 50,0:17:52.30,0:17:54.51,Main-207+,,0,0,0,,That's Galley-La's... Paulâ€“
 Dialogue: 50,0:17:57.18,0:17:59.43,Main-207+,,0,0,0,,{Don't be thoughtless!-OG}Read the room!{WF}
 Dialogue: 50,0:18:00.73,0:18:03.23,Main-207+,,0,0,0,,{It looks like there's \Nsomething going on between them.-OG}Something is happening over there.{CPS, WF}
 Dialogue: 50,0:18:04.65,0:18:07.48,Main-207+,,0,0,0,,{Train stations are a place \Nfor people to meet or part ways!-OG}Train stations are places\Nof meetings and partings.{CPS, WF}
@@ -293,9 +293,9 @@ Dialogue: 50,0:18:07.48,0:18:12.36,Main-207+,,0,0,0,,As station employees,\Nwe s
 Dialogue: 50,0:18:13.49,0:18:14.99,Main-207+,,0,0,0,,Oh, that's right.
 Dialogue: 50,0:18:17.08,0:18:18.66,Main-207+,,0,0,0,,Quietly, got that?
 Dialogue: 50,0:18:20.75,0:18:22.75,Main-207+,,0,0,0,,{The train left quite a bit early, huh?-OG}The train left pretty early, huh?{Z}
-Dialogue: 50,0:18:22.75,0:18:24.29,Main-207+,,0,0,0,,– What?!\N– What?!
+Dialogue: 50,0:18:22.75,0:18:24.29,Main-207+,,0,0,0,,â€“ What?!\Nâ€“ What?!
 Dialogue: 50,0:18:24.29,0:18:26.21,Main-207+,,0,0,0,,Ah, yes.
-Dialogue: 50,0:18:26.59,0:18:28.71,Main-207+,,0,0,0,,{All the passengers were already here, so...-OG}All the passengers were on board, so–{WF}
+Dialogue: 50,0:18:26.59,0:18:28.71,Main-207+,,0,0,0,,{All the passengers were already here, so...-OG}All the passengers were on board, soâ€“{WF}
 Dialogue: 50,0:18:29.21,0:18:30.21,Main-207+,,0,0,0,,Also...
 Dialogue: 50,0:18:30.76,0:18:33.51,Main-207+,,0,0,0,,{the sea started getting rougher \Nthan we thought.-OG}the sea was getting choppier than anticipated.{WF}
 Dialogue: 50,0:18:33.51,0:18:38.01,Main-207+,,0,0,0,,{At this rate, we thought Aqua \NLaguna would come very soon,-OG}The way things were headed,\Nit looked like Aqua Laguna was about to arrive,{WF+Z}
@@ -307,7 +307,7 @@ Dialogue: 50,0:18:48.94,0:18:52.74,Main-207+,,0,0,0,,{Hey, you... Once the train
 Dialogue: 50,0:18:52.74,0:18:54.28,Main-207+,,0,0,0,,{It's not easy to say this,-OG}The truth hurts...{WF}
 Dialogue: 50,0:18:54.86,0:18:57.03,Main-207+,,0,0,0,,but this Enies Lobby place is...
 Dialogue: 50,0:18:59.20,0:19:00.54,Main-207+,,0,0,0,,Are you crying?
-Dialogue: 50,0:19:01.24,0:19:03.96,Main-207+,,0,0,0,,{Um... well, I do understand \Nhow you feel, but...-OG}Well, um... I understand how you feel, but–{WF+PP}
+Dialogue: 50,0:19:01.24,0:19:03.96,Main-207+,,0,0,0,,{Um... well, I do understand \Nhow you feel, but...-OG}Well, um... I understand how you feel, butâ€“{WF+PP}
 Dialogue: 50,0:19:03.96,0:19:05.46,Main-207+,,0,0,0,,{We're gonna go after them!-OG}After that train!{CPS, WF}
 Dialogue: 50,0:19:06.96,0:19:08.46,Main-207+,,0,0,0,,{Oh, she was angry!-OG}She's pissed!{WF}
 Dialogue: 50,0:19:09.00,0:19:12.13,Main-207+,,0,0,0,,{Those idiots from the government! \NThey're not gonna get away with this!-OG}Those government morons!\NThey won't get away with this!{CPS, WF}
@@ -372,7 +372,7 @@ Dialogue: 50,0:22:38.67,0:22:40.38,Thoughts-207+,,0,0,0,,{So I'll get in touch w
 Dialogue: 50,0:22:42.13,0:22:44.51,Thoughts-207+,,0,0,0,,{I want you to always keep this portable \Ntransponder snail I got in town with you.-OG}I got this baby transponder snail in town.{WF}
 Dialogue: 50,0:22:44.51,0:22:46.55,Thoughts-207+,,0,0,0,,{I want you to always keep this portable \Ntransponder snail I got in town with you.-OG}I want you to always keep it with you.{WF}
 Dialogue: 50,0:22:46.55,0:22:47.55,Thoughts-207+,,0,0,0,,That's right.
-Dialogue: 50,0:22:47.55,0:22:50.56,Thoughts-207+,,0,0,0,,Think of it as your dear, beloved San–
+Dialogue: 50,0:22:47.55,0:22:50.56,Thoughts-207+,,0,0,0,,Think of it as your dear, beloved Sanâ€“
 Dialogue: 50,0:22:50.56,0:22:53.52,Main-207+,,0,0,0,,I see. So he'll call this one.
 Dialogue: 50,0:22:54.06,0:22:57.90,Main-207+,,0,0,0,,Then he foresaw where\NNico Robin was going to be?
 Dialogue: 50,0:22:57.90,0:22:59.19,Main-207+,,0,0,0,,That's amazing!
@@ -394,7 +394,7 @@ Dialogue: 50,0:23:47.45,0:23:48.78,Main-207+,,0,0,0,,{So search those areas.-OG}
 Dialogue: 50,0:23:49.45,0:23:51.12,Main-207+,,0,0,0,,Everyone, please help us out!
 Dialogue: 50,0:23:51.12,0:23:52.45,Main-207+,,0,0,0,,Guys!
 Dialogue: 50,0:23:52.79,0:23:54.04,Main-207+,,0,0,0,,We're counting on you!
-Dialogue: 50,0:23:54.04,0:23:55.29,Main-207+,,0,0,0,,– Yeah!\N– Yeah!
+Dialogue: 50,0:23:54.04,0:23:55.29,Main-207+,,0,0,0,,â€“ Yeah!\Nâ€“ Yeah!
 Dialogue: 50,0:23:55.66,0:23:57.42,Main-207+,,0,0,0,,Leave it to us!
 Dialogue: 50,0:24:08.43,0:24:13.06,Main-207+,,0,0,0,,{Now, how should I quietly infiltrate?-OG}Now, what's the best way to sneak in?{WF}
 Dialogue: 50,0:24:14.47,0:24:16.73,Main-207+,,0,0,0,,Whoa! What a crazy storm outside!
@@ -414,7 +414,7 @@ Dialogue: 50,0:25:02.94,0:25:07.07,Main-207+,,0,0,0,,{Hey! Let Lucci-san know \N
 Dialogue: 50,0:25:07.07,0:25:08.74,Main-207+,,0,0,0,,Wait!
 Dialogue: 50,0:25:11.41,0:25:16.16,Main-207+,,0,0,0,,{This isn't something\Nthat we need to bother CP9 with.-OG}This isn't something we need\Nto bother CP9 with, is it?{Chloe+WF+PP}{he says sth like ", no?" at the end of his sentence (it's "janai?" in japanese)-PP}
 Dialogue: 50,0:25:16.87,0:25:21.92,Main-207+,,0,0,0,,No matter how violent the suspicious\Nman is, there's no need to fear,
-Dialogue: 50,0:25:22.42,0:25:24.00,Main-207+,,0,0,0,,because in this car–
+Dialogue: 50,0:25:22.42,0:25:24.00,Main-207+,,0,0,0,,because in this carâ€“
 Dialogue: 50,0:25:24.63,0:25:26.59,Main-207+,,0,0,0,,Whoa! It's smoky!
 Dialogue: 50,0:25:27.34,0:25:29.42,Main-207+,,0,0,0,,...you've got me!
 Dialogue: 50,0:25:29.42,0:25:30.97,Main-207+,,0,0,0,,{Jerry-san!-OG}Jerry, sir!{WF}
@@ -1392,9 +1392,9 @@ Dialogue: 2,0:00:15.10,0:00:18.68,Lyrics-OP5,,0,0,0,,{\bord0\4a&HFF&\blur0.5}{Le
 Dialogue: 0,0:00:26.24,0:00:32.49,Lyrics-OP5,,0,0,0,,{\c&H030303&\blur0.5}{Working together, let's ride the giant waves}Combining our strengths, we'll crest these surging seas
 Dialogue: 1,0:00:26.24,0:00:32.49,Lyrics-OP5,,0,0,0,,{\bord0\4a&HFF&\blur0.5}{Working together, let's ride the giant waves}Combining our strengths, we'll crest these surging seas
 Dialogue: 2,0:00:26.24,0:00:32.49,Lyrics-OP5,,0,0,0,,{\bord0\4a&HFF&\blur0.5}{Working together, let's ride the giant waves}Combining our strengths, we'll crest these surging seas
-Dialogue: 0,0:00:33.75,0:00:40.29,Lyrics-OP5,,0,0,2,,{\c&H030303&\blur0.5}{Let's }Hurry toward the {excitement--}thrill of danger—\N{there's the starting signal}Let the adventure begin!
-Dialogue: 1,0:00:33.75,0:00:40.29,Lyrics-OP5,,0,0,2,,{\bord0\4a&HFF&\blur0.5}{Let's }Hurry toward the {excitement--}thrill of danger—\N{there's the starting signal}Let the adventure begin!
-Dialogue: 2,0:00:33.75,0:00:40.29,Lyrics-OP5,,0,0,2,,{\bord0\4a&HFF&\blur0.5}{Let's }Hurry toward the {excitement--}thrill of danger—\N{there's the starting signal}Let the adventure begin!
+Dialogue: 0,0:00:33.75,0:00:40.29,Lyrics-OP5,,0,0,2,,{\c&H030303&\blur0.5}{Let's }Hurry toward the {excitement--}thrill of dangerâ€”\N{there's the starting signal}Let the adventure begin!
+Dialogue: 1,0:00:33.75,0:00:40.29,Lyrics-OP5,,0,0,2,,{\bord0\4a&HFF&\blur0.5}{Let's }Hurry toward the {excitement--}thrill of dangerâ€”\N{there's the starting signal}Let the adventure begin!
+Dialogue: 2,0:00:33.75,0:00:40.29,Lyrics-OP5,,0,0,2,,{\bord0\4a&HFF&\blur0.5}{Let's }Hurry toward the {excitement--}thrill of dangerâ€”\N{there's the starting signal}Let the adventure begin!
 Dialogue: 0,0:00:40.96,0:00:47.13,Lyrics-OP5,,0,0,0,,{\c&H030303&\blur0.5}Now's the time to set sail{-- let's }; raise the anchor
 Dialogue: 1,0:00:40.96,0:00:47.13,Lyrics-OP5,,0,0,0,,{\bord0\4a&HFF&\blur0.5}Now's the time to set sail{-- let's }; raise the anchor
 Dialogue: 2,0:00:40.96,0:00:47.13,Lyrics-OP5,,0,0,0,,{\bord0\4a&HFF&\blur0.5}Now's the time to set sail{-- let's }; raise the anchor

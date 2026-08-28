@@ -1,4 +1,4 @@
-﻿[Script Info]
+ï»¿[Script Info]
 ScriptType: v4.00+
 PlayResX: 1920
 PlayResY: 1080
@@ -38,7 +38,7 @@ Dialogue: 10,0:02:50.43,0:02:54.23,Main-207+,,0,0,0,,{Genuine physical augmentat
 Dialogue: 10,0:02:54.23,0:02:56.73,Main-207+,,0,0,0,,would be the zoans.{-Z- Here's the rest}
 Dialogue: 10,0:02:56.73,0:03:00.41,Main-207+,,0,0,0,,The more we train,\Nthe more power we gain.{So strong!}
 Dialogue: 10,0:03:00.41,0:03:05.58,Main-207+,,0,0,0,,{The Zoan type is the strongest species \Nwhen it comes to a close attack.}{Zoan are the strongest type \Nwhen it comes to close-quarters combat.}{FV, added the hyphen}{When it comes to straight combat,\Nthe zoan-type is the strongest! -Gal}Zoans are head and shoulders\Nabove the rest in close-quarters combat.{Z}
-Dialogue: 10,0:03:05.58,0:03:08.50,Main-207+,,0,0,0,,– Iceburg-{\i1}san{\i0}!{Gal - san}\N– Foremen!
+Dialogue: 10,0:03:05.58,0:03:08.50,Main-207+,,0,0,0,,â€“ Iceburg-{\i1}san{\i0}!{Gal - san}\Nâ€“ Foremen!
 Dialogue: 10,0:03:09.80,0:03:12.84,Main-207+,,0,0,0,,{Lucci... the craftsmen are coming upstairs.}{ Lucci... the shipwrights are coming upstairs. -FV}Lucci, the shipwrights are coming upstairs.{Z}
 Dialogue: 10,0:03:13.33,0:03:16.47,Main-207+,,0,0,0,,{Don't worry. They can't make it this far.}Don't worry.\NThey won't make {it this far - FV}it here.{Gal}
 Dialogue: 10,0:03:16.47,0:03:18.47,Main-207+,,0,0,0,,{\fad(150,150)}Tempest Kick!
@@ -86,7 +86,7 @@ Dialogue: 10,0:07:24.11,0:07:26.82,Main-207+,,0,0,0,,This incident {will now be 
 Dialogue: 10,0:07:28.39,0:07:29.92,Main-207+,,0,0,0,,Iceburg-{\i1}san{\i0}...
 Dialogue: 10,0:07:29.92,0:07:35.40,Main-207+,,0,0,0,,{No matter how good \Nof a shipbuilding engineer you are, or even if you're the mayor of a big city... -OG}{No matter how good\Nof a shipbuilder you are, or even if you're the mayor of a big city... -FV, added "of"}You may be a renowned shipwright{,}\Nand the mayor of a great city...{Gal}{-Z- Removed the comma because this became a list of two items}
 Dialogue: 10,0:07:36.14,0:07:41.06,Main-207+,,0,0,0,,{you, a mere citizen, shouldn't have disobeyed \Nthe powerful World Government.}{An ordinary citizen like you shouldn't defy \Nthe World Government. FV}{but an ordinary citizen like you\Nshouldn't have defied the World Government. -Gal}but you, a mere citizen, could {\i1}never{\i0}\Ndefy our glorious World Government.{-Z- I'm particular to the "mere citizen" construct in the OG. Added in some fanaticism zeal too.}
-Dialogue: 10,0:07:49.94,0:07:53.98,Main-207+,,0,0,0,,Let's go.\NWe'll find Tom's other disciple Franky—{Gal - like I suggested in 10, apprentice}{-Z- changed the en dash to an em dash because this is a break in Lucci's line and not an interruption}
+Dialogue: 10,0:07:49.94,0:07:53.98,Main-207+,,0,0,0,,Let's go.\NWe'll find Tom's other disciple Frankyâ€”{Gal - like I suggested in 10, apprentice}{-Z- changed the en dash to an em dash because this is a break in Lucci's line and not an interruption}
 Dialogue: 10,0:07:53.98,0:07:58.79,Main-207+,,0,0,0,,rather, Cutty Flam,\Nand take the blueprints from him.
 Dialogue: 10,0:08:12.18,0:08:16.93,Main-207+,,0,0,0,,Grandma! Grandma! {There's a big fire!}It's a huge fire!{Z}
 Dialogue: 10,0:08:16.18,0:08:16.95,Secondary-207-,,0,0,0,,{Nyaa!}Meow!{Gaijin: I guess we keep them}{-Z- Gonbe's "nyaa" should be translated, right? Or should we take them out of our subs?}
@@ -106,10 +106,10 @@ Dialogue: 10,0:09:16.88,0:09:17.58,Main-207+,,0,0,0,,Look.
 Dialogue: 10,0:09:18.33,0:09:20.54,Main-207+,,0,0,0,,Listen, Straw Hat!
 Dialogue: 10,0:09:21.05,0:09:23.02,Main-207+,,0,0,0,,{We've got Long-nose with us!}{We've got long-nose with us! - JT}We've got long nose!{Gal}{-Z- I removed the hyphen to match our style guide}
 Dialogue: 10,0:09:23.02,0:09:25.00,Main-207+,,0,0,0,,That's right, we do!
-Dialogue: 10,0:09:25.00,0:09:27.65,Main-207+,,0,0,0,,If you don't want us\Nto sew him to a tree–{Pun-man, do your magic}
+Dialogue: 10,0:09:25.00,0:09:27.65,Main-207+,,0,0,0,,If you don't want us\Nto sew him to a treeâ€“{Pun-man, do your magic}
 Dialogue: 10,0:09:27.65,0:09:30.35,Main-207+,,0,0,0,,{Idiot! That's not it! How many \Ntimes do I have to tell you?!}Idiot! How do you not get it yet?{-Z- Assimilated the phrasing to match the Japanese VA}
 Dialogue: 10,0:09:30.35,0:09:33.02,Main-207+,,0,0,0,,{That's "If you don't want him \Nto sink in the sea"!}It's, "If you don't want us\Nto {\i1}throw{\i0} him {\i1}in the sea{\i0}!"{JT}
-Dialogue: 10,0:09:33.02,0:09:33.92,Main-207+,,0,0,0,,Sew him {\i1}in{\i0}–
+Dialogue: 10,0:09:33.02,0:09:33.92,Main-207+,,0,0,0,,Sew him {\i1}in{\i0}â€“
 Dialogue: 10,0:09:33.92,0:09:34.47,Main-207+,,0,0,0,,{"In the sea"!}{\i1}Throw{\i0} him!{Z}
 Dialogue: 10,0:09:34.93,0:09:37.89,Main-207+,,0,0,0,,{Geez, what were you listening to?!}Dammit, {were you even paying attention?! - JT}do you even listen?!{Gal}
 Dialogue: 10,0:09:37.89,0:09:41.28,Main-207+,,0,0,0,,{What's important is to get \Nthe message to Straw Hat, right?!}{All we have to do is make sure\N Straw Hat gets the message, right?! -Gal}What matters more is getting\Nthe message to Straw Hat, right?{Z}
@@ -144,7 +144,7 @@ Dialogue: 10,0:11:28.84,0:11:32.12,Main-207+,,0,0,0,,{The song title is}It's cal
 Dialogue: 10,0:11:32.12,0:11:34.12,Main-207+,,0,0,0,,Yay! Big Bro!
 Dialogue: 10,0:11:34.12,0:11:36.09,Main-207+,,0,0,0,,Are you making fun of me?!
 Dialogue: 10,0:11:42.32,0:11:47.00,Main-207+,,0,0,0,,Hey, is the tea ready yet?\NI'm thirsty.
-Dialogue: 10,0:11:47.00,0:11:50.02,Main-207+,,0,0,0,,{– Okay! We'll bring it right over!\N– Okay! We'll bring it right over!}– All done! Coming right up!\N– All done! Coming right up!{Z}
+Dialogue: 10,0:11:47.00,0:11:50.02,Main-207+,,0,0,0,,{â€“ Okay! We'll bring it right over!\Nâ€“ Okay! We'll bring it right over!}â€“ All done! Coming right up!\Nâ€“ All done! Coming right up!{Z}
 Dialogue: 10,0:11:51.61,0:11:55.20,Main-207+,,0,0,0,,I'm exhausted from crying...\NNot that I {cried}was crying, though.{Gal}
 Dialogue: 10,0:11:59.80,0:12:03.25,Main-207+,,0,0,0,,{Here you go}Here, Bro. It's a little hot.{Gal}
 Dialogue: 10,0:12:05.30,0:12:06.71,Main-207+,,0,0,0,,Thanks.
@@ -165,8 +165,8 @@ Dialogue: 10,0:12:51.99,0:12:54.66,Main-207+,,0,0,0,,{I used it all, though! - O
 Dialogue: 10,0:12:54.66,0:12:56.30,Main-207+,,0,0,0,,{You want me to knock you over? - OG}{You want me to kill you? - FV}{You wanna die? -Gal}I'll knock you flat on your ass.{-Z- Holy shit, you guys... Usopp be cold blooded here.}
 Dialogue: 10,0:12:56.30,0:12:59.52,Main-207+,,0,0,0,,Now, now... {Don't get so upset.}Simmer down there.{Z}
 Dialogue: 10,0:12:59.52,0:13:03.26,Main-207+,,0,0,0,,You've shown me how manly you are.
-Dialogue: 10,0:13:03.26,0:13:08.36,Main-207+,,0,0,0,,{So, now I have to calm my anger \Nover the complete destruction -OG}{So now I can't be mad about the complete destruction... -Gal}So that means I have no room to be upset\Nover how my home and dismantling yard—{Z}
-Dialogue: 10,0:13:08.36,0:13:12.19,Main-207+,,0,0,0,,{of the Franky House, which was my home \Nand demolition factory. - OG}{of the Franky House, which was\Nmy home and demolition factory. -JT}{of the Franky House, \Nmy home and demolition factory. -Gal}my beloved Franky House—\Nwas {\i1}completely{\i0} and {\i1}utterly{\i0} destroyed!{Z}
+Dialogue: 10,0:13:03.26,0:13:08.36,Main-207+,,0,0,0,,{So, now I have to calm my anger \Nover the complete destruction -OG}{So now I can't be mad about the complete destruction... -Gal}So that means I have no room to be upset\Nover how my home and dismantling yardâ€”{Z}
+Dialogue: 10,0:13:08.36,0:13:12.19,Main-207+,,0,0,0,,{of the Franky House, which was my home \Nand demolition factory. - OG}{of the Franky House, which was\Nmy home and demolition factory. -JT}{of the Franky House, \Nmy home and demolition factory. -Gal}my beloved Franky Houseâ€”\Nwas {\i1}completely{\i0} and {\i1}utterly{\i0} destroyed!{Z}
 Dialogue: 10,0:13:13.08,0:13:16.70,Main-207+,,0,0,0,,{On top of that, you guys \Nannihilated my subordinates!}{And then you guys beat up my subordinates! -Gal}And then you guys just\N{\i1}had{\i0} to beat up my boys!{Z}
 Dialogue: 10,0:13:16.70,0:13:19.16,Main-207+,,0,0,0,,{How dare you bastards?!}Why, you rotten bastards...!{Z}
 Dialogue: 10,0:13:19.16,0:13:20.05,Main-207+,,0,0,0,,{Bro!}Big Bro!{FV}
@@ -240,7 +240,7 @@ Dialogue: 10,0:18:23.80,0:18:26.84,Main-207+,,0,0,0,,and someday we'll go back\N
 Dialogue: 10,0:18:27.81,0:18:30.30,Main-207+,,0,0,0,,{It's not like we went}It's not like we made it around the world,{Gal}
 Dialogue: 10,0:18:30.30,0:18:32.84,Main-207+,,0,0,0,,{but this is a ship that went to the Grand Line.}but this ship has traveled the Grand Line.{Gal}
 Dialogue: 10,0:18:32.84,0:18:35.98,Main-207+,,0,0,0,,{It'll be good enough \Nto call it a triumphant return.}That should be good enough\Nto call it a triumphant return.{Gal}{Z- I kinda like the original wording "It'll be good enough"}
-Dialogue: 10,0:18:35.98,0:18:37.48,Main-207+,,0,0,0,,I'll hold my head up and–
+Dialogue: 10,0:18:35.98,0:18:37.48,Main-207+,,0,0,0,,I'll hold my head up andâ€“
 Dialogue: 10,0:18:37.48,0:18:40.06,Main-207+,,0,0,0,,{No, you won't be able to go back...}Nope! There's no going back{Z}
 Dialogue: 10,0:18:40.60,0:18:42.73,Main-207+,,0,0,0,,to the East Blue.
 Dialogue: 10,0:18:43.75,0:18:45.81,Main-207+,,0,0,0,,{To begin with, it's too far.}It's just too far.{Gal}
@@ -294,7 +294,7 @@ Dialogue: 10,0:24:49.68,0:24:52.92,Main-207+,,0,0,0,,Hey! Enough already, long n
 Dialogue: 10,0:24:52.92,0:24:54.80,Main-207+,,0,0,0,,You saw the bottom of the ship, right?!
 Dialogue: 10,0:24:54.80,0:24:59.73,Main-207+,,0,0,0,,{With the broken keel at the root of her, the outer panels\Nare breaking free, and the frames are falling apart!}With a broken keel, the outer panels\Nare misaligned, and the frame is a wreck!{JT}{Z- combined and q2'd. Maybe TLQC can shorten.}
 Dialogue: 10,0:24:59.73,0:25:03.31,Main-207+,,0,0,0,,{When a ship is like that, she'll just fall apart \Nfrom the outside with each wave!}{When a ship is like that,\Nevery wave will tear her apart a little more! -JT}In her condition, one good wave\Nwould tear her apart!{Z}
-Dialogue: 10,0:25:03.87,0:25:07.07,Main-207+,,0,0,0,,{And yet, you think \Na total amateur like you can...}And yet, a total amateur\Nlike you thinks you can{...}–{JT}{-Z- changed ellipsis to en dash}
+Dialogue: 10,0:25:03.87,0:25:07.07,Main-207+,,0,0,0,,{And yet, you think \Na total amateur like you can...}And yet, a total amateur\Nlike you thinks you can{...}â€“{JT}{-Z- changed ellipsis to en dash}
 Dialogue: 10,0:25:15.59,0:25:18.05,Main-207+,,0,0,0,,{Shut up!}Shut up, you moron!{Fv}
 Dialogue: 10,0:25:18.05,0:25:20.75,Main-207+,,0,0,0,,{I don't want you to tell me anything! -OG}{I don't want to hear another word from you! -JT}Don't say another word!{Gal}
 Dialogue: 10,0:25:20.75,0:25:24.84,Main-207+,,0,0,0,,{Keep your mouth shut, \Nor I'll beat you up, you hooligan! -OG} {Keep your mouth shut, \Nor I'll send you flying, you metal freak! - FV}{If you don't keep your mouth shut, \NI'll send you flying, you metal freak! -Gal}Shut your mouth,\Nor I'll shut it for you, you metal freak!{Z}
@@ -413,7 +413,7 @@ Dialogue: 10,0:33:44.61,0:33:48.12,Main-207+,,0,0,0,,It's just, these two ladies
 Dialogue: 10,0:33:48.12,0:33:52.09,Main-207+,,0,0,0,,What the hell are you bastards doing here?!
 Dialogue: 10,0:33:55.63,0:33:56.31,Main-207+,,0,0,0,,{\fad(150,150)}Iron Body!
 Dialogue: 10,0:33:56.31,0:33:58.43,Main-207+,,0,0,0,,{Hm? You son of a bitch!}Huh? What the hell is this?!{FV}
-Dialogue: 10,0:34:02.27,0:34:06.02,Main-207+,,0,0,0,,Blueno! What's the meaning of–
+Dialogue: 10,0:34:02.27,0:34:06.02,Main-207+,,0,0,0,,Blueno! What's the meaning ofâ€“
 Dialogue: 10,0:34:06.62,0:34:10.23,Main-207+,,0,0,0,,Huh? What's this? How cocky!
 Dialogue: 10,0:34:10.23,0:34:13.17,Main-207+,,0,0,0,,Who do you think I am?!
 Dialogue: 10,0:34:14.12,0:34:17.58,Main-207+,,0,0,0,,{Who are you trying to pick a fight with?!}{Who do you think you're messing with? -FV}You do know who you're\Npicking a fight with, right?!{-Z- This line sounded too much like the last}
@@ -540,9 +540,9 @@ Dialogue: 2,0:00:15.10,0:00:18.68,Lyrics-OP5,,0,0,0,,{\bord0\4a&HFF&\blur0.5}{Le
 Dialogue: 0,0:00:26.24,0:00:32.49,Lyrics-OP5,,0,0,0,,{\c&H030303&\blur0.5}{Working together, let's ride the giant waves}Combining our strengths, we'll crest these surging seas
 Dialogue: 1,0:00:26.24,0:00:32.49,Lyrics-OP5,,0,0,0,,{\bord0\4a&HFF&\blur0.5}{Working together, let's ride the giant waves}Combining our strengths, we'll crest these surging seas
 Dialogue: 2,0:00:26.24,0:00:32.49,Lyrics-OP5,,0,0,0,,{\bord0\4a&HFF&\blur0.5}{Working together, let's ride the giant waves}Combining our strengths, we'll crest these surging seas
-Dialogue: 0,0:00:33.75,0:00:40.29,Lyrics-OP5,,0,0,2,,{\c&H030303&\blur0.5}{Let's }Hurry toward the {excitement--}thrill of danger—\N{there's the starting signal}Let the adventure begin!
-Dialogue: 1,0:00:33.75,0:00:40.29,Lyrics-OP5,,0,0,2,,{\bord0\4a&HFF&\blur0.5}{Let's }Hurry toward the {excitement--}thrill of danger—\N{there's the starting signal}Let the adventure begin!
-Dialogue: 2,0:00:33.75,0:00:40.29,Lyrics-OP5,,0,0,2,,{\bord0\4a&HFF&\blur0.5}{Let's }Hurry toward the {excitement--}thrill of danger—\N{there's the starting signal}Let the adventure begin!
+Dialogue: 0,0:00:33.75,0:00:40.29,Lyrics-OP5,,0,0,2,,{\c&H030303&\blur0.5}{Let's }Hurry toward the {excitement--}thrill of dangerâ€”\N{there's the starting signal}Let the adventure begin!
+Dialogue: 1,0:00:33.75,0:00:40.29,Lyrics-OP5,,0,0,2,,{\bord0\4a&HFF&\blur0.5}{Let's }Hurry toward the {excitement--}thrill of dangerâ€”\N{there's the starting signal}Let the adventure begin!
+Dialogue: 2,0:00:33.75,0:00:40.29,Lyrics-OP5,,0,0,2,,{\bord0\4a&HFF&\blur0.5}{Let's }Hurry toward the {excitement--}thrill of dangerâ€”\N{there's the starting signal}Let the adventure begin!
 Dialogue: 0,0:00:40.96,0:00:47.13,Lyrics-OP5,,0,0,0,,{\c&H030303&\blur0.5}Now's the time to set sail{-- let's }; raise the anchor
 Dialogue: 1,0:00:40.96,0:00:47.13,Lyrics-OP5,,0,0,0,,{\bord0\4a&HFF&\blur0.5}Now's the time to set sail{-- let's }; raise the anchor
 Dialogue: 2,0:00:40.96,0:00:47.13,Lyrics-OP5,,0,0,0,,{\bord0\4a&HFF&\blur0.5}Now's the time to set sail{-- let's }; raise the anchor

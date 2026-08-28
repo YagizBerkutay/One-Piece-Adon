@@ -1,4 +1,4 @@
-﻿[Script Info]
+ï»¿[Script Info]
 Title: Default Aegisub file
 ScriptType: v4.00+
 WrapStyle: 0
@@ -62,7 +62,7 @@ Dialogue: 5,0:03:33.19,0:03:37.28,Main-207+,,0,0,0,,I think I'm gonna wander \Na
 Dialogue: 5,0:03:38.04,0:03:41.08,Main-207+,,0,0,0,,I wonder if {we can}we'll find her.{gaijin - agreed}{lead-in might be too long. Tell me what you think}{Zenef: you're right. I decreased the lead-in to a few hundred milliseconds.} {ibfinity - sounds a bit awkward - alt: I wonder if we'll find her.}
 Dialogue: 5,0:03:41.08,0:03:43.43,Main-207+,,0,0,0,,Who knows?
 Dialogue: 5,0:03:43.43,0:03:46.24,Main-207+,,0,0,0,,It's not like I have specific places in mind to check,
-Dialogue: 5,0:03:46.24,0:03:50.12,Main-207+,,0,0,0,,{but in any case, it's certain that she's somewhere in this town.}but in any case,\N {it's certain she's somewhere in this town.}she's gotta be here somewhere.{gaijin - I don't think we need to talk about "this town." It feels a bit awkward to me. I like ibfinity's phrasing though. We don't need the tag question.}{For Gaijin: how is he certain of this? Does the Japanese support a different interpretation, something like "she's gotta be somewhere in this town."?} {ibfinity: 確かだろう is what he says, so he's literally saying she's probably certainly in this town, I think "she's gotta be somewhere in this town, right?" or "She's almost certainly somewhere in this town" are both fine. In any case "It's certain" sounds a bit awkward}
+Dialogue: 5,0:03:46.24,0:03:50.12,Main-207+,,0,0,0,,{but in any case, it's certain that she's somewhere in this town.}but in any case,\N {it's certain she's somewhere in this town.}she's gotta be here somewhere.{gaijin - I don't think we need to talk about "this town." It feels a bit awkward to me. I like ibfinity's phrasing though. We don't need the tag question.}{For Gaijin: how is he certain of this? Does the Japanese support a different interpretation, something like "she's gotta be somewhere in this town."?} {ibfinity: ç¢ºã‹ã ã‚ã† is what he says, so he's literally saying she's probably certainly in this town, I think "she's gotta be somewhere in this town, right?" or "She's almost certainly somewhere in this town" are both fine. In any case "It's certain" sounds a bit awkward}
 Dialogue: 5,0:03:50.12,0:03:55.31,Main-207+,,0,0,0,,{Let's make this inn the place to meet up if something happens.}{Let's make this inn our meeting place }{Let's rendezvous at this inn\Nin caseif something happens.}If something happens,\Nwe should rendezvous here.{gaijin - very good change here. I think it sounds better as a verb though.}{ibfinity - "meeting place" alt: rendezvous or rendezvous point"}
 Dialogue: 5,0:03:55.31,0:03:57.59,Main-207+,,0,0,0,,{I'll go look for her, too.}I'll help you look for her.
 Dialogue: 5,0:03:57.59,0:03:59.30,Main-207+,,0,0,0,,Okay. Well, then.{..}
@@ -72,9 +72,9 @@ Dialogue: 5,0:04:03.09,0:04:04.51,Main-207+,,0,0,0,,{This is terrible! }I've got
 Dialogue: 5,0:04:04.51,0:04:07.52,Main-207+,,0,0,0,,The whole town is talking about it!
 Dialogue: 5,0:04:07.52,0:04:12.31,Main-207+,,0,0,0,,Luffy! Last night, Iceburg-{\i1}san{\i0} \Nfrom the shipyard was...{might want to separate "Luffy!" since that's how it appears on the manga}{Zenef: manga text bubbles are done up differently from subtitles. A single name said quickly on a subtitle is sometimes too quick to be left all alone. "Luffy" works very well as part of Nami's line here.}
 Dialogue: 5,0:04:14.73,0:04:17.74,Main-207+,,0,0,0,,Iceburg-{\i1}san{\i0} was shot at his home?!
-Dialogue: 5,0:04:17.74,0:04:19.57,Main-207+,,0,0,0,,{Hey! Don't be silly!}{Hey! Don't joke around! }Hey, cut the crap!{gaijin - agreed}{ibfinity: i don't feel like "Don't joke around" carries the same emotional weight as ふざけんな！}
-Dialogue: 5,0:04:19.57,0:04:21.78,Main-207+,,0,0,0,,{–Was he killed?!\N–Well, hey!}– {Was he killed}Is he dead?!\N– {\i1}Slow down!
-Dialogue: 5,0:04:21.78,0:04:26.29,Main-207+,,200,200,0,,– {He isn't someone who makes enemies of people!}He isn't the type to make enemies of people! \N– {\i1}Hold on a sec. Calm down, Paulie!{\i0}{these dialogues are so close to each other. Idk if they're supposed to be joined}{Zenef: Good point. I'll concatenate and separate with en dashes. Also, looks like italics wasn't initially applied to the dialogue through the transponder snail, so adding that now.}
+Dialogue: 5,0:04:17.74,0:04:19.57,Main-207+,,0,0,0,,{Hey! Don't be silly!}{Hey! Don't joke around! }Hey, cut the crap!{gaijin - agreed}{ibfinity: i don't feel like "Don't joke around" carries the same emotional weight as ãµã–ã‘ã‚“ãªï¼}
+Dialogue: 5,0:04:19.57,0:04:21.78,Main-207+,,0,0,0,,{â€“Was he killed?!\Nâ€“Well, hey!}â€“ {Was he killed}Is he dead?!\Nâ€“ {\i1}Slow down!
+Dialogue: 5,0:04:21.78,0:04:26.29,Main-207+,,200,200,0,,â€“ {He isn't someone who makes enemies of people!}He isn't the type to make enemies of people! \Nâ€“ {\i1}Hold on a sec. Calm down, Paulie!{\i0}{these dialogues are so close to each other. Idk if they're supposed to be joined}{Zenef: Good point. I'll concatenate and separate with en dashes. Also, looks like italics wasn't initially applied to the dialogue through the transponder snail, so adding that now.}
 Dialogue: 5,0:04:26.29,0:04:29.00,Main-207+,,0,0,0,,{\i1}Listen to me.
 Dialogue: 5,0:04:29.00,0:04:35.25,Main-207+,,0,0,0,,{\i1}Look, Iceburg-san was found covered in blood \Nin his room this morning.
 Dialogue: 5,0:04:35.25,0:04:39.26,Main-207+,,0,0,0,,{\i1}{He's still in a coma, so he's unconscious right now.}{He's still in a coma.}He{'s still in} fell into a coma and hasn't come to.{\i0}{Zenef: It's also possible to make a line too short. This one is a bit more of a case-by-case situation. I rewrote this to make better sense of what Paulie's being told while matching the length of the VA's words.}
@@ -83,12 +83,12 @@ Dialogue: 5,0:04:47.30,0:04:49.64,Main-207+,,0,0,0,,Lulu! {Where's Paulie}Seen P
 Dialogue: 5,0:04:49.64,0:04:52.30,Main-207+,,0,0,0,,{I just called him. He'll be here soon.}I just called him. \N{He will}He'll arrive shortly.{Zenef: and Lulu is overly formal. :D} {Why is Lulu overly formal? His Japanese lines make him sound pretty casual in this line}
 Dialogue: 5,0:04:52.30,0:04:53.79,Main-207+,,0,0,0,,{I see.}That so?
 Dialogue: 5,0:04:53.79,0:04:57.40,Main-207+,,0,0,0,,{Newspaper reporters are already here and it's quite an uproar outside...}{Newspaper reporters are already here and there's an uproar outside...}{Newspaper reporters}Reporters are making \None helluva hullabaloo outside.{gaijin - I think of journalists as more of a research-based, long-term type of reporter. Someone clamoring for statements after some crime is a reporter. I agree that we don't need to mention "newspaper" though.}{Zenef: Kaku-ized the line} {ibfinity - alt to "Newspaper reporters": journalists}
-Dialogue: 5,0:04:57.40,0:05:02.75,Main-207+,,0,0,0,,{even though we're the ones who want to know what's going on.}Pretty ironic considering we're \Nabout as out-of-the-loop as they are.{Zenef: also Kaku-ized. I need to trademark this term: Kaku-ize™}
+Dialogue: 5,0:04:57.40,0:05:02.75,Main-207+,,0,0,0,,{even though we're the ones who want to know what's going on.}Pretty ironic considering we're \Nabout as out-of-the-loop as they are.{Zenef: also Kaku-ized. I need to trademark this term: Kaku-izeâ„¢}
 Dialogue: 5,0:05:02.75,0:05:05.05,Main-207+,,0,0,0,,{Although they tore up the whole office,}They tore up the whole office,
 Dialogue: 5,0:05:05.05,0:05:08.49,Main-207+,,0,0,0,,{there's no trace of money or valuables being stolen.}but there's no {indication}sign \Nthat any money or valuables were {stolen}pilfered.{Zenef: last word was Kaku-ized. "indication" shortened to keep line out of the pink.}
 Dialogue: 5,0:05:08.49,0:05:14.12,Main-207+,,0,0,0,,{If it wasn't for robbery, \Nwho'd have a reason to shoot Iceburg-san?}So if it wasn't a robbery, {who'd}why would someone \Njust waltz in and gun down Iceburg-{\i1}san{\fs27} {\r}?{gaijin - there are two questions in Kaku's line: "who" and "why". We can address them both with this phrasing.}{Zenef: sometimes we gotta rewrite things to clarify what the character is saying. In this case, "If it wasn't for robbery" seemed like an odd construction, and even if it's technically correct, I've found there's usually a better or clearer way to word a line. Plus, I needed to Kaku-ize the second half.}
 Dialogue: 5,0:05:14.12,0:05:15.79,Main-207+,,0,0,0,,{Yeah...}Indeed.
-Dialogue: 5,0:05:15.79,0:05:18.54,Main-207+,,0,0,0,,At any rate, {we're in big trouble.}this is {troublesome}a disaster. {gaijin - agree with ibfinity. This should work}{ibfinity: I don't feel like troublesome conveys the severity that 偉いことになった does}
+Dialogue: 5,0:05:15.79,0:05:18.54,Main-207+,,0,0,0,,At any rate, {we're in big trouble.}this is {troublesome}a disaster. {gaijin - agree with ibfinity. This should work}{ibfinity: I don't feel like troublesome conveys the severity that å‰ã„ã“ã¨ã«ãªã£ãŸ does}
 Dialogue: 5,0:05:18.54,0:05:21.42,Main-207+,,0,0,0,,The whole {town}city is in a panic.
 Dialogue: 5,0:05:21.42,0:05:26.15,Main-207+,,0,0,0,,If something happens to him, \N{the }Galley-La Company,
 Dialogue: 5,0:05:26.15,0:05:29.45,Main-207+,,0,0,0,,as well as Water Seven, will be finished.
@@ -145,10 +145,10 @@ Dialogue: 5,0:09:10.95,0:09:14.24,Main-207+,,0,0,0,,Shut up. Get out of my way.
 Dialogue: 5,0:09:14.24,0:09:16.91,Main-207+,,0,0,0,,What explanation did {your}the company give you?
 Dialogue: 5,0:09:16.91,0:09:18.15,Main-207+,,0,0,0,,{Please give us a statement!}Please say something!
 Dialogue: 5,0:09:18.15,0:09:20.75,Main-207+,,0,0,0,,{Are you deaf? I told you to get out of my way!}Are you deaf? \NI said to get out of my way!
-Dialogue: 5,0:09:20.75,0:09:25.17,Main-207+,,0,0,0,,{Hasn't there been any trouble that could have caused someone to target Mr. Iceburg's life?!}{Has there been any trouble that}Has anything happened that could have \Ncaused someone to target Mr. Iceburg's life?!{gaijin - ibfinity is spot on. "-shi" is the honorific here, and "Mr." is a fair translation.}{For Gaijin: is there a -san here?}{Zenef: I like this change.} {ibfinity: no there is no -san, here. The reporter says "Iceburg-shi", which is where the "Mr." came from. It's probably safe to say "trouble" here, but 因縁 in'en doesn't implicitly have the connotation of something negative}
+Dialogue: 5,0:09:20.75,0:09:25.17,Main-207+,,0,0,0,,{Hasn't there been any trouble that could have caused someone to target Mr. Iceburg's life?!}{Has there been any trouble that}Has anything happened that could have \Ncaused someone to target Mr. Iceburg's life?!{gaijin - ibfinity is spot on. "-shi" is the honorific here, and "Mr." is a fair translation.}{For Gaijin: is there a -san here?}{Zenef: I like this change.} {ibfinity: no there is no -san, here. The reporter says "Iceburg-shi", which is where the "Mr." came from. It's probably safe to say "trouble" here, but å› ç¸ in'en doesn't implicitly have the connotation of something negative}
 Dialogue: 5,0:09:25.17,0:09:26.53,Main-207+,,0,0,0,,{Anything that comes to your mind!}Anything come to mind?!
 Dialogue: 5,0:09:26.53,0:09:27.95,Main-207+,,0,0,0,,Any trouble with pirates?!
-Dialogue: 5,0:09:27.95,0:09:30.59,Main-207+,,0,0,0,,{–Paulie-san! Tell us...\N–I said get out of my way!}– Paulie-{\i1}san{\fs15} {\r}! Tell us...\N– I said get outta my way!
+Dialogue: 5,0:09:27.95,0:09:30.59,Main-207+,,0,0,0,,{â€“Paulie-san! Tell us...\Nâ€“I said get out of my way!}â€“ Paulie-{\i1}san{\fs15} {\r}! Tell us...\Nâ€“ I said get outta my way!
 Dialogue: 5,0:09:30.59,0:09:33.55,Main-207+,,0,0,0,,You dumbasses!
 Dialogue: 5,0:09:35.30,0:09:38.81,Main-207+,,0,0,0,,So {it's true that he}he really was attacked. {ibfinity - alt: So it *is* true...; or "So he really was attacked"}
 Dialogue: 5,0:09:38.81,0:09:42.73,Main-207+,,0,0,0,,{Yeah. Even if we go to the shipyard, \Nwe may not be able to see him like this.}Yeah. {Even if we go to the shipyard, \Nwe may not be able to see him.}We may not even be able to see him at the shipyard.
@@ -184,7 +184,7 @@ Dialogue: 5,0:11:32.71,0:11:37.85,Main-207+,,0,0,0,,{Straw Hat Luffy... I'll cru
 Dialogue: 5,0:11:47.49,0:11:49.65,Main-207+,,0,0,0,,Grandma! Grandma!
 Dialogue: 5,0:11:49.65,0:11:53.48,Main-207+,,0,0,0,,The wind is blowing like crazy! \NHey, Grandma!
 Dialogue: 5,0:11:56.40,0:11:59.67,Main-207+,,0,0,0,,Crazy wind! Crazy wind!
-Dialogue: 5,0:11:59.67,0:12:02.42,Main-207+,,0,0,0,,{–Crazy wind!\N–Don't romp around.}– Crazy wind!\N– {Don't romp around.}No need to get all excited.{gaijin - The translation was very odd.}{Zenef: she's already Kaku-ized. Good thing she's actually old.}
+Dialogue: 5,0:11:59.67,0:12:02.42,Main-207+,,0,0,0,,{â€“Crazy wind!\Nâ€“Don't romp around.}â€“ Crazy wind!\Nâ€“ {Don't romp around.}No need to get all excited.{gaijin - The translation was very odd.}{Zenef: she's already Kaku-ized. Good thing she's actually old.}
 Dialogue: 5,0:12:06.37,0:12:10.37,Main-207+,,0,0,0,,It's a southern wind... the {\i1}{C}caloque{\i0}, huh?{Zenef: we italicize foreign words that aren't in the English vernacular.}
 Dialogue: 5,0:12:11.69,0:12:14.34,Main-207+,,0,0,0,,{The waves are becoming quite rough, too.}The waves are getting rough, too.{Zenef: good change. Just remember that commas before "too" are generally unnecessary since the word acts like an adverb}
 Dialogue: 5,0:12:14.34,0:12:18.84,Main-207+,,0,0,0,,{As it stands}At this rate, the sea train service\Nwill have to be {stopped}suspended tonight.{At this rate, the sea train service will have to be stopped tonight.}{Zenef: "at this rate" doesn't work here as a replacement for "as it stands." "at this rate" suggests a possibility, while "as it stands" has an air of finality} {ibfinity - alt: suspended instead of stopped}
@@ -204,7 +204,7 @@ Dialogue: 5,0:13:11.73,0:13:12.84,Main-207+,,0,0,0,,What's going on?
 Dialogue: 5,0:13:12.84,0:13:14.90,Main-207+,,0,0,0,,Aqua Laguna?
 Dialogue: 5,0:13:14.90,0:13:16.44,Main-207+,,0,0,0,,Oh, excuse me.
 Dialogue: 5,0:13:16.44,0:13:19.35,Main-207+,,0,0,0,,What was that broadcast about?
-Dialogue: 5,0:13:19.35,0:13:21.40,Main-207+,,0,0,0,,{What was it about? Of course it's...}You don't know? It's–{Zenef: the VA's cadence didn't match the words}
+Dialogue: 5,0:13:19.35,0:13:21.40,Main-207+,,0,0,0,,{What was it about? Of course it's...}You don't know? It'sâ€“{Zenef: the VA's cadence didn't match the words}
 Dialogue: 5,0:13:21.40,0:13:24.00,Main-207+,,0,0,0,,Oh, {are you a traveler?}are you an out-of-towner?{gaijin - I like the change. We don't need to always be literal in our translations.}{Zenef: fun change here} {ibfinity: I think it might be best to keep the original; would like to hear others' thoughts}
 Dialogue: 5,0:13:24.00,0:13:25.87,Main-207+,,0,0,0,,{Well, you came here at a bad time.}{You picked a bad time to come.}You've come at a bad time.{gaijin - much smoother}{Zenef: rewrite} {ibfinity - alt: You've come at a bad time.}
 Dialogue: 5,0:13:25.87,0:13:27.37,Main-207+,,0,0,0,,{Hm}Hmm?{Zenef: CR doesn't standardize these interjection words for some reason.}
@@ -222,7 +222,7 @@ Dialogue: 5,0:13:55.20,0:13:58.01,Main-207+,,0,0,0,,What?! This place will sink?
 Dialogue: 5,0:13:58.01,0:14:01.64,Main-207+,,0,0,0,,Sounds like it. At any rate, \Nlet's hurry and find Robin-{\i1}chan{\i0}.
 Dialogue: 5,0:14:01.64,0:14:02.78,Main-207+,,0,0,0,,{Yep.}All right.
 Dialogue: 5,0:14:02.78,0:14:04.28,Main-207+,,0,0,0,,Please tell us {\i1}something{\fs22.5} {\r}!{Zenef: italics placed on "something"}
-Dialogue: 5,0:14:04.28,0:14:07.23,Main-207+,,0,0,0,,{–Iceburg-san!\N–What the hell happened?!}– Iceburg-{\i1}san{\fs15} {\r}!\N– What the hell happened?!
+Dialogue: 5,0:14:04.28,0:14:07.23,Main-207+,,0,0,0,,{â€“Iceburg-san!\Nâ€“What the hell happened?!}â€“ Iceburg-{\i1}san{\fs15} {\r}!\Nâ€“ What the hell happened?!
 Dialogue: 5,0:14:07.23,0:14:09.41,Main-207+,,0,0,0,,What's going on?!
 Dialogue: 5,0:14:10.24,0:14:12.44,Main-207+,,0,0,0,,We can't enter, huh?
 Dialogue: 5,0:14:12.44,0:14:16.87,Main-207+,,0,0,0,,{We'll have to see Iceboss sooner or later.}Either way, we've gotta\Nsee Iceboss again somehow.{For Gaijin: this translation seems off}{ibfinity: either way, we'll have to meet Iceboss again(literally: one more time) at some point}
@@ -241,22 +241,22 @@ Dialogue: 5,0:15:00.71,0:15:04.67,Main-207+,,0,0,0,,Hey, you guys! \NDid you jus
 Dialogue: 5,0:15:04.67,0:15:07.30,Main-207+,,0,0,0,,We didn't! Go away!
 Dialogue: 5,0:15:07.30,0:15:10.38,Main-207+,,0,0,0,,Where?! Where is he?!
 Dialogue: 5,0:15:10.38,0:15:13.35,Main-207+,,0,0,0,,Ah{h}! He's over there!
-Dialogue: 5,0:15:13.35,0:15:16.40,Main-207+,,0,0,0,,{–He's here!\N–Yow! Yow!}{– }He's here!{\N– Yow! Yow!}
+Dialogue: 5,0:15:13.35,0:15:16.40,Main-207+,,0,0,0,,{â€“He's here!\Nâ€“Yow! Yow!}{â€“ }He's here!{\Nâ€“ Yow! Yow!}
 Dialogue: 5,0:15:16.40,0:15:17.35,Main-207+,,0,0,0,,{Yow!}
-Dialogue: 5,0:15:18.23,0:15:22.23,Main-207+,,0,0,0,,♪ Come now, don't be shy, \Nask me my name! ♪
+Dialogue: 5,0:15:18.23,0:15:22.23,Main-207+,,0,0,0,,â™ª Come now, don't be shy, \Nask me my name! â™ª
 Dialogue: 5,0:15:22.23,0:15:24.40,Main-207+,,0,0,0,,{We don't wanna ask! Get lost!}We don't wanna! Get lost!
 Dialogue: 5,0:15:24.40,0:15:26.61,Main-207+,,0,0,0,,{You're the one who attacked \NIceburg-san, aren't you?!}{\i1}You{\i0} attacked Iceburg-{\i1}san{\i0},\N didn't you?! {ibfinity: we could italicize "You"}
-Dialogue: 5,0:15:26.61,0:15:29.15,Main-207+,,0,0,0,,{–What?! He did it?!\N–It's gotta be him!}– What?! He did it?!\N– It's gotta be him!
+Dialogue: 5,0:15:26.61,0:15:29.15,Main-207+,,0,0,0,,{â€“What?! He did it?!\Nâ€“It's gotta be him!}â€“ What?! He did it?!\Nâ€“ It's gotta be him!
 Dialogue: 5,0:15:29.15,0:15:31.57,Main-207+,,0,0,0,,{Be gone from this island!}{Begone from this island!}Get off this island!{Zenef: definitely neither, lol}
 Dialogue: 5,0:15:31.57,0:15:33.62,Main-207+,,0,0,0,,{You should be sent to the gallows, you punk!}You should be sent to the gallows, punk!{Zenef: holy death threat, Batman!}{For Gaijin: is there a translation that could soften the blow here? Something like, "You got a death wish, punk?!"}{ibfinity: shibarikubi literally means death by hanging, so probably not}
 Dialogue: 5,0:15:33.62,0:15:37.04,Main-207+,,0,0,0,,{Geez... what noisy flies...}{Ugh... what noisy flies...}Ugh... shut up, you flies!{Zenef: slight tweak}
-Dialogue: 5,0:15:38.12,0:15:42.29,Main-207+,,0,0,0,,♪ {I'm the No. 1 super guy!}I'm this island's {super number one}number-one super guy! ♪ {ibfinity: Franky refers to himself to himself as a "super guy", so if you plan on using sup number one guy, then you gotta keep that consistent going forward}
-Dialogue: 5,0:15:42.29,0:15:44.63,Main-207+,,0,0,0,,♪ The face of the Water Seven underworld! ♪
+Dialogue: 5,0:15:38.12,0:15:42.29,Main-207+,,0,0,0,,â™ª {I'm the No. 1 super guy!}I'm this island's {super number one}number-one super guy! â™ª {ibfinity: Franky refers to himself to himself as a "super guy", so if you plan on using sup number one guy, then you gotta keep that consistent going forward}
+Dialogue: 5,0:15:42.29,0:15:44.63,Main-207+,,0,0,0,,â™ª The face of the Water Seven underworld! â™ª
 Dialogue: 5,0:15:44.63,0:15:47.71,Main-207+,,0,0,0,,{That's right! People call me... wow...}That's right! \NPeople call me... Wow!
 Dialogue: 5,0:15:50.67,0:15:52.80,Main-207+,,0,0,15,,Franky!
 Dialogue: 5,0:16:02.27,0:16:04.48,Main-207+,,0,0,0,,Show yourself, Straw Hat!
 Dialogue: 5,0:16:05.21,0:16:09.23,Main-207+,,0,0,0,,You must be here, Straw Hat Luffy!
-Dialogue: 5,0:16:09.23,0:16:13.74,Main-207+,,0,0,0,,What the heck{?}?! \N{That perv called my name.}{There's some naked guy calling}That pervy guy called my name!{gaijin - We need to keep the "perv" reference as that's Franky's whole gimmick. へんたい (hentai) means both "perverted" and "transform," so we'll need to stick with similar words in our translations.}{For Gaijin: does this interpretation work? "Perv" doesn't sound right for what's happening here, though it's probably pretty accurate in Japanese.}
+Dialogue: 5,0:16:09.23,0:16:13.74,Main-207+,,0,0,0,,What the heck{?}?! \N{That perv called my name.}{There's some naked guy calling}That pervy guy called my name!{gaijin - We need to keep the "perv" reference as that's Franky's whole gimmick. ã¸ã‚“ãŸã„ (hentai) means both "perverted" and "transform," so we'll need to stick with similar words in our translations.}{For Gaijin: does this interpretation work? "Perv" doesn't sound right for what's happening here, though it's probably pretty accurate in Japanese.}
 Dialogue: 5,0:16:13.74,0:16:17.33,Main-207+,,0,0,0,,Didn't people call him Franky just now?
 Dialogue: 5,0:16:17.33,0:16:19.16,Main-207+,,0,0,0,,{So he is...}It's him{...}!{Zenef: removed ellipsis}
 Dialogue: 5,0:16:21.66,0:16:24.12,Thoughts-207+,,0,0,0,,{He is the one who beat up Usopp!}He's the one who beat up Usopp!
@@ -295,8 +295,8 @@ Dialogue: 5,0:18:16.95,0:18:19.39,Main-207+,,0,0,0,,a tall woman with long, blac
 Dialogue: 5,0:18:22.95,0:18:27.54,Main-207+,,0,0,0,,There's no {mistake about}mistaking it. \NThose black eyes belong to...{Zenef: slight change}
 Dialogue: 5,0:18:36.21,0:18:38.47,Main-207+,,0,0,0,,Iceburg-{\i1}san{\i0}...
 Dialogue: 5,0:18:39.09,0:18:43.56,Main-207+,,0,0,0,,Iceburg-{\i1}san{\i0} regained consciousness!
-Dialogue: 5,0:18:43.56,0:18:44.97,Main-207+,,0,0,0,,{–Is that true?!\N–All right!}– Is that true?!\N– All right!
-Dialogue: 5,0:18:44.97,0:18:47.80,Main-207+,,0,0,0,,{–Good!\N–All right!}– Great!\N– All right!
+Dialogue: 5,0:18:43.56,0:18:44.97,Main-207+,,0,0,0,,{â€“Is that true?!\Nâ€“All right!}â€“ Is that true?!\Nâ€“ All right!
+Dialogue: 5,0:18:44.97,0:18:47.80,Main-207+,,0,0,0,,{â€“Good!\Nâ€“All right!}â€“ Great!\Nâ€“ All right!
 Dialogue: 5,0:18:52.44,0:18:57.57,Main-207+,,0,0,0,,{So you are... Straw Hat Luffy?}So you're the one they call... \NStraw Hat Luffy?!{Zenef: slight change}
 Dialogue: 5,0:19:00.32,0:19:06.29,Main-207+,,0,0,0,,You went on quite the rampage \Nwhile I was gone, didn't you?
 Dialogue: 5,0:19:06.29,0:19:09.08,Main-207+,,0,0,15,,When I got back, I couldn't believe my eyes.
@@ -306,14 +306,14 @@ Dialogue: 5,0:19:19.05,0:19:21.39,Main-207+,,0,0,0,,I can't take it anymore.
 Dialogue: 5,0:19:21.39,0:19:24.68,Main-207+,,0,0,0,,{No one can stop me this week!}Ain't nobody stoppin' me this week!{Zenef: rewrote it.}
 Dialogue: 5,0:19:25.20,0:19:26.93,Main-207+,,0,0,0,,{No matter what you say,}Nothing you say will matter.
 Dialogue: 5,0:19:26.93,0:19:32.40,Main-207+,,0,0,0,,{until I tear you up like rags, my anger won't subside!}I won't calm down \Nuntil I rip you {apart like an old rag}to shreds!{Zenef: strange structure.}{For Gaijin: does "rag" need to be in this line?}
-Dialogue: 5,0:19:32.40,0:19:34.27,Main-207+,,0,0,0,,{–Hey, you!\N–Hm?}– Hey, you!\N– {Hm}Hmm?
+Dialogue: 5,0:19:32.40,0:19:34.27,Main-207+,,0,0,0,,{â€“Hey, you!\Nâ€“Hm?}â€“ Hey, you!\Nâ€“ {Hm}Hmm?
 Dialogue: 5,0:19:34.27,0:19:38.03,Main-207+,,0,0,0,,{What'd you do with our money?! \NThe 200 million belly?!}Yeah, you! \NWhat'd you do with our 200 million belly?!{Zenef: aligned to VA cadence better}
 Dialogue: 5,0:19:38.03,0:19:39.61,Main-207+,,0,0,0,,Give it back to us!
 Dialogue: 5,0:19:39.61,0:19:43.16,Main-207+,,0,0,0,,Huh?! 200 million belly?!
 Dialogue: 5,0:19:43.91,0:19:47.62,Main-207+,,0,0,0,,{I've already spent it! \NIt's completely gone!}I already spent it! \NIt's completely gone!
 Dialogue: 5,0:19:48.45,0:19:51.26,Main-207+,,0,0,0,,{Don't get all uppity and try to protect}{Don't get all uppity trying to protect the money you stole from somewhere! You're just pirates!}You obviously stole that money from somewhere.
 Dialogue: 5,0:19:51.26,0:19:55.46,Main-207+,,0,0,0,,You've got no room to get all uppity with me, pirates!{Zenef: it's just off.}
-Dialogue: 5,0:19:55.46,0:19:56.59,Main-207+,,0,0,0,,{–It doesn't matter.\N–Hm?}– It doesn't matter.\N– {Hm}Hmm?
+Dialogue: 5,0:19:55.46,0:19:56.59,Main-207+,,0,0,0,,{â€“It doesn't matter.\Nâ€“Hm?}â€“ It doesn't matter.\Nâ€“ {Hm}Hmm?
 Dialogue: 5,0:19:56.59,0:19:58.96,Main-207+,,0,0,0,,Not true! Money {\i1}does{\i} matter!
 Dialogue: 5,0:19:58.96,0:20:01.47,Main-207+,,0,0,0,,At any rate, I won't be happy...{At any rate, I won't be satisfied...}{Zenef: hmm... gonna revert this. "happy" is definitely more of a Luffy word than "satisfied"}
 Dialogue: 5,0:20:01.47,0:20:04.30,Main-207+,,0,0,0,,{until I beat you up!}until I kick your ass!{Zenef: he's angry, so the swearing can ramp up a bit.}
@@ -374,7 +374,7 @@ Dialogue: 5,0:25:02.98,0:25:09.23,Main-207+,,0,0,0,,{At Dock One, the pirate Str
 Dialogue: 5,0:25:09.23,0:25:12.19,Main-207+,,0,0,0,,{started a fight with Franky \Nand they're wrecking the shipyard!}and they're wrecking the shipyard!{Zenef: I really appreciate how you reorganized these lines.}
 Dialogue: 5,0:25:16.53,0:25:18.62,Main-207+,,0,0,0,,Straw Hat...
 Dialogue: 5,0:25:18.62,0:25:20.20,Main-207+,,0,0,0,,Iceburg-{\i1}san{\fs15} {\r}!
-Dialogue: 5,0:25:23.16,0:25:28.13,Main-207+,,0,0,0,,{That bastard...! How dare he just show up at the Dock like that...?}That bastard{...}! {How dare he just show up}He's got some nerve \Nshowing his face at the dock{ like that...?}{?}!{gaijin - The wording makes it clear that this is the meaning.　から has many more meanings than just "from."}{Zenef: ellipses axed. There are probably better ways to word this/translate this to show how Paulie is angry at Luffy just showing up after he ostensibly had Robin shoot Iceburg, but this does the job just fine with the length of the line} {*ibfinity - alt: He's got some never showing up at the dock. To Gaijin: ngl, I don't really understand why Paulie says temee kara. Seems like he's saying Luffy just nochalantly walked away from Tilestone}
+Dialogue: 5,0:25:23.16,0:25:28.13,Main-207+,,0,0,0,,{That bastard...! How dare he just show up at the Dock like that...?}That bastard{...}! {How dare he just show up}He's got some nerve \Nshowing his face at the dock{ like that...?}{?}!{gaijin - The wording makes it clear that this is the meaning.ã€€ã‹ã‚‰ has many more meanings than just "from."}{Zenef: ellipses axed. There are probably better ways to word this/translate this to show how Paulie is angry at Luffy just showing up after he ostensibly had Robin shoot Iceburg, but this does the job just fine with the length of the line} {*ibfinity - alt: He's got some never showing up at the dock. To Gaijin: ngl, I don't really understand why Paulie says temee kara. Seems like he's saying Luffy just nochalantly walked away from Tilestone}
 Dialogue: 5,0:25:31.46,0:25:35.18,Main-207+,,0,0,0,,Please get some rest, Iceburg-{\i1}san{\i0}.
 Dialogue: 5,0:25:36.97,0:25:40.01,Main-207+,,0,0,0,,I'll be here by your side{, so..}.
 Dialogue: 5,0:25:49.52,0:25:51.40,Main-207+,,0,0,0,,{\fad(150,150)}Pistol!
@@ -405,7 +405,7 @@ Dialogue: 5,0:28:15.34,0:28:17.71,Main-207+,,0,0,0,,{It's amazing you say that.}
 Dialogue: 5,0:28:17.71,0:28:20.17,Main-207+,,0,0,0,,{After you messed up our factory this much,}You leveled our factory,
 Dialogue: 5,0:28:20.17,0:28:23.34,Main-207+,,0,0,0,,{we don't even need a reason to come stop you!}{we don't need any more of a reason to stop you!}so we've gotta make you pay the piper!{gaijin - Went a bit off the literal meaning to suit the situation/Kaku's speech pattern better.}{For Gaijin: this translation seems off. Also, these are Kaku lines, so we might want to workshop them after you figure out what the correct translation is} {*ibfinity: The literal translation would be: Even without a reason, we'd come to stop you/this. Confusing sentence since he's seems to be saying: Because of this reason, even if we didn't have a reason, we'd come to stop you.}
 Dialogue: 5,0:28:23.34,0:28:28.11,Main-207+,,0,0,0,,{He's right, Franky! \NHow are you gonna settle this?!}He's right, Franky! \NHow're you gonna settle this?!
-Dialogue: 5,0:28:28.11,0:28:32.69,Main-207+,,0,0,0,,Hold on a sec, Tilestone. \NWe'll talk about it later. {gaijin - "It" is fine as a translation for "その"}{ibfinity - alt: We'll talk about that later.}
+Dialogue: 5,0:28:28.11,0:28:32.69,Main-207+,,0,0,0,,Hold on a sec, Tilestone. \NWe'll talk about it later. {gaijin - "It" is fine as a translation for "ãã®"}{ibfinity - alt: We'll talk about that later.}
 Dialogue: 5,0:28:32.69,0:28:36.02,Main-207+,,0,0,0,,We have more important business right now.
 Dialogue: 5,0:28:37.61,0:28:40.53,Main-207+,,0,0,0,,Right, Straw Hat Luffy?
 Dialogue: 5,0:28:40.53,0:28:42.40,Main-207+,,0,0,0,,{You know what I'm talking about, right?}You know what I'm talking about.
@@ -542,8 +542,8 @@ Dialogue: 0,0:00:15.10,0:00:18.68,Lyrics-OP5,,0,0,0,,{\blur0.7\c&H030303&}{Let's
 Dialogue: 1,0:00:15.10,0:00:18.68,Lyrics-OP5,,0,0,0,,{\bord0\blur0.7\4a&HFF&}{Let's grab hold of our wishes}And make our wishes come true
 Dialogue: 0,0:00:26.24,0:00:32.49,Lyrics-OP5,,0,0,0,,{\blur0.7\c&H030303&}{Working together, let's ride the giant waves}Combining our strengths, we'll crest these surging seas
 Dialogue: 1,0:00:26.24,0:00:32.49,Lyrics-OP5,,0,0,0,,{\bord0\blur0.7\4a&HFF&}{Working together, let's ride the giant waves}Combining our strengths, we'll crest these surging seas
-Dialogue: 0,0:00:33.75,0:00:40.29,Lyrics-OP5,,0,0,2,,{\blur0.7\c&H030303&}{Let's }Hurry toward the {excitement--}thrill of danger—\N{there's the starting signal}Let the adventure begin!
-Dialogue: 1,0:00:33.75,0:00:40.29,Lyrics-OP5,,0,0,2,,{\bord0\blur0.7\4a&HFF&}{Let's }Hurry toward the {excitement--}thrill of danger—\N{there's the starting signal}Let the adventure begin!
+Dialogue: 0,0:00:33.75,0:00:40.29,Lyrics-OP5,,0,0,2,,{\blur0.7\c&H030303&}{Let's }Hurry toward the {excitement--}thrill of dangerâ€”\N{there's the starting signal}Let the adventure begin!
+Dialogue: 1,0:00:33.75,0:00:40.29,Lyrics-OP5,,0,0,2,,{\bord0\blur0.7\4a&HFF&}{Let's }Hurry toward the {excitement--}thrill of dangerâ€”\N{there's the starting signal}Let the adventure begin!
 Dialogue: 0,0:00:40.96,0:00:47.13,Lyrics-OP5,,0,0,0,,{\blur0.7\c&H030303&}Now's the time to set sail{-- let's }; raise the anchor
 Dialogue: 1,0:00:40.96,0:00:47.13,Lyrics-OP5,,0,0,0,,{\bord0\blur0.7\4a&HFF&}Now's the time to set sail{-- let's }; raise the anchor
 Dialogue: 0,0:00:47.93,0:00:55.01,Lyrics-OP5,,0,0,0,,{\blur0.7}\N{\blur0.8and head for a sea of adventure\c&H030303&}Off to the seas of adventure, through rainbow-colored winds
