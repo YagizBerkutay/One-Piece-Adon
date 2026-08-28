@@ -222,7 +222,7 @@ function cleanAssText(text) {
 
 const manifest = {
   id: "community.onepace.tr.subtitles",
-  version: "1.2.0",
+  version: "1.2.1",
   name: "One Pace TR Altyazı",
   description:
     "One Pace için Türkçe altyazı addon'u. Tüm 35 Sezon (Fishman Island, Marineford, Wano vs.) desteklenir.",
@@ -397,11 +397,10 @@ function cleanAssText(text) {
   s = s.replace(/karanl1k/g, "karanlık");
   s = s.replace(/do ru/g, "doğru");
 
-  s = s.replace(/([a-zA-ZçğıöşüÇĞİÖŞÜ])1([a-zA-ZçğıöşüÇĞİÖŞÜ])/g, "$1ı$2");
-  s = s.replace(/([a-zA-ZçğıöşüÇĞİÖŞÜ])1\b/g, "$1ı");
+  s = s.replace(/([a-zA-ZçğıöşüÇĞİÖŞÜ])1/g, "$1ı");
   s = s.replace(/\b1([a-zA-ZçğıöşüÇĞİÖŞÜ])/g, "ı$1");
-  s = s.replace(/([a-zA-ZçğıöşüÇĞİÖŞÜ])_([a-zA-ZçğıöşüÇĞİÖŞÜ])/g, "$1ş$2");
-  s = s.replace(/([a-zA-ZçğıöşüÇĞİÖŞÜ])_\b/g, "$1ş");
+  s = s.replace(/([a-zA-ZçğıöşüÇĞİÖŞÜ])_/g, "$1ş");
+  s = s.replace(/\b_([a-zA-ZçğıöşüÇĞİÖŞÜ])/g, "ş$1");
 
   // Kalan bozuk Unicode ve kontrol karakterlerini temizle
   s = s.replace(/[\uFFFD]/g, "");
