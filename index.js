@@ -17,19 +17,53 @@ const SUBTITLES_DIR = path.join(
   "One Pace Türkçe [Sadece Altyazı] [_17]"
 );
 
-// Bölüm eşleştirme dosyasını yükle
-let subtitleMap = {};
-try {
-  subtitleMap = JSON.parse(
-    fs.readFileSync(path.join(__dirname, "subtitle-map.json"), "utf-8")
-  );
-  console.log(
-    `✅ ${Object.keys(subtitleMap).length} bölüm eşleştirmesi yüklendi.`
-  );
-} catch (err) {
-  console.error("❌ subtitle-map.json yüklenemedi:", err.message);
-  process.exit(1);
+// ============================================================
+// Hibrit Bölüm Eşleştirme Haritası (35 Sezonun Tamamı)
+// ============================================================
+
+function buildSubtitleMap() {
+  const map = {};
+  
+  // 1. Statik harita (subtitle-map.json)
+  try {
+    const staticMap = JSON.parse(
+      fs.readFileSync(path.join(__dirname, "subtitle-map.json"), "utf-8")
+    );
+    for (const [key, val] of Object.entries(staticMap)) {
+      map[key] = val.filename;
+    }
+  } catch (err) {
+    console.error("⚠️ static map error:", err.message);
+  }
+
+  // 2. Rekürsif tatarak alt klasörlerdeki Türkçe altyazıları eşleştir
+  function scanDir(dir) {
+    if (!fs.existsSync(dir)) return;
+    const items = fs.readdirSync(dir);
+    for (const item of items) {
+      const fullPath = path.join(dir, item);
+      if (fs.statSync(fullPath).isDirectory()) {
+        scanDir(fullPath);
+      } else if (item.endsWith(".ass")) {
+        const relPath = path.relative(SUBTITLES_DIR, fullPath).replace(/\\/g, "/");
+        if (relPath.includes("EN-subtitle") || relPath.includes("EN_subtitle")) continue;
+
+        const folderMatch = relPath.match(/(\d+)\s*-\s*[^/]+[/]Bölüm\s*(\d+)/i);
+        if (folderMatch) {
+          const season = parseInt(folderMatch[1]);
+          const episode = parseInt(folderMatch[2]);
+          map[`${season}:${episode}`] = relPath;
+        }
+      }
+    }
+  }
+
+  scanDir(SUBTITLES_DIR);
+  return map;
 }
+
+const subtitleMap = buildSubtitleMap();
+console.log(`✅ Toplam ${Object.keys(subtitleMap).length} Sezon:Bölüm eşleştirmesi yüklendi.`);
 
 // ============================================================
 // ASS → VTT Dönüştürücü
@@ -132,10 +166,10 @@ function cleanAssText(text) {
 
 const manifest = {
   id: "community.onepace.tr.subtitles",
-  version: "1.0.1",
+  version: "1.0.2",
   name: "One Pace TR Altyazı",
   description:
-    "One Pace için Türkçe altyazı addon'u. fedew04 ve tüm One Pace / One Piece addon'ları ile uyumludur.",
+    "One Pace için Türkçe altyazı addon'u. Tüm 35 Sezon (Fishman Island, Marineford, Wano vs.) desteklenir.",
   logo: "https://i.pinimg.com/originals/4c/46/ee/4c46ee47e0710a6d928454f68fc4ee17.png",
   resources: [
     {
@@ -179,30 +213,13 @@ builder.defineSubtitlesHandler(async (args) => {
   const mapKey = `${season}:${episode}`;
   console.log(`   🔍 Aranan: Sezon ${season}, Bölüm ${episode} (key: ${mapKey})`);
 
-  let filename = null;
-  const entry = subtitleMap[mapKey];
-
-  if (entry) {
-    filename = entry.filename;
-    console.log(`   ✅ Map'te bulundu: Bolum ${entry.bolum} → ${filename}`);
-  } else {
-    // Dinamik arama: Klasördeki .ass dosyalarını season/episode veya kelimelerle tara
-    const files = fs.readdirSync(SUBTITLES_DIR);
-    const searchPattern = new RegExp(`(S0*${season}E0*${episode}|Sezon\\s*0*${season}.*Bölüm\\s*0*${episode}|Fishman.*0*${episode}|Wano.*0*${episode})`, "i");
-
-    for (const file of files) {
-      if (file.endsWith(".ass") && searchPattern.test(file)) {
-        filename = file;
-        console.log(`   🔍 Dinamik eşleşme bulundu: ${filename}`);
-        break;
-      }
-    }
-  }
-
+  const filename = subtitleMap[mapKey];
   if (!filename) {
     console.log(`   ❌ Eşleştirme bulunamadı: ${mapKey}`);
     return { subtitles: [] };
   }
+
+  console.log(`   ✅ Eşleşti: ${mapKey} → ${filename}`);
 
   // Altyazı dosyasının var olup olmadığını kontrol et
   const subtitlePath = path.join(SUBTITLES_DIR, filename);
@@ -279,12 +296,16 @@ app.get("/", (req, res) => {
   `);
 });
 
-// VTT altyazı endpoint'i - .ass dosyasını VTT'ye dönüştürüp sunar
-app.get("/subtitles/:filename.vtt", (req, res) => {
-  const filename = decodeURIComponent(req.params.filename);
-  const filePath = path.join(SUBTITLES_DIR, filename);
+// VTT altyazı endpoint'i - .ass dosyasını VTT'ye dönüştürüp sunar (relPath ve subfolder desteği)
+app.get("/subtitles/*", (req, res) => {
+  let relPath = req.params[0];
+  if (relPath.endsWith(".vtt")) {
+    relPath = relPath.slice(0, -4);
+  }
+  relPath = decodeURIComponent(relPath);
+  const filePath = path.join(SUBTITLES_DIR, relPath);
 
-  console.log(`🎬 VTT dönüştürme isteği: ${filename}`);
+  console.log(`🎬 VTT dönüştürme isteği: ${relPath}`);
 
   if (!fs.existsSync(filePath)) {
     console.log(`   ❌ Dosya bulunamadı: ${filePath}`);
