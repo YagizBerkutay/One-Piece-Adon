@@ -1,4 +1,4 @@
-ï»¿[Script Info]
+﻿[Script Info]
 Title: Default Aegisub file
 ScriptType: v4.00+
 WrapStyle: 0
@@ -25,7 +25,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:00.00,0:00:09.99,Warning,,0,0,0,,{\org(0,0)\fscx0\fscy0\clip(0,0,0,0)}Your media player does not support the subtitle format used in this episode.\NSubtitles will likely not function properly.\NPlease use one of the recommended video players, preferably mpv:\Nhttps://mpv.io
 Dialogue: 55,0:00:02.19,0:00:04.11,Narrator-207+,,0,0,0,,The Great Pirate Era...
 Dialogue: 55,0:00:04.11,0:00:09.07,Narrator-207+,,0,0,0,,has proven to be a more tumultuous storm\Nthan the World Government expected.
-Dialogue: 55,0:00:10.91,0:00:18.12,Narrator-207+,,0,0,0,,The figures in the eye of this\Nrelentless tempest areâ€¦
+Dialogue: 55,0:00:10.91,0:00:18.12,Narrator-207+,,0,0,0,,The figures in the eye of this\Nrelentless tempest are…
 Dialogue: 55,0:00:20.00,0:00:21.83,Narrator-207+,,0,0,0,,Monkey D. Luffy...
 Dialogue: 55,0:00:23.13,0:00:25.13,Narrator-207+,,0,0,0,,and the Straw Hat Pirates!
 Dialogue: 55,0:00:27.51,0:00:31.39,Narrator-207+,,0,0,0,,To confront the furious Great Pirate Era,
@@ -43,9 +43,9 @@ Dialogue: 55,0:01:15.14,0:01:18.14,Main-207+,,0,0,0,,{\t(2479,3021,1,\3c&HFFFFFF
 Dialogue: 55,0:01:18.27,0:01:19.98,Main-207+,,0,0,0,,{Oh! I remember! - OG}Oh, that's right!{Z}
 Dialogue: 55,0:01:19.98,0:01:22.40,Main-207+,,0,0,0,,I'm gonna transform with it!
 Dialogue: 55,0:01:22.40,0:01:24.31,Main-207+,,0,0,0,,Wait! I'll go first!
-Dialogue: 55,0:01:25.61,0:01:27.32,Main-207+,,0,0,0,,â€“ Sanji!\Nâ€“ Sanji!
+Dialogue: 55,0:01:25.61,0:01:27.32,Main-207+,,0,0,0,,– Sanji!\N– Sanji!
 Dialogue: 55,0:01:27.32,0:01:29.69,Main-207+,,0,0,0,,{I'm gonna get rid of it! - OG}I'm getting rid of it.{Z}
-Dialogue: 55,0:01:29.69,0:01:30.99,Main-207+,,0,0,0,,â€“ What?!\Nâ€“ What?!
+Dialogue: 55,0:01:29.69,0:01:30.99,Main-207+,,0,0,0,,– What?!\N– What?!
 Dialogue: 55,0:01:30.99,0:01:32.82,Main-207+,,0,0,0,,{Don't throw it away! - OG}Don't you dare throw it out!{Z}
 Dialogue: 55,0:01:32.82,0:01:35.70,Main-207+,,0,0,0,,{If you do, I'll look for it on the ocean floor! - OG}Do it, and I'll look for it on the ocean floor!{Z}
 Dialogue: 55,0:01:35.70,0:01:38.49,Main-207+,,0,0,0,,{That's impossible! You can't swim! - OG}I'd love to see an anchor like you try!{Z}
@@ -59,8 +59,8 @@ Dialogue: 55,0:01:58.14,0:02:03.19,Main-207+,,0,0,0,,I don't want my strength to
 Dialogue: 55,0:02:03.19,0:02:04.90,Main-207+,,0,0,0,,{\pos(392,1053)}Think about it, Sanji!
 Dialogue: 55,0:02:04.90,0:02:07.77,Main-207+,,0,0,0,,{\pos(1572,1053)}{Science is a kind of strength for humans! - OG}{To humans, science is power! - Z}Science is a noble\Nhuman power!{Gaijin}
 Dialogue: 55,0:02:07.77,0:02:09.82,Main-207+,,0,0,0,,{\an8}Why do you care so much?!
-Dialogue: 55,0:02:09.82,0:02:13.03,Main-207+,,0,0,0,,{\fad(0,981)}â€“ If we used the raid suit...\Nâ€“ If we used the raid suit...
-Dialogue: 55,0:02:18.70,0:02:21.00,Main-207+,,0,0,0,,â€“ maybe we could shoot beams!\Nâ€“ maybe we could shoot beams!
+Dialogue: 55,0:02:09.82,0:02:13.03,Main-207+,,0,0,0,,{\fad(0,981)}– If we used the raid suit...\N– If we used the raid suit...
+Dialogue: 55,0:02:18.70,0:02:21.00,Main-207+,,0,0,0,,– maybe we could shoot beams!\N– maybe we could shoot beams!
 Dialogue: 55,0:02:21.00,0:02:22.75,Main-207+,,0,0,0,,Are you guys children?!
 Dialogue: 55,0:02:22.75,0:02:24.62,Main-207+,,0,0,0,,{Franky can do that just fine! - OG}Franky already does that just fine!{Z}
 Dialogue: 55,0:02:24.62,0:02:26.38,Main-207+,,0,0,0,,{We don't need more freaks on our crew! - OG}We've got enough freaks on our crew.{Z}
@@ -74,7 +74,7 @@ Dialogue: 55,0:02:48.40,0:02:50.94,Main-207+,,0,0,0,,{It feels good to stay in t
 Dialogue: 55,0:02:50.94,0:02:52.28,Main-207+,,0,0,0,,Zeus?!
 Dialogue: 55,0:02:52.28,0:02:54.03,Main-207+,,0,0,0,,{You're actually following her! - OG}You actually tagged along?!{Z}
 Dialogue: 55,0:02:54.03,0:02:56.86,Main-207+,,0,0,0,,{I can't believe you chose your appetite over loyalty to Big Mom! - OG}I can't believe food outweighs\Nyour loyalty to Big Mom!{Z}
-Dialogue: 55,0:02:56.86,0:02:59.28,Main-207+,,0,0,0,,{\fad(150,150)}â™ª I got myself a powerful servant! â™ª
+Dialogue: 55,0:02:56.86,0:02:59.28,Main-207+,,0,0,0,,{\fad(150,150)}♪ I got myself a powerful servant! ♪
 Dialogue: 55,0:02:59.28,0:03:00.99,Main-207+,,0,0,0,,N-Nami{-san}...
 Dialogue: 55,0:03:01.91,0:03:03.87,Main-207+,,0,0,0,,Zeus, remember this...
 Dialogue: 55,0:03:04.58,0:03:08.50,Main-207+,,0,0,0,,{I've been serving Nami-san since way before you came along! - OG}I've been serving Nami since\Nlong before you came along!{Z}
@@ -82,7 +82,7 @@ Dialogue: 55,0:03:08.50,0:03:13.51,Main-207+,,0,0,0,,{But I'm the one who lives 
 Dialogue: 55,0:03:13.51,0:03:15.05,Main-207+,,0,0,0,,Huh?!
 Dialogue: 55,0:03:15.05,0:03:17.89,Main-207+,,0,0,0,,Sanji{-san}, you're arguing with water vapor.
 Dialogue: 55,0:03:17.89,0:03:20.05,Main-207+,,0,0,0,,{All right! Let's go! - OG}Alright! Let's go!{Z - Wouldn't this be more like "Let's go! Transform!"?}
-Dialogue: 55,0:03:21.56,0:03:23.81,Main-207+,,0,0,0,,â€“ Why isn't it working?!\Nâ€“ Why isn't it working?!
+Dialogue: 55,0:03:21.56,0:03:23.81,Main-207+,,0,0,0,,– Why isn't it working?!\N– Why isn't it working?!
 Dialogue: 55,0:03:23.81,0:03:24.56,Main-207+,,0,0,0,,Stop whining!
 Dialogue: 55,0:03:24.56,0:03:27.44,Main-207+,,0,0,0,,I guess it only works on you!
 Dialogue: 55,0:03:27.44,0:03:29.27,Main-207+,,0,0,0,,{Show us! - OG}Show us already!{Z}
@@ -99,7 +99,7 @@ Dialogue: 55,0:03:50.00,0:03:51.34,Main-207+,,0,0,0,,Let's see...
 Dialogue: 55,0:03:52.46,0:03:53.92,Main-207+,,0,0,0,,A close-up of Luffy!
 Dialogue: 55,0:03:54.59,0:03:55.92,Main-207+,,0,0,0,,What about Jinbe?
 Dialogue: 55,0:03:55.92,0:03:58.05,Main-207+,,0,0,0,,{Does it mention what happened after we left?! - OG}Does it say what happened after we left?{Z}
-Dialogue: 55,0:03:59.05,0:04:02.05,Main-207+,,0,0,0,,{Um... Jinbe, Jinbe... - OG}Uh... Jinbe, Jinbeâ€¦{Z}
+Dialogue: 55,0:03:59.05,0:04:02.05,Main-207+,,0,0,0,,{Um... Jinbe, Jinbe... - OG}Uh... Jinbe, Jinbe…{Z}
 Dialogue: 55,0:04:02.05,0:04:04.27,Main-207+,,0,0,0,,{It doesn't seem to mention\Nanything after we left. - OG}No word of what happened after we left...{Z}
 Dialogue: 55,0:04:04.27,0:04:09.52,Main-207+,,0,0,0,,{\q2}{It just says Luffy, Sanji, Jinbe, and Bege\Nattempted to assassinate Big Mom. - OG}Only that "Luffy, Sanji, Jinbe, and Bege made\Nan assassination attempt on Big Mom's life."{Z}
 Dialogue: 55,0:04:09.52,0:04:11.77,Main-207+,,0,0,0,,{It says Luffy was the mastermind! - OG}And that "Luffy was the mastermind"!{Z}
@@ -133,7 +133,7 @@ Dialogue: 55,0:05:37.61,0:05:39.82,Main-207+,,0,0,0,,He did it-{\i1}jamon{\i0}!
 Dialogue: 55,0:05:39.82,0:05:43.11,Main-207+,,0,0,0,,Jinbe finally joined Luffy{-kun}'s crew!
 Dialogue: 55,0:05:45.07,0:05:49.54,Main-207+,,0,0,0,,{\an8}{I can't believe they picked a fight with Big Mom together. - OG}It's unbelievable to think the two of them\Nfought together against Big Mom.{Z}
 Dialogue: 55,0:05:49.54,0:05:52.42,Main-207+,,0,0,0,,{\an8}I wonder if they escaped on the same ship.
-Dialogue: 55,0:05:52.42,0:05:55.71,Main-207+,,0,0,0,,{\an8}Jinbe and Straw Hat-{\i1}fa-so-la-ti-do{\i0}! â™ª
+Dialogue: 55,0:05:52.42,0:05:55.71,Main-207+,,0,0,0,,{\an8}Jinbe and Straw Hat-{\i1}fa-so-la-ti-do{\i0}! ♪
 Dialogue: 55,0:05:55.71,0:06:00.01,Main-207+,,0,0,0,,{\an8}{Of course. It says Big Mom was angry in the article. - OG}Of course they did. The article\Nsays Big Mom was furious.{Z/Gaijin}
 Dialogue: 55,0:06:01.42,0:06:07.22,Main-207+,,0,0,0,,{We'll have to officially declare that this country\Nis under the Straw Hats' protection now-jamon! - OG}We must officially declare that our country\Nis under the Straw Hats' protection-{\i1}jamon{\i0}!{Z}
 Dialogue: 55,0:06:07.22,0:06:09.89,Main-207+,,0,0,0,,{Father-sama! Brothers-sama! - OG}Dearest Father! Dearest Brothers!{Z}
@@ -204,7 +204,7 @@ Dialogue: 55,0:10:11.59,0:10:15.47,Main-207+,,0,0,0,,It's impossible to guard ag
 Dialogue: 55,0:10:36.57,0:10:37.24,Main-207+,,0,0,0,,{What happened?! - OG}What...?!{Z}
 Dialogue: 55,0:10:38.28,0:10:39.29,Main-207+,,0,0,0,,An ambush?!
 Dialogue: 55,0:10:40.16,0:10:41.45,Main-207+,,0,0,0,,Ready the cannons!
-Dialogue: 55,0:10:41.45,0:10:42.37,Main-207+,,0,0,0,,â€“ Yes, sir!\Nâ€“ Yes, sir!
+Dialogue: 55,0:10:41.45,0:10:42.37,Main-207+,,0,0,0,,– Yes, sir!\N– Yes, sir!
 Dialogue: 55,0:10:44.08,0:10:45.75,Main-207+,,0,0,0,,Don't! There's no need!
 Dialogue: 55,0:10:50.30,0:10:51.92,Main-207+,,0,0,0,,{I'm glad that I made it in time! - OG}I'm glad I made it in time!{Z}
 Dialogue: 55,0:10:51.92,0:10:53.59,Main-207+,,0,0,0,,You're safe now!
@@ -292,7 +292,7 @@ Dialogue: 55,0:15:05.80,0:15:07.30,Main-207+,,0,0,0,,My...
 Dialogue: 55,0:15:09.18,0:15:12.60,Main-207+,,0,0,0,,My bounty went down!
 Dialogue: 55,0:15:12.98,0:15:14.10,Main-207+,,0,0,0,,Look!
 Dialogue: 55,0:15:14.10,0:15:16.06,Main-207+,,0,0,0,,It's 150 million berries!
-Dialogue: 55,0:15:16.06,0:15:17.69,Main-207+,,0,0,0,,â€“ What?!\Nâ€“ What?!
+Dialogue: 55,0:15:16.06,0:15:17.69,Main-207+,,0,0,0,,– What?!\N– What?!
 Dialogue: 55,0:15:18.81,0:15:22.86,Main-207+,,0,0,0,,Really?! I thought it just increased\Nto 500 million recently!
 Dialogue: 55,0:15:22.86,0:15:26.99,Main-207+,,0,0,0,,One hundred fifty million is lower\Nthan your bounty two years ago!
 Dialogue: 55,0:15:26.99,0:15:29.58,Main-207+,,0,0,0,,{Is that possible?! - OG}How is that even possible?!{Z}
@@ -336,7 +336,7 @@ Dialogue: 55,0:17:39.79,0:17:42.58,Main-207+,,0,0,0,,{What do you have in your a
 Dialogue: 55,0:17:42.58,0:17:47.55,Main-207+,,0,0,0,,{Show me what you're holding so tightly! - OG}Gimme a gander at what\Nyou're holding so tightly!{Z}
 Dialogue: 55,0:17:48.51,0:17:49.34,Main-207+,,0,0,0,,This is...
 Dialogue: 55,0:17:49.34,0:17:51.76,Main-207+,,0,0,0,,Huh? Just milk?!
-Dialogue: 55,0:17:52.38,0:17:54.05,Main-207+,,0,0,0,,{I thought it was moneyâ€¦ - OG}And here I thought it was money...{Z}
+Dialogue: 55,0:17:52.38,0:17:54.05,Main-207+,,0,0,0,,{I thought it was money… - OG}And here I thought it was money...{Z}
 Dialogue: 55,0:17:54.05,0:17:56.64,Main-207+,,0,0,0,,{Oh well, I'll take it anyway. - OG}Screw it! I'll take it anyway.{Z}
 Dialogue: 55,0:17:56.64,0:17:58.31,Main-207+,,0,0,0,,{No... This is for the children of the village... - OG}You can't! This is for the village children!{Z}
 Dialogue: 55,0:17:58.31,0:18:00.43,Main-207+,,0,0,0,,{No... This is for the children of the village... - OG}You can't! This is for the village children!{Z}
@@ -561,7 +561,7 @@ Dialogue: 55,0:31:30.24,0:31:33.66,Main-207+,,0,0,0,,{His victory?! - OG}Oh, so 
 Dialogue: 55,0:31:33.66,0:31:34.79,Main-207+,,0,0,0,,Huh?!
 Dialogue: 55,0:31:34.79,0:31:37.38,Main-207+,,0,0,0,,When exactly did {\i1}I{\i0} lose?!
 Dialogue: 55,0:31:38.25,0:31:41.25,Main-207+,,0,0,0,,{I'm sure he printed this article, Mama! - OG}It was {\i1}him{\i0}, Mama! {\i1}He{\i0} printed this article!{Z}
-Dialogue: 55,0:31:41.25,0:31:44.63,Main-207+,,0,0,0,,{Yeah... I'll teach you\Na lesson, Morgans... - OG}Oh, you'll pay for this, Morgansâ€“{Z}
+Dialogue: 55,0:31:41.25,0:31:44.63,Main-207+,,0,0,0,,{Yeah... I'll teach you\Na lesson, Morgans... - OG}Oh, you'll pay for this, Morgans–{Z}
 Dialogue: 55,0:31:44.63,0:31:45.63,Main-207+,,0,0,0,,No!
 Dialogue: 55,0:31:48.59,0:31:52.10,Main-207+,,0,0,0,,The one who'll {\i1}really{\i0} pay...
 Dialogue: 55,0:31:52.56,0:31:55.27,Main-207+,,0,0,2,,is Straw Hat!
@@ -579,10 +579,10 @@ Dialogue: 55,0:32:45.82,0:32:46.82,Main-207+,,0,0,0,,Huh?
 Dialogue: 55,0:32:47.53,0:32:49.53,Main-207+,,0,0,0,,{Wait a minute... - OG}Wait just. One. Minute.{Z}
 Dialogue: 55,0:32:54.70,0:32:55.83,Main-207+,,0,0,0,,Look.
 Dialogue: 55,0:32:56.25,0:33:00.04,Main-207+,,0,0,0,,100 thousand, 1 million, 10 million...
-Dialogue: 55,0:33:00.50,0:33:02.04,Main-207+,,0,0,0,,{100 million... - OG}100 milliâ€“{Z}
+Dialogue: 55,0:33:00.50,0:33:02.04,Main-207+,,0,0,0,,{100 million... - OG}100 milli–{Z}
 Dialogue: 55,0:33:04.96,0:33:07.92,Main-207+,,0,0,0,,Your bounty...
 Dialogue: 55,0:33:10.18,0:33:13.05,Main-207+,,0,0,0,,is 1.5 billion berries!
-Dialogue: 55,0:33:13.97,0:33:19.10,Main-207+,,0,0,0,,â€“ What?!\Nâ€“ What?!
+Dialogue: 55,0:33:13.97,0:33:19.10,Main-207+,,0,0,0,,– What?!\N– What?!
 Dialogue: 55,0:33:20.14,0:33:25.27,Narrator-207+,,0,0,0,,{As the world heads toward the Reverie this group heads toward Wano. - OG}The world looks toward the Reverie\Nwhile the crew heads toward Wano.{Z}
 Dialogue: 0,0:05:09.71,0:05:14.46,Title-207+,,0,0,0,,{\fscx110\fscy110\1c&H010101&\3c&H010101&\1a&HFF&\blur0.8\fad(725,480)\t(683,725,\1a&H00&)\t(4229,4270,\1a&HFF&)}The Fifth Emperor
 Dialogue: 1,0:05:09.71,0:05:14.46,Title-207+,,0,0,0,,{\fscx110\fscy110\bord0\c&HE5E6E6&\blur0.8\fad(725,480)}The Fifth Emperor
@@ -2029,7 +2029,7 @@ Dialogue: 2,0:05:07.82,0:05:07.87,Captions-207+,,0,0,0,,{\pos(1507.5,253.86)\blu
 Dialogue: 0,0:05:07.87,0:05:09.66,Captions-207+,,0,0,0,,{\pos(1507.455,253.545)\blur0.9\bord8.55\fscx151.99\fscy151.99\frz6\fnAxe Hand\fsp3\c&H642924&\3c&H642924&}DOOM...
 Dialogue: 1,0:05:07.87,0:05:09.66,Captions-207+,,0,0,0,,{\pos(1507.455,253.545)\blur0.9\bord6\fscx151.99\fscy151.99\frz6\fnAxe Hand\fsp3\c&HFEE7E8&\3c&HFEE7E8&\4a&HFF&}DOOM...
 Dialogue: 2,0:05:07.87,0:05:09.66,Captions-207+,,0,0,0,,{\pos(1507.455,253.545)\blur0.9\bord0\fscx151.99\fscy151.99\frz6\fnAxe Hand\fsp3\c&H642924&\3c&HFEE7E8&\4a&HFF&}DOOM...
-Dialogue: 50,0:08:35.54,0:08:40.79,Note-207+,,0,0,0,,{\fad(0,604)}â€œAssassins Make Attempt on Big Mom's Life"
+Dialogue: 50,0:08:35.54,0:08:40.79,Note-207+,,0,0,0,,{\fad(0,604)}“Assassins Make Attempt on Big Mom's Life"
 Dialogue: 0,0:00:02.00,0:00:08.00,Credits-207+,,0,0,0,,{\an1\pos(100,855)\fad(400,400)\blur0.5\c&H000000&}Video Editing
 Dialogue: 1,0:00:02.00,0:00:08.00,Credits-207+,,0,0,0,,{\an1\pos(100,855)\fad(400,400)\blur0.5\bord0\4a&HFF&}Video Editing
 Dialogue: 2,0:00:02.00,0:00:08.00,Credits-207+,,0,0,0,,{\an1\pos(100,855)\fad(400,400)\blur0.5\bord0\4a&HFF&}Video Editing

@@ -1,4 +1,4 @@
-ï»¿[Script Info]
+﻿[Script Info]
 ScriptType: v4.00+
 PlayResX: 1440
 PlayResY: 1080
@@ -28,7 +28,7 @@ Dialogue: 50,0:01:50.47,0:01:54.66,Main-207-,,0,0,0,,{\an8\fad(150,150)}Gum-Gum.
 Dialogue: 50,0:01:51.10,0:01:52.88,Main-207-,,0,0,0,,{W-Wapol-sama! It's Straw Hat!-OG}K-King Wapol! It's Straw Hat!{Sil}
 Dialogue: 50,0:01:53.27,0:01:53.76,Main-207-,,0,0,0,,Ah!
 Dialogue: 50,0:01:55.47,0:01:57.31,Main-207-,,0,0,0,,{\fad(150,150)}...Pistol!
-Dialogue: 50,0:02:01.65,0:02:03.48,Main-207-,,0,0,0,,{â€“ Wapol-sama!\Nâ€“ Wapol-sama!-OG}â€“ King Wapol!\Nâ€“ King Wapol!{Sil}
+Dialogue: 50,0:02:01.65,0:02:03.48,Main-207-,,0,0,0,,{– Wapol-sama!\N– Wapol-sama!-OG}– King Wapol!\N– King Wapol!{Sil}
 Dialogue: 50,0:02:15.03,0:02:17.20,Main-207-,,0,0,0,,That was close...
 Dialogue: 50,0:02:23.03,0:02:25.38,Main-207-,,0,0,0,,{How dare you bastards... -OG}You bastards... How dare you!{Sil/arch}
 Dialogue: 50,0:02:27.64,0:02:29.21,Main-207-,,0,0,0,,{Over and over again...-OG}Again and again...{Sil}
@@ -155,7 +155,7 @@ Dialogue: 50,0:08:18.69,0:08:20.50,Main-207-,,0,0,0,,{They're now stuck on me!\N
 Dialogue: 50,0:08:20.50,0:08:23.15,Main-207-,,0,0,0,,{Ah! Don't give them back to me!\NKeep at least one! -OG}Ah! Don't give them back to me!\NKeep one at least!{Sil}
 Dialogue: 50,0:08:23.15,0:08:24.30,Main-207-,,0,0,0,,No! They're gross!
 Dialogue: 50,0:08:24.30,0:08:25.74,Main-207-,,0,0,0,,They're gross to me, too!
-Dialogue: 50,0:08:25.74,0:08:27.17,Main-207-,,0,0,0,,â€“ Stop it!\Nâ€“ Don't give them to me!
+Dialogue: 50,0:08:25.74,0:08:27.17,Main-207-,,0,0,0,,– Stop it!\N– Don't give them to me!
 Dialogue: 50,0:08:27.17,0:08:29.49,Main-207-,,0,0,0,,What the heck are you guys doing?
 Dialogue: 50,0:08:28.54,0:08:29.49,Secondary-207-,,0,0,0,,Ahh! Stop it!
 Dialogue: 50,0:08:29.49,0:08:33.08,Main-207-,,0,0,0,,Hmph! They know nothing\Nabout teamwork.
@@ -181,7 +181,7 @@ Dialogue: 50,0:09:08.85,0:09:10.07,Main-207-,,0,0,0,,Your leg? Sure!
 Dialogue: 50,0:09:10.99,0:09:11.82,Main-207-,,0,0,0,,Like this?
 Dialogue: 50,0:09:11.82,0:09:13.32,Main-207-,,0,0,0,,{Okay then! Don't let your hands go!-OG}Right! Don't let go!{Sil}
 Dialogue: 50,0:09:13.78,0:09:15.26,Main-207-,,0,0,0,,{Hmm? Got it!-OG}Okay, got it!{Z}
-Dialogue: 50,0:09:15.26,0:09:16.99,Main-207-,,0,0,0,,{\fad(150,150)}ArmÃ©e de l'Air...
+Dialogue: 50,0:09:15.26,0:09:16.99,Main-207-,,0,0,0,,{\fad(150,150)}Armée de l'Air...
 Dialogue: 50,0:09:18.79,0:09:21.29,Main-207-,,0,0,0,,{\fad(150,150)}Gum Shoot!
 Dialogue: 50,0:09:43.10,0:09:43.98,Main-207-,,0,0,0,,{That was okay I guess...-OG}Not bad...{Sil}
 Dialogue: 50,0:09:46.54,0:09:49.91,Main-207-,,0,0,0,,Th... Thank you.\NYou guys are amazing.
@@ -192,7 +192,7 @@ Dialogue: 50,0:09:59.83,0:10:01.42,Main-207-,,0,0,0,,{Wapol-sama, are you all ri
 Dialogue: 50,0:10:01.42,0:10:04.42,Main-207-,,0,0,0,,{\q2}They're stronger than we thought.\NWe underestimated them!
 Dialogue: 50,0:10:05.28,0:10:07.80,Main-207-,,0,0,0,,{I can no longer let them live!-OG}They just signed their death warrants!{Z}
 Dialogue: 50,0:10:07.80,0:10:09.38,Main-207-,,0,0,0,,Those bastards!
-Dialogue: 50,0:10:09.73,0:10:10.86,Main-207-,,0,0,0,,â€“ What?!\Nâ€“ What?!
+Dialogue: 50,0:10:09.73,0:10:10.86,Main-207-,,0,0,0,,– What?!\N– What?!
 Dialogue: 50,0:10:10.86,0:10:12.30,Main-207-,,0,0,0,,I'll show them...
 Dialogue: 50,0:10:12.30,0:10:14.76,Main-207-,,0,0,0,,the true power\Nof the Munch-Munch Fruit!
 Dialogue: 50,0:10:14.76,0:10:15.89,Main-207-,,0,0,0,,{Wapol-sama!-OG} Your Majesty!{Sil}
@@ -221,7 +221,7 @@ Dialogue: 50,0:11:27.90,0:11:32.18,Main-207-,,0,0,0,,It was because a certain qu
 Dialogue: 50,0:11:33.80,0:11:39.93,Main-207-,,0,0,0,,{We can't lose any more...\Nstupid men like him! -OG}We can't lose any more...\Nfoolish men like him!{arch}
 Dialogue: 50,0:11:40.39,0:11:44.40,Main-207-,,0,0,0,,Chess! Call out what I ate today!
 Dialogue: 50,0:11:44.40,0:11:45.39,Main-207-,,0,0,0,,Yes, sir!
-Dialogue: 50,0:11:46.69,0:11:51.20,Main-207-,,0,0,0,,{\q2}Well... you ate one butter-sautÃ©ed cannon\Nand one raw cannon on the ship.
+Dialogue: 50,0:11:46.69,0:11:51.20,Main-207-,,0,0,0,,{\q2}Well... you ate one butter-sautéed cannon\Nand one raw cannon on the ship.
 Dialogue: 50,0:11:51.20,0:11:55.90,Main-207-,,0,0,0,,{Also cannonball and gunpowder salad as well as a toasted house in the village.-OG}Also cannonball and gunpowder salad\Nand a toasted house from the village.{Sil/Z}
 Dialogue: 50,0:11:56.20,0:11:57.88,Main-207-,,0,0,0,,{What kind of stuff do you eat?!-OG}What kind of food is that?!{arch}
 Dialogue: 50,0:11:57.88,0:11:59.62,Main-207-,,0,0,0,,{When it comes to omnivores,\Nthis guy takes the cake.-OG}Talk about omnivorous.{Z}
@@ -240,7 +240,7 @@ Dialogue: 50,0:12:39.49,0:12:40.45,Main-207-,,0,0,0,,What the...?!
 Dialogue: 50,0:12:42.91,0:12:45.20,Main-207-,,0,0,0,,{H... He's eating his own men!-OG}H-He's eating his own men!{Z}
 Dialogue: 50,0:12:45.20,0:12:46.91,Main-207-,,0,0,0,,{He's eating his own people!-OG}He's eating them!{Z}
 Dialogue: 50,0:12:57.05,0:13:00.93,Main-207-,,0,0,0,,Feast your eyes on this!\NCome out, miraculous union!
-Dialogue: 50,0:13:01.22,0:13:02.93,Main-207-,,0,0,0,,â€“ Huh?!\Nâ€“ What?! Union?!
+Dialogue: 50,0:13:01.22,0:13:02.93,Main-207-,,0,0,0,,– Huh?!\N– What?! Union?!
 Dialogue: 50,0:13:09.69,0:13:13.56,Main-207-,,0,0,0,,I am the strongest warrior of Drum...
 Dialogue: 50,0:13:20.86,0:13:22.74,Main-207-,,0,0,0,,Chessmarimo!
 Dialogue: 50,0:13:23.53,0:13:26.66,Main-207-,,0,0,0,,{Well... isn't that just one\Nriding on the other's shoulders?-OG}Isn't that one... just riding\Non the other's shoulders, though?{Sil}
@@ -363,7 +363,7 @@ Dialogue: 50,0:20:26.50,0:20:27.33,Main-207-,,0,0,0,,Luffy!
 Dialogue: 50,0:20:27.83,0:20:28.79,Main-207-,,0,0,0,,It's a direct hit!
 Dialogue: 50,0:20:32.50,0:20:34.46,Main-207-,,0,0,0,,{He must've been blown away!\NSuch an idiot!-OG}That's how you blow away a hippo!{Z/PJ}
 Dialogue: 50,0:20:54.78,0:20:57.07,Main-207-,,0,0,0,,{See? It didn't break!-OG}See? It's unbreakable.{PJ}
-Dialogue: 50,0:20:57.86,0:21:01.03,Main-207-,,0,0,0,,{â€“ What?! Can't be... He's stupid!\Nâ€“ What?! Can't be... He's stupid!-OG}Huh? But how?\NHe's an idiot!{Sil}
+Dialogue: 50,0:20:57.86,0:21:01.03,Main-207-,,0,0,0,,{– What?! Can't be... He's stupid!\N– What?! Can't be... He's stupid!-OG}Huh? But how?\NHe's an idiot!{Sil}
 Dialogue: 50,0:21:01.57,0:21:06.04,Main-207-,,0,0,0,,I don't know who the heck\Nthis pirate flag belongs to...
 Dialogue: 50,0:21:06.04,0:21:09.54,Main-207-,,0,0,0,,{but since this flag is a person's pledge\Nto risk his life...-OG}but this flag\Nis someone's pledge to risk their life.{Sil/PJ}
 Dialogue: 50,0:21:09.54,0:21:11.88,Main-207-,,0,0,0,,{it's not raised as a joke!-OG}It's not raised as a joke!{PJ}
@@ -393,17 +393,17 @@ Dialogue: 50,0:22:33.79,0:22:36.59,Main-207-,,0,0,0,,{Time to get blown away, St
 Dialogue: 50,0:22:37.88,0:22:40.55,Main-207-,,0,0,0,,Stop it!
 Dialogue: 50,0:22:41.46,0:22:42.72,Main-207-,,0,0,0,,That's the idea!
 Dialogue: 50,0:22:42.72,0:22:44.68,Main-207-,,0,0,0,,Get him, reindeer!
-Dialogue: 50,0:22:48.89,0:22:51.14,Main-207-,,0,0,0,,{â€“ Wapol-sama! Watch out!\Nâ€“ Wapol-sama! Watch out!-OG}King Wapol! Watch out!{Sil}
+Dialogue: 50,0:22:48.89,0:22:51.14,Main-207-,,0,0,0,,{– Wapol-sama! Watch out!\N– Wapol-sama! Watch out!-OG}King Wapol! Watch out!{Sil}
 Dialogue: 50,0:22:56.27,0:23:00.07,Main-207-,,0,0,0,,{The little brat is showing his guts\Nas if he's a fully grown man...-}That brat's acting all brave\Nas if he's suddenly become a man.{Z}
-Dialogue: 50,0:23:03.57,0:23:04.95,Main-207-,,0,0,0,,{â€“ Sorry.\Nâ€“ Sorry.-OG}My apologies.{Z}
-Dialogue: 50,0:23:04.95,0:23:07.99,Main-207-,,0,0,0,,{â€“ I won't let you lay your finger on Wapol-sama!\Nâ€“ I won't let you lay your finger on Wapol-sama!-OG}{\q2}I won't let you lay a finger on the king!{Sil}
-Dialogue: 50,0:23:14.25,0:23:17.54,Main-207-,,0,0,0,,{â€“ Really, there are some strange creatures in this world.\Nâ€“ Really, there are some strange creatures in this world.-OG}There really are some\Nstrange creatures in this world.{Sil}
-Dialogue: 50,0:23:17.54,0:23:20.84,Main-207-,,0,0,0,,{â€“ Seems like you're\Nthat "yeti" the citizens\Nâ€“ Seems like you're\Nthat "yeti" the citizens-OG}Seems like you're that "yeti" that once{PJ}
-Dialogue: 50,0:23:20.84,0:23:22.92,Main-207-,,0,0,0,,{â€“ got worked up about at one time.\Nâ€“ got worked up about at one time.-OG}got the citizens all riled up.{PJ}
-Dialogue: 50,0:23:23.26,0:23:26.93,Main-207-,,0,0,0,,{â€“ You must really have spent your whole life disliked by everyone.\Nâ€“ You must really have spent your whole life disliked by everyone.-OG}You've been an outcast\Nyour entire life.{Z}
-Dialogue: 50,0:23:26.93,0:23:28.72,Main-207-,,0,0,0,,{â€“ You poor monster.\Nâ€“ You poor monster.-OG}You poor monster.{Sil}
-Dialogue: 50,0:23:28.72,0:23:32.39,Main-207-,,0,0,0,,{â€“ Why's a loner like you trying to save this country?\Nâ€“ Why's a loner like you trying to save this country?-OG}Why's an outcast\Ntrying to save this country?{Sil}
-Dialogue: 50,0:23:32.39,0:23:33.68,Main-207-,,0,0,0,,{â€“ Don't make me laugh!\Nâ€“ Don't make me laugh!-OG}Don't make me laugh!{Sil}
+Dialogue: 50,0:23:03.57,0:23:04.95,Main-207-,,0,0,0,,{– Sorry.\N– Sorry.-OG}My apologies.{Z}
+Dialogue: 50,0:23:04.95,0:23:07.99,Main-207-,,0,0,0,,{– I won't let you lay your finger on Wapol-sama!\N– I won't let you lay your finger on Wapol-sama!-OG}{\q2}I won't let you lay a finger on the king!{Sil}
+Dialogue: 50,0:23:14.25,0:23:17.54,Main-207-,,0,0,0,,{– Really, there are some strange creatures in this world.\N– Really, there are some strange creatures in this world.-OG}There really are some\Nstrange creatures in this world.{Sil}
+Dialogue: 50,0:23:17.54,0:23:20.84,Main-207-,,0,0,0,,{– Seems like you're\Nthat "yeti" the citizens\N– Seems like you're\Nthat "yeti" the citizens-OG}Seems like you're that "yeti" that once{PJ}
+Dialogue: 50,0:23:20.84,0:23:22.92,Main-207-,,0,0,0,,{– got worked up about at one time.\N– got worked up about at one time.-OG}got the citizens all riled up.{PJ}
+Dialogue: 50,0:23:23.26,0:23:26.93,Main-207-,,0,0,0,,{– You must really have spent your whole life disliked by everyone.\N– You must really have spent your whole life disliked by everyone.-OG}You've been an outcast\Nyour entire life.{Z}
+Dialogue: 50,0:23:26.93,0:23:28.72,Main-207-,,0,0,0,,{– You poor monster.\N– You poor monster.-OG}You poor monster.{Sil}
+Dialogue: 50,0:23:28.72,0:23:32.39,Main-207-,,0,0,0,,{– Why's a loner like you trying to save this country?\N– Why's a loner like you trying to save this country?-OG}Why's an outcast\Ntrying to save this country?{Sil}
+Dialogue: 50,0:23:32.39,0:23:33.68,Main-207-,,0,0,0,,{– Don't make me laugh!\N– Don't make me laugh!-OG}Don't make me laugh!{Sil}
 Dialogue: 50,0:23:33.68,0:23:35.02,Main-207-,,0,0,0,,Shut up!
 Dialogue: 50,0:23:35.02,0:23:38.27,Main-207-,,0,0,0,,Even if I don't have friends,\NI can still fight!
 Dialogue: 50,0:23:39.36,0:23:42.23,Main-207-,,0,0,0,,As long as Doctor's flag exists, I will...
@@ -419,10 +419,10 @@ Dialogue: 50,0:24:23.15,0:24:24.69,Main-207-,,0,0,0,,Then it's decided.
 Dialogue: 50,0:24:25.44,0:24:28.20,Main-207-,,0,0,0,,{My opponent is the annoying mouth!-}I'll take on big mouth!{Sil}
 Dialogue: 50,0:24:29.70,0:24:34.04,Main-207-,,0,0,0,,{How dare you, Straw Hat,\Nflying around like that!-OG}What impudence, Straw Hat,\Nflying around like that!{Sil}
 Dialogue: 50,0:24:34.74,0:24:36.79,Main-207-,,0,0,0,,{I won't hesitate any longer!-OG}I won't hesitate this time!{arch}
-Dialogue: 50,0:24:36.79,0:24:39.00,Main-207-,,0,0,0,,{â€“ You can take me down?!\Nâ€“ You can take me down?!-OG}You're gonna take me down?!{Sil}
-Dialogue: 50,0:24:39.00,0:24:40.63,Main-207-,,0,0,0,,{â€“ Huh, you monster?!\Nâ€“ Huh, you monster?!-OG}Is that right, monster?{Z}
+Dialogue: 50,0:24:36.79,0:24:39.00,Main-207-,,0,0,0,,{– You can take me down?!\N– You can take me down?!-OG}You're gonna take me down?!{Sil}
+Dialogue: 50,0:24:39.00,0:24:40.63,Main-207-,,0,0,0,,{– Huh, you monster?!\N– Huh, you monster?!-OG}Is that right, monster?{Z}
 Dialogue: 50,0:24:42.59,0:24:44.21,Main-207-,,0,0,0,,{How dare you...}What gives you the right...?{Sil}
-Dialogue: 50,0:24:44.88,0:24:48.22,Main-207-,,0,0,0,,{Old hag! I will fight...-OG}Let me fight... you old haâ€“{Z}
+Dialogue: 50,0:24:44.88,0:24:48.22,Main-207-,,0,0,0,,{Old hag! I will fight...-OG}Let me fight... you old ha–{Z}
 Dialogue: 50,0:24:48.22,0:24:49.59,Main-207-,,0,0,0,,{Shut up and watch!-OG}Just shut up and watch.{Z}
 Dialogue: 50,0:24:49.59,0:24:53.18,Main-207-,,0,0,0,,{If you keep moving around, you won't\Nbe able to walk on your own anymore.-OG}If you keep flailing around,\Nyou'll never walk on your own again.{arch}
 Dialogue: 50,0:24:53.68,0:24:55.06,Main-207-,,0,0,0,,Don't worry.
@@ -431,8 +431,8 @@ Dialogue: 50,0:25:01.77,0:25:05.15,Main-207-,,0,0,0,,My name is Tony Tony Choppe
 Dialogue: 50,0:25:05.15,0:25:07.99,Main-207-,,0,0,0,,It's a name that the world's\Ngreatest doctor gave me!
 Dialogue: 50,0:25:08.65,0:25:12.91,Main-207-,,0,0,0,,{Even if Doctor forgave you,\NI won't forgive you-OG}Doctor may have forgiven you\Nfor mocking him,{Z/PJ}
 Dialogue: 50,0:25:12.91,0:25:15.08,Main-207-,,0,0,0,,{for laughing at how he lived!-OG}but I won't show you\Nthe same mercy!{Z\PJ}
-Dialogue: 50,0:25:21.96,0:25:23.79,Main-207-,,0,0,0,,{â€“ I'm the one who'll show no forgiveness!\Nâ€“ I'm the one who'll show no forgiveness!-OG}{\i1}I'm{\i0} the one who'll show no mercy!{Sil}
-Dialogue: 50,0:25:23.79,0:25:25.59,Main-207-,,0,0,0,,{â€“ I'll stomp you!\Nâ€“ I'll stomp you!-OG}I'll stomp you into the ground!{Z}
+Dialogue: 50,0:25:21.96,0:25:23.79,Main-207-,,0,0,0,,{– I'm the one who'll show no forgiveness!\N– I'm the one who'll show no forgiveness!-OG}{\i1}I'm{\i0} the one who'll show no mercy!{Sil}
+Dialogue: 50,0:25:23.79,0:25:25.59,Main-207-,,0,0,0,,{– I'll stomp you!\N– I'll stomp you!-OG}I'll stomp you into the ground!{Z}
 Dialogue: 50,0:25:27.63,0:25:29.38,Main-207-,,0,0,0,,{\fad(150,150)}Rumble Ball!
 Dialogue: 0,0:02:21.45,0:02:25.38,Title-207-,,0,0,0,,{\fad(734,0)\blur0.6\3c&H181816&\c&H181816&\bord2\1a&HFF&\t(689,734,\1a&H00&)}Unbreakable
 Dialogue: 1,0:02:21.45,0:02:25.38,Title-207-,,0,0,0,,{\fad(734,0)\blur0.6\c&HE5E6E6&\bord0\4a&HFF&}Unbreakable

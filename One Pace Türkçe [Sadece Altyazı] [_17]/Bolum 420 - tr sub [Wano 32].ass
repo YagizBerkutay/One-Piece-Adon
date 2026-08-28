@@ -1,4 +1,4 @@
-ï»¿[Script Info]
+﻿[Script Info]
 Title: Default Aegisub file
 ScriptType: v4.00+
 WrapStyle: 0
@@ -21,198 +21,198 @@ Style: Warning,Impress BT Pace,90,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:09.99,Warning,,0,0,0,,{\org(0,0)\fscx0\fscy0\clip(0,0,0,0)}Medya oynatÄ±cÄ±nÄ±z bu bÃ¶lÃ¼mde kullanÄ±lan altyazÄ± formatÄ±nÄ± desteklemiyor.\NAltyazÄ±lar muhtemelen dÃ¼zgÃ¼n Ã§alÄ±ÅŸmayacaktÄ±r.\NLÃ¼tfen Ã¶nerilen video oynatÄ±cÄ±lardan birini, tercihen mpv kullanÄ±n:\Nhttps://mpv.io
-Dialogue: 50,0:00:12.20,0:00:15.75,Main-207+,,0,0,0,,Mutlu olmalÄ±sÄ±n, Issho...
-Dialogue: 50,0:00:15.75,0:00:19.62,Main-207+,,0,0,0,,Shichibukai sisteminin kaldÄ±rÄ±lmasÄ±\Nhep istediÄŸin ÅŸeydi.
-Dialogue: 50,0:00:20.00,0:00:24.84,Main-207+,,0,0,0,,Ben karÅŸÄ±ydÄ±m ama\NhÃ¼kÃ¼mdarlarÄ±n kararÄ±na uymak zorundayÄ±z.
-Dialogue: 50,0:00:24.84,0:00:28.55,Main-207+,,0,0,0,,Kahretsin! NasÄ±l bu kadar saf olabilirler?!
+Dialogue: 0,0:00:00.00,0:00:09.99,Warning,,0,0,0,,{\org(0,0)\fscx0\fscy0\clip(0,0,0,0)}Medya oynatıcınız bu bölümde kullanılan altyazı formatını desteklemiyor.\NAltyazılar muhtemelen düzgün çalışmayacaktır.\NLütfen önerilen video oynatıcılardan birini, tercihen mpv kullanın:\Nhttps://mpv.io
+Dialogue: 50,0:00:12.20,0:00:15.75,Main-207+,,0,0,0,,Mutlu olmalısın, Issho...
+Dialogue: 50,0:00:15.75,0:00:19.62,Main-207+,,0,0,0,,Shichibukai sisteminin kaldırılması\Nhep istediğin şeydi.
+Dialogue: 50,0:00:20.00,0:00:24.84,Main-207+,,0,0,0,,Ben karşıydım ama\Nhükümdarların kararına uymak zorundayız.
+Dialogue: 50,0:00:24.84,0:00:28.55,Main-207+,,0,0,0,,Kahretsin! Nasıl bu kadar saf olabilirler?!
 Dialogue: 50,0:00:28.55,0:00:31.18,Main-207+,,0,0,0,,{\i1}Adalet bedel ister...
-Dialogue: 50,0:00:31.18,0:00:34.35,Main-207+,,0,0,0,,Ve bundan kaÃ§amayÄ±z, deÄŸil mi?
-Dialogue: 50,0:00:36.56,0:00:42.02,Main-207+,,0,0,0,,Onlardan hiÃ§ Ã§ekmediÄŸin iÃ§in\NbÃ¶yle sÃ¶ylÃ¼yor olmalÄ±sÄ±n.
-Dialogue: 50,0:00:42.02,0:00:47.53,Main-207+,,0,0,0,,Masum ve zayÄ±flarÄ±n hiÃ§e sayÄ±ldÄ±ÄŸÄ±\Nbir dÃ¼nyanÄ±n hiÃ§bir deÄŸeri yoktur!
+Dialogue: 50,0:00:31.18,0:00:34.35,Main-207+,,0,0,0,,Ve bundan kaçamayız, değil mi?
+Dialogue: 50,0:00:36.56,0:00:42.02,Main-207+,,0,0,0,,Onlardan hiç çekmediğin için\Nböyle söylüyor olmalısın.
+Dialogue: 50,0:00:42.02,0:00:47.53,Main-207+,,0,0,0,,Masum ve zayıfların hiçe sayıldığı\Nbir dünyanın hiçbir değeri yoktur!
 Dialogue: 50,0:00:49.70,0:00:52.16,Main-207+,,0,0,0,,Acele edin! Devam edin!
-Dialogue: 50,0:00:52.16,0:00:53.07,Main-207+,,0,0,0,,Ã‡abuk!
-Dialogue: 50,0:01:06.55,0:01:09.59,Main-207+,,0,0,0,,Shichibukai sistemi artÄ±k sona erdi.
-Dialogue: 50,0:01:09.59,0:01:15.01,Main-207+,,0,0,0,,Denizcilerin Ã–zel Bilim DepartmanÄ± olan\NSSG'ye gÃ¼venelim.
-Dialogue: 50,0:01:17.39,0:01:21.44,Main-207+,,0,0,0,,DÃ¼nyanÄ±n gÃ¼Ã§ dengesi\NbÃ¼yÃ¼k Ã¶lÃ§Ã¼de deÄŸiÅŸmek Ã¼zere!
-Dialogue: 50,0:01:23.27,0:01:26.02,Main-207+,,0,0,0,,Ama bunun nasÄ±l bir deÄŸiÅŸim\NolacaÄŸÄ±nÄ± bilmiyoruz!
-Dialogue: 50,0:01:27.53,0:01:31.78,Main-207+,,0,0,0,,Kaido ve Big Mom'Ä±n Wano'da bir\Nittifak kurduÄŸunu duydum!
+Dialogue: 50,0:00:52.16,0:00:53.07,Main-207+,,0,0,0,,Çabuk!
+Dialogue: 50,0:01:06.55,0:01:09.59,Main-207+,,0,0,0,,Shichibukai sistemi artık sona erdi.
+Dialogue: 50,0:01:09.59,0:01:15.01,Main-207+,,0,0,0,,Denizcilerin Özel Bilim Departmanı olan\NSSG'ye güvenelim.
+Dialogue: 50,0:01:17.39,0:01:21.44,Main-207+,,0,0,0,,Dünyanın güç dengesi\Nbüyük ölçüde değişmek üzere!
+Dialogue: 50,0:01:23.27,0:01:26.02,Main-207+,,0,0,0,,Ama bunun nasıl bir değişim\Nolacağını bilmiyoruz!
+Dialogue: 50,0:01:27.53,0:01:31.78,Main-207+,,0,0,0,,Kaido ve Big Mom'ın Wano'da bir\Nittifak kurduğunu duydum!
 Dialogue: 50,0:01:32.66,0:01:33.99,Main-207+,,0,0,0,,Ne?!
-Dialogue: 50,0:01:36.74,0:01:39.16,Main-207+,,0,0,0,,Rocks KorsanlarÄ± geri mi dÃ¶ndÃ¼?!
-Dialogue: 50,0:01:46.25,0:01:50.13,Main-207+,,0,0,0,,Onlardan sanki bir efsaneymiÅŸ gibi bahsetme!
-Dialogue: 50,0:01:50.13,0:01:52.09,Main-207+,,0,0,0,,{\i1}Bu, gerÃ§ek...
-Dialogue: 50,0:01:53.97,0:01:59.56,Main-207+,,0,0,0,,ve ÅŸu an ne kadar meÅŸgul olsak da\Nbizi tehdit eden bir felaket!
-Dialogue: 50,0:02:01.56,0:02:04.56,Main-207+,,0,0,0,,Ne?! Ä°ki Yonko gÃ¼Ã§lerini mi birleÅŸtirdi?!
+Dialogue: 50,0:01:36.74,0:01:39.16,Main-207+,,0,0,0,,Rocks Korsanları geri mi döndü?!
+Dialogue: 50,0:01:46.25,0:01:50.13,Main-207+,,0,0,0,,Onlardan sanki bir efsaneymiş gibi bahsetme!
+Dialogue: 50,0:01:50.13,0:01:52.09,Main-207+,,0,0,0,,{\i1}Bu, gerçek...
+Dialogue: 50,0:01:53.97,0:01:59.56,Main-207+,,0,0,0,,ve şu an ne kadar meşgul olsak da\Nbizi tehdit eden bir felaket!
+Dialogue: 50,0:02:01.56,0:02:04.56,Main-207+,,0,0,0,,Ne?! İki Yonko güçlerini mi birleştirdi?!
 Dialogue: 50,0:02:05.77,0:02:06.61,Main-207+,,0,0,0,,Olamaz...!
-Dialogue: 50,0:02:06.61,0:02:08.36,Main-207+,,0,0,0,,Tam da ÅŸimdi mi?!
-Dialogue: 50,0:02:08.69,0:02:12.86,Main-207+,,0,0,0,,Ä°stihbarat, Ã¶nÃ¼mÃ¼zdeki gÃ¼nlerde\NbirleÅŸeceklerini gÃ¶steriyor.
-Dialogue: 50,0:02:13.32,0:02:19.08,Main-207+,,0,0,0,,HenÃ¼z bir vukuatlarÄ± yok; ne amaÃ§larÄ±nÄ± ne de\Nonlarla nasÄ±l baÅŸ edeceÄŸimizi bilmiyoruz.
-Dialogue: 50,0:02:19.70,0:02:23.21,Main-207+,,0,0,0,,Ä°kisini birbirine baÄŸlayan tek ÅŸey...
-Dialogue: 50,0:02:23.21,0:02:25.83,Main-207+,,0,0,0,,efsanevi Rocks KorsanlarÄ±.
-Dialogue: 50,0:02:27.29,0:02:30.80,Main-207+,,0,0,0,,Elimizde baÅŸka bir bilgi de yok...
-Dialogue: 50,0:02:31.88,0:02:36.01,Main-207+,,0,0,0,,Big Mom ve Kaido uzun zamandÄ±r\Nbirbirlerinden nefret ediyor...
-Dialogue: 50,0:02:36.01,0:02:40.35,Main-207+,,0,0,0,,BÃ¶yle bir ÅŸeyin olacaÄŸÄ±nÄ± hiÃ§ beklemiyordum.
-Dialogue: 50,0:02:40.35,0:02:43.43,Main-207+,,0,0,0,,Sengoku-{\i1}san{\i0}, Rocks KorsanlarÄ± kim?
-Dialogue: 50,0:02:43.43,0:02:45.10,Main-207+,,0,0,0,,Ah, doÄŸru.
-Dialogue: 50,0:02:45.10,0:02:49.27,Main-207+,,0,0,0,,OnlarÄ± bilmeyecek kadar genÃ§siniz...
-Dialogue: 50,0:02:49.94,0:02:55.82,Main-207+,,0,0,0,,Rocks KorsanlarÄ± Ã§ok eskiden Korsan AdasÄ± Hachinosu'da...
-Dialogue: 50,0:02:55.82,0:03:02.16,Main-207+,,0,0,0,,sÄ±rf ganimet ve para iÃ§in toplanmÄ±ÅŸ bir avuÃ§ bela tipti.
-Dialogue: 50,0:03:06.71,0:03:11.63,Main-207+,,0,0,0,,Ã–yle vahÅŸi tiplerdi ki kendi gemilerinde bile\Nbirbirlerini Ã¶ldÃ¼rmeye kalkarlardÄ±.
-Dialogue: 50,0:03:14.38,0:03:17.89,Main-207+,,0,0,0,,Ãœyeleri, Kaptan Rocks...
-Dialogue: 50,0:03:20.14,0:03:22.18,Main-207+,,0,0,0,,GenÃ§ Beyazsakal!
+Dialogue: 50,0:02:06.61,0:02:08.36,Main-207+,,0,0,0,,Tam da şimdi mi?!
+Dialogue: 50,0:02:08.69,0:02:12.86,Main-207+,,0,0,0,,İstihbarat, önümüzdeki günlerde\Nbirleşeceklerini gösteriyor.
+Dialogue: 50,0:02:13.32,0:02:19.08,Main-207+,,0,0,0,,Henüz bir vukuatları yok; ne amaçlarını ne de\Nonlarla nasıl baş edeceğimizi bilmiyoruz.
+Dialogue: 50,0:02:19.70,0:02:23.21,Main-207+,,0,0,0,,İkisini birbirine bağlayan tek şey...
+Dialogue: 50,0:02:23.21,0:02:25.83,Main-207+,,0,0,0,,efsanevi Rocks Korsanları.
+Dialogue: 50,0:02:27.29,0:02:30.80,Main-207+,,0,0,0,,Elimizde başka bir bilgi de yok...
+Dialogue: 50,0:02:31.88,0:02:36.01,Main-207+,,0,0,0,,Big Mom ve Kaido uzun zamandır\Nbirbirlerinden nefret ediyor...
+Dialogue: 50,0:02:36.01,0:02:40.35,Main-207+,,0,0,0,,Böyle bir şeyin olacağını hiç beklemiyordum.
+Dialogue: 50,0:02:40.35,0:02:43.43,Main-207+,,0,0,0,,Sengoku-{\i1}san{\i0}, Rocks Korsanları kim?
+Dialogue: 50,0:02:43.43,0:02:45.10,Main-207+,,0,0,0,,Ah, doğru.
+Dialogue: 50,0:02:45.10,0:02:49.27,Main-207+,,0,0,0,,Onları bilmeyecek kadar gençsiniz...
+Dialogue: 50,0:02:49.94,0:02:55.82,Main-207+,,0,0,0,,Rocks Korsanları çok eskiden Korsan Adası Hachinosu'da...
+Dialogue: 50,0:02:55.82,0:03:02.16,Main-207+,,0,0,0,,sırf ganimet ve para için toplanmış bir avuç bela tipti.
+Dialogue: 50,0:03:06.71,0:03:11.63,Main-207+,,0,0,0,,Öyle vahşi tiplerdi ki kendi gemilerinde bile\Nbirbirlerini öldürmeye kalkarlardı.
+Dialogue: 50,0:03:14.38,0:03:17.89,Main-207+,,0,0,0,,Üyeleri, Kaptan Rocks...
+Dialogue: 50,0:03:20.14,0:03:22.18,Main-207+,,0,0,0,,Genç Beyazsakal!
 Dialogue: 50,0:03:25.14,0:03:26.48,Main-207+,,0,0,0,,Big Mom!
 Dialogue: 50,0:03:29.23,0:03:30.40,Main-207+,,0,0,0,,Ve Kaido!
 Dialogue: 50,0:03:32.00,0:03:33.00,Secondary-207+,,0,0,0,,Cidden mi?
-Dialogue: 50,0:03:33.82,0:03:39.28,Main-207+,,0,0,0,,ÃœÃ§Ã¼ de eskiden aynÄ± geminin yolcusuydu.
-Dialogue: 50,0:03:41.37,0:03:43.24,Main-207+,,0,0,0,,â€“ Ne?!\Nâ€“ Ne?!
+Dialogue: 50,0:03:33.82,0:03:39.28,Main-207+,,0,0,0,,Üçü de eskiden aynı geminin yolcusuydu.
+Dialogue: 50,0:03:41.37,0:03:43.24,Main-207+,,0,0,0,,– Ne?!\N– Ne?!
 Dialogue: 50,0:03:43.24,0:03:44.50,Main-207+,,0,0,0,,O-Olamaz!
-Dialogue: 50,0:03:44.50,0:03:46.37,Main-207+,,0,0,0,,B-Buna inanamÄ±yorum!
-Dialogue: 50,0:03:46.79,0:03:51.84,Main-207+,,0,0,0,,Rocks KorsanlarÄ± arasÄ±nda kÃ¶tÃ¼ ÅŸÃ¶hrete sahip baÅŸka korsanlar da var.
-Dialogue: 50,0:03:52.46,0:03:57.97,Main-207+,,0,0,0,,AltÄ±n Aslan Shiki, Yeni DÃ¼nya'da\NhÃ¢kimiyet iÃ§in yarÄ±ÅŸan bÃ¼yÃ¼k bir isimdi.
-Dialogue: 50,0:03:57.97,0:04:01.64,Main-207+,,0,0,0,,AyrÄ±ca GÃ¼mÃ¼ÅŸ Balta,\NKaptan John ve Ochoku da vardÄ±...
-Dialogue: 50,0:04:01.64,0:04:03.01,Main-207+,,0,0,0,,Åaka yapÄ±yor olmalÄ±sÄ±nÄ±z!
-Dialogue: 50,0:04:03.01,0:04:06.52,Main-207+,,0,0,0,,Her biri namÄ± dÃ¼nyayÄ± tutmuÅŸ isimler!
-Dialogue: 50,0:04:06.52,0:04:08.94,Main-207+,,0,0,0,,NasÄ±l oldu da tarihe karÄ±ÅŸtÄ±lar?
-Dialogue: 50,0:04:09.56,0:04:14.65,Main-207+,,0,0,0,,Ã–ncelikle, birbirlerinden nefret ettikleri iÃ§in\Nortak geÃ§miÅŸlerinden hiÃ§ bahsetmediler.
+Dialogue: 50,0:03:44.50,0:03:46.37,Main-207+,,0,0,0,,B-Buna inanamıyorum!
+Dialogue: 50,0:03:46.79,0:03:51.84,Main-207+,,0,0,0,,Rocks Korsanları arasında kötü şöhrete sahip başka korsanlar da var.
+Dialogue: 50,0:03:52.46,0:03:57.97,Main-207+,,0,0,0,,Altın Aslan Shiki, Yeni Dünya'da\Nhâkimiyet için yarışan büyük bir isimdi.
+Dialogue: 50,0:03:57.97,0:04:01.64,Main-207+,,0,0,0,,Ayrıca Gümüş Balta,\NKaptan John ve Ochoku da vardı...
+Dialogue: 50,0:04:01.64,0:04:03.01,Main-207+,,0,0,0,,Şaka yapıyor olmalısınız!
+Dialogue: 50,0:04:03.01,0:04:06.52,Main-207+,,0,0,0,,Her biri namı dünyayı tutmuş isimler!
+Dialogue: 50,0:04:06.52,0:04:08.94,Main-207+,,0,0,0,,Nasıl oldu da tarihe karıştılar?
+Dialogue: 50,0:04:09.56,0:04:14.65,Main-207+,,0,0,0,,Öncelikle, birbirlerinden nefret ettikleri için\Nortak geçmişlerinden hiç bahsetmediler.
 Dialogue: 50,0:04:14.98,0:04:16.15,Main-207+,,0,0,0,,Bir de...
-Dialogue: 50,0:04:16.74,0:04:20.45,Main-207+,,0,0,0,,Kaptan Rocks'Ä±n tek derdi dÃ¼nyanÄ±n baÅŸÄ±na geÃ§mekti.
-Dialogue: 50,0:04:30.17,0:04:35.09,Main-207+,,0,0,0,,DÃ¼nya HÃ¼kÃ»meti'ne karÅŸÄ± ÅŸiddetli saldÄ±rÄ±lar ve kÄ±ÅŸkÄ±rtmalar baÅŸlattÄ±lar.
-Dialogue: 50,0:04:35.96,0:04:40.13,Main-207+,,0,0,0,,TerÃ¶r eylemleri bastÄ±rÄ±lamayacak kadar ÅŸiddetliydi;
-Dialogue: 50,0:04:41.05,0:04:47.27,Main-207+,,0,0,0,,namlarÄ± tÃ¼m dÃ¼nyada korkuyla anÄ±lÄ±r oldu.
-Dialogue: 50,0:04:47.68,0:04:53.23,Main-207+,,0,0,0,,{\fad(0,980)}Bundan 38 yÄ±l Ã¶nce TanrÄ± Vadisi'nde\Ntarihin akÄ±ÅŸÄ±nÄ± deÄŸiÅŸtiren bir vukuat yaÅŸandÄ±!
-Dialogue: 50,0:04:54.11,0:04:59.36,Main-207+,,0,0,0,,{\an8}DÃ¼nyanÄ±n en gÃ¼Ã§lÃ¼ tayfasÄ± olarak bilinen Rocks KorsanlarÄ±'nÄ±n o adada...
-Dialogue: 50,0:04:59.36,0:05:01.36,Main-207+,,0,0,0,,{\an8}silinip gittiÄŸi haberleri yayÄ±ldÄ±.
-Dialogue: 50,0:05:36.52,0:05:40.40,Main-207+,,0,0,0,,O durdurulamaz denilen kÃ¶tÃ¼lÃ¼ÄŸÃ¼,
-Dialogue: 50,0:05:40.40,0:05:43.91,Main-207+,,0,0,0,,Denizci KarargÃ¢hÄ±'ndan Koramiral Garp dize getirdi.
-Dialogue: 50,0:05:47.03,0:05:49.79,Main-207+,,0,0,0,,Garp'Ä±n namÄ± tÃ¼m dÃ¼nyaya yayÄ±ldÄ±...
-Dialogue: 50,0:05:49.79,0:05:53.21,Main-207+,,0,0,0,,ve "Denizcilerin KahramanÄ±"\Nolarak anÄ±lmaya baÅŸladÄ±.
-Dialogue: 50,0:05:55.75,0:06:00.76,Main-207+,,0,0,0,,Demek Koramiral Garp'Ä±n dilden dile dolaÅŸan o yiÄŸitlik destanlarÄ±nÄ±n aslÄ± buymuÅŸ!
-Dialogue: 50,0:06:04.26,0:06:08.43,Main-207+,,0,0,0,,Koramiral Garp'Ä±n yiÄŸitliÄŸine dair nice hikÃ¢yeler iÅŸitmiÅŸtim...
-Dialogue: 50,0:06:08.43,0:06:14.27,Main-207+,,0,0,0,,ama bÃ¶yle bÃ¼yÃ¼k bir olay daha olduÄŸunu bilmiyordum!
-Dialogue: 50,0:06:14.27,0:06:16.40,Main-207+,,0,0,0,,GerÃ§ekten inanÄ±lmaz biri!
+Dialogue: 50,0:04:16.74,0:04:20.45,Main-207+,,0,0,0,,Kaptan Rocks'ın tek derdi dünyanın başına geçmekti.
+Dialogue: 50,0:04:30.17,0:04:35.09,Main-207+,,0,0,0,,Dünya Hükûmeti'ne karşı şiddetli saldırılar ve kışkırtmalar başlattılar.
+Dialogue: 50,0:04:35.96,0:04:40.13,Main-207+,,0,0,0,,Terör eylemleri bastırılamayacak kadar şiddetliydi;
+Dialogue: 50,0:04:41.05,0:04:47.27,Main-207+,,0,0,0,,namları tüm dünyada korkuyla anılır oldu.
+Dialogue: 50,0:04:47.68,0:04:53.23,Main-207+,,0,0,0,,{\fad(0,980)}Bundan 38 yıl önce Tanrı Vadisi'nde\Ntarihin akışını değiştiren bir vukuat yaşandı!
+Dialogue: 50,0:04:54.11,0:04:59.36,Main-207+,,0,0,0,,{\an8}Dünyanın en güçlü tayfası olarak bilinen Rocks Korsanları'nın o adada...
+Dialogue: 50,0:04:59.36,0:05:01.36,Main-207+,,0,0,0,,{\an8}silinip gittiği haberleri yayıldı.
+Dialogue: 50,0:05:36.52,0:05:40.40,Main-207+,,0,0,0,,O durdurulamaz denilen kötülüğü,
+Dialogue: 50,0:05:40.40,0:05:43.91,Main-207+,,0,0,0,,Denizci Karargâhı'ndan Koramiral Garp dize getirdi.
+Dialogue: 50,0:05:47.03,0:05:49.79,Main-207+,,0,0,0,,Garp'ın namı tüm dünyaya yayıldı...
+Dialogue: 50,0:05:49.79,0:05:53.21,Main-207+,,0,0,0,,ve "Denizcilerin Kahramanı"\Nolarak anılmaya başladı.
+Dialogue: 50,0:05:55.75,0:06:00.76,Main-207+,,0,0,0,,Demek Koramiral Garp'ın dilden dile dolaşan o yiğitlik destanlarının aslı buymuş!
+Dialogue: 50,0:06:04.26,0:06:08.43,Main-207+,,0,0,0,,Koramiral Garp'ın yiğitliğine dair nice hikâyeler işitmiştim...
+Dialogue: 50,0:06:08.43,0:06:14.27,Main-207+,,0,0,0,,ama böyle büyük bir olay daha olduğunu bilmiyordum!
+Dialogue: 50,0:06:14.27,0:06:16.40,Main-207+,,0,0,0,,Gerçekten inanılmaz biri!
 Dialogue: 50,0:06:19.98,0:06:22.49,Main-207+,,0,0,0,,Big Mom ve Kaido mu?!
-Dialogue: 50,0:06:22.49,0:06:24.41,Main-207+,,0,0,0,,Yeter ama artÄ±k...
-Dialogue: 50,0:06:27.49,0:06:31.25,Main-207+,,0,0,0,,Ã–zellikle bu konu hakkÄ±nda konuÅŸmayÄ± hiÃ§ sevmez.
+Dialogue: 50,0:06:22.49,0:06:24.41,Main-207+,,0,0,0,,Yeter ama artık...
+Dialogue: 50,0:06:27.49,0:06:31.25,Main-207+,,0,0,0,,Özellikle bu konu hakkında konuşmayı hiç sevmez.
 Dialogue: 50,0:06:31.25,0:06:32.96,Main-207+,,0,0,0,,Ne? Neden?
-Dialogue: 50,0:06:33.33,0:06:37.08,Main-207+,,0,0,0,,Sizi biraz aydÄ±nlatayÄ±m da\Ntarihimiz hakkÄ±nda bilgilenin...
-Dialogue: 50,0:06:38.13,0:06:43.01,Main-207+,,0,0,0,,Bahsetmemesinin ilk sebebi\Ngazetelerde hiÃ§ yer almamÄ±ÅŸ olmasÄ±dÄ±r.
-Dialogue: 50,0:06:43.01,0:06:46.97,Main-207+,,0,0,0,,Garp o savaÅŸÄ± kazanmak iÃ§in\Nbir korsanla iÅŸ birliÄŸi yapmak zorunda kaldÄ±.
-Dialogue: 50,0:06:47.68,0:06:48.76,Main-207+,,0,0,0,,Bir korsanla mÄ±?!
-Dialogue: 50,0:06:49.51,0:06:53.77,Main-207+,,0,0,0,,AyrÄ±ca bazÄ± Kutsal Ejderleri de kurtardÄ±.
-Dialogue: 50,0:06:55.02,0:06:58.15,Main-207+,,0,0,0,,Kutsal Ejderler de mi\Nbu hikayenin bir parÃ§asÄ±?!
-Dialogue: 50,0:07:01.94,0:07:06.24,Main-207+,,0,0,0,,Yani, Kutsal Ejderleri korumak \Nbir denizcinin asli gÃ¶revidir.
+Dialogue: 50,0:06:33.33,0:06:37.08,Main-207+,,0,0,0,,Sizi biraz aydınlatayım da\Ntarihimiz hakkında bilgilenin...
+Dialogue: 50,0:06:38.13,0:06:43.01,Main-207+,,0,0,0,,Bahsetmemesinin ilk sebebi\Ngazetelerde hiç yer almamış olmasıdır.
+Dialogue: 50,0:06:43.01,0:06:46.97,Main-207+,,0,0,0,,Garp o savaşı kazanmak için\Nbir korsanla iş birliği yapmak zorunda kaldı.
+Dialogue: 50,0:06:47.68,0:06:48.76,Main-207+,,0,0,0,,Bir korsanla mı?!
+Dialogue: 50,0:06:49.51,0:06:53.77,Main-207+,,0,0,0,,Ayrıca bazı Kutsal Ejderleri de kurtardı.
+Dialogue: 50,0:06:55.02,0:06:58.15,Main-207+,,0,0,0,,Kutsal Ejderler de mi\Nbu hikayenin bir parçası?!
+Dialogue: 50,0:07:01.94,0:07:06.24,Main-207+,,0,0,0,,Yani, Kutsal Ejderleri korumak \Nbir denizcinin asli görevidir.
 Dialogue: 50,0:07:06.24,0:07:07.53,Main-207+,,0,0,0,,Bundaki sorun nedir?
-Dialogue: 50,0:07:08.49,0:07:12.08,Main-207+,,0,0,0,,Garp ahlaki olarak bu gÃ¶revi yerine getirmeye karÅŸÄ±.
-Dialogue: 50,0:07:12.50,0:07:16.75,Main-207+,,0,0,0,,Amiral olmayÄ± reddetmesinin\Nsebeplerinden biri de...
-Dialogue: 50,0:07:16.75,0:07:20.46,Main-207+,,0,0,0,,onlarÄ±n Kutsal Ejderler'in\NdoÄŸrudan astÄ± olmasÄ±dÄ±r.
-Dialogue: 50,0:07:21.05,0:07:23.97,Main-207+,,0,0,0,,Onlara aÃ§Ä±kÃ§a saygÄ±sÄ±zlÄ±k etmesine raÄŸmen,
-Dialogue: 50,0:07:23.97,0:07:26.26,Main-207+,,0,0,0,,baÅŸarÄ±larÄ± ve popÃ¼laritesi onu koruyor.
-Dialogue: 50,0:07:26.84,0:07:28.84,Main-207+,,0,0,0,,Meselenin aslÄ± ÅŸu ki;
-Dialogue: 50,0:07:28.84,0:07:33.85,Main-207+,,0,0,0,,TanrÄ± Vadisi'nde Kutsal Ejderleri\Nve onlarÄ±n kÃ¶lelerini korumak iÃ§in...
-Dialogue: 50,0:07:33.85,0:07:40.48,Main-207+,,0,0,0,,o sÄ±rada orada olan Roger ile iÅŸ birliÄŸi\Nyapan Garp, Rocks tayfasÄ±nÄ±n canÄ±na okudu!
-Dialogue: 50,0:07:41.23,0:07:44.49,Main-207+,,0,0,0,,Bu hadise, TanrÄ± Vadisi OlayÄ± olarak tarihe geÃ§ti.
-Dialogue: 50,0:07:47.36,0:07:48.66,Main-207+,,0,0,0,,Korsanlar KralÄ±'yla...
-Dialogue: 50,0:07:48.66,0:07:49.70,Main-207+,,0,0,0,,...omuz omuza mÄ±...
-Dialogue: 50,0:07:49.70,0:07:51.03,Main-207+,,0,0,0,,...savaÅŸtÄ±?!
-Dialogue: 50,0:07:51.03,0:07:54.45,Main-207+,,0,0,0,,Kutsal Ejderler, Roger ve Rocks mÄ±?!
-Dialogue: 50,0:07:54.45,0:07:56.71,Main-207+,,0,0,0,,Hepsi aynÄ± anda mÄ± oradaydÄ±?!
-Dialogue: 50,0:07:56.71,0:07:59.83,Main-207+,,0,0,0,,O adada tam olarak ne vardÄ±?!
-Dialogue: 50,0:07:59.83,0:08:02.71,Main-207+,,0,0,0,,OrayÄ± hiÃ§ duymadÄ±m bile!
-Dialogue: 50,0:08:03.63,0:08:05.21,Main-207+,,0,0,0,,ÅaÅŸÄ±rÄ±lacak bir ÅŸey deÄŸil.
-Dialogue: 50,0:08:07.01,0:08:09.43,Main-207+,,0,0,0,,{\fad(0,400)}TanrÄ± Vadisi denilen yer...
-Dialogue: 50,0:08:10.51,0:08:13.81,Main-207+,,0,0,0,,{\fad(439,0)}artÄ±k haritada bulunabilir deÄŸil.
-Dialogue: 50,0:08:16.06,0:08:20.56,Main-207+,,0,0,0,,AslÄ±nda ada iz bÄ±rakmadan yok oldu.
-Dialogue: 50,0:08:25.19,0:08:29.99,Main-207+,,0,0,0,,HÃ¼kÃ»metin gizli tutmaya Ã§alÄ±ÅŸtÄ±ÄŸÄ± o yer, resmen yok oldu...
-Dialogue: 50,0:08:29.99,0:08:33.66,Main-207+,,0,0,0,,HÃ¢lÃ¢ duymak istiyor musunuz?
-Dialogue: 50,0:08:34.54,0:08:39.29,Main-207+,,0,0,0,,Rocks dÃ¼nyanÄ±n kralÄ± olmayÄ± kafaya Ã¶yle koymuÅŸtu ki...
-Dialogue: 50,0:08:39.29,0:08:42.04,Main-207+,,0,0,0,,Ã§iÄŸnemediÄŸi yasak kalmadÄ±;
-Dialogue: 50,0:08:42.04,0:08:45.76,Main-207+,,0,0,0,,hÃ¢liyle ona dair her ÅŸeyi yok ettiler.
-Dialogue: 50,0:08:46.63,0:08:52.14,Main-207+,,0,0,0,,Onu sadece benim kuÅŸaÄŸÄ±mdan bir avuÃ§ Denizci hatÄ±rlÄ±yor.
-Dialogue: 50,0:08:52.55,0:08:59.10,Main-207+,,0,0,0,,Uzun zaman Ã¶nce olsa da birinin geleceÄŸin\NÃ¼Ã§ Yonko'suna liderlik etmesi inanÄ±lÄ±r gibi deÄŸil!
-Dialogue: 50,0:08:59.48,0:09:05.11,Main-207+,,0,0,0,,Rocks, belki de Roger'Ä±n karÅŸÄ±laÅŸtÄ±ÄŸÄ± ilk ve en diÅŸli dÃ¼ÅŸmandÄ±.
-Dialogue: 50,0:09:05.11,0:09:08.82,Main-207+,,0,0,0,,Garip bir ÅŸekilde Roger ve Rocks'Ä±n\Nortak bir yanÄ± da vardÄ±.
-Dialogue: 50,0:09:10.32,0:09:14.62,Main-207+,,0,0,0,,Rocks'Ä±n tam adÄ± Rocks D. Xebec'ti.
-Dialogue: 50,0:09:15.28,0:09:17.50,Main-207+,,0,0,0,,Ã‡oktan Ã¶lÃ¼p gitti...
-Dialogue: 50,0:09:17.50,0:09:22.83,Main-207+,,0,0,0,,{\fad(0,1060)}ama o da isminde "D." olan bir korsandÄ±!
-Dialogue: 50,0:09:38.39,0:09:43.90,Main-207+,,0,0,0,,Kaido ve Big Mom'Ä±n aynÄ± gemide olduÄŸu doÄŸru...
-Dialogue: 50,0:09:43.90,0:09:49.36,Main-207+,,0,0,0,,ancak yetenekleri 38 yÄ±l Ã¶ncesinden\Ntamamen farklÄ±.
-Dialogue: 50,0:09:49.36,0:09:55.62,Main-207+,,0,0,0,,Bu ittifak doÄŸruysa, dÃ¼nyanÄ±n en tehlikeli korsan grubuyla karÅŸÄ±laÅŸacaÄŸÄ±z.
-Dialogue: 50,0:09:55.62,0:09:59.50,Main-207+,,0,0,0,,Brannew! Åu an Ã¶dÃ¼lleri ne kadar?
+Dialogue: 50,0:07:08.49,0:07:12.08,Main-207+,,0,0,0,,Garp ahlaki olarak bu görevi yerine getirmeye karşı.
+Dialogue: 50,0:07:12.50,0:07:16.75,Main-207+,,0,0,0,,Amiral olmayı reddetmesinin\Nsebeplerinden biri de...
+Dialogue: 50,0:07:16.75,0:07:20.46,Main-207+,,0,0,0,,onların Kutsal Ejderler'in\Ndoğrudan astı olmasıdır.
+Dialogue: 50,0:07:21.05,0:07:23.97,Main-207+,,0,0,0,,Onlara açıkça saygısızlık etmesine rağmen,
+Dialogue: 50,0:07:23.97,0:07:26.26,Main-207+,,0,0,0,,başarıları ve popülaritesi onu koruyor.
+Dialogue: 50,0:07:26.84,0:07:28.84,Main-207+,,0,0,0,,Meselenin aslı şu ki;
+Dialogue: 50,0:07:28.84,0:07:33.85,Main-207+,,0,0,0,,Tanrı Vadisi'nde Kutsal Ejderleri\Nve onların kölelerini korumak için...
+Dialogue: 50,0:07:33.85,0:07:40.48,Main-207+,,0,0,0,,o sırada orada olan Roger ile iş birliği\Nyapan Garp, Rocks tayfasının canına okudu!
+Dialogue: 50,0:07:41.23,0:07:44.49,Main-207+,,0,0,0,,Bu hadise, Tanrı Vadisi Olayı olarak tarihe geçti.
+Dialogue: 50,0:07:47.36,0:07:48.66,Main-207+,,0,0,0,,Korsanlar Kralı'yla...
+Dialogue: 50,0:07:48.66,0:07:49.70,Main-207+,,0,0,0,,...omuz omuza mı...
+Dialogue: 50,0:07:49.70,0:07:51.03,Main-207+,,0,0,0,,...savaştı?!
+Dialogue: 50,0:07:51.03,0:07:54.45,Main-207+,,0,0,0,,Kutsal Ejderler, Roger ve Rocks mı?!
+Dialogue: 50,0:07:54.45,0:07:56.71,Main-207+,,0,0,0,,Hepsi aynı anda mı oradaydı?!
+Dialogue: 50,0:07:56.71,0:07:59.83,Main-207+,,0,0,0,,O adada tam olarak ne vardı?!
+Dialogue: 50,0:07:59.83,0:08:02.71,Main-207+,,0,0,0,,Orayı hiç duymadım bile!
+Dialogue: 50,0:08:03.63,0:08:05.21,Main-207+,,0,0,0,,Şaşırılacak bir şey değil.
+Dialogue: 50,0:08:07.01,0:08:09.43,Main-207+,,0,0,0,,{\fad(0,400)}Tanrı Vadisi denilen yer...
+Dialogue: 50,0:08:10.51,0:08:13.81,Main-207+,,0,0,0,,{\fad(439,0)}artık haritada bulunabilir değil.
+Dialogue: 50,0:08:16.06,0:08:20.56,Main-207+,,0,0,0,,Aslında ada iz bırakmadan yok oldu.
+Dialogue: 50,0:08:25.19,0:08:29.99,Main-207+,,0,0,0,,Hükûmetin gizli tutmaya çalıştığı o yer, resmen yok oldu...
+Dialogue: 50,0:08:29.99,0:08:33.66,Main-207+,,0,0,0,,Hâlâ duymak istiyor musunuz?
+Dialogue: 50,0:08:34.54,0:08:39.29,Main-207+,,0,0,0,,Rocks dünyanın kralı olmayı kafaya öyle koymuştu ki...
+Dialogue: 50,0:08:39.29,0:08:42.04,Main-207+,,0,0,0,,çiğnemediği yasak kalmadı;
+Dialogue: 50,0:08:42.04,0:08:45.76,Main-207+,,0,0,0,,hâliyle ona dair her şeyi yok ettiler.
+Dialogue: 50,0:08:46.63,0:08:52.14,Main-207+,,0,0,0,,Onu sadece benim kuşağımdan bir avuç Denizci hatırlıyor.
+Dialogue: 50,0:08:52.55,0:08:59.10,Main-207+,,0,0,0,,Uzun zaman önce olsa da birinin geleceğin\Nüç Yonko'suna liderlik etmesi inanılır gibi değil!
+Dialogue: 50,0:08:59.48,0:09:05.11,Main-207+,,0,0,0,,Rocks, belki de Roger'ın karşılaştığı ilk ve en dişli düşmandı.
+Dialogue: 50,0:09:05.11,0:09:08.82,Main-207+,,0,0,0,,Garip bir şekilde Roger ve Rocks'ın\Nortak bir yanı da vardı.
+Dialogue: 50,0:09:10.32,0:09:14.62,Main-207+,,0,0,0,,Rocks'ın tam adı Rocks D. Xebec'ti.
+Dialogue: 50,0:09:15.28,0:09:17.50,Main-207+,,0,0,0,,Çoktan ölüp gitti...
+Dialogue: 50,0:09:17.50,0:09:22.83,Main-207+,,0,0,0,,{\fad(0,1060)}ama o da isminde "D." olan bir korsandı!
+Dialogue: 50,0:09:38.39,0:09:43.90,Main-207+,,0,0,0,,Kaido ve Big Mom'ın aynı gemide olduğu doğru...
+Dialogue: 50,0:09:43.90,0:09:49.36,Main-207+,,0,0,0,,ancak yetenekleri 38 yıl öncesinden\Ntamamen farklı.
+Dialogue: 50,0:09:49.36,0:09:55.62,Main-207+,,0,0,0,,Bu ittifak doğruysa, dünyanın en tehlikeli korsan grubuyla karşılaşacağız.
+Dialogue: 50,0:09:55.62,0:09:59.50,Main-207+,,0,0,0,,Brannew! Şu an ödülleri ne kadar?
 Dialogue: 50,0:09:59.50,0:10:01.00,Main-207+,,0,0,0,,Ah, evet.
-Dialogue: 50,0:10:01.00,0:10:06.92,Main-207+,,0,0,0,,AyrÄ±ca Shichibukai unvanÄ± ellerinden alÄ±nanlar iÃ§in de yeni Ã¶dÃ¼ller belirlemeliyiz.
-Dialogue: 50,0:10:06.92,0:10:11.13,Main-207+,,0,0,0,,Åu rakamlarÄ± bir gÃ¶zden geÃ§irelim.
-Dialogue: 50,0:10:21.10,0:10:22.98,Main-207+,,0,0,0,,Karasakal ile baÅŸlayacak olursak...
-Dialogue: 50,0:10:22.98,0:10:26.90,Main-207+,,0,0,0,,yaklaÅŸÄ±k bir yÄ±l Ã¶nce,\NYonko olarak anÄ±lmaya baÅŸlandÄ±...
-Dialogue: 50,0:10:27.73,0:10:32.82,Main-207+,,0,0,0,,Ä°ki yÄ±l Ã¶nceki Impel Down baskÄ±nÄ±nda\NyanÄ±na gÃ¼Ã§lÃ¼ adamlar topladÄ±...
-Dialogue: 50,0:10:32.82,0:10:36.49,Main-207+,,0,0,0,,ve ÅŸu an Korsan AdasÄ± Hachinosu'nun kontrolÃ¼nÃ¼ ele geÃ§irmiÅŸ durumda.
-Dialogue: 50,0:10:36.49,0:10:41.54,Main-207+,,0,0,0,,{\t(4067,0,1,\c&HFFFFFF&\3c&HFFFFFF&\4c&HFFFFFF&)}Beyazsakal'Ä±n boÅŸluÄŸunu doldurup gÃ¼cÃ¼nÃ¼ artÄ±rmaya devam ediyor!
-Dialogue: 50,0:10:43.08,0:10:46.00,Main-207+,,0,0,0,,Karasakal KorsanlarÄ±'nÄ±n lideri...
+Dialogue: 50,0:10:01.00,0:10:06.92,Main-207+,,0,0,0,,Ayrıca Shichibukai unvanı ellerinden alınanlar için de yeni ödüller belirlemeliyiz.
+Dialogue: 50,0:10:06.92,0:10:11.13,Main-207+,,0,0,0,,Şu rakamları bir gözden geçirelim.
+Dialogue: 50,0:10:21.10,0:10:22.98,Main-207+,,0,0,0,,Karasakal ile başlayacak olursak...
+Dialogue: 50,0:10:22.98,0:10:26.90,Main-207+,,0,0,0,,yaklaşık bir yıl önce,\NYonko olarak anılmaya başlandı...
+Dialogue: 50,0:10:27.73,0:10:32.82,Main-207+,,0,0,0,,İki yıl önceki Impel Down baskınında\Nyanına güçlü adamlar topladı...
+Dialogue: 50,0:10:32.82,0:10:36.49,Main-207+,,0,0,0,,ve şu an Korsan Adası Hachinosu'nun kontrolünü ele geçirmiş durumda.
+Dialogue: 50,0:10:36.49,0:10:41.54,Main-207+,,0,0,0,,{\t(4067,0,1,\c&HFFFFFF&\3c&HFFFFFF&\4c&HFFFFFF&)}Beyazsakal'ın boşluğunu doldurup gücünü artırmaya devam ediyor!
+Dialogue: 50,0:10:43.08,0:10:46.00,Main-207+,,0,0,0,,Karasakal Korsanları'nın lideri...
 Dialogue: 50,0:10:46.00,0:10:48.38,Main-207+,,0,0,0,,Marshall D. Teach!
-Dialogue: 50,0:10:48.38,0:10:52.13,Main-207+,,0,0,0,,Ã–dÃ¼l: 2.247.600.000 beli!
-Dialogue: 50,0:10:56.59,0:10:57.97,Main-207+,,0,0,0,,SÄ±radaki isim,
-Dialogue: 50,0:10:58.51,0:11:01.39,Main-207+,,0,0,0,,altÄ± yÄ±ldÄ±r Yonko olarak anÄ±lÄ±yor...
-Dialogue: 50,0:11:02.47,0:11:08.23,Main-207+,,0,0,0,,DÃ¶rtlÃ¼ arasÄ±ndaki en genÃ§ isim ve\NadamlarÄ± ona canÄ±gÃ¶nÃ¼lden baÄŸlÄ±.
+Dialogue: 50,0:10:48.38,0:10:52.13,Main-207+,,0,0,0,,Ödül: 2.247.600.000 beli!
+Dialogue: 50,0:10:56.59,0:10:57.97,Main-207+,,0,0,0,,Sıradaki isim,
+Dialogue: 50,0:10:58.51,0:11:01.39,Main-207+,,0,0,0,,altı yıldır Yonko olarak anılıyor...
+Dialogue: 50,0:11:02.47,0:11:08.23,Main-207+,,0,0,0,,Dörtlü arasındaki en genç isim ve\Nadamları ona canıgönülden bağlı.
 Dialogue: 50,0:11:08.81,0:11:10.11,Main-207+,,0,0,0,,Beckman.
 Dialogue: 50,0:11:10.11,0:11:11.28,Main-207+,,0,0,0,,Roux.
 Dialogue: 50,0:11:11.28,0:11:12.48,Main-207+,,0,0,0,,Yasopp.
-Dialogue: 50,0:11:12.48,0:11:15.24,Main-207+,,0,0,0,,KomutanlarÄ±nÄ±n her biri\NayrÄ± birer nam sahibi;
-Dialogue: 50,0:11:15.78,0:11:22.29,Main-207+,,0,0,0,,{\t(5526,0,1,\c&HFFFFFF&\3c&HFFFFFF&\4c&HFFFFFF&)}yÃ¼ksek Ã¶dÃ¼llÃ¼ bu yenilmez tayfa\NaralarÄ±ndan en dengeli olanÄ±dÄ±r.
-Dialogue: 50,0:11:23.45,0:11:26.62,Main-207+,,0,0,0,,KÄ±zÄ±l SaÃ§ KorsanlarÄ±'nÄ±n patronu...
-Dialogue: 50,0:11:26.62,0:11:29.04,Main-207+,,0,0,0,,KÄ±zÄ±l SaÃ§lÄ± Shanks!
-Dialogue: 50,0:11:29.04,0:11:32.38,Main-207+,,0,0,0,,Ã–dÃ¼l: 4.048.900.000 beli!
-Dialogue: 50,0:11:36.26,0:11:37.30,Main-207+,,0,0,0,,SÄ±radaki...
-Dialogue: 50,0:11:38.30,0:11:43.14,Main-207+,,0,0,0,,Ã‡ocukken Elbaf'taki devler kÃ¶yÃ¼nÃ¼\Nyerle bir ettiÄŸi sÃ¶ylenen...
-Dialogue: 50,0:11:43.14,0:11:46.02,Main-207+,,0,0,0,,doÄŸuÅŸtan bir canavar!
-Dialogue: 50,0:11:46.02,0:11:48.56,Main-207+,,0,0,0,,Kendi soyu dÄ±ÅŸÄ±nda kimseye zerre gÃ¼venmez!
-Dialogue: 50,0:11:48.56,0:11:55.32,Main-207+,,0,0,0,,85 Ã§ocuÄŸuyla el ele veren bu zorba kraliÃ§e,\NÅŸekerden bir kraliÃ§elik olan...
+Dialogue: 50,0:11:12.48,0:11:15.24,Main-207+,,0,0,0,,Komutanlarının her biri\Nayrı birer nam sahibi;
+Dialogue: 50,0:11:15.78,0:11:22.29,Main-207+,,0,0,0,,{\t(5526,0,1,\c&HFFFFFF&\3c&HFFFFFF&\4c&HFFFFFF&)}yüksek ödüllü bu yenilmez tayfa\Naralarından en dengeli olanıdır.
+Dialogue: 50,0:11:23.45,0:11:26.62,Main-207+,,0,0,0,,Kızıl Saç Korsanları'nın patronu...
+Dialogue: 50,0:11:26.62,0:11:29.04,Main-207+,,0,0,0,,Kızıl Saçlı Shanks!
+Dialogue: 50,0:11:29.04,0:11:32.38,Main-207+,,0,0,0,,Ödül: 4.048.900.000 beli!
+Dialogue: 50,0:11:36.26,0:11:37.30,Main-207+,,0,0,0,,Sıradaki...
+Dialogue: 50,0:11:38.30,0:11:43.14,Main-207+,,0,0,0,,Çocukken Elbaf'taki devler köyünü\Nyerle bir ettiği söylenen...
+Dialogue: 50,0:11:43.14,0:11:46.02,Main-207+,,0,0,0,,doğuştan bir canavar!
+Dialogue: 50,0:11:46.02,0:11:48.56,Main-207+,,0,0,0,,Kendi soyu dışında kimseye zerre güvenmez!
+Dialogue: 50,0:11:48.56,0:11:55.32,Main-207+,,0,0,0,,85 çocuğuyla el ele veren bu zorba kraliçe,\Nşekerden bir kraliçelik olan...
 Dialogue: 50,0:11:55.32,0:11:58.41,Main-207+,,0,0,0,,{\t(2022,0,1,\c&HFFFFFF&\3c&HFFFFFF&\4c&HFFFFFF&)}Totto Land'i kurdu!
-Dialogue: 50,0:11:59.53,0:12:02.79,Main-207+,,0,0,0,,Big Mom KorsanlarÄ±'nÄ±n kaptanÄ±...
+Dialogue: 50,0:11:59.53,0:12:02.79,Main-207+,,0,0,0,,Big Mom Korsanları'nın kaptanı...
 Dialogue: 50,0:12:02.79,0:12:05.25,Main-207+,,0,0,0,,Charlotte Linlin!
-Dialogue: 50,0:12:05.25,0:12:08.46,Main-207+,,0,0,0,,Ã–dÃ¼l: 4.388.000.000 beli!
-Dialogue: 50,0:12:12.71,0:12:16.97,Main-207+,,0,0,0,,Ve sonuncusu; Rocks tayfasÄ±ndayken sadece...
-Dialogue: 50,0:12:17.97,0:12:21.14,Main-207+,,0,0,0,,bir korsan Ã§Ä±raÄŸÄ±ydÄ±...
-Dialogue: 50,0:12:22.76,0:12:29.27,Main-207+,,0,0,0,,SonrasÄ±ndaysa salt kaba kuvvetiyle\Nen azÄ±lÄ± korsanlarÄ±n bile saygÄ±sÄ±nÄ± kazandÄ±...
+Dialogue: 50,0:12:05.25,0:12:08.46,Main-207+,,0,0,0,,Ödül: 4.388.000.000 beli!
+Dialogue: 50,0:12:12.71,0:12:16.97,Main-207+,,0,0,0,,Ve sonuncusu; Rocks tayfasındayken sadece...
+Dialogue: 50,0:12:17.97,0:12:21.14,Main-207+,,0,0,0,,bir korsan çırağıydı...
+Dialogue: 50,0:12:22.76,0:12:29.27,Main-207+,,0,0,0,,Sonrasındaysa salt kaba kuvvetiyle\Nen azılı korsanların bile saygısını kazandı...
 Dialogue: 50,0:12:29.27,0:12:33.02,Main-207+,,0,0,0,,{\t(2773,0,1,\c&HFFFFFF&\3c&HFFFFFF&\4c&HFFFFFF&)}ve Yonko oldu!
-Dialogue: 50,0:12:34.15,0:12:36.99,Main-207+,,0,0,0,,Canavar KorsanlarÄ± baÅŸkomutanÄ±...
-Dialogue: 50,0:12:36.99,0:12:39.11,Main-207+,,0,0,0,,Canavarlar KralÄ± Kaido!
-Dialogue: 50,0:12:39.70,0:12:43.12,Main-207+,,0,0,0,,Ã–dÃ¼l: 4.611.100.000 beli!
-Dialogue: 50,0:12:47.62,0:12:49.04,Main-207+,,0,0,0,,Ä°Ã§im karardÄ±...
-Dialogue: 50,0:12:49.37,0:12:57.17,Main-207+,,0,0,0,,{\q2}Reverie'deki karardan dolayÄ± bu Yonko'larla\NsavaÅŸmak iÃ§in artÄ±k Shichibukai'leri kullanamayÄ±z!
-Dialogue: 50,0:13:01.76,0:13:05.76,Main-207+,,0,0,0,,AramÄ±zdaki zehirleri temizlemenin iyi bir seÃ§im olup olmadÄ±ÄŸÄ±...
-Dialogue: 50,0:13:06.18,0:13:11.23,Main-207+,,0,0,0,,Ã–zel Bilim DepartmanÄ± olan\NSSG'nin baÅŸarÄ±sÄ±na baÄŸlÄ±.
-Dialogue: 50,0:13:11.65,0:13:14.61,Main-207+,,0,0,0,,Referans olmasÄ± aÃ§Ä±sÄ±ndan,
-Dialogue: 50,0:13:14.61,0:13:17.65,Main-207+,,0,0,0,,iÅŸte diÄŸer efsanevi isimlerin Ã¶dÃ¼lleri!
-Dialogue: 50,0:13:19.61,0:13:22.28,Main-207+,,0,0,0,,Beyazsakal KorsanlarÄ±'nÄ±n kaptanÄ±...
+Dialogue: 50,0:12:34.15,0:12:36.99,Main-207+,,0,0,0,,Canavar Korsanları başkomutanı...
+Dialogue: 50,0:12:36.99,0:12:39.11,Main-207+,,0,0,0,,Canavarlar Kralı Kaido!
+Dialogue: 50,0:12:39.70,0:12:43.12,Main-207+,,0,0,0,,Ödül: 4.611.100.000 beli!
+Dialogue: 50,0:12:47.62,0:12:49.04,Main-207+,,0,0,0,,İçim karardı...
+Dialogue: 50,0:12:49.37,0:12:57.17,Main-207+,,0,0,0,,{\q2}Reverie'deki karardan dolayı bu Yonko'larla\Nsavaşmak için artık Shichibukai'leri kullanamayız!
+Dialogue: 50,0:13:01.76,0:13:05.76,Main-207+,,0,0,0,,Aramızdaki zehirleri temizlemenin iyi bir seçim olup olmadığı...
+Dialogue: 50,0:13:06.18,0:13:11.23,Main-207+,,0,0,0,,Özel Bilim Departmanı olan\NSSG'nin başarısına bağlı.
+Dialogue: 50,0:13:11.65,0:13:14.61,Main-207+,,0,0,0,,Referans olması açısından,
+Dialogue: 50,0:13:14.61,0:13:17.65,Main-207+,,0,0,0,,işte diğer efsanevi isimlerin ödülleri!
+Dialogue: 50,0:13:19.61,0:13:22.28,Main-207+,,0,0,0,,Beyazsakal Korsanları'nın kaptanı...
 Dialogue: 50,0:13:22.28,0:13:24.20,Main-207+,,0,0,0,,Edward Newgate!
-Dialogue: 50,0:13:24.87,0:13:27.91,Main-207+,,0,0,0,,Ã–dÃ¼l: 5.046.000.000 beli!
-Dialogue: 50,0:13:32.67,0:13:35.29,Main-207+,,0,0,0,,Roger KorsanlarÄ±'nÄ±n kaptanÄ±...
-Dialogue: 50,0:13:35.29,0:13:38.51,Main-207+,,0,0,0,,Korsanlar KralÄ± Gold Roger!
-Dialogue: 50,0:13:38.51,0:13:41.84,Main-207+,,0,0,0,,Ã–dÃ¼l: 5.564.800.000 beli!
-Dialogue: 50,0:13:45.72,0:13:51.64,Main-207+,,0,0,0,,Åu ana dek hiÃ§bir korsan bu ikisini aÅŸamadÄ±...
-Dialogue: 50,0:13:54.19,0:13:57.65,Main-207+,,0,0,0,,ancak Kaido ve Big Mom ittifakÄ± kurulduÄŸunda,
-Dialogue: 50,0:13:57.98,0:14:02.28,Main-207+,,0,0,0,,Ã¶dÃ¼llerinin toplamÄ±\NbunlarÄ± rahatÃ§a geÃ§ecektir!
-Dialogue: 50,0:14:05.66,0:14:08.91,Main-207+,,0,0,0,,Åu anda, hÃ¼kÃ»metle baÄŸÄ± olmayan Wano'daâ€“
+Dialogue: 50,0:13:24.87,0:13:27.91,Main-207+,,0,0,0,,Ödül: 5.046.000.000 beli!
+Dialogue: 50,0:13:32.67,0:13:35.29,Main-207+,,0,0,0,,Roger Korsanları'nın kaptanı...
+Dialogue: 50,0:13:35.29,0:13:38.51,Main-207+,,0,0,0,,Korsanlar Kralı Gold Roger!
+Dialogue: 50,0:13:38.51,0:13:41.84,Main-207+,,0,0,0,,Ödül: 5.564.800.000 beli!
+Dialogue: 50,0:13:45.72,0:13:51.64,Main-207+,,0,0,0,,Şu ana dek hiçbir korsan bu ikisini aşamadı...
+Dialogue: 50,0:13:54.19,0:13:57.65,Main-207+,,0,0,0,,ancak Kaido ve Big Mom ittifakı kurulduğunda,
+Dialogue: 50,0:13:57.98,0:14:02.28,Main-207+,,0,0,0,,ödüllerinin toplamı\Nbunları rahatça geçecektir!
+Dialogue: 50,0:14:05.66,0:14:08.91,Main-207+,,0,0,0,,Şu anda, hükûmetle bağı olmayan Wano'da–
 Dialogue: 50,0:14:11.04,0:14:13.29,Main-207+,,0,0,0,,Filo Amirali Sakazuki!
-Dialogue: 50,0:14:13.29,0:14:15.25,Main-207+,,0,0,0,,Wano'yu boÅŸ verin!
-Dialogue: 50,0:14:17.88,0:14:23.18,Main-207+,,0,0,0,,Oraya ayÄ±racak tek bir kaynaÄŸÄ±mÄ±z bile yok,
+Dialogue: 50,0:14:13.29,0:14:15.25,Main-207+,,0,0,0,,Wano'yu boş verin!
+Dialogue: 50,0:14:17.88,0:14:23.18,Main-207+,,0,0,0,,Oraya ayıracak tek bir kaynağımız bile yok,
 Dialogue: 50,0:14:23.18,0:14:25.01,Main-207+,,0,0,0,,Sengoku-{\i1}san{\i0}!
-Dialogue: 50,0:14:32.02,0:14:35.56,Main-207+,,0,0,0,,Elbette karÄ±ÅŸmak gibi bir niyetim yoktu...
-Dialogue: 50,0:14:36.02,0:14:40.73,Main-207+,,0,0,0,,Sadece eski bir piyade olarak\NgenÃ§lere bilgi aktarÄ±yordum.
-Dialogue: 50,0:14:45.70,0:14:48.99,Main-207+,,0,0,0,,KorsanlarÄ±n da kendi aralarÄ±nda geÃ§miÅŸleri vardÄ±r.
-Dialogue: 50,0:14:48.99,0:14:52.00,Main-207+,,0,0,0,,Bu geÃ§miÅŸler eylemlerini de etkiler.
-Dialogue: 50,0:14:52.00,0:14:55.12,Main-207+,,0,0,0,,GeÃ§miÅŸlerini bilmezsek,\Nhamlelerini tahmin edemeyiz.
+Dialogue: 50,0:14:32.02,0:14:35.56,Main-207+,,0,0,0,,Elbette karışmak gibi bir niyetim yoktu...
+Dialogue: 50,0:14:36.02,0:14:40.73,Main-207+,,0,0,0,,Sadece eski bir piyade olarak\Ngençlere bilgi aktarıyordum.
+Dialogue: 50,0:14:45.70,0:14:48.99,Main-207+,,0,0,0,,Korsanların da kendi aralarında geçmişleri vardır.
+Dialogue: 50,0:14:48.99,0:14:52.00,Main-207+,,0,0,0,,Bu geçmişler eylemlerini de etkiler.
+Dialogue: 50,0:14:52.00,0:14:55.12,Main-207+,,0,0,0,,Geçmişlerini bilmezsek,\Nhamlelerini tahmin edemeyiz.
 Dialogue: 50,0:14:55.83,0:14:57.21,Main-207+,,0,0,0,,Sahi...
-Dialogue: 50,0:14:57.21,0:15:03.01,Main-207+,,0,0,0,,Wano'da vaktiyle Beyazsakal, Roger ve\NKÄ±zÄ±l SaÃ§'Ä±n takdirini kazanmÄ±ÅŸ bir korsan vardÄ±.
+Dialogue: 50,0:14:57.21,0:15:03.01,Main-207+,,0,0,0,,Wano'da vaktiyle Beyazsakal, Roger ve\NKızıl Saç'ın takdirini kazanmış bir korsan vardı.
 Dialogue: 50,0:15:07.30,0:15:09.64,Main-207+,,0,0,0,,Kozuki Oden'i mi kastediyorsun?
-Dialogue: 50,0:15:09.64,0:15:13.89,Main-207+,,0,0,0,,Bir zamanlar Beyazsakal'Ä±n gemisinde\NtÃ¼men komutanlÄ±ÄŸÄ± yapmÄ±ÅŸ o adamÄ±...
-Dialogue: 50,0:15:14.35,0:15:21.19,Main-207+,,0,0,0,,Oden daha sonra Roger tarafÄ±ndan tayfaya\NalÄ±ndÄ± ve son yolculuÄŸunda ona eÅŸlik etti.
-Dialogue: 50,0:15:21.69,0:15:25.20,Main-207+,,0,0,0,,Oden'in bu olanlarla bir ilgisi\NolduÄŸuna inanmak gÃ¼Ã§ ama...
-Dialogue: 50,0:15:31.20,0:15:36.67,Main-207+,,0,0,0,,neden dÃ¼nyayÄ± sarsan\Nbu bÃ¼yÃ¼k isimlerin yolu...
-Dialogue: 50,0:15:36.67,0:15:41.88,Main-207+,,0,0,0,,{\t(2393,0,1,\c&H000000&\3c&H000000&\4c&H000000&)}hep Wano ile kesiÅŸiyor?
-Dialogue: 50,0:15:42.59,0:15:47.13,Main-207+,,0,0,0,,Bunun sadece bir tesadÃ¼f olmasÄ± imkÃ¢nsÄ±z...
+Dialogue: 50,0:15:09.64,0:15:13.89,Main-207+,,0,0,0,,Bir zamanlar Beyazsakal'ın gemisinde\Ntümen komutanlığı yapmış o adamı...
+Dialogue: 50,0:15:14.35,0:15:21.19,Main-207+,,0,0,0,,Oden daha sonra Roger tarafından tayfaya\Nalındı ve son yolculuğunda ona eşlik etti.
+Dialogue: 50,0:15:21.69,0:15:25.20,Main-207+,,0,0,0,,Oden'in bu olanlarla bir ilgisi\Nolduğuna inanmak güç ama...
+Dialogue: 50,0:15:31.20,0:15:36.67,Main-207+,,0,0,0,,neden dünyayı sarsan\Nbu büyük isimlerin yolu...
+Dialogue: 50,0:15:36.67,0:15:41.88,Main-207+,,0,0,0,,{\t(2393,0,1,\c&H000000&\3c&H000000&\4c&H000000&)}hep Wano ile kesişiyor?
+Dialogue: 50,0:15:42.59,0:15:47.13,Main-207+,,0,0,0,,Bunun sadece bir tesadüf olması imkânsız...
 Dialogue: 50,0:15:47.97,0:15:48.97,Main-207+,,0,0,0,,Sakazuki!
-Dialogue: 1,0:00:00.02,0:00:05.86,Captions-207+,,0,0,0,,{\fad(439,0)\b1\bord0\fs60\an8\blur0.5\pos(1722,507)}Yeni DÃ¼nya-\NDenizci KarargÃ¢hÄ±
-Dialogue: 0,0:00:00.02,0:00:05.86,Captions-207+,,0,0,0,,{\fad(439,0)\b1\bord2.5\1a&HFF&\fs60\blur0.5\an8\t(0,439,\1a&H00&)\pos(1722,507)}Yeni DÃ¼nya-\NDenizci KarargÃ¢hÄ±
+Dialogue: 1,0:00:00.02,0:00:05.86,Captions-207+,,0,0,0,,{\fad(439,0)\b1\bord0\fs60\an8\blur0.5\pos(1722,507)}Yeni Dünya-\NDenizci Karargâhı
+Dialogue: 0,0:00:00.02,0:00:05.86,Captions-207+,,0,0,0,,{\fad(439,0)\b1\bord2.5\1a&HFF&\fs60\blur0.5\an8\t(0,439,\1a&H00&)\pos(1722,507)}Yeni Dünya-\NDenizci Karargâhı
 Dialogue: 50,0:00:00.02,0:00:05.86,Note-207+,,0,0,0,,{\fad(439,0)}Yeni Marineford
 Dialogue: 0,0:00:05.88,0:00:11.58,Title-207+,,0,0,0,,{\fad(439,0)}Nihai
 Dialogue: 0,0:01:35.99,0:01:36.03,Captions-207+,,0,0,0,,{=30}{\pos(994.33,165)\fscx331\fscy321\frz359\fry358\frx14\fnYozakura JP\bord0\c&H251A13&\blur1}Issho
@@ -251,8 +251,8 @@ Dialogue: 0,0:01:37.32,0:01:37.36,Captions-207+,,0,0,0,,{=30}{\pos(994.32,662.89
 Dialogue: 0,0:01:37.36,0:01:37.41,Captions-207+,,0,0,0,,{=30}{\pos(994.32,664.6)\fscx331.03\fscy321.03\frz359\fry358\frx14\fnYozakura JP\bord0\c&H251A13&\blur1}Issho
 Dialogue: 0,0:01:37.41,0:01:37.45,Captions-207+,,0,0,0,,{=30}{\pos(994.32,665.63)\fscx331.03\fscy321.03\frz359\fry358\frx14\fnYozakura JP\bord0\c&H251A13&\blur1}Issho
 Dialogue: 0,0:01:37.45,0:01:39.16,Captions-207+,,0,0,0,,{=30}{\pos(994.31,665.93)\fscx331.03\fscy321.03\frz359\fry358\frx14\fnYozakura JP\bord0\c&H251A13&\blur1}Issho
-Dialogue: 1,0:04:53.52,0:05:02.41,Captions-207+,,0,0,0,,{\fad(440,0)\b1\bord0\fs70\an2\blur1.2\pos(932,765)\c&HF6F6F6&\fscx110\fscy110}38 YÄ±l Ã–nce
-Dialogue: 0,0:04:53.52,0:05:02.41,Captions-207+,,0,0,0,,{\fad(440,0)\b1\bord2.5\1a&HFF&\fs70\blur1.2\an2\c&HF6F6F6&\pos(932,765)\fscx110\fscy110\t(0,440,\1a&H7F&)}38 YÄ±l Ã–nce
+Dialogue: 1,0:04:53.52,0:05:02.41,Captions-207+,,0,0,0,,{\fad(440,0)\b1\bord0\fs70\an2\blur1.2\pos(932,765)\c&HF6F6F6&\fscx110\fscy110}38 Yıl Önce
+Dialogue: 0,0:04:53.52,0:05:02.41,Captions-207+,,0,0,0,,{\fad(440,0)\b1\bord2.5\1a&HFF&\fs70\blur1.2\an2\c&HF6F6F6&\pos(932,765)\fscx110\fscy110\t(0,440,\1a&H7F&)}38 Yıl Önce
 Dialogue: 0,0:07:44.48,0:07:44.52,Captions-207+,,0,0,0,,{=40}{\pos(931.67,670.33)\fscx280\fscy280\fnYozakura JP\bord0\c&H6464A0&\alpha&H80&\blur3}Emekli
 Dialogue: 0,0:07:44.52,0:07:44.56,Captions-207+,,0,0,0,,{=40}{\pos(931.37,693.1)\fscx280\fscy280\fnYozakura JP\bord0\c&H6464A0&\alpha&H80&\blur3}Emekli
 Dialogue: 0,0:07:44.56,0:07:44.61,Captions-207+,,0,0,0,,{=40}{\pos(934.15,702.85)\fscx280\fscy280\fnYozakura JP\bord0\c&H6464A0&\alpha&H80&\blur3}Emekli
@@ -463,8 +463,8 @@ Dialogue: 0,0:09:43.72,0:09:43.77,Captions-207+,,0,0,0,,{=23}{\alpha&H00&\pos(20
 Dialogue: 0,0:09:43.77,0:09:43.81,Captions-207+,,0,0,0,,{=23}{\alpha&H00&\pos(2031.05,674.77)\fscx331\fscy321\frz359\fry2\frx0\fnYozakura JP\b0\bord0\shad0\c&H141014&\blur5.851}Emekli
 Dialogue: 0,0:09:43.81,0:09:43.85,Captions-207+,,0,0,0,,{=23}{\alpha&H00&\pos(2040.12,674.77)\fscx331\fscy321\frz359\fry2\frx0\fnYozakura JP\b0\bord0\shad0\c&H141014&\blur5.925}Emekli
 Dialogue: 0,0:09:43.85,0:09:43.89,Captions-207+,,0,0,0,,{=23}{\alpha&H00&\pos(2049.16,674.77)\fscx331\fscy321\frz359\fry2\frx0\fnYozakura JP\b0\bord0\shad0\c&H141014&\blur6}Emekli
-Dialogue: 0,0:16:16.62,0:16:22.50,Credits-207+,,0,0,0,,{\fscx75\fscy75\pos(15,15)}Video DÃ¼zenleme:\N Gigglebot\N\NZamanlama:\NGab\N\NDizgi:\NPhosCity\NGab\N\NKalite Kontrol:\NFeeso\NGalaxy 9000\NPepperjack\NRaiyan\NScolines\NZenef\N\NMÃ¼zik:\N Halee\N\NGrafik:\N Datenshi
-Dialogue: 0,0:16:16.62,0:16:22.50,Credits-207+,,0,0,0,,{\pos(1597,15)\fscx75\fscy75}\N\NAltyazÄ± DÃ¼zenleme [TR]:\NJack Cohle\N-onepacetr.net-\N\NÃ‡evirmenler [TR]:\NZyrecon\NJack Cohle
+Dialogue: 0,0:16:16.62,0:16:22.50,Credits-207+,,0,0,0,,{\fscx75\fscy75\pos(15,15)}Video Düzenleme:\N Gigglebot\N\NZamanlama:\NGab\N\NDizgi:\NPhosCity\NGab\N\NKalite Kontrol:\NFeeso\NGalaxy 9000\NPepperjack\NRaiyan\NScolines\NZenef\N\NMüzik:\N Halee\N\NGrafik:\N Datenshi
+Dialogue: 0,0:16:16.62,0:16:22.50,Credits-207+,,0,0,0,,{\pos(1597,15)\fscx75\fscy75}\N\NAltyazı Düzenleme [TR]:\NJack Cohle\N-onepacetr.net-\N\NÇevirmenler [TR]:\NZyrecon\NJack Cohle
 
 [Aegisub Extradata]
 Data: 23,a-mo,e{"uuid"#3A"a1abd2cc-2f99-42db-a586-9a32ac631db5"#2C"originalText"#3A"{\\pos(779.94#2C674.77)\\fscx331\\fscy321\\frz359\\fry2\\frx0\\fnYozakura JP\\b0\\bord0\\shad0\\c&H141014&\\blur1\\t(4479#2C5790#2C1#2C\\blur5)}Retired"}

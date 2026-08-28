@@ -1,4 +1,4 @@
-ï»¿[Script Info]
+﻿[Script Info]
 Title: Default Aegisub file
 ScriptType: v4.00+
 WrapStyle: 0
@@ -33,532 +33,532 @@ Style: Ending Translation,Duality,72,&H00FFFFFF,&H000000FF,&H00000000,&H50000000
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:09.99,Warning,,0,0,0,,{\org(0,0)\fscx0\fscy0\clip(0,0,0,0)}Medya oynatÄ±cÄ±nÄ±z bu bÃ¶lÃ¼mde kullanÄ±lan altyazÄ± formatÄ±nÄ± desteklemiyor.\NAltyazÄ±lar muhtemelen dÃ¼zgÃ¼n Ã§alÄ±ÅŸmayacaktÄ±r.\NLÃ¼tfen Ã¶nerilen video oynatÄ±cÄ±lardan birini, tercihen mpv kullanÄ±n:\Nhttps://mpv.io
-Dialogue: 0,0:01:49.92,0:01:59.92,Warning,,0,0,0,,{\org(0,0)\fscx0\fscy0\clip(0,0,0,0)}Medya oynatÄ±cÄ±nÄ±z bu bÃ¶lÃ¼mde kullanÄ±lan altyazÄ± formatÄ±nÄ± desteklemiyor.\NAltyazÄ±lar muhtemelen dÃ¼zgÃ¼n Ã§alÄ±ÅŸmayacaktÄ±r.\NLÃ¼tfen Ã¶nerilen video oynatÄ±cÄ±lardan birini, tercihen mpv kullanÄ±n:\Nhttps://mpv.io
-Dialogue: 50,0:02:06.86,0:02:08.32,Main-207-,,0,0,0,,Bu bir Ã§iÃ§ek!
-Dialogue: 50,0:02:07.57,0:02:08.32,Secondary-207-,,0,0,0,,Ã‡iÃ§ek mi?
-Dialogue: 50,0:02:13.28,0:02:15.28,Main-207-,,0,0,0,,HayÄ±r, boÅŸ ver. Ä°nsanmÄ±ÅŸ.
+Dialogue: 0,0:00:00.00,0:00:09.99,Warning,,0,0,0,,{\org(0,0)\fscx0\fscy0\clip(0,0,0,0)}Medya oynatıcınız bu bölümde kullanılan altyazı formatını desteklemiyor.\NAltyazılar muhtemelen düzgün çalışmayacaktır.\NLütfen önerilen video oynatıcılardan birini, tercihen mpv kullanın:\Nhttps://mpv.io
+Dialogue: 0,0:01:49.92,0:01:59.92,Warning,,0,0,0,,{\org(0,0)\fscx0\fscy0\clip(0,0,0,0)}Medya oynatıcınız bu bölümde kullanılan altyazı formatını desteklemiyor.\NAltyazılar muhtemelen düzgün çalışmayacaktır.\NLütfen önerilen video oynatıcılardan birini, tercihen mpv kullanın:\Nhttps://mpv.io
+Dialogue: 50,0:02:06.86,0:02:08.32,Main-207-,,0,0,0,,Bu bir çiçek!
+Dialogue: 50,0:02:07.57,0:02:08.32,Secondary-207-,,0,0,0,,Çiçek mi?
+Dialogue: 50,0:02:13.28,0:02:15.28,Main-207-,,0,0,0,,Hayır, boş ver. İnsanmış.
 Dialogue: 50,0:02:15.28,0:02:16.57,Main-207-,,0,0,0,,Ne bu?
-Dialogue: 50,0:02:16.57,0:02:20.12,Main-207-,,0,0,0,,Bu yaÅŸlÄ± adam,\Ndev kalamara tek attÄ±...
-Dialogue: 50,0:02:20.12,0:02:21.87,Main-207-,,0,0,0,,Sadece balÄ±k mÄ± tutuyordu...
-Dialogue: 50,0:02:21.87,0:02:24.96,Main-207-,,0,0,0,,yoksa bizi kurtarmak iÃ§in mi yaptÄ±?
-Dialogue: 50,0:02:52.24,0:02:54.70,Main-207-,,0,0,0,,Bir ÅŸey desene lan, hÄ±yar!
-Dialogue: 50,0:02:57.66,0:03:00.20,Main-207-,,0,0,0,,S-SavaÅŸmak istiyorsan\NsavaÅŸÄ±rÄ±z, ÅŸerefsiz!
-Dialogue: 50,0:03:00.20,0:03:01.91,Main-207-,,0,0,0,,ToplarÄ±mÄ±z var!
-Dialogue: 50,0:03:02.41,0:03:05.29,Main-207-,,0,0,0,,SavaÅŸmasanÄ±z daha iyi olur, biri Ã¶lebilir.
-Dialogue: 50,0:03:08.63,0:03:09.92,Main-207-,,0,0,0,,Ã–yle mi?
-Dialogue: 50,0:03:09.92,0:03:11.17,Main-207-,,0,0,0,,Kim Ã¶lecek?
+Dialogue: 50,0:02:16.57,0:02:20.12,Main-207-,,0,0,0,,Bu yaşlı adam,\Ndev kalamara tek attı...
+Dialogue: 50,0:02:20.12,0:02:21.87,Main-207-,,0,0,0,,Sadece balık mı tutuyordu...
+Dialogue: 50,0:02:21.87,0:02:24.96,Main-207-,,0,0,0,,yoksa bizi kurtarmak için mi yaptı?
+Dialogue: 50,0:02:52.24,0:02:54.70,Main-207-,,0,0,0,,Bir şey desene lan, hıyar!
+Dialogue: 50,0:02:57.66,0:03:00.20,Main-207-,,0,0,0,,S-Savaşmak istiyorsan\Nsavaşırız, şerefsiz!
+Dialogue: 50,0:03:00.20,0:03:01.91,Main-207-,,0,0,0,,Toplarımız var!
+Dialogue: 50,0:03:02.41,0:03:05.29,Main-207-,,0,0,0,,Savaşmasanız daha iyi olur, biri ölebilir.
+Dialogue: 50,0:03:08.63,0:03:09.92,Main-207-,,0,0,0,,Öyle mi?
+Dialogue: 50,0:03:09.92,0:03:11.17,Main-207-,,0,0,0,,Kim ölecek?
 Dialogue: 50,0:03:11.17,0:03:12.38,Main-207-,,0,0,0,,Ben.
 Dialogue: 50,0:03:12.38,0:03:13.63,Main-207-,,0,0,0,,Sen mi?!
 Dialogue: 50,0:03:13.63,0:03:14.42,Main-207-,,0,0,0,,Ulan...
-Dialogue: 50,0:03:14.42,0:03:15.47,Main-207-,,0,0,0,,Hey, sakinleÅŸ.
-Dialogue: 50,0:03:15.47,0:03:17.89,Main-207-,,0,0,0,,Bizimle dalga geÃ§iyor...
+Dialogue: 50,0:03:14.42,0:03:15.47,Main-207-,,0,0,0,,Hey, sakinleş.
+Dialogue: 50,0:03:15.47,0:03:17.89,Main-207-,,0,0,0,,Bizimle dalga geçiyor...
 Dialogue: 50,0:03:19.18,0:03:21.18,Main-207-,,0,0,0,,Hey, ihtiyar!
-Dialogue: 50,0:03:21.18,0:03:24.23,Main-207-,,0,0,0,,Bize kim olduÄŸunu ve\Nnerede olduÄŸumuzu sÃ¶yle.
+Dialogue: 50,0:03:21.18,0:03:24.23,Main-207-,,0,0,0,,Bize kim olduğunu ve\Nnerede olduğumuzu söyle.
 Dialogue: 50,0:03:24.81,0:03:26.48,Main-207-,,0,0,0,,Birine soru sorarken,
-Dialogue: 50,0:03:27.15,0:03:31.32,Main-207-,,0,0,0,,nezaketen Ã¶nce kendini\NtanÄ±tman gerekmez mi?
-Dialogue: 50,0:03:31.32,0:03:34.61,Main-207-,,0,0,0,,Ha? Evet, doÄŸru dedin.
+Dialogue: 50,0:03:27.15,0:03:31.32,Main-207-,,0,0,0,,nezaketen önce kendini\Ntanıtman gerekmez mi?
+Dialogue: 50,0:03:31.32,0:03:34.61,Main-207-,,0,0,0,,Ha? Evet, doğru dedin.
 Dialogue: 50,0:03:34.61,0:03:35.78,Main-207-,,0,0,0,,Kusura bakma.
-Dialogue: 50,0:03:35.78,0:03:38.49,Main-207-,,0,0,0,,â€“ Benim adÄ±m Crocus.\Nâ€“ Ben Roro... noa...
-Dialogue: 50,0:03:38.49,0:03:41.70,Main-207-,,0,0,0,,Ä°kiz Burun'un\Ndeniz feneri bekÃ§isiyim.
-Dialogue: 50,0:03:41.70,0:03:43.54,Main-207-,,0,0,0,,71 yaÅŸÄ±ndayÄ±m ve\Nikizler burcuyum.
+Dialogue: 50,0:03:35.78,0:03:38.49,Main-207-,,0,0,0,,– Benim adım Crocus.\N– Ben Roro... noa...
+Dialogue: 50,0:03:38.49,0:03:41.70,Main-207-,,0,0,0,,İkiz Burun'un\Ndeniz feneri bekçisiyim.
+Dialogue: 50,0:03:41.70,0:03:43.54,Main-207-,,0,0,0,,71 yaşındayım ve\Nikizler burcuyum.
 Dialogue: 50,0:03:43.54,0:03:46.21,Main-207-,,0,0,0,,Kan grubum AB.
-Dialogue: 50,0:03:43.91,0:03:46.21,Main-207-,,0,0,0,,{\an8}BÄ±rakÄ±n biÃ§eyim ÅŸunu!
-Dialogue: 50,0:03:44.75,0:03:46.21,Secondary-207-,,0,0,0,,{\an8}Hey, sakinleÅŸ.
-Dialogue: 50,0:03:46.21,0:03:48.37,Main-207-,,0,0,0,,Nerede olduÄŸumuzu mu sordunuz?
-Dialogue: 50,0:03:48.92,0:03:56.47,Main-207-,,0,0,0,,Benim Ã¶zel mekanÄ±ma dalÄ±p\Nbir de soru mu soruyorsunuz?
+Dialogue: 50,0:03:43.91,0:03:46.21,Main-207-,,0,0,0,,{\an8}Bırakın biçeyim şunu!
+Dialogue: 50,0:03:44.75,0:03:46.21,Secondary-207-,,0,0,0,,{\an8}Hey, sakinleş.
+Dialogue: 50,0:03:46.21,0:03:48.37,Main-207-,,0,0,0,,Nerede olduğumuzu mu sordunuz?
+Dialogue: 50,0:03:48.92,0:03:56.47,Main-207-,,0,0,0,,Benim özel mekanıma dalıp\Nbir de soru mu soruyorsunuz?
 Dialogue: 50,0:03:57.26,0:04:00.80,Main-207-,,0,0,0,,Bir farenin midesinde\Ngibi mi duruyoruz?
-Dialogue: 50,0:04:00.80,0:04:03.64,Main-207-,,0,0,0,,O hÃ¢lde balina\NtarafÄ±ndan yutulduÄŸumuz gerÃ§ek.
-Dialogue: 50,0:04:04.35,0:04:07.02,Main-207-,,0,0,0,,Ama burasÄ± cidden\NbalinanÄ±n midesi mi?
-Dialogue: 50,0:04:07.02,0:04:09.94,Main-207-,,0,0,0,,Dur bi' saniye! Ne olacak ÅŸimdi bize?!
+Dialogue: 50,0:04:00.80,0:04:03.64,Main-207-,,0,0,0,,O hâlde balina\Ntarafından yutulduğumuz gerçek.
+Dialogue: 50,0:04:04.35,0:04:07.02,Main-207-,,0,0,0,,Ama burası cidden\Nbalinanın midesi mi?
+Dialogue: 50,0:04:07.02,0:04:09.94,Main-207-,,0,0,0,,Dur bi' saniye! Ne olacak şimdi bize?!
 Dialogue: 50,0:04:09.94,0:04:12.82,Main-207-,,0,0,0,,Sindirilmek istemiyorum!
-Dialogue: 50,0:04:12.82,0:04:14.73,Main-207-,,0,0,0,,Ã‡Ä±kÄ±ÅŸ o tarafta.
-Dialogue: 50,0:04:14.73,0:04:16.24,Main-207-,,0,0,0,,â€“ Ã‡Ä±kabilir miyiz yani?!\Nâ€“ Ã‡Ä±kabilir miyiz yani?!
-Dialogue: 50,0:04:17.11,0:04:20.66,Main-207-,,0,0,0,,Bir saniye! Niye balinanÄ±n\Nmidesinde bir Ã§Ä±kÄ±ÅŸ var?!
-Dialogue: 50,0:04:20.66,0:04:22.95,Main-207-,,0,0,0,,Ve niye kapÄ±sÄ± gÃ¶kyÃ¼zÃ¼nde?!
+Dialogue: 50,0:04:12.82,0:04:14.73,Main-207-,,0,0,0,,Çıkış o tarafta.
+Dialogue: 50,0:04:14.73,0:04:16.24,Main-207-,,0,0,0,,– Çıkabilir miyiz yani?!\N– Çıkabilir miyiz yani?!
+Dialogue: 50,0:04:17.11,0:04:20.66,Main-207-,,0,0,0,,Bir saniye! Niye balinanın\Nmidesinde bir çıkış var?!
+Dialogue: 50,0:04:20.66,0:04:22.95,Main-207-,,0,0,0,,Ve niye kapısı gökyüzünde?!
 Dialogue: 50,0:04:22.95,0:04:25.66,Main-207-,,0,0,0,,Dur... Dikkatli baksana...
-Dialogue: 50,0:04:25.66,0:04:29.92,Main-207-,,0,0,0,,GÃ¶kyÃ¼zÃ¼... MartÄ±lar...
+Dialogue: 50,0:04:25.66,0:04:29.92,Main-207-,,0,0,0,,Gökyüzü... Martılar...
 Dialogue: 50,0:04:30.58,0:04:31.83,Main-207-,,0,0,0,,Bunlar resim!
-Dialogue: 50,0:04:31.83,0:04:34.21,Main-207-,,0,0,0,,Hepsi balinanÄ±n midesine Ã§izilmiÅŸ resimler!
+Dialogue: 50,0:04:31.83,0:04:34.21,Main-207-,,0,0,0,,Hepsi balinanın midesine çizilmiş resimler!
 Dialogue: 50,0:04:34.21,0:04:35.42,Main-207-,,0,0,0,,Ha?!
-Dialogue: 50,0:04:35.42,0:04:37.05,Main-207-,,0,0,0,,Bir doktorun mizah anlayÄ±ÅŸÄ±.
-Dialogue: 50,0:04:37.05,0:04:39.43,Main-207-,,0,0,0,,Seni ÅŸerefsiz!\NBuradaki amacÄ±n ne?!
-Dialogue: 50,0:04:39.43,0:04:41.14,Main-207-,,0,0,0,,Bu kadarÄ± yeter. GÃ¶rmezden gelin!
-Dialogue: 50,0:04:41.14,0:04:42.22,Main-207-,,0,0,0,,KatÄ±lÄ±yorum.
-Dialogue: 50,0:04:42.22,0:04:44.76,Main-207-,,0,0,0,,Nami! Ã‡Ä±kÄ±ÅŸÄ± bulduk, hadi gidelim.
+Dialogue: 50,0:04:35.42,0:04:37.05,Main-207-,,0,0,0,,Bir doktorun mizah anlayışı.
+Dialogue: 50,0:04:37.05,0:04:39.43,Main-207-,,0,0,0,,Seni şerefsiz!\NBuradaki amacın ne?!
+Dialogue: 50,0:04:39.43,0:04:41.14,Main-207-,,0,0,0,,Bu kadarı yeter. Görmezden gelin!
+Dialogue: 50,0:04:41.14,0:04:42.22,Main-207-,,0,0,0,,Katılıyorum.
+Dialogue: 50,0:04:42.22,0:04:44.76,Main-207-,,0,0,0,,Nami! Çıkışı bulduk, hadi gidelim.
 Dialogue: 50,0:04:44.76,0:04:46.18,Main-207-,,0,0,0,,Aynen.
 Dialogue: 50,0:04:50.81,0:04:52.27,Main-207-,,0,0,0,,Ne oluyor?!
-Dialogue: 50,0:04:53.65,0:04:54.98,Main-207-,,0,0,0,,BaÅŸladÄ±...
-Dialogue: 50,0:04:56.11,0:04:56.98,Main-207-,,0,0,0,,BakÄ±n!
-Dialogue: 50,0:04:57.78,0:04:59.11,Main-207-,,0,0,0,,O bir ada deÄŸil!
-Dialogue: 50,0:04:59.11,0:05:01.41,Main-207-,,0,0,0,,GemiymiÅŸ.\NVe demirden yapÄ±lmÄ±ÅŸ!
-Dialogue: 50,0:05:01.41,0:05:04.91,Main-207-,,0,0,0,,DoÄŸru ya!\NBu deniz mide asidinden oluÅŸuyor!
-Dialogue: 50,0:05:04.91,0:05:08.58,Main-207-,,0,0,0,,O zaman burada uzun sÃ¼re\NkalÄ±rsak tahtadan gemimiz eriyecek.
-Dialogue: 50,0:05:08.58,0:05:10.79,Main-207-,,0,0,0,,Hey! Ne baÅŸladÄ±?!
-Dialogue: 50,0:05:10.79,0:05:12.79,Main-207-,,0,0,0,,SÃ¶ylesene!
+Dialogue: 50,0:04:53.65,0:04:54.98,Main-207-,,0,0,0,,Başladı...
+Dialogue: 50,0:04:56.11,0:04:56.98,Main-207-,,0,0,0,,Bakın!
+Dialogue: 50,0:04:57.78,0:04:59.11,Main-207-,,0,0,0,,O bir ada değil!
+Dialogue: 50,0:04:59.11,0:05:01.41,Main-207-,,0,0,0,,Gemiymiş.\NVe demirden yapılmış!
+Dialogue: 50,0:05:01.41,0:05:04.91,Main-207-,,0,0,0,,Doğru ya!\NBu deniz mide asidinden oluşuyor!
+Dialogue: 50,0:05:04.91,0:05:08.58,Main-207-,,0,0,0,,O zaman burada uzun süre\Nkalırsak tahtadan gemimiz eriyecek.
+Dialogue: 50,0:05:08.58,0:05:10.79,Main-207-,,0,0,0,,Hey! Ne başladı?!
+Dialogue: 50,0:05:10.79,0:05:12.79,Main-207-,,0,0,0,,Söylesene!
 Dialogue: 50,0:05:13.46,0:05:14.96,Main-207-,,0,0,0,,Bu balina...
-Dialogue: 50,0:05:16.46,0:05:20.93,Main-207-,,0,0,0,,Laboon, kafasÄ±nÄ±\NRed Line'a vurmaya baÅŸladÄ±.
-Dialogue: 50,0:05:30.35,0:05:31.27,Main-207-,,0,0,0,,â€“ Ne?!\Nâ€“ Ne?!
-Dialogue: 50,0:05:31.27,0:05:35.27,Main-207-,,0,0,0,,Åimdi dÃ¼ÅŸÃ¼nÃ¼nce,\NbalinanÄ±n alnÄ±nda feci yaralar vardÄ±.
-Dialogue: 50,0:05:35.27,0:05:37.40,Main-207-,,0,0,0,,Bir de gÃ¶kyÃ¼zÃ¼ne doÄŸru baÄŸÄ±rÄ±yordu...
+Dialogue: 50,0:05:16.46,0:05:20.93,Main-207-,,0,0,0,,Laboon, kafasını\NRed Line'a vurmaya başladı.
+Dialogue: 50,0:05:30.35,0:05:31.27,Main-207-,,0,0,0,,– Ne?!\N– Ne?!
+Dialogue: 50,0:05:31.27,0:05:35.27,Main-207-,,0,0,0,,Şimdi düşününce,\Nbalinanın alnında feci yaralar vardı.
+Dialogue: 50,0:05:35.27,0:05:37.40,Main-207-,,0,0,0,,Bir de gökyüzüne doğru bağırıyordu...
 Dialogue: 50,0:05:37.40,0:05:38.99,Main-207-,,0,0,0,,Bu ne demek?
-Dialogue: 50,0:05:39.86,0:05:41.45,Main-207-,,0,0,0,,AcÄ± Ã§ekiyor!
-Dialogue: 50,0:05:48.49,0:05:51.87,Main-207-,,0,0,0,,AnladÄ±m!\NDemek moruk bunu amaÃ§lÄ±yor!
+Dialogue: 50,0:05:39.86,0:05:41.45,Main-207-,,0,0,0,,Acı çekiyor!
+Dialogue: 50,0:05:48.49,0:05:51.87,Main-207-,,0,0,0,,Anladım!\NDemek moruk bunu amaçlıyor!
 Dialogue: 50,0:05:51.87,0:05:52.79,Main-207-,,0,0,0,,Muhtemelen...
-Dialogue: 50,0:05:52.79,0:05:55.84,Main-207-,,0,0,0,,BalinayÄ± vÃ¼cudunun iÃ§inden\NÃ¶ldÃ¼rmeye Ã§alÄ±ÅŸÄ±yor!
-Dialogue: 50,0:05:55.84,0:05:56.67,Main-207-,,0,0,0,,Åimdi...
-Dialogue: 50,0:05:56.67,0:05:58.92,Main-207-,,0,0,0,,Ne fena bir Ã¶ldÃ¼rme yÃ¶ntemi!
-Dialogue: 50,0:05:58.92,0:06:01.30,Main-207-,,0,0,0,,PekÃ¢lÃ¢, gizem Ã§Ã¶zÃ¼ldÃ¼.\NHemen Ã§Ä±kalÄ±m ÅŸuradan.
-Dialogue: 50,0:06:01.30,0:06:03.13,Main-207-,,0,0,0,,Burada oyalanÄ±rsak sindirileceÄŸiz.
-Dialogue: 50,0:06:04.30,0:06:07.14,Main-207-,,0,0,0,,Bu balina avÄ±, bizi ilgilendirmiyor.
-Dialogue: 50,0:06:07.14,0:06:09.35,Main-207-,,0,0,0,,BalinayÄ± kurtarmak da bize dÃ¼ÅŸmez.
+Dialogue: 50,0:05:52.79,0:05:55.84,Main-207-,,0,0,0,,Balinayı vücudunun içinden\Nöldürmeye çalışıyor!
+Dialogue: 50,0:05:55.84,0:05:56.67,Main-207-,,0,0,0,,Şimdi...
+Dialogue: 50,0:05:56.67,0:05:58.92,Main-207-,,0,0,0,,Ne fena bir öldürme yöntemi!
+Dialogue: 50,0:05:58.92,0:06:01.30,Main-207-,,0,0,0,,Pekâlâ, gizem çözüldü.\NHemen çıkalım şuradan.
+Dialogue: 50,0:06:01.30,0:06:03.13,Main-207-,,0,0,0,,Burada oyalanırsak sindirileceğiz.
+Dialogue: 50,0:06:04.30,0:06:07.14,Main-207-,,0,0,0,,Bu balina avı, bizi ilgilendirmiyor.
+Dialogue: 50,0:06:07.14,0:06:09.35,Main-207-,,0,0,0,,Balinayı kurtarmak da bize düşmez.
 Dialogue: 50,0:06:09.35,0:06:10.64,Main-207-,,0,0,0,,Hadi gidelim.
-Dialogue: 50,0:06:24.82,0:06:28.28,Main-207-,,0,0,0,,Kahretsin!\NDalgalar bu kadar ÅŸiddetliyken...
-Dialogue: 50,0:06:28.28,0:06:30.41,Main-207-,,0,0,0,,kapÄ±lara ulaÅŸabilir miyiz, bilmiyorum...?
-Dialogue: 50,0:06:30.41,0:06:32.71,Main-207-,,0,0,0,,KÃ¼rek Ã§ekmemiz ÅŸart! KÃ¼rekleri alÄ±n!
-Dialogue: 50,0:06:32.71,0:06:35.67,Main-207-,,0,0,0,,Hadi, Ã§abucak gidelim!\NLuffy iÃ§in endiÅŸeleniyorum.
-Dialogue: 50,0:06:35.67,0:06:37.04,Main-207-,,0,0,0,,O dÄ±ÅŸarÄ±da!
-Dialogue: 50,0:06:37.04,0:06:39.00,Main-207-,,0,0,0,,AÄŸzÄ±ndan fÄ±rladÄ±ÄŸÄ±nÄ± gÃ¶rdÃ¼m!
-Dialogue: 50,0:06:41.76,0:06:43.76,Main-207-,,0,0,0,,YaÅŸlÄ± adam denize atladÄ±!
+Dialogue: 50,0:06:24.82,0:06:28.28,Main-207-,,0,0,0,,Kahretsin!\NDalgalar bu kadar şiddetliyken...
+Dialogue: 50,0:06:28.28,0:06:30.41,Main-207-,,0,0,0,,kapılara ulaşabilir miyiz, bilmiyorum...?
+Dialogue: 50,0:06:30.41,0:06:32.71,Main-207-,,0,0,0,,Kürek çekmemiz şart! Kürekleri alın!
+Dialogue: 50,0:06:32.71,0:06:35.67,Main-207-,,0,0,0,,Hadi, çabucak gidelim!\NLuffy için endişeleniyorum.
+Dialogue: 50,0:06:35.67,0:06:37.04,Main-207-,,0,0,0,,O dışarıda!
+Dialogue: 50,0:06:37.04,0:06:39.00,Main-207-,,0,0,0,,Ağzından fırladığını gördüm!
+Dialogue: 50,0:06:41.76,0:06:43.76,Main-207-,,0,0,0,,Yaşlı adam denize atladı!
 Dialogue: 50,0:06:43.76,0:06:44.55,Main-207-,,0,0,0,,Ha?
-Dialogue: 50,0:06:45.05,0:06:47.55,Main-207-,,0,0,0,,Ne yapmaya Ã§alÄ±ÅŸÄ±yor?\NSindirilecek.
+Dialogue: 50,0:06:45.05,0:06:47.55,Main-207-,,0,0,0,,Ne yapmaya çalışıyor?\NSindirilecek.
 Dialogue: 50,0:06:57.94,0:07:00.32,Main-207-,,0,0,0,,Ne?! N'oluyor?! Ha? Neden?!
-Dialogue: 50,0:07:00.32,0:07:01.57,Main-207-,,0,0,0,,BaÅŸÄ±m... BaÅŸÄ±m...
-Dialogue: 50,0:07:01.57,0:07:03.95,Main-207-,,0,0,0,,BaÅŸÄ±m dÃ¶nÃ¼yor!
-Dialogue: 50,0:07:11.95,0:07:13.20,Main-207-,,0,0,0,,Åimdi ne var?
-Dialogue: 50,0:07:13.20,0:07:16.00,Main-207-,,0,0,0,,Deniz mi? Nehir mi? Kanal mÄ±?
-Dialogue: 50,0:07:26.05,0:07:29.93,Main-207-,,0,0,0,,Ã‡ok iyi. Bu kadar derine inmeyi baÅŸardÄ±k.
+Dialogue: 50,0:07:00.32,0:07:01.57,Main-207-,,0,0,0,,Başım... Başım...
+Dialogue: 50,0:07:01.57,0:07:03.95,Main-207-,,0,0,0,,Başım dönüyor!
+Dialogue: 50,0:07:11.95,0:07:13.20,Main-207-,,0,0,0,,Şimdi ne var?
+Dialogue: 50,0:07:13.20,0:07:16.00,Main-207-,,0,0,0,,Deniz mi? Nehir mi? Kanal mı?
+Dialogue: 50,0:07:26.05,0:07:29.93,Main-207-,,0,0,0,,Çok iyi. Bu kadar derine inmeyi başardık.
 Dialogue: 50,0:07:30.64,0:07:32.39,Main-207-,,0,0,8,,Dinleyin, Bayan Wednesday.
-Dialogue: 50,0:07:32.39,0:07:34.64,Main-207-,,0,0,0,,Bu kapÄ±larÄ±n arkasÄ±nda mide var...
-Dialogue: 50,0:07:34.64,0:07:37.27,Main-207-,,0,0,0,,ve o yaÅŸlÄ± bunak muhtemelen orada.
+Dialogue: 50,0:07:32.39,0:07:34.64,Main-207-,,0,0,0,,Bu kapıların arkasında mide var...
+Dialogue: 50,0:07:34.64,0:07:37.27,Main-207-,,0,0,0,,ve o yaşlı bunak muhtemelen orada.
 Dialogue: 50,0:07:37.27,0:07:39.90,Main-207-,,0,0,0,,Onu yok etmeliyiz.
 Dialogue: 50,0:07:40.52,0:07:42.78,Main-207-,,0,0,10,,Hedefimiz balina.
-Dialogue: 50,0:07:43.15,0:07:44.78,Main-207-,,0,0,0,,Aynen Ã¶yle, Bay 9.
-Dialogue: 50,0:07:44.78,0:07:49.24,Main-207-,,0,0,0,,Bu balina, bizim kasabÄ±mÄ±zÄ±n biriciÄŸi.
-Dialogue: 50,0:07:51.99,0:07:54.08,Main-207-,,0,0,0,,Hey! Moruk sudan Ã§Ä±ktÄ±!
-Dialogue: 50,0:07:54.08,0:07:55.08,Main-207-,,0,0,0,,BoÅŸ verin.
-Dialogue: 50,0:07:55.08,0:07:58.58,Main-207-,,0,0,0,,AsÄ±l Ã¶nemli olan,\Nbu kapÄ±larÄ± nasÄ±l aÃ§acaÄŸÄ±z?
-Dialogue: 50,0:07:59.04,0:08:01.59,Main-207-,,0,0,0,,Tamam mÄ±, Bayan Wednesday?
-Dialogue: 50,0:08:01.59,0:08:04.09,Main-207-,,0,0,0,,KapÄ±larÄ± "ÃœÃ§, iki, bir, bebek!"\Ndeyip aÃ§acaÄŸÄ±z.
+Dialogue: 50,0:07:43.15,0:07:44.78,Main-207-,,0,0,0,,Aynen öyle, Bay 9.
+Dialogue: 50,0:07:44.78,0:07:49.24,Main-207-,,0,0,0,,Bu balina, bizim kasabımızın biriciği.
+Dialogue: 50,0:07:51.99,0:07:54.08,Main-207-,,0,0,0,,Hey! Moruk sudan çıktı!
+Dialogue: 50,0:07:54.08,0:07:55.08,Main-207-,,0,0,0,,Boş verin.
+Dialogue: 50,0:07:55.08,0:07:58.58,Main-207-,,0,0,0,,Asıl önemli olan,\Nbu kapıları nasıl açacağız?
+Dialogue: 50,0:07:59.04,0:08:01.59,Main-207-,,0,0,0,,Tamam mı, Bayan Wednesday?
+Dialogue: 50,0:08:01.59,0:08:04.09,Main-207-,,0,0,0,,Kapıları "Üç, iki, bir, bebek!"\Ndeyip açacağız.
 Dialogue: 50,0:08:04.09,0:08:05.21,Main-207-,,0,0,0,,Tetikte ol.
-Dialogue: 50,0:08:05.21,0:08:08.18,Main-207-,,0,0,0,,AnlaÅŸÄ±ldÄ±, Bay 9. HazÄ±r ve nazÄ±rÄ±m.
-Dialogue: 50,0:08:10.68,0:08:15.85,Main-207-,,0,0,0,,{\an8}DuramÄ±yorum!!!
+Dialogue: 50,0:08:05.21,0:08:08.18,Main-207-,,0,0,0,,Anlaşıldı, Bay 9. Hazır ve nazırım.
+Dialogue: 50,0:08:10.68,0:08:15.85,Main-207-,,0,0,0,,{\an8}Duramıyorum!!!
 Dialogue: 50,0:08:11.80,0:08:13.47,Main-207-,,0,0,0,,Bu ses de ne, Bay 9?
 Dialogue: 50,0:08:13.47,0:08:15.85,Main-207-,,0,0,0,,Bilmiyorum, Bayan Wednesday.
 Dialogue: 50,0:08:26.07,0:08:27.19,Main-207-,,0,0,0,,Yine mi...?
-Dialogue: 50,0:08:29.74,0:08:31.53,Main-207-,,0,0,0,,Bu hiÃ§ iyi deÄŸil, Bayan Wednesday!
-Dialogue: 50,0:08:31.53,0:08:34.08,Main-207-,,0,0,0,,AltÄ±mÄ±zda mide asidinden bir deniz var!
+Dialogue: 50,0:08:29.74,0:08:31.53,Main-207-,,0,0,0,,Bu hiç iyi değil, Bayan Wednesday!
+Dialogue: 50,0:08:31.53,0:08:34.08,Main-207-,,0,0,0,,Altımızda mide asidinden bir deniz var!
 Dialogue: 50,0:08:35.66,0:08:36.50,Main-207-,,0,0,0,,Luffy?
 Dialogue: 50,0:08:36.50,0:08:39.08,Main-207-,,0,0,0,,Hey! Yani herkes iyi mi?
-Dialogue: 50,0:08:40.12,0:08:42.50,Main-207-,,0,0,0,,Her neyse... yardÄ±m edin!
-Dialogue: 50,0:08:47.05,0:08:50.76,Main-207-,,0,0,0,,Luffy ile birlikte\Niki tuhaf tip daha ortaya Ã§Ä±ktÄ±.
-Dialogue: 50,0:08:50.76,0:08:52.93,Main-207-,,0,0,0,,Hey! YaÅŸlÄ± adam kayboldu!
-Dialogue: 50,0:08:52.93,0:08:55.97,Main-207-,,0,0,0,,BoÅŸ ver onu! Hadi Luffy'i kurtaralÄ±m!
+Dialogue: 50,0:08:40.12,0:08:42.50,Main-207-,,0,0,0,,Her neyse... yardım edin!
+Dialogue: 50,0:08:47.05,0:08:50.76,Main-207-,,0,0,0,,Luffy ile birlikte\Niki tuhaf tip daha ortaya çıktı.
+Dialogue: 50,0:08:50.76,0:08:52.93,Main-207-,,0,0,0,,Hey! Yaşlı adam kayboldu!
+Dialogue: 50,0:08:52.93,0:08:55.97,Main-207-,,0,0,0,,Boş ver onu! Hadi Luffy'i kurtaralım!
 Dialogue: 50,0:09:10.65,0:09:12.70,Main-207-,,0,0,0,,Dur, Laboon.
-Dialogue: 50,0:09:13.28,0:09:16.29,Main-207-,,0,0,0,,ArtÄ±k kendine zarar verme.
-Dialogue: 50,0:09:16.29,0:09:18.75,Main-207-,,0,0,0,,Ã‡ok az sakinleÅŸtirici iÄŸne kaldÄ±.
-Dialogue: 50,0:09:18.75,0:09:21.21,Main-207-,,0,0,0,,Daha fazla yapmam lazÄ±m...
-Dialogue: 50,0:09:23.71,0:09:27.30,Main-207-,,0,0,0,,O duvar, dÃ¼nyadaki okyanuslarÄ± ayÄ±rÄ±r.
-Dialogue: 50,0:09:27.30,0:09:32.30,Main-207-,,0,0,0,,Ã–lene kadar toslasan bile\NkÄ±ramazsÄ±n, Laboon.
-Dialogue: 50,0:09:37.22,0:09:38.60,Main-207-,,0,0,0,,SakinleÅŸti.
-Dialogue: 50,0:09:38.60,0:09:40.35,Main-207-,,0,0,0,,Balina sessizleÅŸti.
-Dialogue: 50,0:09:40.35,0:09:42.23,Main-207-,,0,0,0,,GÃ¶rÃ¼nÃ¼ÅŸe bakÄ±lÄ±rsa Ã¶yle.
-Dialogue: 50,0:09:42.73,0:09:43.85,Main-207-,,0,0,0,,Åimdi...
-Dialogue: 50,0:09:44.77,0:09:48.32,Main-207-,,0,0,0,,Sizi de kurtardÄ±k ama siz kimsiniz?
+Dialogue: 50,0:09:13.28,0:09:16.29,Main-207-,,0,0,0,,Artık kendine zarar verme.
+Dialogue: 50,0:09:16.29,0:09:18.75,Main-207-,,0,0,0,,Çok az sakinleştirici iğne kaldı.
+Dialogue: 50,0:09:18.75,0:09:21.21,Main-207-,,0,0,0,,Daha fazla yapmam lazım...
+Dialogue: 50,0:09:23.71,0:09:27.30,Main-207-,,0,0,0,,O duvar, dünyadaki okyanusları ayırır.
+Dialogue: 50,0:09:27.30,0:09:32.30,Main-207-,,0,0,0,,Ölene kadar toslasan bile\Nkıramazsın, Laboon.
+Dialogue: 50,0:09:37.22,0:09:38.60,Main-207-,,0,0,0,,Sakinleşti.
+Dialogue: 50,0:09:38.60,0:09:40.35,Main-207-,,0,0,0,,Balina sessizleşti.
+Dialogue: 50,0:09:40.35,0:09:42.23,Main-207-,,0,0,0,,Görünüşe bakılırsa öyle.
+Dialogue: 50,0:09:42.73,0:09:43.85,Main-207-,,0,0,0,,Şimdi...
+Dialogue: 50,0:09:44.77,0:09:48.32,Main-207-,,0,0,0,,Sizi de kurtardık ama siz kimsiniz?
 Dialogue: 50,0:09:49.15,0:09:52.11,Main-207-,,0,0,0,,Bay 9, bunlar korsan.
 Dialogue: 50,0:09:52.11,0:09:54.28,Main-207-,,0,0,0,,B-Biliyorum, Bayan Wednesday.
-Dialogue: 50,0:09:54.99,0:09:59.79,Main-207-,,0,0,0,,A-Ama onlarla konuÅŸursak\Nbizi anlarlar... belki...
-Dialogue: 50,0:09:59.79,0:10:02.25,Main-207-,,0,0,0,,Siz eÅŸkÄ±yalar hÃ¢lÃ¢ burada mÄ±sÄ±nÄ±z?!
-Dialogue: 50,0:10:02.96,0:10:05.17,Main-207-,,0,0,0,,KaÃ§ kez daha sÃ¶yleyeceÄŸim?!
-Dialogue: 50,0:10:05.75,0:10:10.34,Main-207-,,0,0,0,,Ben hayatta olduÄŸum mÃ¼ddetÃ§e\NLaboon'un kÄ±lÄ±na bile dokunamazsÄ±nÄ±z!
+Dialogue: 50,0:09:54.99,0:09:59.79,Main-207-,,0,0,0,,A-Ama onlarla konuşursak\Nbizi anlarlar... belki...
+Dialogue: 50,0:09:59.79,0:10:02.25,Main-207-,,0,0,0,,Siz eşkıyalar hâlâ burada mısınız?!
+Dialogue: 50,0:10:02.96,0:10:05.17,Main-207-,,0,0,0,,Kaç kez daha söyleyeceğim?!
+Dialogue: 50,0:10:05.75,0:10:10.34,Main-207-,,0,0,0,,Ben hayatta olduğum müddetçe\NLaboon'un kılına bile dokunamazsınız!
 Dialogue: 50,0:10:12.93,0:10:14.14,Main-207-,,0,0,0,,Geri geldi.
 Dialogue: 50,0:10:14.14,0:10:15.80,Main-207-,,0,0,0,,Kim bu ihtiyar?
-Dialogue: 50,0:10:17.76,0:10:20.68,Main-207-,,0,0,0,,Ä°stediÄŸini sÃ¶yle, Ã¶ylece gidemeyiz.
-Dialogue: 50,0:10:20.68,0:10:23.39,Main-207-,,0,0,0,,Bu balinayÄ± indirmek bizim gÃ¶revimiz.
-Dialogue: 50,0:10:23.39,0:10:26.27,Main-207-,,0,0,0,,Bu sefer balina avÄ±mÄ±za\Nengel olamayacaksÄ±n!
-Dialogue: 50,0:10:26.27,0:10:29.32,Main-207-,,0,0,0,,Midesinde bir delik aÃ§acaÄŸÄ±z!
+Dialogue: 50,0:10:17.76,0:10:20.68,Main-207-,,0,0,0,,İstediğini söyle, öylece gidemeyiz.
+Dialogue: 50,0:10:20.68,0:10:23.39,Main-207-,,0,0,0,,Bu balinayı indirmek bizim görevimiz.
+Dialogue: 50,0:10:23.39,0:10:26.27,Main-207-,,0,0,0,,Bu sefer balina avımıza\Nengel olamayacaksın!
+Dialogue: 50,0:10:26.27,0:10:29.32,Main-207-,,0,0,0,,Midesinde bir delik açacağız!
 Dialogue: 50,0:10:29.32,0:10:31.07,Main-207-,,0,0,0,,Hadi, bebek!
-Dialogue: 50,0:10:30.11,0:10:31.07,Secondary-207-,,0,0,0,,AnlaÅŸÄ±ldÄ±!
-Dialogue: 50,0:10:36.78,0:10:38.91,Main-207-,,0,0,0,,Åerefsizler!
-Dialogue: 50,0:10:43.25,0:10:45.42,Main-207-,,0,0,0,,Ä°htiyar, mermilere kafa attÄ±...!
-Dialogue: 50,0:10:45.42,0:10:47.92,Main-207-,,0,0,0,,Acaba... balinayÄ± mÄ± istiyor?!
-Dialogue: 50,0:10:51.34,0:10:52.88,Main-207-,,0,0,0,,Bu anlamsÄ±z direniÅŸi kes!
-Dialogue: 50,0:10:52.88,0:10:55.05,Main-207-,,0,0,0,,BalinayÄ± istediÄŸin kadar koru!
-Dialogue: 50,0:10:55.59,0:10:58.80,Main-207-,,0,0,0,,Onu kasabamÄ±z iÃ§in yemeÄŸe Ã§evireceÄŸiz!
+Dialogue: 50,0:10:30.11,0:10:31.07,Secondary-207-,,0,0,0,,Anlaşıldı!
+Dialogue: 50,0:10:36.78,0:10:38.91,Main-207-,,0,0,0,,Şerefsizler!
+Dialogue: 50,0:10:43.25,0:10:45.42,Main-207-,,0,0,0,,İhtiyar, mermilere kafa attı...!
+Dialogue: 50,0:10:45.42,0:10:47.92,Main-207-,,0,0,0,,Acaba... balinayı mı istiyor?!
+Dialogue: 50,0:10:51.34,0:10:52.88,Main-207-,,0,0,0,,Bu anlamsız direnişi kes!
+Dialogue: 50,0:10:52.88,0:10:55.05,Main-207-,,0,0,0,,Balinayı istediğin kadar koru!
+Dialogue: 50,0:10:55.59,0:10:58.80,Main-207-,,0,0,0,,Onu kasabamız için yemeğe çevireceğiz!
 Dialogue: 50,0:11:04.94,0:11:06.19,Main-207-,,0,0,0,,Ne oluyor?
 Dialogue: 50,0:11:14.15,0:11:15.65,Main-207-,,0,0,0,,Sadece...
-Dialogue: 50,0:11:15.65,0:11:16.91,Main-207-,,0,0,0,,iÃ§imden geldi.
-Dialogue: 50,0:11:21.83,0:11:25.58,Main-207-,,0,0,0,,Beni kurtardÄ±ÄŸÄ±nÄ±z iÃ§in\NteÅŸekkÃ¼r ederim... ama neden?
-Dialogue: 50,0:11:25.58,0:11:27.17,Main-207-,,0,0,0,,Niyetim o deÄŸildi.
-Dialogue: 50,0:11:27.17,0:11:29.46,Main-207-,,0,0,0,,Sadece onlarÄ± sevmedim.
-Dialogue: 50,0:11:30.50,0:11:33.42,Secondary-207-,,0,0,0,,{\an8}Hey, Luffy! NapÄ±yorsun?
-Dialogue: 50,0:11:34.72,0:11:36.34,Secondary-207-,,0,0,0,,{\an8}Kes ÅŸunu!
+Dialogue: 50,0:11:15.65,0:11:16.91,Main-207-,,0,0,0,,içimden geldi.
+Dialogue: 50,0:11:21.83,0:11:25.58,Main-207-,,0,0,0,,Beni kurtardığınız için\Nteşekkür ederim... ama neden?
+Dialogue: 50,0:11:25.58,0:11:27.17,Main-207-,,0,0,0,,Niyetim o değildi.
+Dialogue: 50,0:11:27.17,0:11:29.46,Main-207-,,0,0,0,,Sadece onları sevmedim.
+Dialogue: 50,0:11:30.50,0:11:33.42,Secondary-207-,,0,0,0,,{\an8}Hey, Luffy! Napıyorsun?
+Dialogue: 50,0:11:34.72,0:11:36.34,Secondary-207-,,0,0,0,,{\an8}Kes şunu!
 Dialogue: 50,0:11:36.34,0:11:39.76,Secondary-207-,,0,0,0,,{\an8}Hey! Hey, Luffy! Dursana!
-Dialogue: 50,0:11:39.76,0:11:42.01,Secondary-207-,,0,0,0,,{\an8}Ne yapmaya Ã§alÄ±ÅŸÄ±yorsun?
-Dialogue: 50,0:11:42.01,0:11:43.77,Secondary-207-,,0,0,0,,{\an8}O baÅŸkasÄ±na ait.
-Dialogue: 50,0:11:30.50,0:11:33.42,Main-207-,,0,0,0,,SÃ¶ylesene, kim bunlar?
-Dialogue: 50,0:11:33.42,0:11:36.34,Main-207-,,0,0,0,,BalinanÄ±n iÃ§inde ne yapÄ±yorsun?
-Dialogue: 50,0:11:36.34,0:11:39.76,Main-207-,,0,0,0,,Onlar yakÄ±ndaki bir kasabadan eÅŸkÄ±yalar.
-Dialogue: 50,0:11:39.76,0:11:42.56,Main-207-,,0,0,0,,Balina eti peÅŸindeler.
-Dialogue: 50,0:11:42.56,0:11:44.89,Main-207-,,0,0,0,,EÄŸer Laboon'u yakalarlarsa,
-Dialogue: 50,0:11:44.89,0:11:48.52,Main-207-,,0,0,0,,kasaba halkÄ±nÄ± 2-3 ay doyururlar.
+Dialogue: 50,0:11:39.76,0:11:42.01,Secondary-207-,,0,0,0,,{\an8}Ne yapmaya çalışıyorsun?
+Dialogue: 50,0:11:42.01,0:11:43.77,Secondary-207-,,0,0,0,,{\an8}O başkasına ait.
+Dialogue: 50,0:11:30.50,0:11:33.42,Main-207-,,0,0,0,,Söylesene, kim bunlar?
+Dialogue: 50,0:11:33.42,0:11:36.34,Main-207-,,0,0,0,,Balinanın içinde ne yapıyorsun?
+Dialogue: 50,0:11:36.34,0:11:39.76,Main-207-,,0,0,0,,Onlar yakındaki bir kasabadan eşkıyalar.
+Dialogue: 50,0:11:39.76,0:11:42.56,Main-207-,,0,0,0,,Balina eti peşindeler.
+Dialogue: 50,0:11:42.56,0:11:44.89,Main-207-,,0,0,0,,Eğer Laboon'u yakalarlarsa,
+Dialogue: 50,0:11:44.89,0:11:48.52,Main-207-,,0,0,0,,kasaba halkını 2-3 ay doyururlar.
 Dialogue: 50,0:11:48.90,0:11:49.81,Main-207-,,0,0,0,,Laboon mu?
-Dialogue: 50,0:11:49.81,0:11:51.90,Main-207-,,0,0,0,,Bu balinanÄ±n adÄ±.
-Dialogue: 50,0:11:51.90,0:11:57.24,Main-207-,,0,0,0,,O bir ada balinasÄ±,\Nsadece BatÄ± Mavi'de yaÅŸayan bir tÃ¼r.
-Dialogue: 50,0:11:57.24,0:11:59.99,Main-207-,,0,0,0,,Onlar dÃ¼nyanÄ±n en bÃ¼yÃ¼k balinalarÄ±.
-Dialogue: 50,0:11:59.99,0:12:03.12,Main-207-,,0,0,0,,Et iÃ§in avlanÄ±lmasÄ±na mÃ¼saade etmeyeceÄŸim.
-Dialogue: 50,0:12:03.54,0:12:06.87,Main-207-,,0,0,0,,Red Line'a toslamasÄ±nÄ±n bir sebebi var...
-Dialogue: 50,0:12:06.87,0:12:12.09,Main-207-,,0,0,0,,Ve Reverse Mountain'a baÄŸÄ±rmasÄ±nÄ±n da...
+Dialogue: 50,0:11:49.81,0:11:51.90,Main-207-,,0,0,0,,Bu balinanın adı.
+Dialogue: 50,0:11:51.90,0:11:57.24,Main-207-,,0,0,0,,O bir ada balinası,\Nsadece Batı Mavi'de yaşayan bir tür.
+Dialogue: 50,0:11:57.24,0:11:59.99,Main-207-,,0,0,0,,Onlar dünyanın en büyük balinaları.
+Dialogue: 50,0:11:59.99,0:12:03.12,Main-207-,,0,0,0,,Et için avlanılmasına müsaade etmeyeceğim.
+Dialogue: 50,0:12:03.54,0:12:06.87,Main-207-,,0,0,0,,Red Line'a toslamasının bir sebebi var...
+Dialogue: 50,0:12:06.87,0:12:12.09,Main-207-,,0,0,0,,Ve Reverse Mountain'a bağırmasının da...
 Dialogue: 50,0:12:12.09,0:12:12.84,Main-207-,,0,0,0,,Sebebi mi?
 Dialogue: 50,0:12:12.84,0:12:14.05,Main-207-,,0,0,0,,Evet.
 Dialogue: 50,0:12:14.42,0:12:19.97,Main-207-,,0,0,0,,{\fad(0,1352)}O, insan kalbine sahip bir balina.
-Dialogue: 50,0:12:20.39,0:12:25.39,Main-207-,,0,0,0,,Sadakatle bir grup korsanÄ±n\Ngelmesini bekliyor.
-Dialogue: 50,0:12:29.06,0:12:31.27,Main-207-,,0,0,0,,50 yÄ±l oldu...
-Dialogue: 50,0:12:31.73,0:12:36.24,Main-207-,,0,0,0,,AnlatayÄ±m... Laboon'un hikayesini...
-Dialogue: 50,0:12:49.75,0:12:54.42,Main-207-,,0,0,0,,GÃ¼nlerden bir gÃ¼n, bekÃ§i olarak\NgÃ¶revime devam ederken,
-Dialogue: 50,0:12:54.42,0:12:58.80,Main-207-,,0,0,0,,bazÄ± iyi yÃ¼rekli korsanlar, \NReverse Mountain'dan indiler...
+Dialogue: 50,0:12:20.39,0:12:25.39,Main-207-,,0,0,0,,Sadakatle bir grup korsanın\Ngelmesini bekliyor.
+Dialogue: 50,0:12:29.06,0:12:31.27,Main-207-,,0,0,0,,50 yıl oldu...
+Dialogue: 50,0:12:31.73,0:12:36.24,Main-207-,,0,0,0,,Anlatayım... Laboon'un hikayesini...
+Dialogue: 50,0:12:49.75,0:12:54.42,Main-207-,,0,0,0,,Günlerden bir gün, bekçi olarak\Ngörevime devam ederken,
+Dialogue: 50,0:12:54.42,0:12:58.80,Main-207-,,0,0,0,,bazı iyi yürekli korsanlar, \NReverse Mountain'dan indiler...
 Dialogue: 50,0:12:58.80,0:13:01.47,Main-207-,,0,0,0,,ve Grand Line'a girdiler.
-Dialogue: 50,0:13:01.47,0:13:06.10,Main-207-,,0,0,0,,ArkalarÄ±ndan da onlarÄ± takip eden\Nminik bir balina geldi...
+Dialogue: 50,0:13:01.47,0:13:06.10,Main-207-,,0,0,0,,Arkalarından da onları takip eden\Nminik bir balina geldi...
 Dialogue: 50,0:13:06.10,0:13:08.68,Main-207-,,0,0,0,,O Laboon'du.
-Dialogue: 50,0:13:09.52,0:13:13.73,Main-207-,,0,0,0,,Daha Ã¶nce de sÃ¶ylediÄŸim gibi,\Nada balinasÄ± en bÃ¼yÃ¼k balina tÃ¼rÃ¼dÃ¼r,
-Dialogue: 50,0:13:13.73,0:13:15.40,Main-207-,,0,0,0,,ve sadece BatÄ± Mavi'de yaÅŸar.
-Dialogue: 50,0:13:16.40,0:13:20.40,Main-207-,,0,0,0,,Korsanlar, Laboon ile seyahat ediyorlardÄ±...
-Dialogue: 50,0:13:20.40,0:13:27.12,Main-207-,,0,0,0,,ama Grand Line, Ã§ok tehlikeli olduÄŸu\NiÃ§in onu BatÄ± Mavi'de bÄ±raktÄ±lar.
+Dialogue: 50,0:13:09.52,0:13:13.73,Main-207-,,0,0,0,,Daha önce de söylediğim gibi,\Nada balinası en büyük balina türüdür,
+Dialogue: 50,0:13:13.73,0:13:15.40,Main-207-,,0,0,0,,ve sadece Batı Mavi'de yaşar.
+Dialogue: 50,0:13:16.40,0:13:20.40,Main-207-,,0,0,0,,Korsanlar, Laboon ile seyahat ediyorlardı...
+Dialogue: 50,0:13:20.40,0:13:27.12,Main-207-,,0,0,0,,ama Grand Line, çok tehlikeli olduğu\Niçin onu Batı Mavi'de bıraktılar.
 Dialogue: 50,0:13:27.12,0:13:29.54,Main-207-,,0,0,0,,Ama Laboon,\Ngizliden takibe devam etti.
-Dialogue: 50,0:13:30.54,0:13:35.59,Main-207-,,0,0,0,,{\t(4654,0,1,\3c&HFFFFFF&\4c&HFFFFFF&)\t(4988,5029,\alpha&HFF&)}Ada balinalarÄ± genelde\Ngrup olarak hareket ederler...
-Dialogue: 50,0:13:36.13,0:13:41.05,Main-207-,,0,0,0,,{\t(4528,0,1,\c&HFEFEFE&\3c&HFEFEFE&\4c&HFEFEFE&)\t(4862,4903,\alpha&HFF&)}ama galiba Laboon,\No korsan tayfasÄ±nÄ± ailesi olarak gÃ¶rdÃ¼.
-Dialogue: 50,0:13:41.05,0:13:46.39,Main-207-,,0,0,0,,{\c&HFCFEFE&\3c&HFCFEFE&\4c&HFCFEFE&\t(0,317,1,\c&HFFFFFF&\3c&H000000&\4c&H000000&)}Gemileri arÄ±zalandÄ±ÄŸÄ± iÃ§in\Nburada birkaÃ§ ay boyunca kaldÄ±lar.
-Dialogue: 50,0:13:46.39,0:13:50.14,Main-207-,,0,0,0,,O dÃ¶nemde yakÄ±n arkadaÅŸ olduk.
-Dialogue: 50,0:13:51.77,0:13:54.73,Main-207-,,0,0,0,,Bu yÃ¼zden, ayrÄ±lacaklarÄ± gÃ¼n...
-Dialogue: 50,0:13:55.36,0:13:57.36,Flashbacks-207-,,0,0,0,,Sana gÃ¼veniyorum ve bir ricam var.
-Dialogue: 50,0:13:57.36,0:13:59.99,Flashbacks-207-,,0,0,0,,Ona 2-3 yÄ±l gÃ¶z kulak olur musun?
-Dialogue: 50,0:14:00.53,0:14:04.07,Flashbacks-207-,,0,0,0,,DÃ¼nyayÄ± dolaÅŸÄ±p mutlaka geri geleceÄŸiz.
+Dialogue: 50,0:13:30.54,0:13:35.59,Main-207-,,0,0,0,,{\t(4654,0,1,\3c&HFFFFFF&\4c&HFFFFFF&)\t(4988,5029,\alpha&HFF&)}Ada balinaları genelde\Ngrup olarak hareket ederler...
+Dialogue: 50,0:13:36.13,0:13:41.05,Main-207-,,0,0,0,,{\t(4528,0,1,\c&HFEFEFE&\3c&HFEFEFE&\4c&HFEFEFE&)\t(4862,4903,\alpha&HFF&)}ama galiba Laboon,\No korsan tayfasını ailesi olarak gördü.
+Dialogue: 50,0:13:41.05,0:13:46.39,Main-207-,,0,0,0,,{\c&HFCFEFE&\3c&HFCFEFE&\4c&HFCFEFE&\t(0,317,1,\c&HFFFFFF&\3c&H000000&\4c&H000000&)}Gemileri arızalandığı için\Nburada birkaç ay boyunca kaldılar.
+Dialogue: 50,0:13:46.39,0:13:50.14,Main-207-,,0,0,0,,O dönemde yakın arkadaş olduk.
+Dialogue: 50,0:13:51.77,0:13:54.73,Main-207-,,0,0,0,,Bu yüzden, ayrılacakları gün...
+Dialogue: 50,0:13:55.36,0:13:57.36,Flashbacks-207-,,0,0,0,,Sana güveniyorum ve bir ricam var.
+Dialogue: 50,0:13:57.36,0:13:59.99,Flashbacks-207-,,0,0,0,,Ona 2-3 yıl göz kulak olur musun?
+Dialogue: 50,0:14:00.53,0:14:04.07,Flashbacks-207-,,0,0,0,,Dünyayı dolaşıp mutlaka geri geleceğiz.
 Dialogue: 50,0:14:05.20,0:14:07.87,Flashbacks-207-,,0,0,0,,Dinle, Laboon.\NSana diyeceklerim var.
-Dialogue: 50,0:14:07.87,0:14:11.46,Flashbacks-207-,,0,0,0,,Grand Line'a gireceÄŸiz ve\NdÃ¼nyanÄ±n etrafÄ±nÄ± tavaf edeceÄŸiz.
+Dialogue: 50,0:14:07.87,0:14:11.46,Flashbacks-207-,,0,0,0,,Grand Line'a gireceğiz ve\Ndünyanın etrafını tavaf edeceğiz.
 Dialogue: 50,0:14:11.46,0:14:13.87,Flashbacks-207-,,0,0,0,,Ama bizi burada beklemen gerekiyor.
 Dialogue: 50,0:14:14.21,0:14:16.13,Flashbacks-207-,,0,0,0,,Tehlikeli bir yere gidiyoruz.
-Dialogue: 50,0:14:16.13,0:14:18.46,Flashbacks-207-,,0,0,0,,Sana uygun deÄŸil.
-Dialogue: 50,0:14:19.09,0:14:21.92,Flashbacks-207-,,0,0,0,,EndiÅŸelenme. ÃœÃ§ yÄ±l gÃ¶z aÃ§Ä±p\NkapayÄ±ncaya kadar geÃ§er.
+Dialogue: 50,0:14:16.13,0:14:18.46,Flashbacks-207-,,0,0,0,,Sana uygun değil.
+Dialogue: 50,0:14:19.09,0:14:21.92,Flashbacks-207-,,0,0,0,,Endişelenme. Üç yıl göz açıp\Nkapayıncaya kadar geçer.
 Dialogue: 50,0:14:21.92,0:14:23.18,Flashbacks-207-,,0,0,0,,Bizi unutma...
-Dialogue: 50,0:14:23.68,0:14:26.43,Flashbacks-207-,,0,0,0,,Bir arada olmasak bile\Nher zaman arkadaÅŸ olacaÄŸÄ±z.
-Dialogue: 50,0:14:30.89,0:14:32.39,Flashbacks-207-,,0,0,0,,Hadi, biz kaÃ§tÄ±k!
-Dialogue: 50,0:14:36.15,0:14:38.23,Flashbacks-207-,,0,0,0,,Millet! Yola koyulalÄ±m!
-Dialogue: 50,0:14:38.23,0:14:39.78,Flashbacks-207-,,0,0,0,,Ã‡apayÄ± Ã§ekin!
-Dialogue: 50,0:14:39.78,0:14:41.24,Flashbacks-207-,,0,0,0,,â€“ Tamam!\Nâ€“ Tamam!
+Dialogue: 50,0:14:23.68,0:14:26.43,Flashbacks-207-,,0,0,0,,Bir arada olmasak bile\Nher zaman arkadaş olacağız.
+Dialogue: 50,0:14:30.89,0:14:32.39,Flashbacks-207-,,0,0,0,,Hadi, biz kaçtık!
+Dialogue: 50,0:14:36.15,0:14:38.23,Flashbacks-207-,,0,0,0,,Millet! Yola koyulalım!
+Dialogue: 50,0:14:38.23,0:14:39.78,Flashbacks-207-,,0,0,0,,Çapayı çekin!
+Dialogue: 50,0:14:39.78,0:14:41.24,Flashbacks-207-,,0,0,0,,– Tamam!\N– Tamam!
 Dialogue: 50,0:14:45.45,0:14:46.70,Flashbacks-207-,,0,0,0,,Laboon!
 Dialogue: 50,0:14:47.91,0:14:49.99,Flashbacks-207-,,0,0,0,,Laboon! Bekle bizi!
-Dialogue: 50,0:14:49.99,0:14:52.45,Flashbacks-207-,,0,0,0,,Mutlaka geri dÃ¶neceÄŸiz!
-Dialogue: 50,0:14:52.45,0:14:54.08,Flashbacks-207-,,0,0,0,,SÃ¶zÃ¼m sÃ¶z!
-Dialogue: 50,0:15:06.64,0:15:09.56,Main-207-,,0,0,0,,Bu, 50 uzun yÄ±l Ã¶nceydi...
-Dialogue: 50,0:15:09.56,0:15:10.81,Main-207-,,0,0,0,,50 yÄ±l mÄ±?
-Dialogue: 50,0:15:10.81,0:15:14.18,Main-207-,,0,0,0,,Laboon onlarÄ± 50 yÄ±ldÄ±r bekliyor mu?
-Dialogue: 50,0:15:14.18,0:15:18.23,Main-207-,,0,0,0,,Bu yÃ¼zden mi baÄŸÄ±rÄ±p duvara tosluyor?
+Dialogue: 50,0:14:49.99,0:14:52.45,Flashbacks-207-,,0,0,0,,Mutlaka geri döneceğiz!
+Dialogue: 50,0:14:52.45,0:14:54.08,Flashbacks-207-,,0,0,0,,Sözüm söz!
+Dialogue: 50,0:15:06.64,0:15:09.56,Main-207-,,0,0,0,,Bu, 50 uzun yıl önceydi...
+Dialogue: 50,0:15:09.56,0:15:10.81,Main-207-,,0,0,0,,50 yıl mı?
+Dialogue: 50,0:15:10.81,0:15:14.18,Main-207-,,0,0,0,,Laboon onları 50 yıldır bekliyor mu?
+Dialogue: 50,0:15:14.18,0:15:18.23,Main-207-,,0,0,0,,Bu yüzden mi bağırıp duvara tosluyor?
 Dialogue: 50,0:15:18.23,0:15:19.02,Main-207-,,0,0,0,,Evet.
-Dialogue: 50,0:15:28.45,0:15:30.20,Main-207-,,0,0,0,,Ne muhteÅŸem bir kanal.
-Dialogue: 50,0:15:30.20,0:15:33.25,Main-207-,,0,0,0,,Bu kadar bÃ¼yÃ¼k bir delikle\Nhayatta kalmasÄ±na ÅŸaÅŸÄ±rdÄ±m.
-Dialogue: 50,0:15:33.25,0:15:34.87,Main-207-,,0,0,0,,Bu da mÄ± mizah anlayÄ±ÅŸÄ±ndÄ±?
-Dialogue: 50,0:15:34.87,0:15:36.71,Main-207-,,0,0,0,,"Doktor"un mizah anlayÄ±ÅŸÄ±.
+Dialogue: 50,0:15:28.45,0:15:30.20,Main-207-,,0,0,0,,Ne muhteşem bir kanal.
+Dialogue: 50,0:15:30.20,0:15:33.25,Main-207-,,0,0,0,,Bu kadar büyük bir delikle\Nhayatta kalmasına şaşırdım.
+Dialogue: 50,0:15:33.25,0:15:34.87,Main-207-,,0,0,0,,Bu da mı mizah anlayışındı?
+Dialogue: 50,0:15:34.87,0:15:36.71,Main-207-,,0,0,0,,"Doktor"un mizah anlayışı.
 Dialogue: 50,0:15:36.71,0:15:37.58,Main-207-,,0,0,0,,Doktor mu?
-Dialogue: 50,0:15:37.58,0:15:39.84,Main-207-,,0,0,0,,Ã–yle gÃ¶rÃ¼nmeyebilirim\Nama ben doktorum.
-Dialogue: 50,0:15:39.84,0:15:43.09,Main-207-,,0,0,0,,YÄ±llar Ã¶nce Burun'da\Nbir klinik iÅŸletiyordum.
-Dialogue: 50,0:15:43.09,0:15:45.72,Main-207-,,0,0,0,,BirkaÃ§ yÄ±l gemi doktorluÄŸu da yaptÄ±m.
+Dialogue: 50,0:15:37.58,0:15:39.84,Main-207-,,0,0,0,,Öyle görünmeyebilirim\Nama ben doktorum.
+Dialogue: 50,0:15:39.84,0:15:43.09,Main-207-,,0,0,0,,Yıllar önce Burun'da\Nbir klinik işletiyordum.
+Dialogue: 50,0:15:43.09,0:15:45.72,Main-207-,,0,0,0,,Birkaç yıl gemi doktorluğu da yaptım.
 Dialogue: 50,0:15:45.72,0:15:46.93,Main-207-,,0,0,0,,Harbi mi?
-Dialogue: 50,0:15:47.43,0:15:49.51,Main-207-,,0,0,0,,O hÃ¢lde gemimizin doktoru ol!
-Dialogue: 50,0:15:49.51,0:15:51.31,Main-207-,,0,0,0,,SaÃ§malama.
-Dialogue: 50,0:15:51.31,0:15:55.48,Main-207-,,0,0,0,,ArtÄ±k sizin gibi pervasÄ±zca\NÅŸeyler yapacak yaÅŸta deÄŸilim.
-Dialogue: 50,0:15:55.48,0:15:58.77,Main-207-,,0,0,0,,Doktor ha?\NDemek ondan balinanÄ±n iÃ§i bu halde...
-Dialogue: 50,0:15:58.77,0:16:00.48,Main-207-,,0,0,0,,Yani onca ÅŸey tedavi amaÃ§lÄ± mÄ±?
-Dialogue: 50,0:16:00.94,0:16:02.48,Main-207-,,0,0,0,,DoÄŸru.
-Dialogue: 50,0:16:02.48,0:16:08.16,Main-207-,,0,0,0,,Balina bu kadar bÃ¼yÃ¼k olunca\NdÄ±ÅŸarÄ±dan tedavisi imkÃ¢nsÄ±z oluyor.
-Dialogue: 50,0:16:08.91,0:16:10.28,Main-207-,,0,0,0,,KapÄ±larÄ± aÃ§acaÄŸÄ±m.
+Dialogue: 50,0:15:47.43,0:15:49.51,Main-207-,,0,0,0,,O hâlde gemimizin doktoru ol!
+Dialogue: 50,0:15:49.51,0:15:51.31,Main-207-,,0,0,0,,Saçmalama.
+Dialogue: 50,0:15:51.31,0:15:55.48,Main-207-,,0,0,0,,Artık sizin gibi pervasızca\Nşeyler yapacak yaşta değilim.
+Dialogue: 50,0:15:55.48,0:15:58.77,Main-207-,,0,0,0,,Doktor ha?\NDemek ondan balinanın içi bu halde...
+Dialogue: 50,0:15:58.77,0:16:00.48,Main-207-,,0,0,0,,Yani onca şey tedavi amaçlı mı?
+Dialogue: 50,0:16:00.94,0:16:02.48,Main-207-,,0,0,0,,Doğru.
+Dialogue: 50,0:16:02.48,0:16:08.16,Main-207-,,0,0,0,,Balina bu kadar büyük olunca\Ndışarıdan tedavisi imkânsız oluyor.
+Dialogue: 50,0:16:08.91,0:16:10.28,Main-207-,,0,0,0,,Kapıları açacağım.
 Dialogue: 50,0:16:21.21,0:16:22.96,Main-207-,,0,0,0,,Sonunda!!
-Dialogue: 50,0:16:22.96,0:16:25.38,Main-207-,,0,0,0,,GerÃ§ek gÃ¶kyÃ¼zÃ¼!
+Dialogue: 50,0:16:22.96,0:16:25.38,Main-207-,,0,0,0,,Gerçek gökyüzü!
 Dialogue: 50,0:16:34.18,0:16:36.06,Main-207-,,0,0,0,,Bayan Wednesday, ne olu...
-Dialogue: 50,0:16:38.31,0:16:40.48,Main-207-,,0,0,0,,50 yÄ±l, ha....?
-Dialogue: 50,0:16:40.48,0:16:42.94,Main-207-,,0,0,0,,Korsanlar onu harbiden Ã§ok bekletmiÅŸler...
+Dialogue: 50,0:16:38.31,0:16:40.48,Main-207-,,0,0,0,,50 yıl, ha....?
+Dialogue: 50,0:16:40.48,0:16:42.94,Main-207-,,0,0,0,,Korsanlar onu harbiden çok bekletmişler...
 Dialogue: 50,0:16:42.94,0:16:44.19,Main-207-,,0,0,0,,Aptal!
-Dialogue: 50,0:16:44.19,0:16:46.28,Main-207-,,0,0,0,,BurasÄ± Grand Line.
-Dialogue: 50,0:16:46.61,0:16:48.03,Main-207-,,0,0,0,,Ã‡oktan Ã¶lmÃ¼ÅŸlerdir.
+Dialogue: 50,0:16:44.19,0:16:46.28,Main-207-,,0,0,0,,Burası Grand Line.
+Dialogue: 50,0:16:46.61,0:16:48.03,Main-207-,,0,0,0,,Çoktan ölmüşlerdir.
 Dialogue: 50,0:16:48.03,0:16:51.37,Main-207-,,0,0,0,,Ne kadar beklerse beklesin,\Ngelmeyecekler.
-Dialogue: 50,0:16:51.37,0:16:54.08,Main-207-,,0,0,0,,Niye bu kadar umutsuz konuÅŸtun ki?!
-Dialogue: 50,0:16:54.45,0:16:56.37,Main-207-,,0,0,0,,Ã–ldÃ¼klerinden emin deÄŸiliz!
+Dialogue: 50,0:16:51.37,0:16:54.08,Main-207-,,0,0,0,,Niye bu kadar umutsuz konuştun ki?!
+Dialogue: 50,0:16:54.45,0:16:56.37,Main-207-,,0,0,0,,Öldüklerinden emin değiliz!
 Dialogue: 50,0:16:56.37,0:16:58.21,Main-207-,,0,0,0,,Belki de geri gelecekler!
-Dialogue: 50,0:16:58.21,0:17:00.12,Main-207-,,0,0,0,,Ã‡ok dokunaklÄ± bir hikaye!
-Dialogue: 50,0:17:00.12,0:17:03.34,Main-207-,,0,0,0,,ArkadaÅŸlarÄ±nÄ±n verdiÄŸi sÃ¶zÃ¼\NtutacaklarÄ±na inanan bir balina...
-Dialogue: 50,0:17:03.34,0:17:05.46,Main-207-,,0,0,0,,DeÄŸil mi, ihtiyar?!
+Dialogue: 50,0:16:58.21,0:17:00.12,Main-207-,,0,0,0,,Çok dokunaklı bir hikaye!
+Dialogue: 50,0:17:00.12,0:17:03.34,Main-207-,,0,0,0,,Arkadaşlarının verdiği sözü\Ntutacaklarına inanan bir balina...
+Dialogue: 50,0:17:03.34,0:17:05.46,Main-207-,,0,0,0,,Değil mi, ihtiyar?!
 Dialogue: 50,0:17:05.46,0:17:06.80,Main-207-,,0,0,0,,Evet...
-Dialogue: 50,0:17:06.80,0:17:10.05,Main-207-,,0,0,0,,Ama gerÃ§ekler acÄ±dÄ±r.
-Dialogue: 50,0:17:10.05,0:17:14.68,Main-207-,,0,0,0,,GÃ¼venilir bir kaynaktan teyit ettim.
-Dialogue: 50,0:17:14.68,0:17:17.77,Main-207-,,0,0,0,,Grand Line'dan kaÃ§mÄ±ÅŸlar...
+Dialogue: 50,0:17:06.80,0:17:10.05,Main-207-,,0,0,0,,Ama gerçekler acıdır.
+Dialogue: 50,0:17:10.05,0:17:14.68,Main-207-,,0,0,0,,Güvenilir bir kaynaktan teyit ettim.
+Dialogue: 50,0:17:14.68,0:17:17.77,Main-207-,,0,0,0,,Grand Line'dan kaçmışlar...
 Dialogue: 50,0:17:17.77,0:17:19.31,Main-207-,,0,0,0,,Olamaz...
-Dialogue: 50,0:17:19.31,0:17:22.23,Main-207-,,0,0,0,,{\fad(0,984)}Onu bÄ±rakÄ±p gitmiÅŸ olamazlar deÄŸil mi?!
-Dialogue: 50,0:17:23.48,0:17:25.57,Main-207-,,0,0,0,,Grand Line'dan kaÃ§mÄ±ÅŸlar...
-Dialogue: 50,0:17:25.57,0:17:27.94,Main-207-,,0,0,0,,Yani Calm Belt'i aÅŸÄ±p hayatta kaldÄ±lar mÄ±?
+Dialogue: 50,0:17:19.31,0:17:22.23,Main-207-,,0,0,0,,{\fad(0,984)}Onu bırakıp gitmiş olamazlar değil mi?!
+Dialogue: 50,0:17:23.48,0:17:25.57,Main-207-,,0,0,0,,Grand Line'dan kaçmışlar...
+Dialogue: 50,0:17:25.57,0:17:27.94,Main-207-,,0,0,0,,Yani Calm Belt'i aşıp hayatta kaldılar mı?
 Dialogue: 50,0:17:27.94,0:17:30.40,Main-207-,,0,0,0,,Hayatta olsalar bile,
-Dialogue: 50,0:17:30.40,0:17:32.86,Main-207-,,0,0,0,,geri dÃ¶neceklerinden ÅŸÃ¼pheliyim.
-Dialogue: 50,0:17:32.86,0:17:36.08,Main-207-,,0,0,0,,Mevsimler. Hava durumu.\NAkÄ±ntÄ±. RÃ¼zgÃ¢rÄ±n yÃ¶nÃ¼.
+Dialogue: 50,0:17:30.40,0:17:32.86,Main-207-,,0,0,0,,geri döneceklerinden şüpheliyim.
+Dialogue: 50,0:17:32.86,0:17:36.08,Main-207-,,0,0,0,,Mevsimler. Hava durumu.\NAkıntı. Rüzgârın yönü.
 Dialogue: 50,0:17:36.08,0:17:38.33,Main-207-,,0,0,0,,Hepsi o kadar tahmin edilemez ki...
-Dialogue: 50,0:17:38.33,0:17:41.71,Main-207-,,0,0,0,,Grand Line'da saÄŸduyu iÅŸe yaramaz.
-Dialogue: 50,0:17:41.71,0:17:46.55,Main-207-,,0,0,0,,Grand Line'Ä±n dehÅŸeti,\Niradesi zayÄ±f olanlara hiÃ§ acÄ±maz.
-Dialogue: 50,0:17:46.55,0:17:50.17,Main-207-,,0,0,0,,Ä°radeleri zayÄ±f olduÄŸu iÃ§in\Nverdikleri sÃ¶zden dÃ¶nerek...
-Dialogue: 50,0:17:50.17,0:17:54.05,Main-207-,,0,0,0,,kendi kÄ±Ã§larÄ±nÄ± kurtarmak iÃ§in kaÃ§tÄ±lar.
-Dialogue: 50,0:17:55.85,0:17:58.60,Main-207-,,0,0,0,,BalinayÄ± terk mi ettiler?!
-Dialogue: 50,0:17:58.60,0:18:01.23,Main-207-,,0,0,0,,50 yÄ±ldÄ±r onlarÄ± beklemiÅŸken mi?!
-Dialogue: 50,0:18:01.23,0:18:02.44,Main-207-,,0,0,0,,Ã‡ok gaddarca!
-Dialogue: 50,0:18:02.98,0:18:06.23,Main-207-,,0,0,0,,Gelmeyeceklerini biliyorsan,\Nbunu niye ona sÃ¶ylemedin?
-Dialogue: 50,0:18:06.57,0:18:09.36,Main-207-,,0,0,0,,Bu balina, insanlarÄ±n dediklerini anlÄ±yor, deÄŸil mi?
-Dialogue: 50,0:18:09.69,0:18:11.03,Main-207-,,0,0,0,,Ona sÃ¶yledim.
-Dialogue: 50,0:18:11.03,0:18:13.49,Main-207-,,0,0,0,,TÃ¼m hikÃ¢yeyi anlattÄ±m.
+Dialogue: 50,0:17:38.33,0:17:41.71,Main-207-,,0,0,0,,Grand Line'da sağduyu işe yaramaz.
+Dialogue: 50,0:17:41.71,0:17:46.55,Main-207-,,0,0,0,,Grand Line'ın dehşeti,\Niradesi zayıf olanlara hiç acımaz.
+Dialogue: 50,0:17:46.55,0:17:50.17,Main-207-,,0,0,0,,İradeleri zayıf olduğu için\Nverdikleri sözden dönerek...
+Dialogue: 50,0:17:50.17,0:17:54.05,Main-207-,,0,0,0,,kendi kıçlarını kurtarmak için kaçtılar.
+Dialogue: 50,0:17:55.85,0:17:58.60,Main-207-,,0,0,0,,Balinayı terk mi ettiler?!
+Dialogue: 50,0:17:58.60,0:18:01.23,Main-207-,,0,0,0,,50 yıldır onları beklemişken mi?!
+Dialogue: 50,0:18:01.23,0:18:02.44,Main-207-,,0,0,0,,Çok gaddarca!
+Dialogue: 50,0:18:02.98,0:18:06.23,Main-207-,,0,0,0,,Gelmeyeceklerini biliyorsan,\Nbunu niye ona söylemedin?
+Dialogue: 50,0:18:06.57,0:18:09.36,Main-207-,,0,0,0,,Bu balina, insanların dediklerini anlıyor, değil mi?
+Dialogue: 50,0:18:09.69,0:18:11.03,Main-207-,,0,0,0,,Ona söyledim.
+Dialogue: 50,0:18:11.03,0:18:13.49,Main-207-,,0,0,0,,Tüm hikâyeyi anlattım.
 Dialogue: 50,0:18:14.07,0:18:16.28,Flashbacks-207-,,0,0,0,,Laboon! Dinle beni!
-Dialogue: 50,0:18:16.28,0:18:19.33,Flashbacks-207-,,0,0,0,,Duydum ki Grand Line'Ä± terketmiÅŸler.
-Dialogue: 50,0:18:19.87,0:18:22.21,Flashbacks-207-,,0,0,0,,Sizler yakÄ±n arkadaÅŸtÄ±nÄ±z...
-Dialogue: 50,0:18:22.54,0:18:26.21,Flashbacks-207-,,0,0,0,,ve sana verdikleri sÃ¶z emin ol gerÃ§ekti.
-Dialogue: 50,0:18:32.30,0:18:34.09,Flashbacks-207-,,0,0,0,,Ama korkarÄ±m ki...
-Dialogue: 50,0:18:34.68,0:18:36.60,Flashbacks-207-,,0,0,0,,asla geri dÃ¶nmeyecekler...
-Dialogue: 50,0:18:56.87,0:18:59.53,Flashbacks-207-,,0,0,0,,AÃ§ kulaklarÄ±nÄ± da dinle, Laboon!
-Dialogue: 50,0:18:59.53,0:19:01.24,Flashbacks-207-,,0,0,0,,Gelmeyecekâ€“
+Dialogue: 50,0:18:16.28,0:18:19.33,Flashbacks-207-,,0,0,0,,Duydum ki Grand Line'ı terketmişler.
+Dialogue: 50,0:18:19.87,0:18:22.21,Flashbacks-207-,,0,0,0,,Sizler yakın arkadaştınız...
+Dialogue: 50,0:18:22.54,0:18:26.21,Flashbacks-207-,,0,0,0,,ve sana verdikleri söz emin ol gerçekti.
+Dialogue: 50,0:18:32.30,0:18:34.09,Flashbacks-207-,,0,0,0,,Ama korkarım ki...
+Dialogue: 50,0:18:34.68,0:18:36.60,Flashbacks-207-,,0,0,0,,asla geri dönmeyecekler...
+Dialogue: 50,0:18:56.87,0:18:59.53,Flashbacks-207-,,0,0,0,,Aç kulaklarını da dinle, Laboon!
+Dialogue: 50,0:18:59.53,0:19:01.24,Flashbacks-207-,,0,0,0,,Gelmeyecek–
 Dialogue: 50,0:19:10.34,0:19:13.01,Flashbacks-207-,,0,0,0,,Kabullenemiyorsun, biliyorum.
-Dialogue: 50,0:19:13.76,0:19:17.14,Flashbacks-207-,,0,0,0,,Ama artÄ±k kabullenmek zorundasÄ±n...
+Dialogue: 50,0:19:13.76,0:19:17.14,Flashbacks-207-,,0,0,0,,Ama artık kabullenmek zorundasın...
 Dialogue: 50,0:19:17.80,0:19:18.51,Flashbacks-207-,,0,0,0,,Laboon!
 Dialogue: 50,0:19:23.06,0:19:24.60,Flashbacks-207-,,0,0,0,,Laboon!
-Dialogue: 50,0:19:34.86,0:19:40.70,Main-207-,,0,0,0,,O gÃ¼nden sonra\NReverse Mountain'a baÄŸÄ±rmaya ve...
-Dialogue: 50,0:19:40.70,0:19:44.33,Main-207-,,0,0,0,,Red Line'a toslamaya baÅŸladÄ±.
-Dialogue: 50,0:19:44.33,0:19:46.25,Main-207-,,0,0,0,,Sanki duvarÄ±n Ã¶tesinden...
-Dialogue: 50,0:19:46.25,0:19:51.00,Main-207-,,0,0,0,,geleceklermiÅŸ gibi diretircesine...
-Dialogue: 50,0:19:51.59,0:19:52.88,Main-207-,,0,0,0,,Ne balinaymÄ±ÅŸ be...
-Dialogue: 50,0:19:52.88,0:19:55.05,Main-207-,,0,0,0,,Beklemenin bir anlamÄ± olmasa bile...
-Dialogue: 50,0:19:55.05,0:19:59.01,Main-207-,,0,0,0,,{\q2}Bana inanmayÄ± reddediyor Ã§Ã¼nkÃ¼ haklÄ±ysam\Nbeklemesinin bir anlamÄ± kalmÄ±yor.
-Dialogue: 50,0:19:59.68,0:20:03.68,Main-207-,,0,0,0,,Her ÅŸeyden Ã§ok bundan korkuyor.
-Dialogue: 50,0:20:03.68,0:20:05.98,Main-207-,,0,0,0,,Laboon, BatÄ± Mavi'den.
-Dialogue: 50,0:20:06.39,0:20:08.35,Main-207-,,0,0,0,,Oraya geri dÃ¶nmesinin imkÃ¢nÄ± yok.
-Dialogue: 50,0:20:08.35,0:20:14.48,Main-207-,,0,0,0,,{\q2}O korsanlar, onun iÃ§in sadece birer dost deÄŸil,\NaynÄ± zamanda evine dÃ¶nme umuduydu.
-Dialogue: 50,0:20:14.48,0:20:18.49,Main-207-,,0,0,0,,Bu zavallÄ± balinanÄ±n durumu bir kenara,
-Dialogue: 50,0:20:18.49,0:20:21.28,Main-207-,,0,0,0,,sen de yÃ¼zÃ¼stÃ¼ bÄ±rakÄ±lmÄ±ÅŸ\Nhissediyorsun, deÄŸil mi?
-Dialogue: 50,0:20:23.62,0:20:26.20,Main-207-,,0,0,0,,Onun iÃ§in yeterince uÄŸraÅŸmadÄ±n mÄ±?
-Dialogue: 50,0:20:26.20,0:20:28.87,Main-207-,,0,0,0,,AlnÄ±ndaki yaralara baksanÄ±za!
-Dialogue: 50,0:20:28.87,0:20:34.30,Main-207-,,0,0,0,,KafasÄ±nÄ± vurmaya devam ederse\NÃ¶leceÄŸi aÅŸikÃ¢r.
-Dialogue: 50,0:20:34.30,0:20:37.63,Main-207-,,0,0,0,,Tuhaf bir iliÅŸki ama\N50 yÄ±ldÄ±r onun yanÄ±ndayÄ±m.
-Dialogue: 50,0:20:37.63,0:20:39.68,Main-207-,,0,0,0,,Durup Ã¶lmesine gÃ¶z yumamam.
-Dialogue: 50,0:20:42.51,0:20:44.14,Main-207-,,0,0,0,,N'apÄ±yor yine bu salak?
-Dialogue: 50,0:20:44.14,0:20:45.89,Main-207-,,0,0,0,,Ä°ki saniye boÅŸ bÄ±rakmaya gelmiyor...
-Dialogue: 50,0:20:45.89,0:20:47.85,Main-207-,,0,0,0,,Kendini daÄŸcÄ± mÄ± sanÄ±yor?
+Dialogue: 50,0:19:34.86,0:19:40.70,Main-207-,,0,0,0,,O günden sonra\NReverse Mountain'a bağırmaya ve...
+Dialogue: 50,0:19:40.70,0:19:44.33,Main-207-,,0,0,0,,Red Line'a toslamaya başladı.
+Dialogue: 50,0:19:44.33,0:19:46.25,Main-207-,,0,0,0,,Sanki duvarın ötesinden...
+Dialogue: 50,0:19:46.25,0:19:51.00,Main-207-,,0,0,0,,geleceklermiş gibi diretircesine...
+Dialogue: 50,0:19:51.59,0:19:52.88,Main-207-,,0,0,0,,Ne balinaymış be...
+Dialogue: 50,0:19:52.88,0:19:55.05,Main-207-,,0,0,0,,Beklemenin bir anlamı olmasa bile...
+Dialogue: 50,0:19:55.05,0:19:59.01,Main-207-,,0,0,0,,{\q2}Bana inanmayı reddediyor çünkü haklıysam\Nbeklemesinin bir anlamı kalmıyor.
+Dialogue: 50,0:19:59.68,0:20:03.68,Main-207-,,0,0,0,,Her şeyden çok bundan korkuyor.
+Dialogue: 50,0:20:03.68,0:20:05.98,Main-207-,,0,0,0,,Laboon, Batı Mavi'den.
+Dialogue: 50,0:20:06.39,0:20:08.35,Main-207-,,0,0,0,,Oraya geri dönmesinin imkânı yok.
+Dialogue: 50,0:20:08.35,0:20:14.48,Main-207-,,0,0,0,,{\q2}O korsanlar, onun için sadece birer dost değil,\Naynı zamanda evine dönme umuduydu.
+Dialogue: 50,0:20:14.48,0:20:18.49,Main-207-,,0,0,0,,Bu zavallı balinanın durumu bir kenara,
+Dialogue: 50,0:20:18.49,0:20:21.28,Main-207-,,0,0,0,,sen de yüzüstü bırakılmış\Nhissediyorsun, değil mi?
+Dialogue: 50,0:20:23.62,0:20:26.20,Main-207-,,0,0,0,,Onun için yeterince uğraşmadın mı?
+Dialogue: 50,0:20:26.20,0:20:28.87,Main-207-,,0,0,0,,Alnındaki yaralara baksanıza!
+Dialogue: 50,0:20:28.87,0:20:34.30,Main-207-,,0,0,0,,Kafasını vurmaya devam ederse\Nöleceği aşikâr.
+Dialogue: 50,0:20:34.30,0:20:37.63,Main-207-,,0,0,0,,Tuhaf bir ilişki ama\N50 yıldır onun yanındayım.
+Dialogue: 50,0:20:37.63,0:20:39.68,Main-207-,,0,0,0,,Durup ölmesine göz yumamam.
+Dialogue: 50,0:20:42.51,0:20:44.14,Main-207-,,0,0,0,,N'apıyor yine bu salak?
+Dialogue: 50,0:20:44.14,0:20:45.89,Main-207-,,0,0,0,,İki saniye boş bırakmaya gelmiyor...
+Dialogue: 50,0:20:45.89,0:20:47.85,Main-207-,,0,0,0,,Kendini dağcı mı sanıyor?
 Dialogue: 50,0:20:49.64,0:20:52.27,Main-207-,,0,0,0,,{\fad(150,150)}Lastik-Lastik...
-Dialogue: 50,0:20:52.27,0:20:54.36,Main-207-,,0,0,0,,{\fad(150,150)}Ã‡iÃ§ek Demeti!
-Dialogue: 50,0:20:54.69,0:20:56.49,Main-207-,,0,0,0,,Gemi direÄŸi deÄŸil mi o?
+Dialogue: 50,0:20:52.27,0:20:54.36,Main-207-,,0,0,0,,{\fad(150,150)}Çiçek Demeti!
+Dialogue: 50,0:20:54.69,0:20:56.49,Main-207-,,0,0,0,,Gemi direği değil mi o?
 Dialogue: 50,0:20:56.49,0:20:58.49,Main-207-,,0,0,0,,Evet. Bizim geminin.
 Dialogue: 50,0:20:58.49,0:20:59.78,Main-207-,,0,0,0,,Ana direk...
-Dialogue: 50,0:21:00.11,0:21:02.41,Main-207-,,0,0,0,,Hey! Gemiyi parÃ§alama!
-Dialogue: 50,0:21:09.21,0:21:11.67,Main-207-,,0,0,0,,â€“ Ne yapÄ±yorsun be?!\Nâ€“ Ne yapÄ±yorsun be?!
-Dialogue: 50,0:21:22.47,0:21:23.55,Main-207-,,0,0,0,,Lan...?! Hey, Ã§ocuk!
-Dialogue: 50,0:21:23.93,0:21:26.97,Main-207-,,0,0,0,,EndiÅŸelenme! Ezilerek Ã¶lmez!
+Dialogue: 50,0:21:00.11,0:21:02.41,Main-207-,,0,0,0,,Hey! Gemiyi parçalama!
+Dialogue: 50,0:21:09.21,0:21:11.67,Main-207-,,0,0,0,,– Ne yapıyorsun be?!\N– Ne yapıyorsun be?!
+Dialogue: 50,0:21:22.47,0:21:23.55,Main-207-,,0,0,0,,Lan...?! Hey, çocuk!
+Dialogue: 50,0:21:23.93,0:21:26.97,Main-207-,,0,0,0,,Endişelenme! Ezilerek ölmez!
 Dialogue: 50,0:21:31.77,0:21:32.60,Main-207-,,0,0,0,,Ahmak!
-Dialogue: 50,0:21:39.36,0:21:40.78,Main-207-,,0,0,0,,Ne dÃ¼ÅŸÃ¼nÃ¼yor ki?
-Dialogue: 50,0:21:44.83,0:21:47.99,Main-207-,,0,0,0,,Luffy! Ne yaptÄ±ÄŸÄ±nÄ± sanÄ±yorsun?!
+Dialogue: 50,0:21:39.36,0:21:40.78,Main-207-,,0,0,0,,Ne düşünüyor ki?
+Dialogue: 50,0:21:44.83,0:21:47.99,Main-207-,,0,0,0,,Luffy! Ne yaptığını sanıyorsun?!
 Dialogue: 50,0:21:52.83,0:21:53.96,Main-207-,,0,0,0,,Berabere!
-Dialogue: 50,0:21:58.76,0:22:00.05,Main-207-,,0,0,0,,Baya gÃ¼Ã§lÃ¼yÃ¼m, ha?
-Dialogue: 50,0:22:02.13,0:22:04.55,Main-207-,,0,0,0,,DÃ¶vÃ¼ÅŸÃ¼mÃ¼z bitmedi!
-Dialogue: 50,0:22:04.55,0:22:06.56,Main-207-,,0,0,0,,Sonra hesaplaÅŸÄ±rÄ±z!
-Dialogue: 50,0:22:06.56,0:22:10.14,Main-207-,,0,0,0,,ArkadaÅŸlarÄ±n Ã¶lmÃ¼ÅŸ olabilir ama ben,\Nher zaman senin rakibinim!
-Dialogue: 50,0:22:10.14,0:22:14.35,Main-207-,,0,0,0,,Bir gÃ¼n, kesinlikle bunu Ã§Ã¶zÃ¼p\Nkim daha gÃ¼Ã§lÃ¼ymÃ¼ÅŸ gÃ¶rmeliyiz.
-Dialogue: 50,0:22:14.35,0:22:18.15,Main-207-,,0,0,0,,Grand Line'Ä± dolaÅŸÄ±p,\Nseni gÃ¶rmeye geri geleceÄŸiz.
-Dialogue: 50,0:22:19.48,0:22:21.44,Main-207-,,0,0,0,,Geri dÃ¶ndÃ¼ÄŸÃ¼mde, tekrar dÃ¶vÃ¼ÅŸelim!
+Dialogue: 50,0:21:58.76,0:22:00.05,Main-207-,,0,0,0,,Baya güçlüyüm, ha?
+Dialogue: 50,0:22:02.13,0:22:04.55,Main-207-,,0,0,0,,Dövüşümüz bitmedi!
+Dialogue: 50,0:22:04.55,0:22:06.56,Main-207-,,0,0,0,,Sonra hesaplaşırız!
+Dialogue: 50,0:22:06.56,0:22:10.14,Main-207-,,0,0,0,,Arkadaşların ölmüş olabilir ama ben,\Nher zaman senin rakibinim!
+Dialogue: 50,0:22:10.14,0:22:14.35,Main-207-,,0,0,0,,Bir gün, kesinlikle bunu çözüp\Nkim daha güçlüymüş görmeliyiz.
+Dialogue: 50,0:22:14.35,0:22:18.15,Main-207-,,0,0,0,,Grand Line'ı dolaşıp,\Nseni görmeye geri geleceğiz.
+Dialogue: 50,0:22:19.48,0:22:21.44,Main-207-,,0,0,0,,Geri döndüğümde, tekrar dövüşelim!
 Dialogue: 50,0:22:37.04,0:22:38.21,Main-207-,,0,0,0,,Harika.
-Dialogue: 50,0:22:38.21,0:22:42.09,Main-207-,,0,0,0,,Bu sembol,\Ntekrar dÃ¶vÃ¼ÅŸeceÄŸimizin sÃ¶zÃ¼!
-Dialogue: 50,0:22:42.09,0:22:48.10,Main-207-,,0,0,0,,Biz geri dÃ¶nene dek, kafanÄ± \Ntoslama da silinmesin. AnlaÅŸtÄ±k mÄ±?!
-Dialogue: 50,0:22:51.52,0:22:53.27,Main-207-,,0,0,0,,PekÃ¢lÃ¢!
+Dialogue: 50,0:22:38.21,0:22:42.09,Main-207-,,0,0,0,,Bu sembol,\Ntekrar dövüşeceğimizin sözü!
+Dialogue: 50,0:22:42.09,0:22:48.10,Main-207-,,0,0,0,,Biz geri dönene dek, kafanı \Ntoslama da silinmesin. Anlaştık mı?!
+Dialogue: 50,0:22:51.52,0:22:53.27,Main-207-,,0,0,0,,Pekâlâ!
 Dialogue: 50,0:22:55.15,0:22:56.27,Main-207-,,0,0,0,,Nereye gittiler, onlar?
-Dialogue: 50,0:22:56.27,0:22:57.73,Main-207-,,0,0,0,,"Onlar" mÄ±?
+Dialogue: 50,0:22:56.27,0:22:57.73,Main-207-,,0,0,0,,"Onlar" mı?
 Dialogue: 50,0:22:57.73,0:22:59.61,Main-207-,,0,0,0,,Ah, o garip tipleri mi diyorsun?
-Dialogue: 50,0:22:59.61,0:23:01.11,Main-207-,,0,0,0,,HerhÃ¢lde kaÃ§tÄ±lar?
-Dialogue: 50,0:23:01.11,0:23:04.40,Main-207-,,0,0,0,,Ne iÅŸ Ã§evirdiklerini hiÃ§ Ã¶ÄŸrenemedik de...?
-Dialogue: 50,0:23:07.32,0:23:10.62,Main-207-,,0,0,0,,Bayan Wednesday, ne yapacaÄŸÄ±z?
-Dialogue: 50,0:23:12.91,0:23:16.67,Main-207-,,0,0,0,,En azÄ±ndan geri dÃ¶nÃ¼p\Npatrona rapor vermek zorundayÄ±z.
-Dialogue: 50,0:23:16.67,0:23:19.42,Main-207-,,0,0,0,,Bu gÃ¶revi Ã§oktan tamamlamalÄ±ydÄ±k.
-Dialogue: 50,0:23:19.42,0:23:23.38,Main-207-,,0,0,0,,HaklÄ±sÄ±n. Hain olarak damgalanÄ±rsak\Nbizim iÃ§in Ã§ok kÃ¶tÃ¼ olur.
+Dialogue: 50,0:22:59.61,0:23:01.11,Main-207-,,0,0,0,,Herhâlde kaçtılar?
+Dialogue: 50,0:23:01.11,0:23:04.40,Main-207-,,0,0,0,,Ne iş çevirdiklerini hiç öğrenemedik de...?
+Dialogue: 50,0:23:07.32,0:23:10.62,Main-207-,,0,0,0,,Bayan Wednesday, ne yapacağız?
+Dialogue: 50,0:23:12.91,0:23:16.67,Main-207-,,0,0,0,,En azından geri dönüp\Npatrona rapor vermek zorundayız.
+Dialogue: 50,0:23:16.67,0:23:19.42,Main-207-,,0,0,0,,Bu görevi çoktan tamamlamalıydık.
+Dialogue: 50,0:23:19.42,0:23:23.38,Main-207-,,0,0,0,,Haklısın. Hain olarak damgalanırsak\Nbizim için çok kötü olur.
 Dialogue: 50,0:23:23.76,0:23:24.51,Main-207-,,0,0,0,,Evet.
-Dialogue: 50,0:23:24.51,0:23:27.84,Main-207-,,0,0,0,,SilahlarÄ±mÄ±zÄ± kaybettiÄŸimiz iÃ§in\NÃ¼sse dÃ¶nÃ¼p baÅŸtan baÅŸlamalÄ±yÄ±z.
-Dialogue: 50,0:23:27.84,0:23:31.97,Main-207-,,0,0,0,,Ã–yle gerekiyorsa.\NO zaman baÅŸlayalÄ±m... Ha?
+Dialogue: 50,0:23:24.51,0:23:27.84,Main-207-,,0,0,0,,Silahlarımızı kaybettiğimiz için\Nüsse dönüp baştan başlamalıyız.
+Dialogue: 50,0:23:27.84,0:23:31.97,Main-207-,,0,0,0,,Öyle gerekiyorsa.\NO zaman başlayalım... Ha?
 Dialogue: 50,0:23:31.97,0:23:34.31,Main-207-,,0,0,0,,Ha...? Nerede..? Ne?!
 Dialogue: 50,0:23:34.64,0:23:35.64,Main-207-,,0,0,0,,Sorun ne?
-Dialogue: 50,0:23:37.19,0:23:37.90,Main-207-,,0,0,0,,GitmiÅŸ...
+Dialogue: 50,0:23:37.19,0:23:37.90,Main-207-,,0,0,0,,Gitmiş...
 Dialogue: 50,0:23:37.90,0:23:38.52,Main-207-,,0,0,0,,Ne?
 Dialogue: 50,0:23:41.27,0:23:42.19,Main-207-,,0,0,0,,Bu ne?
-Dialogue: 50,0:23:42.94,0:23:44.99,Main-207-,,0,0,0,,Seyir pusulasÄ±nÄ± mÄ± dÃ¼ÅŸÃ¼rdÃ¼n?!
-Dialogue: 50,0:23:44.99,0:23:46.70,Main-207-,,0,0,0,,Ã‡ok Ã¶zÃ¼r dilerim, Bayan Wednesday!
-Dialogue: 50,0:23:46.70,0:23:48.99,Main-207-,,0,0,0,,O olmadan kasabamÄ±za dÃ¶nemeyiz ki.
-Dialogue: 50,0:23:50.99,0:23:52.12,Main-207-,,0,0,0,,GÃ¶rÃ¼nÃ¼ÅŸeâ€“
+Dialogue: 50,0:23:42.94,0:23:44.99,Main-207-,,0,0,0,,Seyir pusulasını mı düşürdün?!
+Dialogue: 50,0:23:44.99,0:23:46.70,Main-207-,,0,0,0,,Çok özür dilerim, Bayan Wednesday!
+Dialogue: 50,0:23:46.70,0:23:48.99,Main-207-,,0,0,0,,O olmadan kasabamıza dönemeyiz ki.
+Dialogue: 50,0:23:50.99,0:23:52.12,Main-207-,,0,0,0,,Görünüşe–
 Dialogue: 50,0:23:53.62,0:23:56.00,Main-207-,,0,0,0,,Y-Yoksa o...?!
 Dialogue: 50,0:23:56.00,0:23:56.71,Main-207-,,0,0,0,,Ha?
 Dialogue: 50,0:23:58.29,0:23:59.54,Main-207-,,0,0,0,,Onlar...
 Dialogue: 50,0:24:00.50,0:24:02.46,Main-207-,,0,0,0,,O-Olamaz...
-Dialogue: 50,0:24:03.38,0:24:04.67,Main-207-,,0,0,10,,...UÄŸursuzlar!
-Dialogue: 50,0:24:04.67,0:24:05.97,Main-207-,,0,0,10,,Lanet! GeÃ§ kaldÄ±k!
+Dialogue: 50,0:24:03.38,0:24:04.67,Main-207-,,0,0,10,,...Uğursuzlar!
+Dialogue: 50,0:24:04.67,0:24:05.97,Main-207-,,0,0,10,,Lanet! Geç kaldık!
 Dialogue: 50,0:24:05.97,0:24:07.05,Main-207-,,0,0,10,,Bay 13!
 Dialogue: 50,0:24:07.05,0:24:08.89,Main-207-,,0,0,10,,Bayan Friday!
-Dialogue: 50,0:24:09.22,0:24:11.55,Main-207-,,0,0,0,,LÃ¼tfen, durun! AÃ§Ä±klayabiliriz!
-Dialogue: 50,0:24:11.55,0:24:14.27,Main-207-,,0,0,0,,Derhal patrona rapor vereceÄŸiz!
-Dialogue: 50,0:24:28.41,0:24:32.74,Main-207-,,0,0,0,,Oh be! ArtÄ±k Grand Line\NyolculuÄŸumuzu planlayabilirim.
-Dialogue: 50,0:24:37.54,0:24:41.42,Main-207-,,0,0,0,,PekÃ¢lÃ¢! Sonunda mavi yÃ¼zgeÃ§li\Nfil orkinosunu piÅŸireceÄŸim!
+Dialogue: 50,0:24:09.22,0:24:11.55,Main-207-,,0,0,0,,Lütfen, durun! Açıklayabiliriz!
+Dialogue: 50,0:24:11.55,0:24:14.27,Main-207-,,0,0,0,,Derhal patrona rapor vereceğiz!
+Dialogue: 50,0:24:28.41,0:24:32.74,Main-207-,,0,0,0,,Oh be! Artık Grand Line\Nyolculuğumuzu planlayabilirim.
+Dialogue: 50,0:24:37.54,0:24:41.42,Main-207-,,0,0,0,,Pekâlâ! Sonunda mavi yüzgeçli\Nfil orkinosunu pişireceğim!
 Dialogue: 50,0:24:41.42,0:24:42.92,Main-207-,,0,0,0,,Kahretsin...!
-Dialogue: 50,0:24:43.88,0:24:47.88,Main-207-,,0,0,0,,Luffy'nin, gemimizi parÃ§alarken\NaklÄ± neredeydi?! Aman be...
+Dialogue: 50,0:24:43.88,0:24:47.88,Main-207-,,0,0,0,,Luffy'nin, gemimizi parçalarken\Naklı neredeydi?! Aman be...
 Dialogue: 50,0:24:47.88,0:24:49.18,Main-207-,,0,0,0,,Hey, Zoro!
-Dialogue: 50,0:24:49.18,0:24:51.97,Main-207-,,0,0,0,,Bir el atsana!\NBen gemi marangozu deÄŸilim!
-Dialogue: 50,0:24:57.89,0:24:59.48,Main-207-,,0,0,0,,Bu Ã§Ä±ÄŸlÄ±k da ne?
+Dialogue: 50,0:24:49.18,0:24:51.97,Main-207-,,0,0,0,,Bir el atsana!\NBen gemi marangozu değilim!
+Dialogue: 50,0:24:57.89,0:24:59.48,Main-207-,,0,0,0,,Bu çığlık da ne?
 Dialogue: 50,0:24:59.48,0:25:01.35,Main-207-,,0,0,0,,Sorun nedir, Nami-{\i1}san{\i}?!
-Dialogue: 50,0:25:01.35,0:25:03.52,Main-207-,,0,0,0,,EÄŸer acÄ±ktÄ±ysan, yemeÄŸin hazÄ±r!
-Dialogue: 50,0:25:03.52,0:25:04.32,Main-207-,,0,0,0,,HazÄ±r mÄ±?
-Dialogue: 50,0:25:04.65,0:25:06.78,Main-207-,,0,0,0,,P-PusulamÄ±z bozulmuÅŸ!
-Dialogue: 50,0:25:07.40,0:25:08.99,Main-207-,,0,0,0,,HiÃ§bir yeri gÃ¶stermiyor!
-Dialogue: 50,0:25:08.99,0:25:10.66,Main-207-,,0,0,0,,Evet, haklÄ±sÄ±n.
-Dialogue: 50,0:25:10.66,0:25:12.78,Main-207-,,0,0,0,,DÃ¶nÃ¼p duruyor.
-Dialogue: 50,0:25:12.78,0:25:14.45,Main-207-,,0,0,0,,Vay! EÄŸlenceli!
-Dialogue: 50,0:25:15.33,0:25:19.25,Main-207-,,0,0,0,,GÃ¶rÃ¼nÃ¼ÅŸe gÃ¶re buraya\NhazÄ±rlÄ±ksÄ±z gelmiÅŸsiniz.
-Dialogue: 50,0:25:19.25,0:25:22.33,Main-207-,,0,0,0,,TanrÄ± aÅŸkÄ±na!\NCanÄ±nÄ±zÄ± sokakta mÄ± buldunuz?
+Dialogue: 50,0:25:01.35,0:25:03.52,Main-207-,,0,0,0,,Eğer acıktıysan, yemeğin hazır!
+Dialogue: 50,0:25:03.52,0:25:04.32,Main-207-,,0,0,0,,Hazır mı?
+Dialogue: 50,0:25:04.65,0:25:06.78,Main-207-,,0,0,0,,P-Pusulamız bozulmuş!
+Dialogue: 50,0:25:07.40,0:25:08.99,Main-207-,,0,0,0,,Hiçbir yeri göstermiyor!
+Dialogue: 50,0:25:08.99,0:25:10.66,Main-207-,,0,0,0,,Evet, haklısın.
+Dialogue: 50,0:25:10.66,0:25:12.78,Main-207-,,0,0,0,,Dönüp duruyor.
+Dialogue: 50,0:25:12.78,0:25:14.45,Main-207-,,0,0,0,,Vay! Eğlenceli!
+Dialogue: 50,0:25:15.33,0:25:19.25,Main-207-,,0,0,0,,Görünüşe göre buraya\Nhazırlıksız gelmişsiniz.
+Dialogue: 50,0:25:19.25,0:25:22.33,Main-207-,,0,0,0,,Tanrı aşkına!\NCanınızı sokakta mı buldunuz?
 Dialogue: 50,0:25:22.79,0:25:23.42,Main-207-,,0,0,0,,Ne?
 Dialogue: 50,0:25:23.42,0:25:24.13,Main-207-,,0,0,0,,Yemek?
 Dialogue: 50,0:25:24.13,0:25:25.96,Main-207-,,0,0,0,,Sen ot yiyebilirsin.
-Dialogue: 50,0:25:25.96,0:25:27.42,Main-207-,,0,0,0,,Size sÃ¶ylemiÅŸtim
-Dialogue: 50,0:25:27.42,0:25:30.84,Main-207-,,0,0,0,,SaÄŸduyu bu denizde iÅŸe yaramaz.
-Dialogue: 50,0:25:30.84,0:25:34.14,Main-207-,,0,0,0,,PusulanÄ±z bozuk deÄŸil.
-Dialogue: 50,0:25:34.93,0:25:37.14,Main-207-,,0,0,0,,O zaman manyetik alanlar mÄ±?
+Dialogue: 50,0:25:25.96,0:25:27.42,Main-207-,,0,0,0,,Size söylemiştim
+Dialogue: 50,0:25:27.42,0:25:30.84,Main-207-,,0,0,0,,Sağduyu bu denizde işe yaramaz.
+Dialogue: 50,0:25:30.84,0:25:34.14,Main-207-,,0,0,0,,Pusulanız bozuk değil.
+Dialogue: 50,0:25:34.93,0:25:37.14,Main-207-,,0,0,0,,O zaman manyetik alanlar mı?
 Dialogue: 50,0:25:37.14,0:25:38.22,Main-207-,,0,0,0,,Evet.
-Dialogue: 50,0:25:38.22,0:25:43.61,Main-207-,,0,0,0,,Grand Line'daki adalar, yÃ¼ksek\Nmiktarda manyetik mineral iÃ§erir.
+Dialogue: 50,0:25:38.22,0:25:43.61,Main-207-,,0,0,0,,Grand Line'daki adalar, yüksek\Nmiktarda manyetik mineral içerir.
 Dialogue: 50,0:25:43.61,0:25:46.36,Main-207-,,0,0,0,,Grand Line boyunca\Nanormalliklere sebep olurlar.
-Dialogue: 50,0:25:46.36,0:25:49.78,Main-207-,,0,0,0,,DahasÄ±, akÄ±ntÄ± ve rÃ¼zgÃ¢rlar da\Nsabit deÄŸildir.
-Dialogue: 50,0:25:49.78,0:25:53.62,Main-207-,,0,0,0,,RotacÄ±ysan, bunun ne kadar\NkorkunÃ§ olduÄŸunu bilirsin.
-Dialogue: 50,0:25:53.62,0:25:57.83,Main-207-,,0,0,0,,Evet, yÃ¶nÃ¼mÃ¼zÃ¼ bilemezsek\NhapÄ± yuttuk demektir.
+Dialogue: 50,0:25:46.36,0:25:49.78,Main-207-,,0,0,0,,Dahası, akıntı ve rüzgârlar da\Nsabit değildir.
+Dialogue: 50,0:25:49.78,0:25:53.62,Main-207-,,0,0,0,,Rotacıysan, bunun ne kadar\Nkorkunç olduğunu bilirsin.
+Dialogue: 50,0:25:53.62,0:25:57.83,Main-207-,,0,0,0,,Evet, yönümüzü bilemezsek\Nhapı yuttuk demektir.
 Dialogue: 50,0:25:57.83,0:25:58.79,Main-207-,,0,0,0,,Leziz!
-Dialogue: 50,0:25:58.79,0:26:00.91,Main-207-,,0,0,0,,B-Bilmiyordum! Åey...
-Dialogue: 50,0:26:00.91,0:26:03.54,Main-207-,,0,0,0,,Hey! Bu Ã§ok fena! Ne yapacaÄŸÄ±z?!
-Dialogue: 50,0:26:03.54,0:26:06.00,Main-207-,,0,0,0,,HiÃ§ de fena deÄŸil. Nefis!
+Dialogue: 50,0:25:58.79,0:26:00.91,Main-207-,,0,0,0,,B-Bilmiyordum! Şey...
+Dialogue: 50,0:26:00.91,0:26:03.54,Main-207-,,0,0,0,,Hey! Bu çok fena! Ne yapacağız?!
+Dialogue: 50,0:26:03.54,0:26:06.00,Main-207-,,0,0,0,,Hiç de fena değil. Nefis!
 Dialogue: 50,0:26:06.00,0:26:08.96,Main-207-,,0,0,0,,Bir saniye sessiz durabilir misiniz?!
-Dialogue: 50,0:26:08.96,0:26:12.13,Main-207-,,0,0,0,,Mavi yÃ¼zgeÃ§li fil orkinosunun\Nburnu da pek lezzetliymiÅŸ!
-Dialogue: 50,0:26:12.59,0:26:17.60,Main-207-,,0,0,0,,Grand Line'da dolaÅŸabilmeniz iÃ§in\Nbir seyir pusulasÄ± ÅŸart.
-Dialogue: 50,0:26:17.60,0:26:19.85,Main-207-,,0,0,0,,Seyir pusulasÄ± mÄ±? O ne ki?
-Dialogue: 50,0:26:19.85,0:26:23.85,Main-207-,,0,0,0,,ManyetizmayÄ± Ã¶lÃ§en Ã¶zel bir pusula Ã§eÅŸidi.
-Dialogue: 50,0:26:23.85,0:26:25.40,Main-207-,,0,0,0,,Garip gÃ¶rÃ¼nÃ¼ÅŸlÃ¼ mÃ¼?
-Dialogue: 50,0:26:25.40,0:26:27.98,Main-207-,,0,0,0,,Evet, tuhaf bir ÅŸekli var.
+Dialogue: 50,0:26:08.96,0:26:12.13,Main-207-,,0,0,0,,Mavi yüzgeçli fil orkinosunun\Nburnu da pek lezzetliymiş!
+Dialogue: 50,0:26:12.59,0:26:17.60,Main-207-,,0,0,0,,Grand Line'da dolaşabilmeniz için\Nbir seyir pusulası şart.
+Dialogue: 50,0:26:17.60,0:26:19.85,Main-207-,,0,0,0,,Seyir pusulası mı? O ne ki?
+Dialogue: 50,0:26:19.85,0:26:23.85,Main-207-,,0,0,0,,Manyetizmayı ölçen özel bir pusula çeşidi.
+Dialogue: 50,0:26:23.85,0:26:25.40,Main-207-,,0,0,0,,Garip görünüşlü mü?
+Dialogue: 50,0:26:25.40,0:26:27.98,Main-207-,,0,0,0,,Evet, tuhaf bir şekli var.
 Dialogue: 50,0:26:27.98,0:26:29.40,Main-207-,,0,0,0,,Bunun gibi mi?
 Dialogue: 50,0:26:29.40,0:26:30.53,Main-207-,,0,0,0,,Evet, o.
-Dialogue: 50,0:26:30.99,0:26:35.91,Main-207-,,0,0,0,,Seyir pusulasÄ± olmadan\NGrand Line'da yolunuzu bulamazsÄ±nÄ±z.
-Dialogue: 50,0:26:36.66,0:26:38.16,Main-207-,,0,0,0,,AnladÄ±m...
+Dialogue: 50,0:26:30.99,0:26:35.91,Main-207-,,0,0,0,,Seyir pusulası olmadan\NGrand Line'da yolunuzu bulamazsınız.
+Dialogue: 50,0:26:36.66,0:26:38.16,Main-207-,,0,0,0,,Anladım...
 Dialogue: 50,0:26:38.16,0:26:39.91,Main-207-,,0,0,0,,Ama bir saniye...
 Dialogue: 50,0:26:40.41,0:26:41.83,Main-207-,,0,0,0,,Luffy?
-Dialogue: 50,0:26:42.21,0:26:44.83,Main-207-,,0,0,0,,Sende ne iÅŸi var onun?
-Dialogue: 50,0:26:46.54,0:26:50.63,Main-207-,,0,0,0,,O iki tuhaf tip, gemiye dÃ¼ÅŸÃ¼rmÃ¼ÅŸ.
-Dialogue: 50,0:26:50.63,0:26:51.80,Main-207-,,0,0,0,,Ã–yle mi?
+Dialogue: 50,0:26:42.21,0:26:44.83,Main-207-,,0,0,0,,Sende ne işi var onun?
+Dialogue: 50,0:26:46.54,0:26:50.63,Main-207-,,0,0,0,,O iki tuhaf tip, gemiye düşürmüş.
+Dialogue: 50,0:26:50.63,0:26:51.80,Main-207-,,0,0,0,,Öyle mi?
 Dialogue: 50,0:26:51.80,0:26:53.17,Main-207-,,0,0,0,,Niye bana vurdun?
-Dialogue: 50,0:26:53.17,0:26:54.13,Main-207-,,0,0,0,,Ä°Ã§imden geldi.
+Dialogue: 50,0:26:53.17,0:26:54.13,Main-207-,,0,0,0,,İçimden geldi.
 Dialogue: 50,0:26:54.13,0:26:55.09,Main-207-,,0,0,0,,Makul.
-Dialogue: 50,0:26:56.34,0:26:57.68,Main-207-,,0,0,0,,Demek seyir pusulasÄ± bu.
-Dialogue: 50,0:26:57.68,0:26:59.22,Main-207-,,0,0,0,,HiÃ§ iÅŸaret yok.
-Dialogue: 50,0:26:59.22,0:27:06.81,Main-207-,,0,0,0,,Grand Line'daki adalarÄ±n manyetik\NalanlarÄ± belli bir kuralÄ± takip eder:
-Dialogue: 50,0:27:06.81,0:27:11.99,Main-207-,,0,0,0,,Ä°ki adanÄ±n birbirine uyguladÄ±ÄŸÄ±\Nmanyetik kuvveti hesaplayarak,
+Dialogue: 50,0:26:56.34,0:26:57.68,Main-207-,,0,0,0,,Demek seyir pusulası bu.
+Dialogue: 50,0:26:57.68,0:26:59.22,Main-207-,,0,0,0,,Hiç işaret yok.
+Dialogue: 50,0:26:59.22,0:27:06.81,Main-207-,,0,0,0,,Grand Line'daki adaların manyetik\Nalanları belli bir kuralı takip eder:
+Dialogue: 50,0:27:06.81,0:27:11.99,Main-207-,,0,0,0,,İki adanın birbirine uyguladığı\Nmanyetik kuvveti hesaplayarak,
 Dialogue: 50,0:27:11.99,0:27:14.49,Main-207-,,0,0,0,,bir sonraki adaya olan\Nyolu bulabilirsiniz.
-Dialogue: 50,0:27:14.99,0:27:18.16,Main-207-,,0,0,0,,Tabii, adanÄ±n denizdeki yerini\NbilemeyeceÄŸinizden,
-Dialogue: 50,0:27:18.16,0:27:22.00,Main-207-,,0,0,0,,gÃ¼venebileceÄŸiniz tek ÅŸey\Nseyir pusulasÄ±nÄ±n manyetik kaydÄ±dÄ±r.
-Dialogue: 50,0:27:22.45,0:27:29.13,Main-207-,,0,0,0,,{\q2}BaÅŸlamak iÃ§in, Reverse Mountain'Ä±n\Nyedi manyetik alanÄ±ndan birini seÃ§melisiniz.
-Dialogue: 50,0:27:29.13,0:27:32.05,Main-207-,,0,0,0,,Ama hangi adadan baÅŸladÄ±ÄŸÄ±nÄ±z farketmeksizin,
-Dialogue: 50,0:27:32.05,0:27:35.93,Main-207-,,0,0,0,,manyetik Ã§ekimler sonunda sizi\Ntek bir rotaya itecektir.
-Dialogue: 50,0:27:35.93,0:27:39.47,Main-207-,,0,0,0,,Ve yolculuÄŸun sonundaki adanÄ±n adÄ± da...
+Dialogue: 50,0:27:14.99,0:27:18.16,Main-207-,,0,0,0,,Tabii, adanın denizdeki yerini\Nbilemeyeceğinizden,
+Dialogue: 50,0:27:18.16,0:27:22.00,Main-207-,,0,0,0,,güvenebileceğiniz tek şey\Nseyir pusulasının manyetik kaydıdır.
+Dialogue: 50,0:27:22.45,0:27:29.13,Main-207-,,0,0,0,,{\q2}Başlamak için, Reverse Mountain'ın\Nyedi manyetik alanından birini seçmelisiniz.
+Dialogue: 50,0:27:29.13,0:27:32.05,Main-207-,,0,0,0,,Ama hangi adadan başladığınız farketmeksizin,
+Dialogue: 50,0:27:32.05,0:27:35.93,Main-207-,,0,0,0,,manyetik çekimler sonunda sizi\Ntek bir rotaya itecektir.
+Dialogue: 50,0:27:35.93,0:27:39.47,Main-207-,,0,0,0,,Ve yolculuğun sonundaki adanın adı da...
 Dialogue: 50,0:27:39.97,0:27:41.31,Main-207-,,0,0,0,,Laugh Tale'dir.
 Dialogue: 50,0:27:41.31,0:27:44.10,Main-207-,,0,0,0,,Grand Line'daki son ada.
-Dialogue: 50,0:27:44.10,0:27:48.31,Main-207-,,0,0,0,,Bu adanÄ±n varlÄ±ÄŸÄ±nÄ± onaylayan\Ntek kiÅŸi Korsanlar KralÄ±'ydÄ±.
+Dialogue: 50,0:27:44.10,0:27:48.31,Main-207-,,0,0,0,,Bu adanın varlığını onaylayan\Ntek kişi Korsanlar Kralı'ydı.
 Dialogue: 50,0:27:48.31,0:27:50.44,Main-207-,,0,0,0,,Efsanevi bir ada.
 Dialogue: 50,0:27:50.44,0:27:51.82,Main-207-,,0,0,0,,Laugh Tale...
-Dialogue: 50,0:27:51.82,0:27:54.65,Main-207-,,0,0,0,,One Piece de orada deÄŸil mi?!
+Dialogue: 50,0:27:51.82,0:27:54.65,Main-207-,,0,0,0,,One Piece de orada değil mi?!
 Dialogue: 50,0:27:54.65,0:27:57.70,Main-207-,,0,0,0,,Kim bilir? En muhtemel teori o,
-Dialogue: 50,0:27:57.70,0:28:00.41,Main-207-,,0,0,0,,ama kanÄ±tlayan olmadÄ±.
+Dialogue: 50,0:27:57.70,0:28:00.41,Main-207-,,0,0,0,,ama kanıtlayan olmadı.
 Dialogue: 50,0:28:00.41,0:28:02.04,Main-207-,,0,0,0,,Oraya...
-Dialogue: 50,0:28:02.04,0:28:03.58,Main-207-,,0,0,0,,vardÄ±ÄŸÄ±mÄ±zda anlarÄ±z.
-Dialogue: 50,0:28:06.46,0:28:09.17,Main-207-,,0,0,0,,Tamam, ben hazÄ±rÄ±m!\NHazÄ±rlanalÄ±m mÄ± artÄ±k?
-Dialogue: 50,0:28:09.17,0:28:11.00,Main-207-,,0,0,0,,Hepsini tek baÅŸÄ±na mÄ± yedin?!
-Dialogue: 50,0:28:11.00,0:28:12.67,Main-207-,,0,0,0,,Oha! Kemikleri bile yemiÅŸ.
-Dialogue: 50,0:28:12.67,0:28:15.97,Main-207-,,0,0,0,,Seyir pusulasÄ±, demek? \NBuna gÃ¶zÃ¼mÃ¼z gibi bakmamÄ±z lazÄ±m.
-Dialogue: 50,0:28:15.97,0:28:18.18,Main-207-,,0,0,0,,YolculuÄŸumuz iÃ§in Ã§ok mÃ¼him.
-Dialogue: 50,0:28:18.18,0:28:19.93,Main-207-,,0,0,0,,Seni kahrolasÄ± lastik adam!
-Dialogue: 50,0:28:19.93,0:28:22.56,Main-207-,,0,0,0,,Nami-{\i1}san{\i0}'a mÃ¼thiÅŸ bir yemek yapmÄ±ÅŸtÄ±m,
-Dialogue: 50,0:28:23.35,0:28:26.48,Main-207-,,0,0,0,,ama o, tek bir Ä±sÄ±rÄ±k bile yiyemedi!
-Dialogue: 50,0:28:41.37,0:28:42.33,Main-207-,,0,0,0,,N'apÄ±yorsun?
-Dialogue: 50,0:28:42.33,0:28:44.74,Main-207-,,0,0,0,,NasÄ±lmÄ±ÅŸ, kodumun lastiÄŸi seni?
+Dialogue: 50,0:28:02.04,0:28:03.58,Main-207-,,0,0,0,,vardığımızda anlarız.
+Dialogue: 50,0:28:06.46,0:28:09.17,Main-207-,,0,0,0,,Tamam, ben hazırım!\NHazırlanalım mı artık?
+Dialogue: 50,0:28:09.17,0:28:11.00,Main-207-,,0,0,0,,Hepsini tek başına mı yedin?!
+Dialogue: 50,0:28:11.00,0:28:12.67,Main-207-,,0,0,0,,Oha! Kemikleri bile yemiş.
+Dialogue: 50,0:28:12.67,0:28:15.97,Main-207-,,0,0,0,,Seyir pusulası, demek? \NBuna gözümüz gibi bakmamız lazım.
+Dialogue: 50,0:28:15.97,0:28:18.18,Main-207-,,0,0,0,,Yolculuğumuz için çok mühim.
+Dialogue: 50,0:28:18.18,0:28:19.93,Main-207-,,0,0,0,,Seni kahrolası lastik adam!
+Dialogue: 50,0:28:19.93,0:28:22.56,Main-207-,,0,0,0,,Nami-{\i1}san{\i0}'a müthiş bir yemek yapmıştım,
+Dialogue: 50,0:28:23.35,0:28:26.48,Main-207-,,0,0,0,,ama o, tek bir ısırık bile yiyemedi!
+Dialogue: 50,0:28:41.37,0:28:42.33,Main-207-,,0,0,0,,N'apıyorsun?
+Dialogue: 50,0:28:42.33,0:28:44.74,Main-207-,,0,0,0,,Nasılmış, kodumun lastiği seni?
 Dialogue: 50,0:28:43.66,0:28:44.74,Secondary-207-,,0,0,0,,Sanji-{\i1}kun{\i0}...
 Dialogue: 50,0:28:44.74,0:28:46.20,Main-207-,,0,0,0,,Evet, Nami-{\i1}san{\i}!
 Dialogue: 50,0:28:47.04,0:28:50.17,Main-207-,,0,0,0,,Defolup gidin de az serinleyin!!
 Dialogue: 50,0:28:54.55,0:28:56.55,Main-207-,,0,0,0,,Hey, dur bir saniye...
-Dialogue: 50,0:28:57.01,0:29:00.30,Main-207-,,0,0,0,,Bu Ã§ok Ã¶nemli bir ÅŸey deÄŸil miydi?!
-Dialogue: 50,0:29:00.30,0:29:02.80,Main-207-,,0,0,0,,Biricik seyir pusulamÄ±z...
-Dialogue: 50,0:29:02.80,0:29:05.14,Main-207-,,0,0,0,,Panik yapmayÄ±n.\NBenimkini veririm size.
-Dialogue: 50,0:29:05.56,0:29:08.06,Main-207-,,0,0,0,,Laboon iÃ§in bir teÅŸekkÃ¼r olarak gÃ¶rÃ¼n.
-Dialogue: 50,0:29:15.57,0:29:17.57,Main-207-,,0,0,0,,Ahh... Ã–leceÄŸim sandÄ±m. Ha?
-Dialogue: 50,0:29:20.20,0:29:23.32,Main-207-,,0,0,0,,Buyrun, yardÄ±m edeyim, hanÄ±mefendi.
-Dialogue: 50,0:29:23.32,0:29:24.37,Main-207-,,0,0,0,,Oh, teÅŸekkÃ¼r ederim.
-Dialogue: 50,0:29:24.37,0:29:25.58,Main-207-,,0,0,0,,Ne gÃ¼zel bir gÃ¼n, deÄŸil mi?
+Dialogue: 50,0:28:57.01,0:29:00.30,Main-207-,,0,0,0,,Bu çok önemli bir şey değil miydi?!
+Dialogue: 50,0:29:00.30,0:29:02.80,Main-207-,,0,0,0,,Biricik seyir pusulamız...
+Dialogue: 50,0:29:02.80,0:29:05.14,Main-207-,,0,0,0,,Panik yapmayın.\NBenimkini veririm size.
+Dialogue: 50,0:29:05.56,0:29:08.06,Main-207-,,0,0,0,,Laboon için bir teşekkür olarak görün.
+Dialogue: 50,0:29:15.57,0:29:17.57,Main-207-,,0,0,0,,Ahh... Öleceğim sandım. Ha?
+Dialogue: 50,0:29:20.20,0:29:23.32,Main-207-,,0,0,0,,Buyrun, yardım edeyim, hanımefendi.
+Dialogue: 50,0:29:23.32,0:29:24.37,Main-207-,,0,0,0,,Oh, teşekkür ederim.
+Dialogue: 50,0:29:24.37,0:29:25.58,Main-207-,,0,0,0,,Ne güzel bir gün, değil mi?
 Dialogue: 50,0:29:25.58,0:29:26.37,Main-207-,,0,0,0,,Hey!
-Dialogue: 50,0:29:27.00,0:29:28.29,Main-207-,,0,0,0,,Sizden bir ricamÄ±z var.
+Dialogue: 50,0:29:27.00,0:29:28.29,Main-207-,,0,0,0,,Sizden bir ricamız var.
 Dialogue: 50,0:29:31.92,0:29:33.21,Main-207-,,0,0,0,,Whisky Peak mi?
 Dialogue: 50,0:29:33.54,0:29:34.75,Main-207-,,0,0,0,,Ne tuhaf bir isim.
 Dialogue: 50,0:29:34.75,0:29:35.84,Main-207-,,0,0,0,,O ne ki?
-Dialogue: 50,0:29:35.84,0:29:38.59,Main-207-,,0,0,0,,Bizim yaÅŸadÄ±ÄŸÄ±mÄ±z yer... beyefendi.
+Dialogue: 50,0:29:35.84,0:29:38.59,Main-207-,,0,0,0,,Bizim yaşadığımız yer... beyefendi.
 Dialogue: 50,0:29:38.59,0:29:40.72,Main-207-,,0,0,0,,Sizin geminize ne oldu?
-Dialogue: 50,0:29:40.72,0:29:43.18,Main-207-,,0,0,0,,Berbat hÃ¢lde.
-Dialogue: 50,0:29:43.80,0:29:47.89,Main-207-,,0,0,0,,BalinayÄ± Ã¶ldÃ¼rmeye kalkÄ±p ÅŸimdi bunu\Nistemek biraz abartÄ± deÄŸil mi, Bay 9?
-Dialogue: 50,0:29:48.31,0:29:50.23,Main-207-,,0,0,0,,Neyin nesiniz siz bakayÄ±m?
-Dialogue: 50,0:29:50.23,0:29:51.94,Main-207-,,0,0,0,,Ben bir kralÄ±m.
-Dialogue: 50,0:29:53.02,0:29:53.98,Main-207-,,0,0,0,,YalancÄ±.
-Dialogue: 50,0:29:55.23,0:29:56.98,Main-207-,,0,0,0,,SÃ¶yleyemeyiz!
-Dialogue: 50,0:29:56.98,0:29:59.24,Main-207-,,0,0,0,,Ama evimize geri dÃ¶nmek istiyoruz.
+Dialogue: 50,0:29:40.72,0:29:43.18,Main-207-,,0,0,0,,Berbat hâlde.
+Dialogue: 50,0:29:43.80,0:29:47.89,Main-207-,,0,0,0,,Balinayı öldürmeye kalkıp şimdi bunu\Nistemek biraz abartı değil mi, Bay 9?
+Dialogue: 50,0:29:48.31,0:29:50.23,Main-207-,,0,0,0,,Neyin nesiniz siz bakayım?
+Dialogue: 50,0:29:50.23,0:29:51.94,Main-207-,,0,0,0,,Ben bir kralım.
+Dialogue: 50,0:29:53.02,0:29:53.98,Main-207-,,0,0,0,,Yalancı.
+Dialogue: 50,0:29:55.23,0:29:56.98,Main-207-,,0,0,0,,Söyleyemeyiz!
+Dialogue: 50,0:29:56.98,0:29:59.24,Main-207-,,0,0,0,,Ama evimize geri dönmek istiyoruz.
 Dialogue: 50,0:29:59.24,0:30:02.57,Main-207-,,0,0,0,,Ketumluk etmek istemeyiz ama...
-Dialogue: 50,0:30:02.57,0:30:04.99,Main-207-,,0,0,0,,ÅŸirketimizin mottosu\N"gizlilik" en nihayetinde...
-Dialogue: 50,0:30:04.99,0:30:07.41,Main-207-,,0,0,0,,Size hakkÄ±mÄ±zda hiÃ§bir ÅŸey sÃ¶yleyemeyiz.
-Dialogue: 50,0:30:07.74,0:30:11.12,Main-207-,,0,0,0,,Ä°yi niyetinize gÃ¼venerek size yalvarÄ±yoruz.
-Dialogue: 50,0:30:11.12,0:30:13.50,Main-207-,,0,0,0,,Ä°yiliÄŸinizin karÅŸÄ±lÄ±ÄŸÄ±nÄ± mutlaka vereceÄŸiz.
-Dialogue: 50,0:30:13.50,0:30:15.34,Main-207-,,0,0,0,,Ä°nanmayÄ±n.
-Dialogue: 50,0:30:15.34,0:30:18.42,Main-207-,,0,0,0,,Ne derlerse desinler,\Nbunlar gÃ¼venilmez insanlar.
-Dialogue: 50,0:30:18.84,0:30:23.93,Main-207-,,0,0,0,,Bu arada seyir pusulamÄ±z kÄ±rÄ±ldÄ±.\NHÃ¢lÃ¢ gelmek istiyor musunuz?
-Dialogue: 50,0:30:24.26,0:30:27.47,Main-207-,,0,0,0,,Ne?! KÄ±rdÄ±nÄ±z mÄ±?!\NO benimdi, biliyorsunuz!
-Dialogue: 50,0:30:27.47,0:30:31.52,Main-207-,,0,0,0,,Biz mÃ¼tevazÄ±yken siz kibirli mi\NdavranÄ±yorsunuz?! Bizden farkÄ±nÄ±z yok!
-Dialogue: 50,0:30:31.89,0:30:33.31,Main-207-,,0,0,0,,Ah, sÃ¶ylemeyi unuttum,
-Dialogue: 50,0:30:33.31,0:30:36.48,Main-207-,,0,0,0,,bay Crocus sayesinde\Nbir yedeÄŸimiz var.
-Dialogue: 50,0:30:37.32,0:30:39.48,Main-207-,,0,0,0,,Siz, yÃ¼ce gÃ¶nÃ¼llÃ¼ insanlara yalvarÄ±yoruz.
+Dialogue: 50,0:30:02.57,0:30:04.99,Main-207-,,0,0,0,,şirketimizin mottosu\N"gizlilik" en nihayetinde...
+Dialogue: 50,0:30:04.99,0:30:07.41,Main-207-,,0,0,0,,Size hakkımızda hiçbir şey söyleyemeyiz.
+Dialogue: 50,0:30:07.74,0:30:11.12,Main-207-,,0,0,0,,İyi niyetinize güvenerek size yalvarıyoruz.
+Dialogue: 50,0:30:11.12,0:30:13.50,Main-207-,,0,0,0,,İyiliğinizin karşılığını mutlaka vereceğiz.
+Dialogue: 50,0:30:13.50,0:30:15.34,Main-207-,,0,0,0,,İnanmayın.
+Dialogue: 50,0:30:15.34,0:30:18.42,Main-207-,,0,0,0,,Ne derlerse desinler,\Nbunlar güvenilmez insanlar.
+Dialogue: 50,0:30:18.84,0:30:23.93,Main-207-,,0,0,0,,Bu arada seyir pusulamız kırıldı.\NHâlâ gelmek istiyor musunuz?
+Dialogue: 50,0:30:24.26,0:30:27.47,Main-207-,,0,0,0,,Ne?! Kırdınız mı?!\NO benimdi, biliyorsunuz!
+Dialogue: 50,0:30:27.47,0:30:31.52,Main-207-,,0,0,0,,Biz mütevazıyken siz kibirli mi\Ndavranıyorsunuz?! Bizden farkınız yok!
+Dialogue: 50,0:30:31.89,0:30:33.31,Main-207-,,0,0,0,,Ah, söylemeyi unuttum,
+Dialogue: 50,0:30:33.31,0:30:36.48,Main-207-,,0,0,0,,bay Crocus sayesinde\Nbir yedeğimiz var.
+Dialogue: 50,0:30:37.32,0:30:39.48,Main-207-,,0,0,0,,Siz, yüce gönüllü insanlara yalvarıyoruz.
 Dialogue: 50,0:30:39.86,0:30:42.45,Thoughts-207-,,0,0,0,,Kahretsin! Cadaloz bizimle oynuyor!
 Dialogue: 50,0:30:42.78,0:30:44.28,Main-207-,,0,0,0,,Olur, gelebilirsiniz.
 Dialogue: 50,0:30:45.70,0:30:47.16,Main-207-,,0,0,0,,Whisky Peak mi ne?
-Dialogue: 50,0:30:47.16,0:30:48.33,Main-207-,,0,0,0,,Gidelim bakalÄ±m.
-Dialogue: 50,0:30:48.33,0:30:49.08,Main-207-,,0,0,0,,â€“ Ne?\Nâ€“ Ha?
-Dialogue: 50,0:30:49.08,0:30:53.29,Main-207-,,0,0,0,,Hey, bu gÃ¼venilmez tiplerle\Nyola Ã§Ä±kmamÄ±z doÄŸru mu?
+Dialogue: 50,0:30:47.16,0:30:48.33,Main-207-,,0,0,0,,Gidelim bakalım.
+Dialogue: 50,0:30:48.33,0:30:49.08,Main-207-,,0,0,0,,– Ne?\N– Ha?
+Dialogue: 50,0:30:49.08,0:30:53.29,Main-207-,,0,0,0,,Hey, bu güvenilmez tiplerle\Nyola çıkmamız doğru mu?
 Dialogue: 50,0:30:53.66,0:30:54.71,Main-207-,,0,0,0,,Sorun ne?
-Dialogue: 50,0:30:54.71,0:30:56.75,Main-207-,,0,0,0,,Ã–yle ufak detaylarÄ± dert etmeyin.
-Dialogue: 50,0:30:56.75,0:31:01.71,Main-207-,,0,0,0,,Burada rotanÄ±zÄ± belirledikten sonra, deÄŸiÅŸtiremezsiniz.
-Dialogue: 50,0:31:01.71,0:31:04.55,Main-207-,,0,0,0,,BeÄŸenmezsek bir tur daha dÃ¶neriz.
-Dialogue: 50,0:31:05.09,0:31:06.47,Main-207-,,0,0,0,,Ã–yle mi...?
-Dialogue: 50,0:31:07.01,0:31:08.85,Main-207-,,0,0,0,,ArtÄ±k yola Ã§Ä±kalÄ±m mÄ±?
-Dialogue: 50,0:31:10.22,0:31:13.31,Main-207-,,0,0,0,,Balinaya sÃ¶zÃ¼mÃ¼ verdim.\NHadi yola Ã§Ä±kalÄ±m.
+Dialogue: 50,0:30:54.71,0:30:56.75,Main-207-,,0,0,0,,Öyle ufak detayları dert etmeyin.
+Dialogue: 50,0:30:56.75,0:31:01.71,Main-207-,,0,0,0,,Burada rotanızı belirledikten sonra, değiştiremezsiniz.
+Dialogue: 50,0:31:01.71,0:31:04.55,Main-207-,,0,0,0,,Beğenmezsek bir tur daha döneriz.
+Dialogue: 50,0:31:05.09,0:31:06.47,Main-207-,,0,0,0,,Öyle mi...?
+Dialogue: 50,0:31:07.01,0:31:08.85,Main-207-,,0,0,0,,Artık yola çıkalım mı?
+Dialogue: 50,0:31:10.22,0:31:13.31,Main-207-,,0,0,0,,Balinaya sözümü verdim.\NHadi yola çıkalım.
 Dialogue: 50,0:31:13.68,0:31:16.06,Main-207-,,0,0,0,,Sen de kimsin?
 Dialogue: 50,0:31:16.06,0:31:17.02,Main-207-,,0,0,0,,Ben mi?
 Dialogue: 50,0:31:17.02,0:31:17.90,Main-207-,,0,0,0,,Ben...
-Dialogue: 50,0:31:18.31,0:31:20.48,Main-207-,,0,0,0,,Korsanlar KralÄ± olacak adamÄ±m.
+Dialogue: 50,0:31:18.31,0:31:20.48,Main-207-,,0,0,0,,Korsanlar Kralı olacak adamım.
 Dialogue: 50,0:31:24.95,0:31:26.53,Thoughts-207-,,0,0,0,,Ne aptal bir korsan...
-Dialogue: 50,0:31:29.41,0:31:30.95,Main-207-,,0,0,0,,HÃ¢llolmuÅŸ olmalÄ±.
-Dialogue: 50,0:31:30.95,0:31:33.00,Main-207-,,0,0,0,,Pusula ÅŸimdiye ayarlanmÄ±ÅŸ olmalÄ±.
-Dialogue: 50,0:31:33.62,0:31:36.08,Main-207-,,0,0,0,,Harita ile aynÄ± yÃ¶nÃ¼ mÃ¼ iÅŸaret ediyor?
+Dialogue: 50,0:31:29.41,0:31:30.95,Main-207-,,0,0,0,,Hâllolmuş olmalı.
+Dialogue: 50,0:31:30.95,0:31:33.00,Main-207-,,0,0,0,,Pusula şimdiye ayarlanmış olmalı.
+Dialogue: 50,0:31:33.62,0:31:36.08,Main-207-,,0,0,0,,Harita ile aynı yönü mü işaret ediyor?
 Dialogue: 50,0:31:36.08,0:31:36.83,Main-207-,,0,0,0,,Evet.
-Dialogue: 50,0:31:37.54,0:31:39.50,Main-207-,,0,0,0,,Whisky Peak'i iÅŸaret ediyor.
-Dialogue: 50,0:31:40.00,0:31:41.84,Main-207-,,0,0,0,,GÃ¶rÃ¼ÅŸÃ¼rÃ¼z, Ã§iÃ§ekli ihtiyar!
-Dialogue: 50,0:31:41.84,0:31:43.42,Main-207-,,0,0,0,,Seyir pusulasÄ± iÃ§in saÄŸ ol!
-Dialogue: 50,0:31:43.42,0:31:45.34,Main-207-,,0,0,0,,Evet. Ä°yi yolculuklar!
-Dialogue: 50,0:31:45.34,0:31:47.97,Main-207-,,0,0,0,,Seninle de gÃ¶rÃ¼ÅŸÃ¼rÃ¼z, balina!\NÅimdilik gidiyorum!
+Dialogue: 50,0:31:37.54,0:31:39.50,Main-207-,,0,0,0,,Whisky Peak'i işaret ediyor.
+Dialogue: 50,0:31:40.00,0:31:41.84,Main-207-,,0,0,0,,Görüşürüz, çiçekli ihtiyar!
+Dialogue: 50,0:31:41.84,0:31:43.42,Main-207-,,0,0,0,,Seyir pusulası için sağ ol!
+Dialogue: 50,0:31:43.42,0:31:45.34,Main-207-,,0,0,0,,Evet. İyi yolculuklar!
+Dialogue: 50,0:31:45.34,0:31:47.97,Main-207-,,0,0,0,,Seninle de görüşürüz, balina!\NŞimdilik gidiyorum!
 Dialogue: 50,0:31:52.93,0:31:54.89,Main-207-,,0,0,0,,Whisky Peak'e...
 Dialogue: 50,0:31:54.89,0:31:57.27,Main-207-,,0,0,0,,tam yol ileri!!
-Dialogue: 50,0:31:57.27,0:31:59.27,Main-207-,,0,0,0,,â€“ Evet!\Nâ€“ Evet!
-Dialogue: 50,0:32:16.91,0:32:21.79,Main-207-,,0,0,0,,Merak ediyorum, acaba onlar\Nnicedir beklediÄŸimiz korsanlar mÄ±...?
-Dialogue: 50,0:32:21.79,0:32:25.76,Main-207-,,0,0,0,,Bu Ã§ocuÄŸun Ã§ok acayip bir aurasÄ± var...
-Dialogue: 50,0:32:28.80,0:32:30.01,Main-207-,,0,0,0,,deÄŸil mi,
+Dialogue: 50,0:31:57.27,0:31:59.27,Main-207-,,0,0,0,,– Evet!\N– Evet!
+Dialogue: 50,0:32:16.91,0:32:21.79,Main-207-,,0,0,0,,Merak ediyorum, acaba onlar\Nnicedir beklediğimiz korsanlar mı...?
+Dialogue: 50,0:32:21.79,0:32:25.76,Main-207-,,0,0,0,,Bu çocuğun çok acayip bir aurası var...
+Dialogue: 50,0:32:28.80,0:32:30.01,Main-207-,,0,0,0,,değil mi,
 Dialogue: 50,0:32:30.01,0:32:31.72,Main-207-,,0,0,0,,Roger?
-Dialogue: 0,0:01:49.96,0:01:54.43,Title-207-,,0,0,0,,{\q2\blur0.8\fad(984,0)\bord2\c&H000000&\1a&HFF&\t(942,984,\1a&H00&)\pos(720,710)}Burun'da Verilen SÃ¶z
-Dialogue: 1,0:01:49.96,0:01:54.43,Title-207-,,0,0,0,,{\q2\blur0.8\fad(984,0)\c&HE6E7E8&\bord0\4a&HFF&\pos(720,710)}Burun'da Verilen SÃ¶z
-Dialogue: 0,0:07:29.97,0:07:32.39,Captions-207-,,0,0,0,,{\blur0.8\pos(720,640)\b0\bord4.5\fad(478,0)\c&H000000&\1a&HFF&\3a&H00&\t(436,478,\1a&H00&)\3c&H000000&\fscy90\fscx90}Gizemli KadÄ±n\NBayan Wednesday
-Dialogue: 1,0:07:29.97,0:07:32.39,Captions-207-,,0,0,0,,{\blur0.8\pos(720,640)\b0\bord0\c&HFFFFFF&\fad(478,0)\4a&HFF&\fscy90\fscx90}Gizemli KadÄ±n\NBayan Wednesday
-Dialogue: 2,0:07:29.97,0:07:32.39,Captions-207-,,0,0,0,,{\blur0.8\pos(720,640)\b0\bord0\c&HFFFFFF&\fad(478,0)\4a&HFF&\fscy90\fscx90}Gizemli KadÄ±n\NBayan Wednesday
+Dialogue: 0,0:01:49.96,0:01:54.43,Title-207-,,0,0,0,,{\q2\blur0.8\fad(984,0)\bord2\c&H000000&\1a&HFF&\t(942,984,\1a&H00&)\pos(720,710)}Burun'da Verilen Söz
+Dialogue: 1,0:01:49.96,0:01:54.43,Title-207-,,0,0,0,,{\q2\blur0.8\fad(984,0)\c&HE6E7E8&\bord0\4a&HFF&\pos(720,710)}Burun'da Verilen Söz
+Dialogue: 0,0:07:29.97,0:07:32.39,Captions-207-,,0,0,0,,{\blur0.8\pos(720,640)\b0\bord4.5\fad(478,0)\c&H000000&\1a&HFF&\3a&H00&\t(436,478,\1a&H00&)\3c&H000000&\fscy90\fscx90}Gizemli Kadın\NBayan Wednesday
+Dialogue: 1,0:07:29.97,0:07:32.39,Captions-207-,,0,0,0,,{\blur0.8\pos(720,640)\b0\bord0\c&HFFFFFF&\fad(478,0)\4a&HFF&\fscy90\fscx90}Gizemli Kadın\NBayan Wednesday
+Dialogue: 2,0:07:29.97,0:07:32.39,Captions-207-,,0,0,0,,{\blur0.8\pos(720,640)\b0\bord0\c&HFFFFFF&\fad(478,0)\4a&HFF&\fscy90\fscx90}Gizemli Kadın\NBayan Wednesday
 Dialogue: 0,0:07:39.94,0:07:42.78,Captions-207-,,0,0,0,,{\blur0.8\pos(720,640)\b0\bord4.5\fad(476,0)\c&H000000&\1a&HFF&\3a&H00&\t(434,476,\1a&H00&)\3c&H000000&\fscy90\fscx90}Gizemli Adam\NBay 9
 Dialogue: 1,0:07:39.94,0:07:42.78,Captions-207-,,0,0,0,,{\blur0.8\pos(720,640)\b0\bord0\c&HFFFFFF&\fad(476,0)\4a&HFF&\fscy90\fscx90}Gizemli Adam\NBay 9
 Dialogue: 2,0:07:39.94,0:07:42.78,Captions-207-,,0,0,0,,{\blur0.8\pos(720,640)\b0\bord0\c&HFFFFFF&\fad(476,0)\4a&HFF&\fscy90\fscx90}Gizemli Adam\NBay 9
@@ -568,8 +568,8 @@ Dialogue: 2,0:24:05.09,0:24:08.89,Captions-207-,,0,0,0,,{\blur0.8\b0\bord0\c&HFF
 Dialogue: 0,0:24:05.09,0:24:08.89,Captions-207-,,0,0,0,,{\blur0.8\b0\bord4\fad(477,0)\c&H000000&\1a&HFF&\3a&H00&\t(435,476,\1a&H00&)\3c&H000000&\an5\fscy80\fscx80\pos(360,580)}Gizemli Akbaba\N\NBayan Friday
 Dialogue: 1,0:24:05.09,0:24:08.89,Captions-207-,,0,0,0,,{\blur0.8\b0\bord0\c&HFFFFFF&\fad(477,0)\4a&HFF&\an5\fscy80\fscx80\pos(360,580)}Gizemli Akbaba\N\NBayan Friday
 Dialogue: 2,0:24:05.09,0:24:08.89,Captions-207-,,0,0,0,,{\blur0.8\b0\bord0\c&HFFFFFF&\fad(477,0)\4a&HFF&\an5\fscy80\fscx80\pos(360,580)}Gizemli Akbaba\N\NBayan Friday
-Dialogue: 0,0:00:01.73,0:00:03.73,Credits-207-,,0,0,0,,{\pos(60,40)\fad(600,200)\blur0.6\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1800,1845,\1a&HFF&)}Video DÃ¼zenleme
-Dialogue: 1,0:00:01.73,0:00:03.73,Credits-207-,,0,0,0,,{\pos(60,40)\fad(600,200)\blur0.6\bord0\4a&HFF&}Video DÃ¼zenleme
+Dialogue: 0,0:00:01.73,0:00:03.73,Credits-207-,,0,0,0,,{\pos(60,40)\fad(600,200)\blur0.6\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1800,1845,\1a&HFF&)}Video Düzenleme
+Dialogue: 1,0:00:01.73,0:00:03.73,Credits-207-,,0,0,0,,{\pos(60,40)\fad(600,200)\blur0.6\bord0\4a&HFF&}Video Düzenleme
 Dialogue: 0,0:00:01.73,0:00:03.73,Credits-207-,,0,0,0,,{\pos(90,83)\fad(600,200)\blur0.6\fscx115\fscy120\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1800,1845,\1a&HFF&)}Zenef
 Dialogue: 1,0:00:01.73,0:00:03.73,Credits-207-,,0,0,0,,{\pos(90,83)\fad(600,200)\blur0.6\bord0\fscx115\fscy120\4a&HFF&}Zenef
 Dialogue: 0,0:00:03.73,0:00:05.73,Credits-207-,,0,0,0,,{\pos(60,40)\fad(600,200)\blur0.6\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1800,1845,\1a&HFF&)}Zamanlama
@@ -584,8 +584,8 @@ Dialogue: 0,0:00:07.73,0:00:09.73,Credits-207-,,0,0,0,,{\pos(60,40)\fad(600,600)
 Dialogue: 1,0:00:07.73,0:00:09.73,Credits-207-,,0,0,0,,{\pos(60,40)\fad(600,600)\blur0.6\bord0\4a&HFF&}Kalite Kontrol
 Dialogue: 0,0:00:07.73,0:00:09.73,Credits-207-,,0,0,0,,{\pos(90,83)\fad(600,600)\blur0.6\fscx115\fscy120\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(3400,3445,\1a&HFF&)}Pepperjack\NPhosCity\NRaiyan\NScolines
 Dialogue: 1,0:00:07.73,0:00:09.73,Credits-207-,,0,0,0,,{\pos(90,83)\fad(600,600)\blur0.6\bord0\fscx115\fscy120\4a&HFF&}Pepperjack\NPhosCity\NRaiyan\NScolines
-Dialogue: 0,0:00:09.73,0:00:11.73,Credits-207-,,0,0,0,,{\pos(60,40)\fad(600,600)\blur0.6\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1400,1445,\1a&HFF&)}MÃ¼zik
-Dialogue: 1,0:00:09.73,0:00:11.73,Credits-207-,,0,0,0,,{\pos(60,40)\fad(600,600)\blur0.6\bord0\4a&HFF&}MÃ¼zik
+Dialogue: 0,0:00:09.73,0:00:11.73,Credits-207-,,0,0,0,,{\pos(60,40)\fad(600,600)\blur0.6\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1400,1445,\1a&HFF&)}Müzik
+Dialogue: 1,0:00:09.73,0:00:11.73,Credits-207-,,0,0,0,,{\pos(60,40)\fad(600,600)\blur0.6\bord0\4a&HFF&}Müzik
 Dialogue: 0,0:00:09.73,0:00:11.73,Credits-207-,,0,0,0,,{\pos(90,83)\fad(600,600)\blur0.6\fscx115\fscy120\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1400,1445,\1a&HFF&)}Halee
 Dialogue: 1,0:00:09.73,0:00:11.73,Credits-207-,,0,0,0,,{\pos(90,83)\fad(600,600)\blur0.6\bord0\fscx115\fscy120\4a&HFF&}Halee
 Dialogue: 0,0:00:11.73,0:00:13.73,Credits-207-,,0,0,0,,{\pos(60,40)\fad(600,600)\blur0.6\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1400,1445,\1a&HFF&)}Grafik
@@ -596,22 +596,22 @@ Dialogue: 0,0:00:13.73,0:00:15.73,Credits-207-,,0,0,0,,{\pos(60,40)\fad(600,600)
 Dialogue: 1,0:00:13.73,0:00:15.73,Credits-207-,,0,0,0,,{\pos(60,40)\fad(600,600)\blur0.6\bord0\4a&HFF&}Karaoke
 Dialogue: 0,0:00:13.73,0:00:15.73,Credits-207-,,0,0,0,,{\pos(90,83)\fad(600,600)\blur0.6\fscx115\fscy120\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1400,1445,\1a&HFF&)}KaitouYahiko
 Dialogue: 1,0:00:13.73,0:00:15.73,Credits-207-,,0,0,0,,{\pos(90,83)\fad(600,600)\blur0.6\bord0\fscx115\fscy120\4a&HFF&}KaitouYahiko
-Dialogue: 0,0:00:15.73,0:00:17.73,Credits-207-,,0,0,0,,{\pos(60,40)\fad(600,600)\blur0.6\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1400,1445,\1a&HFF&)}AltyazÄ± DÃ¼zenleme [TR]
-Dialogue: 1,0:00:15.73,0:00:17.73,Credits-207-,,0,0,0,,{\pos(60,40)\fad(600,600)\blur0.6\bord0\4a&HFF&}AltyazÄ± DÃ¼zenleme [TR]
+Dialogue: 0,0:00:15.73,0:00:17.73,Credits-207-,,0,0,0,,{\pos(60,40)\fad(600,600)\blur0.6\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1400,1445,\1a&HFF&)}Altyazı Düzenleme [TR]
+Dialogue: 1,0:00:15.73,0:00:17.73,Credits-207-,,0,0,0,,{\pos(60,40)\fad(600,600)\blur0.6\bord0\4a&HFF&}Altyazı Düzenleme [TR]
 Dialogue: 0,0:00:15.73,0:00:17.73,Credits-207-,,0,0,0,,{\pos(90,83)\fad(600,600)\blur0.6\fscx115\fscy120\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1400,1445,\1a&HFF&)}Jack Cohle\N{\fs30}-onepacetr.net-
 Dialogue: 1,0:00:15.73,0:00:17.73,Credits-207-,,0,0,0,,{\pos(90,83)\fad(600,600)\blur0.6\bord0\fscx115\fscy120\4a&HFF&}Jack Cohle\N{\fs30}-onepacetr.net-
-Dialogue: 0,0:00:17.73,0:00:19.73,Credits-207-,,0,0,0,,{\pos(60,40)\fad(600,600)\blur0.6\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1400,1445,\1a&HFF&)}Ã‡evirmen [TR]
-Dialogue: 1,0:00:17.73,0:00:19.73,Credits-207-,,0,0,0,,{\pos(60,40)\fad(600,600)\blur0.6\bord0\4a&HFF&}Ã‡evirmen [TR]
+Dialogue: 0,0:00:17.73,0:00:19.73,Credits-207-,,0,0,0,,{\pos(60,40)\fad(600,600)\blur0.6\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1400,1445,\1a&HFF&)}Çevirmen [TR]
+Dialogue: 1,0:00:17.73,0:00:19.73,Credits-207-,,0,0,0,,{\pos(60,40)\fad(600,600)\blur0.6\bord0\4a&HFF&}Çevirmen [TR]
 Dialogue: 0,0:00:17.73,0:00:19.73,Credits-207-,,0,0,0,,{\pos(90,83)\fad(600,600)\blur0.6\fscx115\fscy120\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1400,1445,\1a&HFF&)}Mantisentil\N{\fs30}-onepacetr.net-
 Dialogue: 1,0:00:17.73,0:00:19.73,Credits-207-,,0,0,0,,{\pos(90,83)\fad(600,600)\blur0.6\bord0\fscx115\fscy120\4a&HFF&}Mantisentil\N{\fs30}-onepacetr.net-
 Dialogue: 0,0:00:19.73,0:00:21.73,Credits-207-,,0,0,0,,{\pos(60,40)\fad(600,600)\blur0.6\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1400,1445,\1a&HFF&)}Raws
 Dialogue: 1,0:00:19.73,0:00:21.73,Credits-207-,,0,0,0,,{\pos(60,40)\fad(600,600)\blur0.6\bord0\4a&HFF&}Raws
 Dialogue: 0,0:00:19.73,0:00:21.73,Credits-207-,,0,0,0,,{\pos(90,83)\fad(600,600)\blur0.6\fscx115\fscy120\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1400,1445,\1a&HFF&)}Neo-Raws
 Dialogue: 1,0:00:19.73,0:00:21.73,Credits-207-,,0,0,0,,{\pos(90,83)\fad(600,600)\blur0.6\bord0\fscx115\fscy120\4a&HFF&}Neo-Raws
-Dialogue: 0,0:00:12.94,0:00:14.67,RogerMonologue,,0,0,0,,Miras alÄ±nan irade,...
-Dialogue: 0,0:00:14.67,0:00:17.58,RogerMonologue,,0,0,0,,zamanÄ±n gelgitleri ve insanlarÄ±n hayalleri...
-Dialogue: 0,0:00:17.58,0:00:20.41,RogerMonologue,,0,0,0,,BunlarÄ±n Ã¶nÃ¼ne geÃ§ilemez.
-Dialogue: 0,0:00:20.41,0:00:23.52,RogerMonologue,,0,0,0,,Ä°nsanlar, Ã¶zgÃ¼rlÃ¼ÄŸÃ¼n anlamÄ±nÄ± aradÄ±ÄŸÄ± sÃ¼rece...
+Dialogue: 0,0:00:12.94,0:00:14.67,RogerMonologue,,0,0,0,,Miras alınan irade,...
+Dialogue: 0,0:00:14.67,0:00:17.58,RogerMonologue,,0,0,0,,zamanın gelgitleri ve insanların hayalleri...
+Dialogue: 0,0:00:17.58,0:00:20.41,RogerMonologue,,0,0,0,,Bunların önüne geçilemez.
+Dialogue: 0,0:00:20.41,0:00:23.52,RogerMonologue,,0,0,0,,İnsanlar, özgürlüğün anlamını aradığı sürece...
 Dialogue: 0,0:00:23.52,0:00:26.15,RogerMonologue,,0,0,0,,bunlar hep var olacak.
 Dialogue: 0,0:00:34.56,0:00:34.86,Karaoke,,0,0,0,fx,{\an5\move(47,42,47,57,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}
 Dialogue: 1,0:00:34.86,0:00:34.86,Karaoke,,0,0,0,fx,{\an5\move(47,57,47,57)\shad0\3c&HFFFFFF&\1c&H2B1CCE&\bord3\blur0\be7\fscx150\fscy180\t(\fscx100\fscy100\frz0\bord0.5\blur0\be0\frz0)}
@@ -1292,16 +1292,16 @@ Dialogue: 0,0:00:56.12,0:00:58.26,Karaoke,,0,0,0,fx,{\an5\move(245,57,245,27,184
 Dialogue: 0,0:00:55.85,0:00:56.12,Karaoke,,0,0,0,fx,{\an5\move(245,42,245,57,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}
 Dialogue: 1,0:00:56.12,0:00:56.21,Karaoke,,0,0,0,fx,{\an5\move(245,57,245,57)\shad0\3c&HFFFFFF&\1c&H2B1CCE&\bord3\blur0\be7\fscx150\fscy180\t(\fscx100\fscy100\frz0\bord0.5\blur0\be0\frz0)}
 Dialogue: 0,0:00:56.21,0:00:58.29,Karaoke,,0,0,0,fx,{\an5\move(245,57,245,27,1780,2080)\3c&HFFFFFF&\1c&H2B1CCE&\bord3\blur0\shad0\t(1780,2080,\alpha&HFF&\frx180)}
-Dialogue: 0,0:00:55.88,0:00:56.21,Karaoke,,0,0,0,fx,{\an5\move(330,42,330,57,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}GerÃ§ek
-Dialogue: 1,0:00:56.21,0:00:56.44,Karaoke,,0,0,0,fx,{\an5\move(330,57,330,57)\shad0\3c&HFFFFFF&\1c&H2B1CCE&\bord3\blur0\be7\fscx150\fscy180\t(\fscx100\fscy100\frz0\bord0.5\blur0\be0\frz0)}GerÃ§ek
-Dialogue: 0,0:00:56.21,0:00:56.44,Karaoke,,0,0,0,fx,{\an5\pos(330,57)\1a&HFF&\3c&HFFFFFF&\fscx150\fscy160\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}GerÃ§ek
-Dialogue: 0,0:00:56.21,0:00:56.44,Karaoke,,0,0,0,fx,{\an5\pos(330,57)\1a&HFF&\3c&HFFFFFF&\fscx170\fscy180\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}GerÃ§ek
-Dialogue: 0,0:00:56.21,0:00:56.44,Karaoke,,0,0,0,fx,{\an5\pos(330,57)\1a&HFF&\3c&HFFFFFF&\fscx190\fscy200\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}GerÃ§ek
-Dialogue: 0,0:00:56.21,0:00:56.44,Karaoke,,0,0,0,fx,{\an5\pos(330,57)\1a&HFF&\3c&HFFFFFF&\fscx210\fscy220\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}GerÃ§ek
-Dialogue: 0,0:00:56.21,0:00:56.44,Karaoke,,0,0,0,fx,{\an5\pos(330,57)\1a&HFF&\3c&HFFFFFF&\fscx230\fscy240\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}GerÃ§ek
-Dialogue: 0,0:00:56.21,0:00:56.44,Karaoke,,0,0,0,fx,{\an5\pos(330,57)\1a&HFF&\3c&HFFFFFF&\fscx250\fscy260\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}GerÃ§ek
-Dialogue: 0,0:00:56.21,0:00:56.44,Karaoke,,0,0,0,fx,{\an5\pos(330,57)\1a&HFF&\3c&HFFFFFF&\fscx270\fscy280\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}GerÃ§ek
-Dialogue: 0,0:00:56.44,0:00:58.32,Karaoke,,0,0,0,fx,{\an5\move(330,57,330,27,1580,1880)\3c&HFFFFFF&\1c&H2B1CCE&\bord3\blur0\shad0\t(1580,1880,\alpha&HFF&\frx180)}GerÃ§ek
+Dialogue: 0,0:00:55.88,0:00:56.21,Karaoke,,0,0,0,fx,{\an5\move(330,42,330,57,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}Gerçek
+Dialogue: 1,0:00:56.21,0:00:56.44,Karaoke,,0,0,0,fx,{\an5\move(330,57,330,57)\shad0\3c&HFFFFFF&\1c&H2B1CCE&\bord3\blur0\be7\fscx150\fscy180\t(\fscx100\fscy100\frz0\bord0.5\blur0\be0\frz0)}Gerçek
+Dialogue: 0,0:00:56.21,0:00:56.44,Karaoke,,0,0,0,fx,{\an5\pos(330,57)\1a&HFF&\3c&HFFFFFF&\fscx150\fscy160\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}Gerçek
+Dialogue: 0,0:00:56.21,0:00:56.44,Karaoke,,0,0,0,fx,{\an5\pos(330,57)\1a&HFF&\3c&HFFFFFF&\fscx170\fscy180\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}Gerçek
+Dialogue: 0,0:00:56.21,0:00:56.44,Karaoke,,0,0,0,fx,{\an5\pos(330,57)\1a&HFF&\3c&HFFFFFF&\fscx190\fscy200\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}Gerçek
+Dialogue: 0,0:00:56.21,0:00:56.44,Karaoke,,0,0,0,fx,{\an5\pos(330,57)\1a&HFF&\3c&HFFFFFF&\fscx210\fscy220\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}Gerçek
+Dialogue: 0,0:00:56.21,0:00:56.44,Karaoke,,0,0,0,fx,{\an5\pos(330,57)\1a&HFF&\3c&HFFFFFF&\fscx230\fscy240\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}Gerçek
+Dialogue: 0,0:00:56.21,0:00:56.44,Karaoke,,0,0,0,fx,{\an5\pos(330,57)\1a&HFF&\3c&HFFFFFF&\fscx250\fscy260\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}Gerçek
+Dialogue: 0,0:00:56.21,0:00:56.44,Karaoke,,0,0,0,fx,{\an5\pos(330,57)\1a&HFF&\3c&HFFFFFF&\fscx270\fscy280\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}Gerçek
+Dialogue: 0,0:00:56.44,0:00:58.32,Karaoke,,0,0,0,fx,{\an5\move(330,57,330,27,1580,1880)\3c&HFFFFFF&\1c&H2B1CCE&\bord3\blur0\shad0\t(1580,1880,\alpha&HFF&\frx180)}Gerçek
 Dialogue: 0,0:00:55.91,0:00:56.44,Karaoke,,0,0,0,fx,{\an5\move(454,42,454,57,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}ten
 Dialogue: 1,0:00:56.44,0:00:56.60,Karaoke,,0,0,0,fx,{\an5\move(454,57,454,57)\shad0\3c&HFFFFFF&\1c&H2B1CCE&\bord3\blur0\be7\fscx150\fscy180\t(\fscx100\fscy100\frz0\bord0.5\blur0\be0\frz0)}ten
 Dialogue: 0,0:00:56.44,0:00:56.60,Karaoke,,0,0,0,fx,{\an5\pos(454,57)\1a&HFF&\3c&HFFFFFF&\fscx150\fscy160\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}ten
@@ -1322,36 +1322,36 @@ Dialogue: 0,0:00:56.60,0:00:56.82,Karaoke,,0,0,0,fx,{\an5\pos(564,57)\1a&HFF&\3c
 Dialogue: 0,0:00:56.60,0:00:56.82,Karaoke,,0,0,0,fx,{\an5\pos(564,57)\1a&HFF&\3c&HFFFFFF&\fscx250\fscy260\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)} sana
 Dialogue: 0,0:00:56.60,0:00:56.82,Karaoke,,0,0,0,fx,{\an5\pos(564,57)\1a&HFF&\3c&HFFFFFF&\fscx270\fscy280\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)} sana
 Dialogue: 0,0:00:56.82,0:00:58.38,Karaoke,,0,0,0,fx,{\an5\move(564,57,564,27,1260,1560)\3c&HFFFFFF&\1c&H2B1CCE&\bord3\blur0\shad0\t(1260,1560,\alpha&HFF&\frx180)} sana
-Dialogue: 0,0:00:55.97,0:00:56.82,Karaoke,,0,0,0,fx,{\an5\move(693,42,693,57,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)} takÄ±l
-Dialogue: 1,0:00:56.82,0:00:56.98,Karaoke,,0,0,0,fx,{\an5\move(693,57,693,57)\shad0\3c&HFFFFFF&\1c&H2B1CCE&\bord3\blur0\be7\fscx150\fscy180\t(\fscx100\fscy100\frz0\bord0.5\blur0\be0\frz0)} takÄ±l
-Dialogue: 0,0:00:56.82,0:00:56.98,Karaoke,,0,0,0,fx,{\an5\pos(693,57)\1a&HFF&\3c&HFFFFFF&\fscx150\fscy160\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)} takÄ±l
-Dialogue: 0,0:00:56.82,0:00:56.98,Karaoke,,0,0,0,fx,{\an5\pos(693,57)\1a&HFF&\3c&HFFFFFF&\fscx170\fscy180\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)} takÄ±l
-Dialogue: 0,0:00:56.82,0:00:56.98,Karaoke,,0,0,0,fx,{\an5\pos(693,57)\1a&HFF&\3c&HFFFFFF&\fscx190\fscy200\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)} takÄ±l
-Dialogue: 0,0:00:56.82,0:00:56.98,Karaoke,,0,0,0,fx,{\an5\pos(693,57)\1a&HFF&\3c&HFFFFFF&\fscx210\fscy220\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)} takÄ±l
-Dialogue: 0,0:00:56.82,0:00:56.98,Karaoke,,0,0,0,fx,{\an5\pos(693,57)\1a&HFF&\3c&HFFFFFF&\fscx230\fscy240\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)} takÄ±l
-Dialogue: 0,0:00:56.82,0:00:56.98,Karaoke,,0,0,0,fx,{\an5\pos(693,57)\1a&HFF&\3c&HFFFFFF&\fscx250\fscy260\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)} takÄ±l
-Dialogue: 0,0:00:56.82,0:00:56.98,Karaoke,,0,0,0,fx,{\an5\pos(693,57)\1a&HFF&\3c&HFFFFFF&\fscx270\fscy280\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)} takÄ±l
-Dialogue: 0,0:00:56.98,0:00:58.41,Karaoke,,0,0,0,fx,{\an5\move(693,57,693,27,1130,1430)\3c&HFFFFFF&\1c&H2B1CCE&\bord3\blur0\shad0\t(1130,1430,\alpha&HFF&\frx180)} takÄ±l
-Dialogue: 0,0:00:56.00,0:00:56.98,Karaoke,,0,0,0,fx,{\an5\move(805,42,805,57,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}dÄ±m,
-Dialogue: 1,0:00:56.98,0:00:57.19,Karaoke,,0,0,0,fx,{\an5\move(805,57,805,57)\shad0\3c&HFFFFFF&\1c&H2B1CCE&\bord3\blur0\be7\fscx150\fscy180\t(\fscx100\fscy100\frz0\bord0.5\blur0\be0\frz0)}dÄ±m,
-Dialogue: 0,0:00:56.98,0:00:57.19,Karaoke,,0,0,0,fx,{\an5\pos(805,57)\1a&HFF&\3c&HFFFFFF&\fscx150\fscy160\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}dÄ±m,
-Dialogue: 0,0:00:56.98,0:00:57.19,Karaoke,,0,0,0,fx,{\an5\pos(805,57)\1a&HFF&\3c&HFFFFFF&\fscx170\fscy180\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}dÄ±m,
-Dialogue: 0,0:00:56.98,0:00:57.19,Karaoke,,0,0,0,fx,{\an5\pos(805,57)\1a&HFF&\3c&HFFFFFF&\fscx190\fscy200\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}dÄ±m,
-Dialogue: 0,0:00:56.98,0:00:57.19,Karaoke,,0,0,0,fx,{\an5\pos(805,57)\1a&HFF&\3c&HFFFFFF&\fscx210\fscy220\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}dÄ±m,
-Dialogue: 0,0:00:56.98,0:00:57.19,Karaoke,,0,0,0,fx,{\an5\pos(805,57)\1a&HFF&\3c&HFFFFFF&\fscx230\fscy240\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}dÄ±m,
-Dialogue: 0,0:00:56.98,0:00:57.19,Karaoke,,0,0,0,fx,{\an5\pos(805,57)\1a&HFF&\3c&HFFFFFF&\fscx250\fscy260\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}dÄ±m,
-Dialogue: 0,0:00:56.98,0:00:57.19,Karaoke,,0,0,0,fx,{\an5\pos(805,57)\1a&HFF&\3c&HFFFFFF&\fscx270\fscy280\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}dÄ±m,
-Dialogue: 0,0:00:57.19,0:00:58.44,Karaoke,,0,0,0,fx,{\an5\move(805,57,805,27,950,1250)\3c&HFFFFFF&\1c&H2B1CCE&\bord3\blur0\shad0\t(950,1250,\alpha&HFF&\frx180)}dÄ±m,
-Dialogue: 0,0:00:56.03,0:00:57.19,Karaoke,,0,0,0,fx,{\an5\move(919,42,919,57,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}Ã§ok
-Dialogue: 1,0:00:57.19,0:00:57.38,Karaoke,,0,0,0,fx,{\an5\move(919,57,919,57)\shad0\3c&HFFFFFF&\1c&H2B1CCE&\bord3\blur0\be7\fscx150\fscy180\t(\fscx100\fscy100\frz0\bord0.5\blur0\be0\frz0)}Ã§ok
-Dialogue: 0,0:00:57.19,0:00:57.38,Karaoke,,0,0,0,fx,{\an5\pos(919,57)\1a&HFF&\3c&HFFFFFF&\fscx150\fscy160\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}Ã§ok
-Dialogue: 0,0:00:57.19,0:00:57.38,Karaoke,,0,0,0,fx,{\an5\pos(919,57)\1a&HFF&\3c&HFFFFFF&\fscx170\fscy180\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}Ã§ok
-Dialogue: 0,0:00:57.19,0:00:57.38,Karaoke,,0,0,0,fx,{\an5\pos(919,57)\1a&HFF&\3c&HFFFFFF&\fscx190\fscy200\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}Ã§ok
-Dialogue: 0,0:00:57.19,0:00:57.38,Karaoke,,0,0,0,fx,{\an5\pos(919,57)\1a&HFF&\3c&HFFFFFF&\fscx210\fscy220\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}Ã§ok
-Dialogue: 0,0:00:57.19,0:00:57.38,Karaoke,,0,0,0,fx,{\an5\pos(919,57)\1a&HFF&\3c&HFFFFFF&\fscx230\fscy240\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}Ã§ok
-Dialogue: 0,0:00:57.19,0:00:57.38,Karaoke,,0,0,0,fx,{\an5\pos(919,57)\1a&HFF&\3c&HFFFFFF&\fscx250\fscy260\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}Ã§ok
-Dialogue: 0,0:00:57.19,0:00:57.38,Karaoke,,0,0,0,fx,{\an5\pos(919,57)\1a&HFF&\3c&HFFFFFF&\fscx270\fscy280\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}Ã§ok
-Dialogue: 0,0:00:57.38,0:00:58.47,Karaoke,,0,0,0,fx,{\an5\move(919,57,919,27,790,1090)\3c&HFFFFFF&\1c&H2B1CCE&\bord3\blur0\shad0\t(790,1090,\alpha&HFF&\frx180)}Ã§ok
+Dialogue: 0,0:00:55.97,0:00:56.82,Karaoke,,0,0,0,fx,{\an5\move(693,42,693,57,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)} takıl
+Dialogue: 1,0:00:56.82,0:00:56.98,Karaoke,,0,0,0,fx,{\an5\move(693,57,693,57)\shad0\3c&HFFFFFF&\1c&H2B1CCE&\bord3\blur0\be7\fscx150\fscy180\t(\fscx100\fscy100\frz0\bord0.5\blur0\be0\frz0)} takıl
+Dialogue: 0,0:00:56.82,0:00:56.98,Karaoke,,0,0,0,fx,{\an5\pos(693,57)\1a&HFF&\3c&HFFFFFF&\fscx150\fscy160\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)} takıl
+Dialogue: 0,0:00:56.82,0:00:56.98,Karaoke,,0,0,0,fx,{\an5\pos(693,57)\1a&HFF&\3c&HFFFFFF&\fscx170\fscy180\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)} takıl
+Dialogue: 0,0:00:56.82,0:00:56.98,Karaoke,,0,0,0,fx,{\an5\pos(693,57)\1a&HFF&\3c&HFFFFFF&\fscx190\fscy200\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)} takıl
+Dialogue: 0,0:00:56.82,0:00:56.98,Karaoke,,0,0,0,fx,{\an5\pos(693,57)\1a&HFF&\3c&HFFFFFF&\fscx210\fscy220\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)} takıl
+Dialogue: 0,0:00:56.82,0:00:56.98,Karaoke,,0,0,0,fx,{\an5\pos(693,57)\1a&HFF&\3c&HFFFFFF&\fscx230\fscy240\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)} takıl
+Dialogue: 0,0:00:56.82,0:00:56.98,Karaoke,,0,0,0,fx,{\an5\pos(693,57)\1a&HFF&\3c&HFFFFFF&\fscx250\fscy260\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)} takıl
+Dialogue: 0,0:00:56.82,0:00:56.98,Karaoke,,0,0,0,fx,{\an5\pos(693,57)\1a&HFF&\3c&HFFFFFF&\fscx270\fscy280\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)} takıl
+Dialogue: 0,0:00:56.98,0:00:58.41,Karaoke,,0,0,0,fx,{\an5\move(693,57,693,27,1130,1430)\3c&HFFFFFF&\1c&H2B1CCE&\bord3\blur0\shad0\t(1130,1430,\alpha&HFF&\frx180)} takıl
+Dialogue: 0,0:00:56.00,0:00:56.98,Karaoke,,0,0,0,fx,{\an5\move(805,42,805,57,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}dım,
+Dialogue: 1,0:00:56.98,0:00:57.19,Karaoke,,0,0,0,fx,{\an5\move(805,57,805,57)\shad0\3c&HFFFFFF&\1c&H2B1CCE&\bord3\blur0\be7\fscx150\fscy180\t(\fscx100\fscy100\frz0\bord0.5\blur0\be0\frz0)}dım,
+Dialogue: 0,0:00:56.98,0:00:57.19,Karaoke,,0,0,0,fx,{\an5\pos(805,57)\1a&HFF&\3c&HFFFFFF&\fscx150\fscy160\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}dım,
+Dialogue: 0,0:00:56.98,0:00:57.19,Karaoke,,0,0,0,fx,{\an5\pos(805,57)\1a&HFF&\3c&HFFFFFF&\fscx170\fscy180\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}dım,
+Dialogue: 0,0:00:56.98,0:00:57.19,Karaoke,,0,0,0,fx,{\an5\pos(805,57)\1a&HFF&\3c&HFFFFFF&\fscx190\fscy200\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}dım,
+Dialogue: 0,0:00:56.98,0:00:57.19,Karaoke,,0,0,0,fx,{\an5\pos(805,57)\1a&HFF&\3c&HFFFFFF&\fscx210\fscy220\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}dım,
+Dialogue: 0,0:00:56.98,0:00:57.19,Karaoke,,0,0,0,fx,{\an5\pos(805,57)\1a&HFF&\3c&HFFFFFF&\fscx230\fscy240\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}dım,
+Dialogue: 0,0:00:56.98,0:00:57.19,Karaoke,,0,0,0,fx,{\an5\pos(805,57)\1a&HFF&\3c&HFFFFFF&\fscx250\fscy260\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}dım,
+Dialogue: 0,0:00:56.98,0:00:57.19,Karaoke,,0,0,0,fx,{\an5\pos(805,57)\1a&HFF&\3c&HFFFFFF&\fscx270\fscy280\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}dım,
+Dialogue: 0,0:00:57.19,0:00:58.44,Karaoke,,0,0,0,fx,{\an5\move(805,57,805,27,950,1250)\3c&HFFFFFF&\1c&H2B1CCE&\bord3\blur0\shad0\t(950,1250,\alpha&HFF&\frx180)}dım,
+Dialogue: 0,0:00:56.03,0:00:57.19,Karaoke,,0,0,0,fx,{\an5\move(919,42,919,57,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}çok
+Dialogue: 1,0:00:57.19,0:00:57.38,Karaoke,,0,0,0,fx,{\an5\move(919,57,919,57)\shad0\3c&HFFFFFF&\1c&H2B1CCE&\bord3\blur0\be7\fscx150\fscy180\t(\fscx100\fscy100\frz0\bord0.5\blur0\be0\frz0)}çok
+Dialogue: 0,0:00:57.19,0:00:57.38,Karaoke,,0,0,0,fx,{\an5\pos(919,57)\1a&HFF&\3c&HFFFFFF&\fscx150\fscy160\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}çok
+Dialogue: 0,0:00:57.19,0:00:57.38,Karaoke,,0,0,0,fx,{\an5\pos(919,57)\1a&HFF&\3c&HFFFFFF&\fscx170\fscy180\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}çok
+Dialogue: 0,0:00:57.19,0:00:57.38,Karaoke,,0,0,0,fx,{\an5\pos(919,57)\1a&HFF&\3c&HFFFFFF&\fscx190\fscy200\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}çok
+Dialogue: 0,0:00:57.19,0:00:57.38,Karaoke,,0,0,0,fx,{\an5\pos(919,57)\1a&HFF&\3c&HFFFFFF&\fscx210\fscy220\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}çok
+Dialogue: 0,0:00:57.19,0:00:57.38,Karaoke,,0,0,0,fx,{\an5\pos(919,57)\1a&HFF&\3c&HFFFFFF&\fscx230\fscy240\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}çok
+Dialogue: 0,0:00:57.19,0:00:57.38,Karaoke,,0,0,0,fx,{\an5\pos(919,57)\1a&HFF&\3c&HFFFFFF&\fscx250\fscy260\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}çok
+Dialogue: 0,0:00:57.19,0:00:57.38,Karaoke,,0,0,0,fx,{\an5\pos(919,57)\1a&HFF&\3c&HFFFFFF&\fscx270\fscy280\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}çok
+Dialogue: 0,0:00:57.38,0:00:58.47,Karaoke,,0,0,0,fx,{\an5\move(919,57,919,27,790,1090)\3c&HFFFFFF&\1c&H2B1CCE&\bord3\blur0\shad0\t(790,1090,\alpha&HFF&\frx180)}çok
 Dialogue: 0,0:00:56.06,0:00:57.38,Karaoke,,0,0,0,fx,{\an5\move(1043,42,1043,57,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)} derin
 Dialogue: 1,0:00:57.38,0:00:57.76,Karaoke,,0,0,0,fx,{\an5\move(1043,57,1043,57)\shad0\3c&HFFFFFF&\1c&H2B1CCE&\bord3\blur0\be7\fscx150\fscy180\t(\fscx100\fscy100\frz0\bord0.5\blur0\be0\frz0)} derin
 Dialogue: 0,0:00:57.38,0:00:57.76,Karaoke,,0,0,0,fx,{\an5\pos(1043,57)\1a&HFF&\3c&HFFFFFF&\fscx150\fscy160\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)} derin
@@ -1796,16 +1796,16 @@ Dialogue: 0,0:01:10.12,0:01:10.28,Karaoke,,0,0,0,fx,{\an5\pos(742,57)\1a&HFF&\3c
 Dialogue: 0,0:01:10.12,0:01:10.28,Karaoke,,0,0,0,fx,{\an5\pos(742,57)\1a&HFF&\3c&HFFFFFF&\fscx250\fscy260\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}ya
 Dialogue: 0,0:01:10.12,0:01:10.28,Karaoke,,0,0,0,fx,{\an5\pos(742,57)\1a&HFF&\3c&HFFFFFF&\fscx270\fscy280\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}ya
 Dialogue: 0,0:01:10.28,0:01:15.33,Karaoke,,0,0,0,fx,{\an5\move(742,57,742,27,4750,5050)\3c&HFFFFFF&\1c&H2B1CCE&\bord3\blur0\shad0\t(4750,5050,\alpha&HFF&\frx180)}ya
-Dialogue: 0,0:01:09.16,0:01:10.28,Karaoke,,0,0,0,fx,{\an5\move(792,42,792,57,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}rÄ±
-Dialogue: 1,0:01:10.28,0:01:10.89,Karaoke,,0,0,0,fx,{\an5\move(792,57,792,57)\shad0\3c&HFFFFFF&\1c&H2B1CCE&\bord3\blur0\be7\fscx150\fscy180\t(\fscx100\fscy100\frz0\bord0.5\blur0\be0\frz0)}rÄ±
-Dialogue: 0,0:01:10.28,0:01:10.89,Karaoke,,0,0,0,fx,{\an5\pos(792,57)\1a&HFF&\3c&HFFFFFF&\fscx150\fscy160\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}rÄ±
-Dialogue: 0,0:01:10.28,0:01:10.89,Karaoke,,0,0,0,fx,{\an5\pos(792,57)\1a&HFF&\3c&HFFFFFF&\fscx170\fscy180\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}rÄ±
-Dialogue: 0,0:01:10.28,0:01:10.89,Karaoke,,0,0,0,fx,{\an5\pos(792,57)\1a&HFF&\3c&HFFFFFF&\fscx190\fscy200\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}rÄ±
-Dialogue: 0,0:01:10.28,0:01:10.89,Karaoke,,0,0,0,fx,{\an5\pos(792,57)\1a&HFF&\3c&HFFFFFF&\fscx210\fscy220\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}rÄ±
-Dialogue: 0,0:01:10.28,0:01:10.89,Karaoke,,0,0,0,fx,{\an5\pos(792,57)\1a&HFF&\3c&HFFFFFF&\fscx230\fscy240\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}rÄ±
-Dialogue: 0,0:01:10.28,0:01:10.89,Karaoke,,0,0,0,fx,{\an5\pos(792,57)\1a&HFF&\3c&HFFFFFF&\fscx250\fscy260\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}rÄ±
-Dialogue: 0,0:01:10.28,0:01:10.89,Karaoke,,0,0,0,fx,{\an5\pos(792,57)\1a&HFF&\3c&HFFFFFF&\fscx270\fscy280\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}rÄ±
-Dialogue: 0,0:01:10.89,0:01:15.36,Karaoke,,0,0,0,fx,{\an5\move(792,57,792,27,4170,4470)\3c&HFFFFFF&\1c&H2B1CCE&\bord3\blur0\shad0\t(4170,4470,\alpha&HFF&\frx180)}rÄ±
+Dialogue: 0,0:01:09.16,0:01:10.28,Karaoke,,0,0,0,fx,{\an5\move(792,42,792,57,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}rı
+Dialogue: 1,0:01:10.28,0:01:10.89,Karaoke,,0,0,0,fx,{\an5\move(792,57,792,57)\shad0\3c&HFFFFFF&\1c&H2B1CCE&\bord3\blur0\be7\fscx150\fscy180\t(\fscx100\fscy100\frz0\bord0.5\blur0\be0\frz0)}rı
+Dialogue: 0,0:01:10.28,0:01:10.89,Karaoke,,0,0,0,fx,{\an5\pos(792,57)\1a&HFF&\3c&HFFFFFF&\fscx150\fscy160\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}rı
+Dialogue: 0,0:01:10.28,0:01:10.89,Karaoke,,0,0,0,fx,{\an5\pos(792,57)\1a&HFF&\3c&HFFFFFF&\fscx170\fscy180\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}rı
+Dialogue: 0,0:01:10.28,0:01:10.89,Karaoke,,0,0,0,fx,{\an5\pos(792,57)\1a&HFF&\3c&HFFFFFF&\fscx190\fscy200\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}rı
+Dialogue: 0,0:01:10.28,0:01:10.89,Karaoke,,0,0,0,fx,{\an5\pos(792,57)\1a&HFF&\3c&HFFFFFF&\fscx210\fscy220\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}rı
+Dialogue: 0,0:01:10.28,0:01:10.89,Karaoke,,0,0,0,fx,{\an5\pos(792,57)\1a&HFF&\3c&HFFFFFF&\fscx230\fscy240\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}rı
+Dialogue: 0,0:01:10.28,0:01:10.89,Karaoke,,0,0,0,fx,{\an5\pos(792,57)\1a&HFF&\3c&HFFFFFF&\fscx250\fscy260\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}rı
+Dialogue: 0,0:01:10.28,0:01:10.89,Karaoke,,0,0,0,fx,{\an5\pos(792,57)\1a&HFF&\3c&HFFFFFF&\fscx270\fscy280\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}rı
+Dialogue: 0,0:01:10.89,0:01:15.36,Karaoke,,0,0,0,fx,{\an5\move(792,57,792,27,4170,4470)\3c&HFFFFFF&\1c&H2B1CCE&\bord3\blur0\shad0\t(4170,4470,\alpha&HFF&\frx180)}rı
 Dialogue: 0,0:01:09.19,0:01:10.89,Karaoke,,0,0,0,fx,{\an5\move(851,42,851,57,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}'na
 Dialogue: 1,0:01:10.89,0:01:11.70,Karaoke,,0,0,0,fx,{\an5\move(851,57,851,57)\shad0\3c&HFFFFFF&\1c&H2B1CCE&\bord3\blur0\be7\fscx150\fscy180\t(\fscx100\fscy100\frz0\bord0.5\blur0\be0\frz0)}'na
 Dialogue: 0,0:01:10.89,0:01:11.70,Karaoke,,0,0,0,fx,{\an5\pos(851,57)\1a&HFF&\3c&HFFFFFF&\fscx150\fscy160\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}'na
@@ -2691,16 +2691,16 @@ Dialogue: 0,0:01:41.23,0:01:41.39,Karaoke,,0,0,0,fx,{\an5\pos(742,57)\1a&HFF&\3c
 Dialogue: 0,0:01:41.23,0:01:41.39,Karaoke,,0,0,0,fx,{\an5\pos(742,57)\1a&HFF&\3c&HFFFFFF&\fscx250\fscy260\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}ya
 Dialogue: 0,0:01:41.23,0:01:41.39,Karaoke,,0,0,0,fx,{\an5\pos(742,57)\1a&HFF&\3c&HFFFFFF&\fscx270\fscy280\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}ya
 Dialogue: 0,0:01:41.39,0:01:46.17,Karaoke,,0,0,0,fx,{\an5\move(742,57,742,27,4480,4780)\3c&HFFFFFF&\1c&H2B1CCE&\bord3\blur0\shad0\t(4480,4780,\alpha&HFF&\frx180)}ya
-Dialogue: 0,0:01:40.27,0:01:41.39,Karaoke,,0,0,0,fx,{\an5\move(792,42,792,57,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}rÄ±
-Dialogue: 1,0:01:41.39,0:01:42.00,Karaoke,,0,0,0,fx,{\an5\move(792,57,792,57)\shad0\3c&HFFFFFF&\1c&H2B1CCE&\bord3\blur0\be7\fscx150\fscy180\t(\fscx100\fscy100\frz0\bord0.5\blur0\be0\frz0)}rÄ±
-Dialogue: 0,0:01:41.39,0:01:42.00,Karaoke,,0,0,0,fx,{\an5\pos(792,57)\1a&HFF&\3c&HFFFFFF&\fscx150\fscy160\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}rÄ±
-Dialogue: 0,0:01:41.39,0:01:42.00,Karaoke,,0,0,0,fx,{\an5\pos(792,57)\1a&HFF&\3c&HFFFFFF&\fscx170\fscy180\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}rÄ±
-Dialogue: 0,0:01:41.39,0:01:42.00,Karaoke,,0,0,0,fx,{\an5\pos(792,57)\1a&HFF&\3c&HFFFFFF&\fscx190\fscy200\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}rÄ±
-Dialogue: 0,0:01:41.39,0:01:42.00,Karaoke,,0,0,0,fx,{\an5\pos(792,57)\1a&HFF&\3c&HFFFFFF&\fscx210\fscy220\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}rÄ±
-Dialogue: 0,0:01:41.39,0:01:42.00,Karaoke,,0,0,0,fx,{\an5\pos(792,57)\1a&HFF&\3c&HFFFFFF&\fscx230\fscy240\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}rÄ±
-Dialogue: 0,0:01:41.39,0:01:42.00,Karaoke,,0,0,0,fx,{\an5\pos(792,57)\1a&HFF&\3c&HFFFFFF&\fscx250\fscy260\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}rÄ±
-Dialogue: 0,0:01:41.39,0:01:42.00,Karaoke,,0,0,0,fx,{\an5\pos(792,57)\1a&HFF&\3c&HFFFFFF&\fscx270\fscy280\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}rÄ±
-Dialogue: 0,0:01:42.00,0:01:46.20,Karaoke,,0,0,0,fx,{\an5\move(792,57,792,27,3900,4200)\3c&HFFFFFF&\1c&H2B1CCE&\bord3\blur0\shad0\t(3900,4200,\alpha&HFF&\frx180)}rÄ±
+Dialogue: 0,0:01:40.27,0:01:41.39,Karaoke,,0,0,0,fx,{\an5\move(792,42,792,57,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}rı
+Dialogue: 1,0:01:41.39,0:01:42.00,Karaoke,,0,0,0,fx,{\an5\move(792,57,792,57)\shad0\3c&HFFFFFF&\1c&H2B1CCE&\bord3\blur0\be7\fscx150\fscy180\t(\fscx100\fscy100\frz0\bord0.5\blur0\be0\frz0)}rı
+Dialogue: 0,0:01:41.39,0:01:42.00,Karaoke,,0,0,0,fx,{\an5\pos(792,57)\1a&HFF&\3c&HFFFFFF&\fscx150\fscy160\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}rı
+Dialogue: 0,0:01:41.39,0:01:42.00,Karaoke,,0,0,0,fx,{\an5\pos(792,57)\1a&HFF&\3c&HFFFFFF&\fscx170\fscy180\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}rı
+Dialogue: 0,0:01:41.39,0:01:42.00,Karaoke,,0,0,0,fx,{\an5\pos(792,57)\1a&HFF&\3c&HFFFFFF&\fscx190\fscy200\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}rı
+Dialogue: 0,0:01:41.39,0:01:42.00,Karaoke,,0,0,0,fx,{\an5\pos(792,57)\1a&HFF&\3c&HFFFFFF&\fscx210\fscy220\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}rı
+Dialogue: 0,0:01:41.39,0:01:42.00,Karaoke,,0,0,0,fx,{\an5\pos(792,57)\1a&HFF&\3c&HFFFFFF&\fscx230\fscy240\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}rı
+Dialogue: 0,0:01:41.39,0:01:42.00,Karaoke,,0,0,0,fx,{\an5\pos(792,57)\1a&HFF&\3c&HFFFFFF&\fscx250\fscy260\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}rı
+Dialogue: 0,0:01:41.39,0:01:42.00,Karaoke,,0,0,0,fx,{\an5\pos(792,57)\1a&HFF&\3c&HFFFFFF&\fscx270\fscy280\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}rı
+Dialogue: 0,0:01:42.00,0:01:46.20,Karaoke,,0,0,0,fx,{\an5\move(792,57,792,27,3900,4200)\3c&HFFFFFF&\1c&H2B1CCE&\bord3\blur0\shad0\t(3900,4200,\alpha&HFF&\frx180)}rı
 Dialogue: 0,0:01:40.30,0:01:42.00,Karaoke,,0,0,0,fx,{\an5\move(851,42,851,57,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}'na
 Dialogue: 1,0:01:42.00,0:01:42.81,Karaoke,,0,0,0,fx,{\an5\move(851,57,851,57)\shad0\3c&HFFFFFF&\1c&H2B1CCE&\bord3\blur0\be7\fscx150\fscy180\t(\fscx100\fscy100\frz0\bord0.5\blur0\be0\frz0)}'na
 Dialogue: 0,0:01:42.00,0:01:42.81,Karaoke,,0,0,0,fx,{\an5\pos(851,57)\1a&HFF&\3c&HFFFFFF&\fscx150\fscy160\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}'na
@@ -2724,33 +2724,33 @@ Dialogue: 0,0:01:46.19,0:01:46.26,Karaoke,,0,0,0,fx,{\an5\move(970,57,970,27,-23
 Dialogue: 0,0:00:34.56,0:00:34.86,Translation,,0,0,0,fx,{\an5\move(55,997,55,1012,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}
 Dialogue: 1,0:00:34.86,0:00:34.86,Translation,,0,0,0,fx,{\an5\move(55,1012,55,1012)\shad0\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0}
 Dialogue: 0,0:00:34.86,0:00:41.18,Translation,,0,0,0,fx,{\an5\move(55,1012,55,982,6020,6320)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\t(6020,6320,\alpha&HFF&\frx180)}
-Dialogue: 0,0:00:34.59,0:00:34.86,Translation,,0,0,0,fx,{\an5\move(720,997,720,1012,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}Sadece geleceÄŸe inanÄ±rÄ±m, gÃ¼len gÃ¼lsÃ¼n, aldÄ±rmam pek
-Dialogue: 1,0:00:34.86,0:00:34.86,Translation,,0,0,0,fx,{\an5\move(720,1012,720,1012)\shad0\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0}Sadece geleceÄŸe inanÄ±rÄ±m, gÃ¼len gÃ¼lsÃ¼n, aldÄ±rmam pek
-Dialogue: 0,0:00:34.86,0:00:41.21,Translation,,0,0,0,fx,{\an5\move(720,1012,720,982,6050,6350)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\t(6050,6350,\alpha&HFF&\frx180)}Sadece geleceÄŸe inanÄ±rÄ±m, gÃ¼len gÃ¼lsÃ¼n, aldÄ±rmam pek
+Dialogue: 0,0:00:34.59,0:00:34.86,Translation,,0,0,0,fx,{\an5\move(720,997,720,1012,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}Sadece geleceğe inanırım, gülen gülsün, aldırmam pek
+Dialogue: 1,0:00:34.86,0:00:34.86,Translation,,0,0,0,fx,{\an5\move(720,1012,720,1012)\shad0\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0}Sadece geleceğe inanırım, gülen gülsün, aldırmam pek
+Dialogue: 0,0:00:34.86,0:00:41.21,Translation,,0,0,0,fx,{\an5\move(720,1012,720,982,6050,6350)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\t(6050,6350,\alpha&HFF&\frx180)}Sadece geleceğe inanırım, gülen gülsün, aldırmam pek
 Dialogue: 0,0:00:40.82,0:00:41.12,Translation,,0,0,0,fx,{\an5\move(261,997,261,1012,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}
 Dialogue: 1,0:00:41.12,0:00:41.12,Translation,,0,0,0,fx,{\an5\move(261,1012,261,1012)\shad0\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0}
 Dialogue: 0,0:00:41.12,0:00:46.70,Translation,,0,0,0,fx,{\an5\move(261,1012,261,982,5280,5580)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\t(5280,5580,\alpha&HFF&\frx180)}
-Dialogue: 0,0:00:40.85,0:00:41.12,Translation,,0,0,0,fx,{\an5\move(720,997,720,1012,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}Bu yarÄ±ÅŸ tutkusu seni Ã¶ne Ã§Ä±karÄ±r hep
-Dialogue: 1,0:00:41.12,0:00:41.12,Translation,,0,0,0,fx,{\an5\move(720,1012,720,1012)\shad0\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0}Bu yarÄ±ÅŸ tutkusu seni Ã¶ne Ã§Ä±karÄ±r hep
-Dialogue: 0,0:00:41.12,0:00:46.73,Translation,,0,0,0,fx,{\an5\move(720,1012,720,982,5310,5610)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\t(5310,5610,\alpha&HFF&\frx180)}Bu yarÄ±ÅŸ tutkusu seni Ã¶ne Ã§Ä±karÄ±r hep
+Dialogue: 0,0:00:40.85,0:00:41.12,Translation,,0,0,0,fx,{\an5\move(720,997,720,1012,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}Bu yarış tutkusu seni öne çıkarır hep
+Dialogue: 1,0:00:41.12,0:00:41.12,Translation,,0,0,0,fx,{\an5\move(720,1012,720,1012)\shad0\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0}Bu yarış tutkusu seni öne çıkarır hep
+Dialogue: 0,0:00:41.12,0:00:46.73,Translation,,0,0,0,fx,{\an5\move(720,1012,720,982,5310,5610)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\t(5310,5610,\alpha&HFF&\frx180)}Bu yarış tutkusu seni öne çıkarır hep
 Dialogue: 0,0:00:46.32,0:00:46.62,Translation,,0,0,0,fx,{\an5\move(203,997,203,1012,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}
 Dialogue: 1,0:00:46.62,0:00:46.62,Translation,,0,0,0,fx,{\an5\move(203,1012,203,1012)\shad0\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0}
 Dialogue: 0,0:00:46.62,0:00:52.24,Translation,,0,0,0,fx,{\an5\move(203,1012,203,982,5320,5620)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\t(5320,5620,\alpha&HFF&\frx180)}
-Dialogue: 0,0:00:46.35,0:00:46.62,Translation,,0,0,0,fx,{\an5\move(720,997,720,1012,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}Ã‡ok parlak ama yine de bakmak istiyorum
-Dialogue: 1,0:00:46.62,0:00:46.62,Translation,,0,0,0,fx,{\an5\move(720,1012,720,1012)\shad0\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0}Ã‡ok parlak ama yine de bakmak istiyorum
-Dialogue: 0,0:00:46.62,0:00:52.27,Translation,,0,0,0,fx,{\an5\move(720,1012,720,982,5350,5650)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\t(5350,5650,\alpha&HFF&\frx180)}Ã‡ok parlak ama yine de bakmak istiyorum
+Dialogue: 0,0:00:46.35,0:00:46.62,Translation,,0,0,0,fx,{\an5\move(720,997,720,1012,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}Çok parlak ama yine de bakmak istiyorum
+Dialogue: 1,0:00:46.62,0:00:46.62,Translation,,0,0,0,fx,{\an5\move(720,1012,720,1012)\shad0\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0}Çok parlak ama yine de bakmak istiyorum
+Dialogue: 0,0:00:46.62,0:00:52.27,Translation,,0,0,0,fx,{\an5\move(720,1012,720,982,5350,5650)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\t(5350,5650,\alpha&HFF&\frx180)}Çok parlak ama yine de bakmak istiyorum
 Dialogue: 0,0:00:52.18,0:00:52.48,Translation,,0,0,0,fx,{\an5\move(276,997,276,1012,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}
 Dialogue: 1,0:00:52.48,0:00:52.48,Translation,,0,0,0,fx,{\an5\move(276,1012,276,1012)\shad0\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0}
 Dialogue: 0,0:00:52.48,0:00:56.22,Translation,,0,0,0,fx,{\an5\move(276,1012,276,982,3440,3740)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\t(3440,3740,\alpha&HFF&\frx180)}
-Dialogue: 0,0:00:52.21,0:00:52.48,Translation,,0,0,0,fx,{\an5\move(720,997,720,1012,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}Bir yerlerde "estetiÄŸi" hissediyorum
-Dialogue: 1,0:00:52.48,0:00:52.48,Translation,,0,0,0,fx,{\an5\move(720,1012,720,1012)\shad0\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0}Bir yerlerde "estetiÄŸi" hissediyorum
-Dialogue: 0,0:00:52.48,0:00:56.25,Translation,,0,0,0,fx,{\an5\move(720,1012,720,982,3470,3770)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\t(3470,3770,\alpha&HFF&\frx180)}Bir yerlerde "estetiÄŸi" hissediyorum
+Dialogue: 0,0:00:52.21,0:00:52.48,Translation,,0,0,0,fx,{\an5\move(720,997,720,1012,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}Bir yerlerde "estetiği" hissediyorum
+Dialogue: 1,0:00:52.48,0:00:52.48,Translation,,0,0,0,fx,{\an5\move(720,1012,720,1012)\shad0\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0}Bir yerlerde "estetiği" hissediyorum
+Dialogue: 0,0:00:52.48,0:00:56.25,Translation,,0,0,0,fx,{\an5\move(720,1012,720,982,3470,3770)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\t(3470,3770,\alpha&HFF&\frx180)}Bir yerlerde "estetiği" hissediyorum
 Dialogue: 0,0:00:59.18,0:00:59.48,Translation,,0,0,0,fx,{\an5\move(284,997,284,1012,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}
 Dialogue: 1,0:00:59.48,0:00:59.48,Translation,,0,0,0,fx,{\an5\move(284,1012,284,1012)\shad0\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0}
 Dialogue: 0,0:00:59.48,0:01:02.84,Translation,,0,0,0,fx,{\an5\move(284,1012,284,982,3060,3360)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\t(3060,3360,\alpha&HFF&\frx180)}
-Dialogue: 0,0:00:59.21,0:00:59.48,Translation,,0,0,0,fx,{\an5\move(720,997,720,1012,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}Ä°zindeyim, hiÃ§bir ÅŸeye benzemeyen
-Dialogue: 1,0:00:59.48,0:00:59.48,Translation,,0,0,0,fx,{\an5\move(720,1012,720,1012)\shad0\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0}Ä°zindeyim, hiÃ§bir ÅŸeye benzemeyen
-Dialogue: 0,0:00:59.48,0:01:02.87,Translation,,0,0,0,fx,{\an5\move(720,1012,720,982,3090,3390)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\t(3090,3390,\alpha&HFF&\frx180)}Ä°zindeyim, hiÃ§bir ÅŸeye benzemeyen
+Dialogue: 0,0:00:59.21,0:00:59.48,Translation,,0,0,0,fx,{\an5\move(720,997,720,1012,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}İzindeyim, hiçbir şeye benzemeyen
+Dialogue: 1,0:00:59.48,0:00:59.48,Translation,,0,0,0,fx,{\an5\move(720,1012,720,1012)\shad0\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0}İzindeyim, hiçbir şeye benzemeyen
+Dialogue: 0,0:00:59.48,0:01:02.87,Translation,,0,0,0,fx,{\an5\move(720,1012,720,982,3090,3390)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\t(3090,3390,\alpha&HFF&\frx180)}İzindeyim, hiçbir şeye benzemeyen
 Dialogue: 0,0:01:02.44,0:01:02.74,Translation,,0,0,0,fx,{\an5\move(337,997,337,1012,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}
 Dialogue: 1,0:01:02.74,0:01:02.74,Translation,,0,0,0,fx,{\an5\move(337,1012,337,1012)\shad0\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0}
 Dialogue: 0,0:01:02.74,0:01:06.13,Translation,,0,0,0,fx,{\an5\move(337,1012,337,982,3090,3390)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\t(3090,3390,\alpha&HFF&\frx180)}
@@ -2760,45 +2760,45 @@ Dialogue: 0,0:01:02.74,0:01:06.16,Translation,,0,0,0,fx,{\an5\move(720,1012,720,
 Dialogue: 0,0:01:05.73,0:01:06.03,Translation,,0,0,0,fx,{\an5\move(270,997,270,1012,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}
 Dialogue: 1,0:01:06.03,0:01:06.03,Translation,,0,0,0,fx,{\an5\move(270,1012,270,1012)\shad0\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0}
 Dialogue: 0,0:01:06.03,0:01:09.36,Translation,,0,0,0,fx,{\an5\move(270,1012,270,982,3030,3330)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\t(3030,3330,\alpha&HFF&\frx180)}
-Dialogue: 0,0:01:05.76,0:01:06.03,Translation,,0,0,0,fx,{\an5\move(720,997,720,1012,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}Ta ki dramatik bir anla ulaÅŸana dek,
-Dialogue: 1,0:01:06.03,0:01:06.03,Translation,,0,0,0,fx,{\an5\move(720,1012,720,1012)\shad0\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0}Ta ki dramatik bir anla ulaÅŸana dek,
-Dialogue: 0,0:01:06.03,0:01:09.39,Translation,,0,0,0,fx,{\an5\move(720,1012,720,982,3060,3360)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\t(3060,3360,\alpha&HFF&\frx180)}Ta ki dramatik bir anla ulaÅŸana dek,
+Dialogue: 0,0:01:05.76,0:01:06.03,Translation,,0,0,0,fx,{\an5\move(720,997,720,1012,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}Ta ki dramatik bir anla ulaşana dek,
+Dialogue: 1,0:01:06.03,0:01:06.03,Translation,,0,0,0,fx,{\an5\move(720,1012,720,1012)\shad0\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0}Ta ki dramatik bir anla ulaşana dek,
+Dialogue: 0,0:01:06.03,0:01:09.39,Translation,,0,0,0,fx,{\an5\move(720,1012,720,982,3060,3360)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\t(3060,3360,\alpha&HFF&\frx180)}Ta ki dramatik bir anla ulaşana dek,
 Dialogue: 0,0:01:17.82,0:01:18.12,Translation,,0,0,0,fx,{\an5\move(207,997,207,1012,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}
 Dialogue: 1,0:01:18.12,0:01:18.12,Translation,,0,0,0,fx,{\an5\move(207,1012,207,1012)\shad0\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0}
 Dialogue: 0,0:01:18.12,0:01:21.26,Translation,,0,0,0,fx,{\an5\move(207,1012,207,982,2840,3140)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\t(2840,3140,\alpha&HFF&\frx180)}
-Dialogue: 0,0:01:17.85,0:01:18.12,Translation,,0,0,0,fx,{\an5\move(720,997,720,1012,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}GÃ¶rÃ¼lmeyen bu hayalin peÅŸine dÃ¼ÅŸeceÄŸim,
-Dialogue: 1,0:01:18.12,0:01:18.12,Translation,,0,0,0,fx,{\an5\move(720,1012,720,1012)\shad0\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0}GÃ¶rÃ¼lmeyen bu hayalin peÅŸine dÃ¼ÅŸeceÄŸim,
-Dialogue: 0,0:01:18.12,0:01:21.29,Translation,,0,0,0,fx,{\an5\move(720,1012,720,982,2870,3170)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\t(2870,3170,\alpha&HFF&\frx180)}GÃ¶rÃ¼lmeyen bu hayalin peÅŸine dÃ¼ÅŸeceÄŸim,
+Dialogue: 0,0:01:17.85,0:01:18.12,Translation,,0,0,0,fx,{\an5\move(720,997,720,1012,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}Görülmeyen bu hayalin peşine düşeceğim,
+Dialogue: 1,0:01:18.12,0:01:18.12,Translation,,0,0,0,fx,{\an5\move(720,1012,720,1012)\shad0\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0}Görülmeyen bu hayalin peşine düşeceğim,
+Dialogue: 0,0:01:18.12,0:01:21.29,Translation,,0,0,0,fx,{\an5\move(720,1012,720,982,2870,3170)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\t(2870,3170,\alpha&HFF&\frx180)}Görülmeyen bu hayalin peşine düşeceğim,
 Dialogue: 0,0:01:20.96,0:01:21.26,Translation,,0,0,0,fx,{\an5\move(245,997,245,1012,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}
 Dialogue: 1,0:01:21.26,0:01:21.26,Translation,,0,0,0,fx,{\an5\move(245,1012,245,1012)\shad0\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0}
 Dialogue: 0,0:01:21.26,0:01:24.34,Translation,,0,0,0,fx,{\an5\move(245,1012,245,982,2780,3080)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\t(2780,3080,\alpha&HFF&\frx180)}
-Dialogue: 0,0:01:20.99,0:01:21.26,Translation,,0,0,0,fx,{\an5\move(720,997,720,1012,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}onu yakalayÄ±p gerÃ§eÄŸe dÃ¶nÃ¼ÅŸtÃ¼receÄŸim.
-Dialogue: 1,0:01:21.26,0:01:21.26,Translation,,0,0,0,fx,{\an5\move(720,1012,720,1012)\shad0\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0}onu yakalayÄ±p gerÃ§eÄŸe dÃ¶nÃ¼ÅŸtÃ¼receÄŸim.
-Dialogue: 0,0:01:21.26,0:01:24.37,Translation,,0,0,0,fx,{\an5\move(720,1012,720,982,2810,3110)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\t(2810,3110,\alpha&HFF&\frx180)}onu yakalayÄ±p gerÃ§eÄŸe dÃ¶nÃ¼ÅŸtÃ¼receÄŸim.
+Dialogue: 0,0:01:20.99,0:01:21.26,Translation,,0,0,0,fx,{\an5\move(720,997,720,1012,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}onu yakalayıp gerçeğe dönüştüreceğim.
+Dialogue: 1,0:01:21.26,0:01:21.26,Translation,,0,0,0,fx,{\an5\move(720,1012,720,1012)\shad0\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0}onu yakalayıp gerçeğe dönüştüreceğim.
+Dialogue: 0,0:01:21.26,0:01:24.37,Translation,,0,0,0,fx,{\an5\move(720,1012,720,982,2810,3110)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\t(2810,3110,\alpha&HFF&\frx180)}onu yakalayıp gerçeğe dönüştüreceğim.
 Dialogue: 0,0:01:24.22,0:01:24.52,Translation,,0,0,0,fx,{\an5\move(206,997,206,1012,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}
 Dialogue: 1,0:01:24.52,0:01:24.52,Translation,,0,0,0,fx,{\an5\move(206,1012,206,1012)\shad0\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0}
 Dialogue: 0,0:01:24.52,0:01:30.36,Translation,,0,0,0,fx,{\an5\move(206,1012,206,982,5540,5840)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\t(5540,5840,\alpha&HFF&\frx180)}
-Dialogue: 0,0:01:24.25,0:01:24.52,Translation,,0,0,0,fx,{\an5\move(720,997,720,1012,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}Seninle gideceÄŸim, bu tutkuyla yanacaÄŸÄ±m
-Dialogue: 1,0:01:24.52,0:01:24.52,Translation,,0,0,0,fx,{\an5\move(720,1012,720,1012)\shad0\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0}Seninle gideceÄŸim, bu tutkuyla yanacaÄŸÄ±m
-Dialogue: 0,0:01:24.52,0:01:30.39,Translation,,0,0,0,fx,{\an5\move(720,1012,720,982,5570,5870)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\t(5570,5870,\alpha&HFF&\frx180)}Seninle gideceÄŸim, bu tutkuyla yanacaÄŸÄ±m
+Dialogue: 0,0:01:24.25,0:01:24.52,Translation,,0,0,0,fx,{\an5\move(720,997,720,1012,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}Seninle gideceğim, bu tutkuyla yanacağım
+Dialogue: 1,0:01:24.52,0:01:24.52,Translation,,0,0,0,fx,{\an5\move(720,1012,720,1012)\shad0\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0}Seninle gideceğim, bu tutkuyla yanacağım
+Dialogue: 0,0:01:24.52,0:01:30.39,Translation,,0,0,0,fx,{\an5\move(720,1012,720,982,5570,5870)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\t(5570,5870,\alpha&HFF&\frx180)}Seninle gideceğim, bu tutkuyla yanacağım
 Dialogue: 0,0:01:30.20,0:01:30.50,Translation,,0,0,0,fx,{\an5\move(167,997,167,1012,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}
 Dialogue: 1,0:01:30.50,0:01:30.50,Translation,,0,0,0,fx,{\an5\move(167,1012,167,1012)\shad0\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0}
 Dialogue: 0,0:01:30.50,0:01:33.72,Translation,,0,0,0,fx,{\an5\move(167,1012,167,982,2920,3220)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\t(2920,3220,\alpha&HFF&\frx180)}
-Dialogue: 0,0:01:30.23,0:01:30.50,Translation,,0,0,0,fx,{\an5\move(720,997,720,1012,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}Her ÅŸeyin mantÄ±klÄ± olmasÄ±na gerek yok zaten
-Dialogue: 1,0:01:30.50,0:01:30.50,Translation,,0,0,0,fx,{\an5\move(720,1012,720,1012)\shad0\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0}Her ÅŸeyin mantÄ±klÄ± olmasÄ±na gerek yok zaten
-Dialogue: 0,0:01:30.50,0:01:33.75,Translation,,0,0,0,fx,{\an5\move(720,1012,720,982,2950,3250)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\t(2950,3250,\alpha&HFF&\frx180)}Her ÅŸeyin mantÄ±klÄ± olmasÄ±na gerek yok zaten
+Dialogue: 0,0:01:30.23,0:01:30.50,Translation,,0,0,0,fx,{\an5\move(720,997,720,1012,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}Her şeyin mantıklı olmasına gerek yok zaten
+Dialogue: 1,0:01:30.50,0:01:30.50,Translation,,0,0,0,fx,{\an5\move(720,1012,720,1012)\shad0\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0}Her şeyin mantıklı olmasına gerek yok zaten
+Dialogue: 0,0:01:30.50,0:01:33.75,Translation,,0,0,0,fx,{\an5\move(720,1012,720,982,2950,3250)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\t(2950,3250,\alpha&HFF&\frx180)}Her şeyin mantıklı olmasına gerek yok zaten
 Dialogue: 0,0:01:33.30,0:01:33.60,Translation,,0,0,0,fx,{\an5\move(397,997,397,1012,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}
 Dialogue: 1,0:01:33.60,0:01:33.60,Translation,,0,0,0,fx,{\an5\move(397,1012,397,1012)\shad0\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0}
 Dialogue: 0,0:01:33.60,0:01:36.89,Translation,,0,0,0,fx,{\an5\move(397,1012,397,982,2990,3290)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\t(2990,3290,\alpha&HFF&\frx180)}
-Dialogue: 0,0:01:33.33,0:01:33.60,Translation,,0,0,0,fx,{\an5\move(720,997,720,1012,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}SÄ±radan bir hayatÄ± bÄ±rakÄ±p
-Dialogue: 1,0:01:33.60,0:01:33.60,Translation,,0,0,0,fx,{\an5\move(720,1012,720,1012)\shad0\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0}SÄ±radan bir hayatÄ± bÄ±rakÄ±p
-Dialogue: 0,0:01:33.60,0:01:36.92,Translation,,0,0,0,fx,{\an5\move(720,1012,720,982,3020,3320)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\t(3020,3320,\alpha&HFF&\frx180)}SÄ±radan bir hayatÄ± bÄ±rakÄ±p
+Dialogue: 0,0:01:33.33,0:01:33.60,Translation,,0,0,0,fx,{\an5\move(720,997,720,1012,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}Sıradan bir hayatı bırakıp
+Dialogue: 1,0:01:33.60,0:01:33.60,Translation,,0,0,0,fx,{\an5\move(720,1012,720,1012)\shad0\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0}Sıradan bir hayatı bırakıp
+Dialogue: 0,0:01:33.60,0:01:36.92,Translation,,0,0,0,fx,{\an5\move(720,1012,720,982,3020,3320)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\t(3020,3320,\alpha&HFF&\frx180)}Sıradan bir hayatı bırakıp
 Dialogue: 0,0:01:36.50,0:01:36.80,Translation,,0,0,0,fx,{\an5\move(448,997,448,1012,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}
 Dialogue: 1,0:01:36.80,0:01:36.80,Translation,,0,0,0,fx,{\an5\move(448,1012,448,1012)\shad0\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0}
 Dialogue: 0,0:01:36.80,0:01:40.49,Translation,,0,0,0,fx,{\an5\move(448,1012,448,982,3390,3690)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\t(3390,3690,\alpha&HFF&\frx180)}
-Dialogue: 0,0:01:36.53,0:01:36.80,Translation,,0,0,0,fx,{\an5\move(720,997,720,1012,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}CENNETE koÅŸ hemen,
-Dialogue: 1,0:01:36.80,0:01:36.80,Translation,,0,0,0,fx,{\an5\move(720,1012,720,1012)\shad0\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0}CENNETE koÅŸ hemen,
-Dialogue: 0,0:01:36.80,0:01:40.52,Translation,,0,0,0,fx,{\an5\move(720,1012,720,982,3420,3720)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\t(3420,3720,\alpha&HFF&\frx180)}CENNETE koÅŸ hemen,
+Dialogue: 0,0:01:36.53,0:01:36.80,Translation,,0,0,0,fx,{\an5\move(720,997,720,1012,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}CENNETE koş hemen,
+Dialogue: 1,0:01:36.80,0:01:36.80,Translation,,0,0,0,fx,{\an5\move(720,1012,720,1012)\shad0\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0}CENNETE koş hemen,
+Dialogue: 0,0:01:36.80,0:01:40.52,Translation,,0,0,0,fx,{\an5\move(720,1012,720,982,3420,3720)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\t(3420,3720,\alpha&HFF&\frx180)}CENNETE koş hemen,
 Dialogue: 0,0:32:44.65,0:32:44.69,Ending Romaji,sync,0,0,0,,
 Dialogue: 0,0:32:37.17,0:32:37.40,Ending Romaji,,0,0,0,,{\an5\blur5\xshad-3\yshad3\move(573.250,90.000,535.883,60.000,0,240)\t(0,240,\blur0.7)}Wa
 Dialogue: 1,0:32:37.40,0:32:38.51,Ending Romaji,,0,0,0,,{\an5\pos(535.883,60.000)\xshad-3\yshad3\blur0.7\t(0,100.000,\fscx120.000\fscy120.000)\t(100.000,1110.000,\fscx100.000\fscy100.000)}Wa
@@ -3199,16 +3199,16 @@ Dialogue: 0,0:33:45.33,0:33:46.41,Ending Romaji,,0,0,0,,{\an5\blur0.7\move(836.1
 Dialogue: 0,0:33:42.63,0:33:45.33,Ending Romaji,,0,0,0,,{\an5\blur5\xshad-3\yshad3\move(941.484,90.000,911.742,60.000,0,240)\t(0,240,\blur0.7)}yo
 Dialogue: 1,0:33:45.33,0:33:46.09,Ending Romaji,,0,0,0,,{\an5\pos(911.742,60.000)\xshad-3\yshad3\blur0.7\t(0,100.000,\fscx120.000\fscy120.000)\t(100.000,760.000,\fscx100.000\fscy100.000)}yo
 Dialogue: 0,0:33:46.09,0:33:46.44,Ending Romaji,,0,0,0,,{\an5\blur0.7\move(911.742,60.000,882.000,30.000,105,345)\xshad-3\yshad3\t(105.000,345.000,\blur5)}yo
-Dialogue: 0,0:32:37.40,0:32:40.76,Ending Translation,,0,0,0,,Her fÄ±rtÄ±nada yanÄ±ndayÄ±m
-Dialogue: 0,0:32:41.22,0:32:44.79,Ending Translation,,0,0,0,,Ah, ne ÅŸefkatli bir ezgi bu bÃ¶yle
-Dialogue: 0,0:32:44.79,0:32:50.97,Ending Translation,,0,0,0,,YalnÄ±z bize dair, sanki yazgÄ±mÄ±z bir gibi
-Dialogue: 0,0:32:52.07,0:32:58.18,Ending Translation,double,0,0,0,,Zalim dalgalarÄ±n sildiÄŸi o narin hayallerin...
-Dialogue: 0,0:32:59.76,0:33:06.63,Ending Translation,double,0,0,0,,ve aÄŸlamaklÄ± gÃ¶zlerinden gÃ¶ÄŸe yansÄ±yan o gÃ¼lÃ¼ÅŸÃ¼n
-Dialogue: 0,0:33:07.90,0:33:11.13,Ending Translation,,0,0,0,,TÃ¼m dÃ¼nya sana cephe alsa,
-Dialogue: 0,0:33:11.70,0:33:14.78,Ending Translation,,0,0,0,,dÃ¶rt yanÄ±n dÃ¼ÅŸman dolsa da;
-Dialogue: 0,0:33:15.50,0:33:18.56,Ending Translation,,0,0,0,,bil ki hep yanÄ±ndayÄ±m
-Dialogue: 0,0:33:19.18,0:33:27.08,Ending Translation,double,0,0,0,,Ruhumu ruhuna mÃ¼hÃ¼rledim, biz artÄ±k tek bir canÄ±z
-Dialogue: 0,0:33:27.32,0:33:30.70,Ending Translation,,0,0,0,,Her fÄ±rtÄ±nada yanÄ±ndayÄ±m
-Dialogue: 0,0:33:31.18,0:33:34.75,Ending Translation,,0,0,0,,Ey gÃ¶nlÃ¼mÃ¼n varÄ±, kÄ±ymetin sÃ¶ze sÄ±ÄŸmaz
-Dialogue: 0,0:33:34.75,0:33:41.09,Ending Translation,,0,0,0,,Ebediyen kollarÄ±mda, en gÃ¼venli limandasÄ±n
-Dialogue: 0,0:33:42.69,0:33:46.22,Ending Translation,,0,0,0,,Her fÄ±rtÄ±nada yanÄ±ndayÄ±m
+Dialogue: 0,0:32:37.40,0:32:40.76,Ending Translation,,0,0,0,,Her fırtınada yanındayım
+Dialogue: 0,0:32:41.22,0:32:44.79,Ending Translation,,0,0,0,,Ah, ne şefkatli bir ezgi bu böyle
+Dialogue: 0,0:32:44.79,0:32:50.97,Ending Translation,,0,0,0,,Yalnız bize dair, sanki yazgımız bir gibi
+Dialogue: 0,0:32:52.07,0:32:58.18,Ending Translation,double,0,0,0,,Zalim dalgaların sildiği o narin hayallerin...
+Dialogue: 0,0:32:59.76,0:33:06.63,Ending Translation,double,0,0,0,,ve ağlamaklı gözlerinden göğe yansıyan o gülüşün
+Dialogue: 0,0:33:07.90,0:33:11.13,Ending Translation,,0,0,0,,Tüm dünya sana cephe alsa,
+Dialogue: 0,0:33:11.70,0:33:14.78,Ending Translation,,0,0,0,,dört yanın düşman dolsa da;
+Dialogue: 0,0:33:15.50,0:33:18.56,Ending Translation,,0,0,0,,bil ki hep yanındayım
+Dialogue: 0,0:33:19.18,0:33:27.08,Ending Translation,double,0,0,0,,Ruhumu ruhuna mühürledim, biz artık tek bir canız
+Dialogue: 0,0:33:27.32,0:33:30.70,Ending Translation,,0,0,0,,Her fırtınada yanındayım
+Dialogue: 0,0:33:31.18,0:33:34.75,Ending Translation,,0,0,0,,Ey gönlümün varı, kıymetin söze sığmaz
+Dialogue: 0,0:33:34.75,0:33:41.09,Ending Translation,,0,0,0,,Ebediyen kollarımda, en güvenli limandasın
+Dialogue: 0,0:33:42.69,0:33:46.22,Ending Translation,,0,0,0,,Her fırtınada yanındayım

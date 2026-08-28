@@ -222,7 +222,7 @@ function cleanAssText(text) {
 
 const manifest = {
   id: "community.onepace.tr.subtitles",
-  version: "1.1.6",
+  version: "1.1.7",
   name: "One Pace TR Altyazı",
   description:
     "One Pace için Türkçe altyazı addon'u. Tüm 35 Sezon (Fishman Island, Marineford, Wano vs.) desteklenir.",
@@ -358,32 +358,65 @@ buildSubtitleMaps();
 console.log(`✅ Evrensel harita yüklendi: ${Object.keys(codeToSubMap).length} Ark Kodu, ${Object.keys(seasonEpToSubMap).length} Klasör Sezonu.`);
 
 // ============================================================
-// ExoPlayer/VLC Uyumlu ASS → VTT Dönüştürücü
+// ExoPlayer/VLC Uyumlu ASS → VTT Dönüştürücü (Kronolojik Sıralamalı)
 // ============================================================
 
 function cleanAssText(text) {
-  let cleaned = text.replace(/\{[^}]*\}/g, "");
-  cleaned = cleaned.replace(/\\N/g, "\n").replace(/\\n/g, "\n").replace(/\\h/g, " ");
-  cleaned = cleaned.replace(/\\/g, "");
-  // Cümle içi boş satırları kesinlikle sil (Android TV çökmesini engeller)
-  cleaned = cleaned.split("\n").map(l => l.trim()).filter(l => l.length > 0).join("\n");
-  return cleaned.trim();
+  let s = text;
+  s = s.replace(/\{[^}]*\}/g, "");
+  s = s.replace(/\\N/g, " ").replace(/\\n/g, " ").replace(/\\h/g, " ");
+  s = s.replace(/\\/g, "");
+
+  // Eski Türkçe fansub font karakter değişimi (1 -> ı, _ -> ş, ^ -> Ş)
+  s = s.replace(/D[\uFFFD]nyan1n/g, "Dünyanın");
+  s = s.replace(/D[\uFFFD]nyan/g, "Dünyan");
+  s = s.replace(/naram1z1/g, "naramızı");
+  s = s.replace(/y[\uFFFD]kselterek/g, "yükselterek");
+  s = s.replace(/Karar1n1/g, "Kararını");
+  s = s.replace(/b1rak/g, "bırak");
+  s = s.replace(/kalk1_/g, "kalkış");
+  s = s.replace(/[\uFFFD]al1ns1n/g, "Çalınsın");
+  s = s.replace(/ka[\uFFFD]abildik/g, "kaçabildik");
+  s = s.replace(/g[\uFFFD]k/g, "gök");
+  s = s.replace(/s1n1r/g, "sınır");
+  s = s.replace(/\^imdi/g, "Şimdi");
+  s = s.replace(/k[\uFFFD]rek/g, "kürek");
+  s = s.replace(/[\uFFFD]ekerek/g, "çekerek");
+  s = s.replace(/a[\uFFFD]1yoruz/g, "açıyoruz");
+  s = s.replace(/karanl1k/g, "karanlık");
+  s = s.replace(/do ru/g, "doğru");
+
+  s = s.replace(/([a-zA-ZçğıöşüÇĞİÖŞÜ])1([a-zA-ZçğıöşüÇĞİÖŞÜ])/g, "$1ı$2");
+  s = s.replace(/([a-zA-ZçğıöşüÇĞİÖŞÜ])1\b/g, "$1ı");
+  s = s.replace(/\b1([a-zA-ZçğıöşüÇĞİÖŞÜ])/g, "ı$1");
+  s = s.replace(/([a-zA-ZçğıöşüÇĞİÖŞÜ])_([a-zA-ZçğıöşüÇĞİÖŞÜ])/g, "$1ş$2");
+  s = s.replace(/([a-zA-ZçğıöşüÇĞİÖŞÜ])_\b/g, "$1ş");
+
+  // Kalan bozuk Unicode ve kontrol karakterlerini temizle
+  s = s.replace(/[\uFFFD]/g, "");
+  s = s.replace(/[\u0000-\u001F\u007F-\u009F]/g, "");
+
+  return s.split("\n").map(l => l.trim()).filter(l => l.length > 0).join("\n").trim();
 }
 
 function convertAssTime(assTime) {
   const match = assTime.match(/(\d+):(\d{2}):(\d{2})\.(\d{2})/);
-  if (!match) return "00:00:00.000";
+  if (!match) return null;
   const hours = match[1].padStart(2, "0");
   const minutes = match[2];
   const seconds = match[3];
   const centiseconds = match[4];
   const milliseconds = (parseInt(centiseconds) * 10).toString().padStart(3, "0");
-  return `${hours}:${minutes}:${seconds}.${milliseconds}`;
+  const totalMs = parseInt(hours) * 3600000 + parseInt(minutes) * 60000 + parseInt(seconds) * 1000 + parseInt(milliseconds);
+  return {
+    str: `${hours}:${minutes}:${seconds}.${milliseconds}`,
+    totalMs
+  };
 }
 
 function convertAssToVtt(assContent) {
   const lines = assContent.split(/\r?\n/);
-  let vttOutput = "WEBVTT\n\n";
+  const cues = [];
 
   for (const line of lines) {
     if (line.startsWith("Dialogue:")) {
@@ -391,17 +424,34 @@ function convertAssToVtt(assContent) {
       const parts = dialoguePart.split(",");
       if (parts.length < 9) continue;
 
-      const startTime = convertAssTime(parts[1].trim());
-      const endTime = convertAssTime(parts[2].trim());
+      const startObj = convertAssTime(parts[1].trim());
+      const endObj = convertAssTime(parts[2].trim());
+      if (!startObj || !endObj) continue;
+
+      // Hatalı süreleri atla
+      if (endObj.totalMs <= startObj.totalMs) continue;
+
       const rawText = parts.slice(9).join(",").trim();
       const cleanText = cleanAssText(rawText);
 
       if (cleanText.length === 0) continue;
 
-      // Standart W3C WebVTT formatı (Cue ID olmadan direkt zaman damgası)
-      vttOutput += `${startTime} --> ${endTime}\n${cleanText}\n\n`;
+      cues.push({
+        startStr: startObj.str,
+        endStr: endObj.str,
+        startMs: startObj.totalMs,
+        text: cleanText
+      });
     }
   }
+
+  // ExoPlayer / Stremio TV için altyazıları kesin kronolojik sıraya diz
+  cues.sort((a, b) => a.startMs - b.startMs);
+
+  let vttOutput = "WEBVTT\n\n";
+  cues.forEach(cue => {
+    vttOutput += `${cue.startStr} --> ${cue.endStr}\n${cue.text}\n\n`;
+  });
 
   return vttOutput;
 }
