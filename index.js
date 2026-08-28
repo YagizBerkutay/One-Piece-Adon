@@ -222,7 +222,7 @@ function cleanAssText(text) {
 
 const manifest = {
   id: "community.onepace.tr.subtitles",
-  version: "1.0.3",
+  version: "1.0.4",
   name: "One Pace TR Altyazı",
   description:
     "One Pace için Türkçe altyazı addon'u. Tüm 35 Sezon (Fishman Island, Marineford, Wano vs.) desteklenir.",
@@ -287,7 +287,7 @@ builder.defineSubtitlesHandler(async (args) => {
   // Addon'un kendi sunucusundaki VTT endpoint'ine yönlendir
   const baseUrl =
     process.env.BASE_URL || `http://localhost:${PORT}`;
-  const vttUrl = `${baseUrl}/subtitles/${encodeURIComponent(filename)}.vtt`;
+  const vttUrl = `${baseUrl}/vtt/${encodeURIComponent(filename)}.vtt`;
 
   return {
     subtitles: [
@@ -352,8 +352,8 @@ app.get("/", (req, res) => {
   `);
 });
 
-// VTT altyazı endpoint'i - .ass dosyasını VTT'ye dönüştürüp sunar (relPath ve subfolder desteği)
-app.get("/subtitles/*", (req, res) => {
+// VTT altyazı endpoint'i - .ass dosyasını VTT'ye dönüştürüp sunar
+app.get("/vtt/*", (req, res) => {
   let relPath = req.params[0];
   if (relPath.endsWith(".vtt")) {
     relPath = relPath.slice(0, -4);
