@@ -222,7 +222,7 @@ function cleanAssText(text) {
 
 const manifest = {
   id: "community.onepace.tr.subtitles",
-  version: "1.2.6",
+  version: "1.2.7",
   name: "One Pace TR Altyazı",
   description:
     "One Pace için Türkçe altyazı addon'u. Tüm 35 Sezon (Fishman Island, Marineford, Wano vs.) desteklenir.",
@@ -564,6 +564,11 @@ builder.defineSubtitlesHandler(async (args) => {
         url: `${baseUrl}/vtt/sub_${subKey}_ascii.vtt`,
         lang: "tr",
       },
+      {
+        id: `onepace-tr-${args.id}-srt`,
+        url: `${baseUrl}/vtt/sub_${subKey}_ascii.srt`,
+        lang: "Turkish",
+      },
     ],
   };
 });
@@ -678,14 +683,19 @@ function convertToAsciiTurkish(text) {
   return s;
 }
 
-// VTT altyazı endpoint'i - Temiz ASCII subKey veya bağıntılı yol ile dosya sunar
+// VTT / SRT altyazı endpoint'i - Temiz ASCII subKey veya bağıntılı yol ile dosya sunar
 app.get("/vtt/*", (req, res) => {
   let relPath = req.params[0];
   let isAsciiMode = false;
+  let isSrtFormat = false;
 
   if (relPath.endsWith(".vtt")) {
     relPath = relPath.slice(0, -4);
+  } else if (relPath.endsWith(".srt")) {
+    isSrtFormat = true;
+    relPath = relPath.slice(0, -4);
   }
+
   if (relPath.endsWith("_ascii")) {
     isAsciiMode = true;
     relPath = relPath.slice(0, -6);
@@ -699,7 +709,7 @@ app.get("/vtt/*", (req, res) => {
 
   const filePath = path.join(SUBTITLES_DIR, relPath);
 
-  console.log(`🎬 VTT dönüştürme isteği: ${relPath} (ascii=${isAsciiMode})`);
+  console.log(`🎬 Altyazı dönüştürme isteği: ${relPath} (ascii=${isAsciiMode}, srt=${isSrtFormat})`);
 
   if (!fs.existsSync(filePath)) {
     console.log(`   ❌ Dosya bulunamadı: ${filePath}`);
