@@ -331,7 +331,7 @@ function convertAssToSrt(assContent) {
 
 const manifest = {
   id: "community.onepace.tr.subtitles",
-  version: "1.4.2",
+  version: "1.4.3",
   name: "One Pace TR Altyazı",
   description:
     "One Pace için Türkçe altyazı addon'u. Tüm 35 Sezon (Fishman Island, Marineford, Wano vs.) desteklenir.",
@@ -579,9 +579,23 @@ app.get("/vtt/*", (req, res) => {
   }
   relPath = decodeURIComponent(relPath);
 
-  // 1. subKey haritasından bak (örn: sub_TB_5 -> 21 - Thriller Bark/Bölüm 5...)
+  let cleanKey = relPath;
+  if (cleanKey.startsWith("sub_")) cleanKey = cleanKey.slice(4);
+
+  // 1. subKey / cleanKey haritasından bak (örn: sub_TB_5 -> TB_5, sub_19_5 -> 19:5)
   if (keyToRelativePathMap[relPath]) {
     relPath = keyToRelativePathMap[relPath];
+  } else if (keyToRelativePathMap[cleanKey]) {
+    relPath = keyToRelativePathMap[cleanKey];
+  } else if (codeToSubMap[cleanKey]) {
+    relPath = codeToSubMap[cleanKey];
+  } else if (cleanKey.includes("_")) {
+    const parts = cleanKey.split("_");
+    const s = parts[0];
+    const ep = parts[1];
+    if (seasonEpToSubMap[`${s}:${ep}`]) {
+      relPath = seasonEpToSubMap[`${s}:${ep}`];
+    }
   }
 
   const cacheKey = `${relPath}_${isAsciiMode}_${isSrtFormat}`;
