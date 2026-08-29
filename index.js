@@ -27,263 +27,79 @@ const folderToFedewSeason = {
   3: 3,   // Syrup Village
   4: 4,   // Gaimon
   5: 5,   // Baratie
-  6: 6,   // Arlong Park
-  7: 7,   // The Adventures of Buggy's Crew
-  8: 8,   // Loguetown
-  9: 9,   // Reverse Mountain
-  10: 10, // Whisky Peak
-  11: 11, // Koby-Meppo
-  12: 12, // Little Garden
-  13: 13, // Drum Island
-  14: 14, // Alabasta
-  15: 15, // Jaya
-  16: 16, // Skypiea
-  17: 17, // Long Ring Long Land
-  18: 18, // Water Seven
-  19: 18, // Enies Lobby
+  6: 6,   // Arlong Park & Buggy's Crew
+  7: 6,   // Buggy's Crew
+  8: 7,   // Loguetown
+  9: 8,   // Reverse Mountain
+  10: 9,  // Whisky Peak
+  11: 9,  // The Trials of Koby-Meppo (Ep 1 -> S9E3)
+  12: 10, // Little Garden
+  13: 11, // Drum Island
+  14: 12, // Alabasta
+  15: 13, // Jaya
+  16: 14, // Skypiea
+  17: 15, // Long Ring Long Land
+  18: 16, // Water Seven
+  19: 17, // Enies Lobby
   20: 18, // Post-Enies Lobby
   21: 19, // Thriller Bark
   22: 20, // Sabaody Archipelago
   23: 21, // Amazon Lily
-  24: 22, // Impel Down
-  25: 23, // Straw Hats Adventures
-  26: 24, // Marineford
-  27: 25, // Post-War
-  28: 26, // Return to Sabaody
-  29: 27, // Fishman Island
-  30: 27, // Punk Hazard (Offset +24)
-  31: 28, // Dressrosa
-  32: 29, // Zou
-  33: 30, // Whole Cake Island
-  34: 31, // Reverie
-  35: 32, // Wano
-  36: 33  // Egghead
+  24: 22, // Impel Down (Eps 1-10)
+  25: 22, // Straw Hats Adventures (Ep 1 -> S22E11)
+  26: 23, // Marineford (Eps 1-17)
+  27: 24, // Post-War (Eps 1-8)
+  28: 25, // Return to Sabaody (Eps 1-3)
+  29: 26, // Fishman Island (Eps 1-24)
+  30: 27, // Punk Hazard (Eps 1-22)
+  31: 28, // Dressrosa (Eps 1-48)
+  32: 29, // Zou (Eps 1-10)
+  33: 30, // Whole Cake Island (Eps 1-39)
+  34: 31, // Reverie (Eps 1-3)
+  35: 32  // Wano (Eps 1-55)
 };
-
-const fedewEpisodeOffsets = {
-  18: 0,  // Water Seven
-  19: 20, // Enies Lobby
-  20: 45, // Post-Enies Lobby
-  30: 24  // Punk Hazard
-};
-
-function buildSubtitleMap() {
-  const map = {};
-  
-  // 1. Statik harita (subtitle-map.json)
-  try {
-    const staticMap = JSON.parse(
-      fs.readFileSync(path.join(__dirname, "subtitle-map.json"), "utf-8")
-    );
-    for (const [key, val] of Object.entries(staticMap)) {
-      map[key] = val.filename;
-    }
-  } catch (err) {
-    console.error("⚠️ static map error:", err.message);
-  }
-
-  // 2. Rekürsif tatarak alt klasörlerdeki Türkçe altyazıları hem Klasör Sezonu hem Stremio (fedew04) Sezonuna bağla
-  function scanDir(dir) {
-    if (!fs.existsSync(dir)) return;
-    const items = fs.readdirSync(dir);
-    for (const item of items) {
-      const fullPath = path.join(dir, item);
-      if (fs.statSync(fullPath).isDirectory()) {
-        scanDir(fullPath);
-      } else if (item.endsWith(".ass")) {
-        const relPath = path.relative(SUBTITLES_DIR, fullPath).replace(/\\/g, "/");
-        if (relPath.includes("EN-subtitle") || relPath.includes("EN_subtitle")) continue;
-
-        const folderMatch = relPath.match(/(\d+)\s*-\s*[^/]+[/]Bölüm\s*(\d+)/i);
-        if (folderMatch) {
-          const folderSeason = parseInt(folderMatch[1]);
-          const episode = parseInt(folderMatch[2]);
-
-          // Klasör Sezon Key (örn. 21:3)
-          map[`${folderSeason}:${episode}`] = relPath;
-
-          // Stremio / fedew04 Sezon Key (örn. 19:3 Thriller Bark için)
-          if (folderSeason in folderToFedewSeason) {
-            const fedewSeason = folderToFedewSeason[folderSeason];
-            let fedewEpisode = episode;
-            if (folderSeason in fedewEpisodeOffsets) {
-              fedewEpisode = episode + fedewEpisodeOffsets[folderSeason];
-            }
-            map[`${fedewSeason}:${fedewEpisode}`] = relPath;
-          }
-        }
-      }
-    }
-  }
-
-  scanDir(SUBTITLES_DIR);
-  return map;
-}
-
-const subtitleMap = buildSubtitleMap();
-console.log(`✅ Toplam ${Object.keys(subtitleMap).length} Sezon:Bölüm eşleştirmesi yüklendi.`);
-
-// ============================================================
-// ASS → VTT Dönüştürücü
-// ============================================================
-
-function convertAssToVtt(assContent) {
-  const lines = assContent.split(/\r?\n/);
-  let vttOutput = "WEBVTT\n\n";
-  let dialogueIndex = 0;
-
-  // [Events] bölümünü bul
-  let inEvents = false;
-  let formatFields = [];
-
-  for (const line of lines) {
-    if (line.trim().toLowerCase() === "[events]") {
-      inEvents = true;
-      continue;
-    }
-
-    if (line.trim().startsWith("[") && line.trim() !== "[Events]") {
-      if (inEvents) break; // Events bölümü bitti
-      continue;
-    }
-
-    if (!inEvents) continue;
-
-    // Format satırını parse et
-    if (line.startsWith("Format:")) {
-      formatFields = line
-        .replace("Format:", "")
-        .split(",")
-        .map((f) => f.trim().toLowerCase());
-      continue;
-    }
-
-    // Dialogue satırlarını parse et
-    if (line.startsWith("Dialogue:")) {
-      const dialoguePart = line.substring("Dialogue:".length).trim();
-      const parts = dialoguePart.split(",");
-
-      if (formatFields.length === 0 || parts.length < formatFields.length)
-        continue;
-
-      const startIdx = formatFields.indexOf("start");
-      const endIdx = formatFields.indexOf("end");
-      const textIdx = formatFields.indexOf("text");
-
-      if (startIdx === -1 || endIdx === -1 || textIdx === -1) continue;
-
-      const startTime = convertAssTime(parts[startIdx].trim());
-      const endTime = convertAssTime(parts[endIdx].trim());
-      // Text alanı son alan olduğu için virgüllerle birleştirilmeli
-      const rawText = parts.slice(textIdx).join(",").trim();
-      const cleanText = cleanAssText(rawText);
-
-      if (cleanText.trim().length === 0) continue;
-
-      dialogueIndex++;
-      vttOutput += `${dialogueIndex}\n`;
-      vttOutput += `${startTime} --> ${endTime}\n`;
-      vttOutput += `${cleanText}\n\n`;
-    }
-  }
-
-  return vttOutput;
-}
-
-// ASS zaman formatını VTT'ye dönüştür (H:MM:SS.CC → HH:MM:SS.mmm)
-function convertAssTime(assTime) {
-  const match = assTime.match(/(\d+):(\d{2}):(\d{2})\.(\d{2})/);
-  if (!match) return "00:00:00.000";
-
-  const hours = match[1].padStart(2, "0");
-  const minutes = match[2];
-  const seconds = match[3];
-  const centiseconds = match[4];
-  const milliseconds = (parseInt(centiseconds) * 10)
-    .toString()
-    .padStart(3, "0");
-
-  return `${hours}:${minutes}:${seconds}.${milliseconds}`;
-}
-
-// ASS biçimlendirme etiketlerini temizle
-function cleanAssText(text) {
-  // Override tag'leri kaldır: {\tags}
-  let cleaned = text.replace(/\{[^}]*\}/g, "");
-  // \N ve \n → satır sonu
-  cleaned = cleaned.replace(/\\N/g, "\n");
-  cleaned = cleaned.replace(/\\n/g, "\n");
-  // Kalan ters slash temizliği
-  cleaned = cleaned.replace(/\\h/g, " ");
-  return cleaned.trim();
-}
-
-// ============================================================
-// Stremio Addon Tanımı
-// ============================================================
-
-const manifest = {
-  id: "community.onepace.tr.subtitles",
-  version: "1.3.8",
-  name: "One Pace TR Altyazı",
-  description:
-    "One Pace için Türkçe altyazı addon'u. Tüm 35 Sezon (Fishman Island, Marineford, Wano vs.) desteklenir.",
-  logo: "https://i.pinimg.com/originals/4c/46/ee/4c46ee47e0710a6d928454f68fc4ee17.png",
-  resources: ["subtitles"],
-  types: ["series", "movie", "anime", "other"],
-  catalogs: [],
-};
-
-const builder = new addonBuilder(manifest);
 
 // ============================================================
 // Evrensel 35 Sezon Haritalandırma Tanımları
 // ============================================================
 
 const arcDefinitions = [
-  { folderSeason: 1,  codes: ["RD", "ROMA"],                 keywords: ["romance", "dawn"] },
-  { folderSeason: 2,  codes: ["OT", "ORA"],                  keywords: ["orange", "town"] },
-  { folderSeason: 3,  codes: ["SY", "SYR"],                  keywords: ["syrup", "village"] },
-  { folderSeason: 4,  codes: ["GA", "GAI"],                  keywords: ["gaimon"] },
-  { folderSeason: 5,  codes: ["BA", "BAR"],                  keywords: ["baratie"] },
-  { folderSeason: 6,  codes: ["AP", "ARL"],                  keywords: ["arlong", "park"] },
-  { folderSeason: 7,  codes: ["BU", "BUG", "TABC"],          keywords: ["buggy"] },
-  { folderSeason: 8,  codes: ["LT", "LOG"],                  keywords: ["loguetown"] },
-  { folderSeason: 9,  codes: ["RM", "REV"],                  keywords: ["reverse", "mountain"] },
-  { folderSeason: 10, codes: ["WP", "WHI"],                  keywords: ["whisky", "peak"] },
-  { folderSeason: 11, codes: ["KM", "KOB", "TTKM"],          keywords: ["koby", "meppo"] },
-  { folderSeason: 12, codes: ["LG", "LIT"],                  keywords: ["little", "garden"] },
-  { folderSeason: 13, codes: ["DI", "DRU"],                  keywords: ["drum", "island"] },
-  { folderSeason: 14, codes: ["AL", "ALA"],                  keywords: ["alabasta"] },
-  { folderSeason: 15, codes: ["JA", "JAY"],                  keywords: ["jaya"] },
-  { folderSeason: 16, codes: ["SK", "SKY"],                  keywords: ["skypiea"] },
-  { folderSeason: 17, codes: ["LR", "LL", "LON", "LRLL"],    keywords: ["long", "ring"] },
-  { folderSeason: 18, codes: ["WS", "WAT"],                  keywords: ["water", "seven"] },
-  { folderSeason: 19, codes: ["EL", "ENI"],                  keywords: ["enies", "lobby"] },
-  { folderSeason: 20, codes: ["PE", "POS", "PEL"],            keywords: ["post-enies", "post enies"] },
-  { folderSeason: 21, codes: ["TB", "THR"],                  keywords: ["thriller", "bark"] },
-  { folderSeason: 22, codes: ["SA", "SAB"],                  keywords: ["sabaody", "archipelago"] },
-  { folderSeason: 23, codes: ["AM", "AZ", "AMA"],            keywords: ["amazon", "lily"] },
-  { folderSeason: 24, codes: ["ID", "IMP"],                  keywords: ["impel", "down"] },
-  { folderSeason: 25, codes: ["SH", "STR", "TASH"],          keywords: ["straw", "hats"] },
-  { folderSeason: 26, codes: ["MF", "MAR"],                  keywords: ["marineford"] },
-  { folderSeason: 27, codes: ["PW", "POW"],                  keywords: ["post-war", "post war"] },
-  { folderSeason: 28, codes: ["RS", "RET", "RTS"],            keywords: ["return", "sabaody"] },
-  { folderSeason: 29, codes: ["FI", "FIS", "FMI"],            keywords: ["fishman", "island"] },
-  { folderSeason: 30, codes: ["PH", "PUN"],                  keywords: ["punk", "hazard"] },
-  { folderSeason: 31, codes: ["DR", "DRE"],                  keywords: ["dressrosa"] },
-  { folderSeason: 32, codes: ["ZO", "ZOU"],                  keywords: ["zou"] },
-  { folderSeason: 33, codes: ["WC", "WCI"],                  keywords: ["whole", "cake"] },
-  { folderSeason: 34, codes: ["RE", "REV"],                  keywords: ["reverie"] },
-  { folderSeason: 35, codes: ["WA", "WAN"],                  keywords: ["wano"] }
+  { folderSeason: 1,  codes: ["RO", "RD", "ROMA"],                 keywords: ["romance", "dawn"] },
+  { folderSeason: 2,  codes: ["OR", "OT", "ORA"],                  keywords: ["orange", "town"] },
+  { folderSeason: 3,  codes: ["SY", "SYR"],                        keywords: ["syrup", "village"] },
+  { folderSeason: 4,  codes: ["GA", "GAI"],                        keywords: ["gaimon"] },
+  { folderSeason: 5,  codes: ["BA", "BAR"],                        keywords: ["baratie"] },
+  { folderSeason: 6,  codes: ["AR", "AP", "ARL"],                  keywords: ["arlong", "park"] },
+  { folderSeason: 7,  codes: ["BUGGYS_CREW", "BU", "BUG", "TABC"], keywords: ["buggy"] },
+  { folderSeason: 8,  codes: ["LO", "LT", "LOG"],                  keywords: ["loguetown"] },
+  { folderSeason: 9,  codes: ["RM", "REV"],                        keywords: ["reverse", "mountain"] },
+  { folderSeason: 10, codes: ["WH", "WP", "WHI"],                  keywords: ["whisky", "peak"] },
+  { folderSeason: 11, codes: ["COVER_KOBYMEPPO", "KM", "KOB", "TTKM"], keywords: ["koby", "meppo"] },
+  { folderSeason: 12, codes: ["LI", "LG", "LIT"],                  keywords: ["little", "garden"] },
+  { folderSeason: 13, codes: ["DI", "DRU"],                        keywords: ["drum", "island"] },
+  { folderSeason: 14, codes: ["AL", "ALA"],                        keywords: ["alabasta"] },
+  { folderSeason: 15, codes: ["JA", "JAY"],                        keywords: ["jaya"] },
+  { folderSeason: 16, codes: ["SK", "SKY"],                        keywords: ["skypiea"] },
+  { folderSeason: 17, codes: ["LR", "LL", "LON", "LRLL"],          keywords: ["long", "ring"] },
+  { folderSeason: 18, codes: ["WS", "WAT"],                        keywords: ["water", "seven"] },
+  { folderSeason: 19, codes: ["EN", "EL", "ENI"],                  keywords: ["enies", "lobby"] },
+  { folderSeason: 20, codes: ["PEN", "PE", "POS", "PEL"],          keywords: ["post-enies", "post enies"] },
+  { folderSeason: 21, codes: ["TB", "THR"],                        keywords: ["thriller", "bark"] },
+  { folderSeason: 22, codes: ["SAB", "SA"],                        keywords: ["sabaody", "archipelago"] },
+  { folderSeason: 23, codes: ["AM", "AZ", "AMA"],                  keywords: ["amazon", "lily"] },
+  { folderSeason: 24, codes: ["IM", "ID", "IMP"],                  keywords: ["impel", "down"] },
+  { folderSeason: 25, codes: ["COVER_SHSS", "SH", "STR", "TASH"],  keywords: ["straw", "hats"] },
+  { folderSeason: 26, codes: ["MA", "MF", "MAR"],                  keywords: ["marineford"] },
+  { folderSeason: 27, codes: ["PW", "POW"],                        keywords: ["post-war", "post war"] },
+  { folderSeason: 28, codes: ["RTS", "RS", "RET"],                 keywords: ["return", "sabaody"] },
+  { folderSeason: 29, codes: ["FI", "FIS", "FMI"],                  keywords: ["fishman", "island"] },
+  { folderSeason: 30, codes: ["PH", "PUN"],                        keywords: ["punk", "hazard"] },
+  { folderSeason: 31, codes: ["DR", "DRE"],                        keywords: ["dressrosa"] },
+  { folderSeason: 32, codes: ["ZO", "ZOU"],                        keywords: ["zou"] },
+  { folderSeason: 33, codes: ["WC", "WCI"],                        keywords: ["whole", "cake"] },
+  { folderSeason: 34, codes: ["REV", "RE"],                        keywords: ["reverie"] },
+  { folderSeason: 35, codes: ["WA", "WAN"],                        keywords: ["wano"] }
 ];
-
-const fedewSeasonToFolderSeason = {
-  1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8, 9: 9, 10: 10,
-  11: 11, 12: 12, 13: 13, 14: 14, 15: 15, 16: 16, 17: 17,
-  18: 18, 19: 21, 20: 22, 21: 23, 22: 24, 23: 25, 24: 26, 25: 27,
-  26: 28, 27: 29, 28: 30, 29: 31, 30: 32, 31: 33, 32: 34, 33: 35
-};
 
 const codeToSubMap = {};
 const seasonEpToSubMap = {};
@@ -295,54 +111,75 @@ function buildSubtitleMaps() {
     const items = fs.readdirSync(dir);
     for (const item of items) {
       const fullPath = path.join(dir, item);
-      if (fs.statSync(fullPath).isDirectory()) {
-        scanDir(fullPath);
-      } else if (item.endsWith(".ass")) {
-        const relPath = path.relative(SUBTITLES_DIR, fullPath).replace(/\\/g, "/");
-        if (relPath.includes("EN-subtitle") || relPath.includes("EN_subtitle")) continue;
+      if (fs.statSync(fullPath).isDirectory() && /^\d+/.test(item)) {
+        const folderSeason = parseInt(item);
+        const eps = fs.readdirSync(fullPath);
+        for (const e of eps) {
+          const epDir = path.join(fullPath, e);
+          if (fs.statSync(epDir).isDirectory()) {
+            const m = e.match(/[Bb].l.m\s*(\d+)/i);
+            if (m) {
+              const episode = parseInt(m[1]);
+              const subFiles = fs.readdirSync(epDir);
+              for (const sf of subFiles) {
+                if (sf.endsWith(".ass") && !sf.includes("EN-") && !sf.includes("EN_")) {
+                  const relPath = path.join(item, e, sf).replace(/\\/g, "/");
 
-        // 1. Klasör Yapısı (Linux ve Windows Uyumlu): "21 - Thriller Bark/Bölüm 6..." veya "21 - Thriller Bark/Bolum 6..."
-        const folderMatch = relPath.match(/(\d+)\s*-\s*[^/]+[/](?:Bölüm|Bolum|B%C3%B6l%C3%BCm)\s*(\d+)/i);
-        if (folderMatch) {
-          const folderSeason = parseInt(folderMatch[1]);
-          const episode = parseInt(folderMatch[2]);
+                  // 1. Klasör Sezon:Bölüm eşleştirmesi
+                  seasonEpToSubMap[`${folderSeason}:${episode}`] = relPath;
+                  keyToRelativePathMap[`${folderSeason}_${episode}`] = relPath;
 
-          const key = `${folderSeason}_${episode}`;
-          seasonEpToSubMap[`${folderSeason}:${episode}`] = relPath;
-          keyToRelativePathMap[key] = relPath;
+                  // 2. Ark Kodları
+                  const arcDef = arcDefinitions.find(a => a.folderSeason === folderSeason);
+                  if (arcDef) {
+                    arcDef.codes.forEach(code => {
+                      codeToSubMap[`${code}_${episode}`] = relPath;
+                      keyToRelativePathMap[`${code}_${episode}`] = relPath;
+                    });
+                  }
 
-          const arcDef = arcDefinitions.find(a => a.folderSeason === folderSeason);
-          if (arcDef) {
-            arcDef.codes.forEach(code => {
-              codeToSubMap[`${code}_${episode}`] = relPath;
-              keyToRelativePathMap[`${code}_${episode}`] = relPath;
-            });
-          }
-
-          if (folderSeason in folderToFedewSeason) {
-            const fedewSeason = folderToFedewSeason[folderSeason];
-            let fedewEpisode = episode;
-            if (folderSeason in fedewEpisodeOffsets) {
-              fedewEpisode = episode + fedewEpisodeOffsets[folderSeason];
+                  // 3. Fedew04 Stremio Sezon:Bölüm eşleştirmesi
+                  let fedewSeason = folderToFedewSeason[folderSeason];
+                  let fedewEpisode = episode;
+                  if (folderSeason === 11 && episode === 1) {
+                    fedewEpisode = 3;
+                    codeToSubMap["COVER_KOBYMEPPO_1"] = relPath;
+                    keyToRelativePathMap["COVER_KOBYMEPPO_1"] = relPath;
+                  }
+                  if (folderSeason === 25 && episode === 1) {
+                    fedewEpisode = 11;
+                    codeToSubMap["COVER_SHSS_1"] = relPath;
+                    keyToRelativePathMap["COVER_SHSS_1"] = relPath;
+                  }
+                  if (fedewSeason) {
+                    seasonEpToSubMap[`${fedewSeason}:${fedewEpisode}`] = relPath;
+                    keyToRelativePathMap[`${fedewSeason}_${fedewEpisode}`] = relPath;
+                  }
+                }
+              }
             }
-            seasonEpToSubMap[`${fedewSeason}:${fedewEpisode}`] = relPath;
-            keyToRelativePathMap[`${fedewSeason}_${fedewEpisode}`] = relPath;
           }
         }
-
-        // 2. Kök Klasör Yapısı: "Bolum 6 - tr sub [Orange Town 02].ass"
-        const topMatch = item.match(/Bolum\s*(\d+)\s*-\s*tr sub\s*\[([^\]]+)\s*(\d+)\]/i);
-        if (topMatch) {
-          const arcName = topMatch[2].trim().toLowerCase();
-          const ep = parseInt(topMatch[3]);
-          const arcDef = arcDefinitions.find(a => a.codes.some(c => c.toLowerCase() === arcName || arcName.includes(c.toLowerCase())));
+      } else if (item.endsWith(".ass") && !item.includes("EN-") && !item.includes("EN_")) {
+        // Kök Klasör Dosyaları (Wano, Alabasta, Skypiea, Jaya, Romance Dawn vs.)
+        const relPath = item.replace(/\\/g, "/");
+        const m = item.match(/\[(.*?)\]/);
+        if (m) {
+          const inside = m[1];
+          const numM = inside.match(/(\d+)/);
+          const epNum = numM ? parseInt(numM[1]) : 1;
+          const arcDef = arcDefinitions.find(a => inside.toLowerCase().includes(a.keywords[0]));
           if (arcDef) {
             arcDef.codes.forEach(code => {
-              codeToSubMap[`${code}_${ep}`] = relPath;
-              keyToRelativePathMap[`${code}_${ep}`] = relPath;
+              codeToSubMap[`${code}_${epNum}`] = relPath;
+              keyToRelativePathMap[`${code}_${epNum}`] = relPath;
             });
-            seasonEpToSubMap[`${arcDef.folderSeason}:${ep}`] = relPath;
-            keyToRelativePathMap[`${arcDef.folderSeason}_${ep}`] = relPath;
+            seasonEpToSubMap[`${arcDef.folderSeason}:${epNum}`] = relPath;
+            keyToRelativePathMap[`${arcDef.folderSeason}_${epNum}`] = relPath;
+
+            const fedewS = folderToFedewSeason[arcDef.folderSeason] || arcDef.folderSeason;
+            seasonEpToSubMap[`${fedewS}:${epNum}`] = relPath;
+            keyToRelativePathMap[`${fedewS}_${epNum}`] = relPath;
           }
         }
       }
@@ -447,6 +284,24 @@ function convertAssToVtt(assContent) {
 }
 
 // ============================================================
+// Stremio Addon Tanımı
+// ============================================================
+
+const manifest = {
+  id: "community.onepace.tr.subtitles",
+  version: "1.3.9",
+  name: "One Pace TR Altyazı",
+  description:
+    "One Pace için Türkçe altyazı addon'u. Tüm 35 Sezon (Fishman Island, Marineford, Wano vs.) desteklenir.",
+  logo: "https://i.pinimg.com/originals/4c/46/ee/4c46ee47e0710a6d928454f68fc4ee17.png",
+  resources: ["subtitles"],
+  types: ["series", "movie", "anime", "other"],
+  catalogs: [],
+};
+
+const builder = new addonBuilder(manifest);
+
+// ============================================================
 // Subtitle Handler (Çok Katmanlı Evrensel Çözücü)
 // ============================================================
 
@@ -457,16 +312,20 @@ builder.defineSubtitlesHandler(async (args) => {
   let subKey = null;
   const decodedId = decodeURIComponent(args.id);
 
-  // 1. Ark Kod Kontrolü (örn: SAB_4, TB_3, FI_10, WAN_1, PUN_1)
-  const codeMatch = decodedId.match(/([A-Z]{2,4})_(\d+)/i);
+  // 1. Ark Kod Kontrolü (örn: IM_1, MA_1, AM_1, TB_6, COVER_SHSS_1, COVER_KOBYMEPPO_1, BUGGYS_CREW_1)
+  const codeMatch = decodedId.match(/([A-Z_]+)_(\d+)/i);
   if (codeMatch) {
     const code = codeMatch[1].toUpperCase();
     const ep = parseInt(codeMatch[2]);
     subKey = `${code}_${ep}`;
     if (codeToSubMap[subKey]) filename = codeToSubMap[subKey];
   }
+  if (!filename && codeToSubMap[decodedId.toUpperCase()]) {
+    subKey = decodedId.toUpperCase();
+    filename = codeToSubMap[subKey];
+  }
 
-  // 2. Sezon:Bölüm Format Kontrolü (örn: 20:4, 22:4, pp:22:4)
+  // 2. Sezon:Bölüm Format Kontrolü (örn: 22:1, 23:1, pp_onepace:22:1, series:22:1)
   if (!filename) {
     const parts = decodedId.split(":");
     if (parts.length >= 2) {
