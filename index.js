@@ -331,7 +331,7 @@ function convertAssToSrt(assContent) {
 
 const manifest = {
   id: "community.onepace.tr.subtitles",
-  version: "1.4.1",
+  version: "1.4.2",
   name: "One Pace TR Altyazı",
   description:
     "One Pace için Türkçe altyazı addon'u. Tüm 35 Sezon (Fishman Island, Marineford, Wano vs.) desteklenir.",
@@ -558,6 +558,8 @@ function convertToAsciiTurkish(text) {
   return s;
 }
 
+const subtitleCache = new Map();
+
 // VTT / SRT altyazı endpoint'i - Temiz ASCII subKey veya bağıntılı yol ile dosya sunar
 app.get("/vtt/*", (req, res) => {
   let relPath = req.params[0];
@@ -582,9 +584,19 @@ app.get("/vtt/*", (req, res) => {
     relPath = keyToRelativePathMap[relPath];
   }
 
-  const filePath = path.join(SUBTITLES_DIR, relPath);
+  const cacheKey = `${relPath}_${isAsciiMode}_${isSrtFormat}`;
+  if (subtitleCache.has(cacheKey)) {
+    const cached = subtitleCache.get(cacheKey);
+    res.setHeader("Access-Control-Allow-Origin", "*");
+    res.setHeader("Access-Control-Allow-Methods", "GET, OPTIONS");
+    res.setHeader("Access-Control-Allow-Headers", "*");
+    res.setHeader("Content-Type", cached.mimeType);
+    res.setHeader("Content-Length", cached.buffer.length);
+    res.setHeader("Cache-Control", "public, max-age=31536000, immutable");
+    return res.send(cached.buffer);
+  }
 
-  console.log(`🎬 Altyazı dönüştürme isteği: ${relPath} (ascii=${isAsciiMode}, srt=${isSrtFormat})`);
+  const filePath = path.join(SUBTITLES_DIR, relPath);
 
   if (!fs.existsSync(filePath)) {
     console.log(`   ❌ Dosya bulunamadı: ${filePath}`);
@@ -609,13 +621,20 @@ app.get("/vtt/*", (req, res) => {
       outputContent = convertToAsciiTurkish(outputContent);
     }
 
+    const outputBuffer = Buffer.from(outputContent, "utf-8");
+    subtitleCache.set(cacheKey, {
+      buffer: outputBuffer,
+      mimeType
+    });
+
     res.setHeader("Access-Control-Allow-Origin", "*");
     res.setHeader("Access-Control-Allow-Methods", "GET, OPTIONS");
     res.setHeader("Access-Control-Allow-Headers", "*");
     res.setHeader("Content-Type", mimeType);
-    res.setHeader("Cache-Control", "public, max-age=86400");
-    res.send(outputContent);
-    console.log(`   ✅ Altyazı başarıyla gönderildi (${outputContent.length} byte, format=${isSrtFormat ? 'SRT' : 'VTT'})`);
+    res.setHeader("Content-Length", outputBuffer.length);
+    res.setHeader("Cache-Control", "public, max-age=31536000, immutable");
+    res.send(outputBuffer);
+    console.log(`   ⚡ Altyazı RAM'den anında gönderildi (${outputBuffer.length} byte, format=${isSrtFormat ? 'SRT' : 'VTT'})`);
   } catch (err) {
     console.error(`   ❌ Dönüştürme hatası:`, err);
     res.status(500).send("Conversion error");
