@@ -222,7 +222,7 @@ function cleanAssText(text) {
 
 const manifest = {
   id: "community.onepace.tr.subtitles",
-  version: "1.3.4",
+  version: "1.3.5",
   name: "One Pace TR Altyazı",
   description:
     "One Pace için Türkçe altyazı addon'u. Tüm 35 Sezon (Fishman Island, Marineford, Wano vs.) desteklenir.",
@@ -450,8 +450,8 @@ function convertAssToVtt(assContent) {
   cues.sort((a, b) => a.startMs - b.startMs);
 
   let vttOutput = "WEBVTT\n\n";
-  cues.forEach(cue => {
-    vttOutput += `${cue.startStr} --> ${cue.endStr}\n${cue.text}\n\n`;
+  cues.forEach((cue, index) => {
+    vttOutput += `${index + 1}\n${cue.startStr} --> ${cue.endStr}\n${cue.text}\n\n`;
   });
 
   return vttOutput;
