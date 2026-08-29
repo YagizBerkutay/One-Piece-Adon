@@ -51,18 +51,20 @@ const folderToFedewSeason = {
   27: 25, // Post-War
   28: 26, // Return to Sabaody
   29: 27, // Fishman Island
-  30: 28, // Punk Hazard
-  31: 29, // Dressrosa
-  32: 30, // Zou
-  33: 31, // Whole Cake Island
-  34: 32, // Reverie
-  35: 33  // Wano
+  30: 27, // Punk Hazard (Offset +24)
+  31: 28, // Dressrosa
+  32: 29, // Zou
+  33: 30, // Whole Cake Island
+  34: 31, // Reverie
+  35: 32, // Wano
+  36: 33  // Egghead
 };
 
-const fedewEpisodeOffsetsForSeason18 = {
+const fedewEpisodeOffsets = {
   18: 0,  // Water Seven
   19: 20, // Enies Lobby
-  20: 45  // Post-Enies Lobby
+  20: 45, // Post-Enies Lobby
+  30: 24  // Punk Hazard
 };
 
 function buildSubtitleMap() {
@@ -104,8 +106,8 @@ function buildSubtitleMap() {
           if (folderSeason in folderToFedewSeason) {
             const fedewSeason = folderToFedewSeason[folderSeason];
             let fedewEpisode = episode;
-            if (folderSeason in fedewEpisodeOffsetsForSeason18) {
-              fedewEpisode = episode + fedewEpisodeOffsetsForSeason18[folderSeason];
+            if (folderSeason in fedewEpisodeOffsets) {
+              fedewEpisode = episode + fedewEpisodeOffsets[folderSeason];
             }
             map[`${fedewSeason}:${fedewEpisode}`] = relPath;
           }
@@ -222,7 +224,7 @@ function cleanAssText(text) {
 
 const manifest = {
   id: "community.onepace.tr.subtitles",
-  version: "1.3.7",
+  version: "1.3.8",
   name: "One Pace TR Altyazı",
   description:
     "One Pace için Türkçe altyazı addon'u. Tüm 35 Sezon (Fishman Island, Marineford, Wano vs.) desteklenir.",
@@ -315,6 +317,16 @@ function buildSubtitleMaps() {
               codeToSubMap[`${code}_${episode}`] = relPath;
               keyToRelativePathMap[`${code}_${episode}`] = relPath;
             });
+          }
+
+          if (folderSeason in folderToFedewSeason) {
+            const fedewSeason = folderToFedewSeason[folderSeason];
+            let fedewEpisode = episode;
+            if (folderSeason in fedewEpisodeOffsets) {
+              fedewEpisode = episode + fedewEpisodeOffsets[folderSeason];
+            }
+            seasonEpToSubMap[`${fedewSeason}:${fedewEpisode}`] = relPath;
+            keyToRelativePathMap[`${fedewSeason}_${fedewEpisode}`] = relPath;
           }
         }
 
@@ -461,14 +473,8 @@ builder.defineSubtitlesHandler(async (args) => {
       const s = parseInt(parts[parts.length - 2]);
       const ep = parseInt(parts[parts.length - 1]);
       if (!isNaN(s) && !isNaN(ep)) {
-        let folderS = s;
-        if (s in fedewSeasonToFolderSeason) {
-          folderS = fedewSeasonToFolderSeason[s];
-        }
-        subKey = `${folderS}_${ep}`;
-        if (seasonEpToSubMap[`${folderS}:${ep}`]) {
-          filename = seasonEpToSubMap[`${folderS}:${ep}`];
-        } else if (seasonEpToSubMap[`${s}:${ep}`]) {
+        subKey = `${s}_${ep}`;
+        if (seasonEpToSubMap[`${s}:${ep}`]) {
           filename = seasonEpToSubMap[`${s}:${ep}`];
         }
       }
