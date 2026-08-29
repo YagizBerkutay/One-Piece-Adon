@@ -222,7 +222,7 @@ function cleanAssText(text) {
 
 const manifest = {
   id: "community.onepace.tr.subtitles",
-  version: "1.3.5",
+  version: "1.3.6",
   name: "One Pace TR Altyazı",
   description:
     "One Pace için Türkçe altyazı addon'u. Tüm 35 Sezon (Fishman Island, Marineford, Wano vs.) desteklenir.",
@@ -367,29 +367,6 @@ function cleanAssText(text) {
   s = s.replace(/\\N/g, " ").replace(/\\n/g, " ").replace(/\\h/g, " ");
   s = s.replace(/\\/g, "");
 
-  // Eski Türkçe fansub font karakter değişimi (1 -> ı, _ -> ş, ^ -> Ş)
-  s = s.replace(/D[\uFFFD]nyan1n/g, "Dünyanın");
-  s = s.replace(/D[\uFFFD]nyan/g, "Dünyan");
-  s = s.replace(/naram1z1/g, "naramızı");
-  s = s.replace(/y[\uFFFD]kselterek/g, "yükselterek");
-  s = s.replace(/Karar1n1/g, "Kararını");
-  s = s.replace(/b1rak/g, "bırak");
-  s = s.replace(/kalk1_/g, "kalkış");
-  s = s.replace(/[\uFFFD]al1ns1n/g, "Çalınsın");
-  s = s.replace(/ka[\uFFFD]abildik/g, "kaçabildik");
-  s = s.replace(/g[\uFFFD]k/g, "gök");
-  s = s.replace(/s1n1r/g, "sınır");
-  s = s.replace(/\^imdi/g, "Şimdi");
-  s = s.replace(/k[\uFFFD]rek/g, "kürek");
-  s = s.replace(/[\uFFFD]ekerek/g, "çekerek");
-  s = s.replace(/a[\uFFFD]1yoruz/g, "açıyoruz");
-  s = s.replace(/karanl1k/g, "karanlık");
-  s = s.replace(/do ru/g, "doğru");
-
-  s = s.replace(/([a-zA-ZçğıöşüÇĞİÖŞÜ])1/g, "$1ı");
-  s = s.replace(/\b1([a-zA-ZçğıöşüÇĞİÖŞÜ])/g, "ı$1");
-  s = s.replace(/_/g, "ş");
-  s = s.replace(/([a-zA-ZçğıöşüÇĞİÖŞÜ])x\b/g, "$1ş");
 
   // Kalan bozuk Unicode ve kontrol karakterlerini temizle
   s = s.replace(/[\uFFFD]/g, "");
