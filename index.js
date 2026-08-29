@@ -222,7 +222,7 @@ function cleanAssText(text) {
 
 const manifest = {
   id: "community.onepace.tr.subtitles",
-  version: "1.2.5",
+  version: "1.2.6",
   name: "One Pace TR Altyazı",
   description:
     "One Pace için Türkçe altyazı addon'u. Tüm 35 Sezon (Fishman Island, Marineford, Wano vs.) desteklenir.",
@@ -559,6 +559,11 @@ builder.defineSubtitlesHandler(async (args) => {
         url: vttUrl,
         lang: "tur",
       },
+      {
+        id: `onepace-tr-${args.id}-tv`,
+        url: `${baseUrl}/vtt/sub_${subKey}_ascii.vtt`,
+        lang: "tr",
+      },
     ],
   };
 });
@@ -661,11 +666,29 @@ function decodeCp1254(buffer) {
   return out;
 }
 
+// TV Oynatıcı Uyumlu ASCII Türkçe Harf Dönüştürücü (Font eksikliği olan TV'ler için)
+function convertToAsciiTurkish(text) {
+  let s = text;
+  s = s.replace(/ş/g, "s").replace(/Ş/g, "S");
+  s = s.replace(/ğ/g, "g").replace(/Ğ/g, "G");
+  s = s.replace(/ç/g, "c").replace(/Ç/g, "C");
+  s = s.replace(/ö/g, "o").replace(/Ö/g, "O");
+  s = s.replace(/ü/g, "u").replace(/Ü/g, "U");
+  s = s.replace(/İ/g, "I");
+  return s;
+}
+
 // VTT altyazı endpoint'i - Temiz ASCII subKey veya bağıntılı yol ile dosya sunar
 app.get("/vtt/*", (req, res) => {
   let relPath = req.params[0];
+  let isAsciiMode = false;
+
   if (relPath.endsWith(".vtt")) {
     relPath = relPath.slice(0, -4);
+  }
+  if (relPath.endsWith("_ascii")) {
+    isAsciiMode = true;
+    relPath = relPath.slice(0, -6);
   }
   relPath = decodeURIComponent(relPath);
 
@@ -676,7 +699,7 @@ app.get("/vtt/*", (req, res) => {
 
   const filePath = path.join(SUBTITLES_DIR, relPath);
 
-  console.log(`🎬 VTT dönüştürme isteği: ${relPath}`);
+  console.log(`🎬 VTT dönüştürme isteği: ${relPath} (ascii=${isAsciiMode})`);
 
   if (!fs.existsSync(filePath)) {
     console.log(`   ❌ Dosya bulunamadı: ${filePath}`);
@@ -686,7 +709,11 @@ app.get("/vtt/*", (req, res) => {
   try {
     const buffer = fs.readFileSync(filePath);
     const assContent = decodeCp1254(buffer);
-    const vttContent = convertAssToVtt(assContent);
+    let vttContent = convertAssToVtt(assContent);
+
+    if (isAsciiMode) {
+      vttContent = convertToAsciiTurkish(vttContent);
+    }
 
     res.setHeader("Access-Control-Allow-Origin", "*");
     res.setHeader("Access-Control-Allow-Methods", "GET, OPTIONS");
