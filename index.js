@@ -222,7 +222,7 @@ function cleanAssText(text) {
 
 const manifest = {
   id: "community.onepace.tr.subtitles",
-  version: "1.2.3",
+  version: "1.2.4",
   name: "One Pace TR Altyazı",
   description:
     "One Pace için Türkçe altyazı addon'u. Tüm 35 Sezon (Fishman Island, Marineford, Wano vs.) desteklenir.",
@@ -401,6 +401,7 @@ function cleanAssText(text) {
   s = s.replace(/\b1([a-zA-ZçğıöşüÇĞİÖŞÜ])/g, "ı$1");
   s = s.replace(/([a-zA-ZçğıöşüÇĞİÖŞÜ])_/g, "$1ş");
   s = s.replace(/\b_([a-zA-ZçğıöşüÇĞİÖŞÜ])/g, "ş$1");
+  s = s.replace(/([a-zA-ZçğıöşüÇĞİÖŞÜ])x\b/g, "$1ş");
 
   // Kalan bozuk Unicode ve kontrol karakterlerini temizle
   s = s.replace(/[\uFFFD]/g, "");
