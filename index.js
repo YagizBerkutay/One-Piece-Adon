@@ -283,13 +283,58 @@ function convertAssToVtt(assContent) {
   return vttOutput;
 }
 
+function convertAssToSrt(assContent) {
+  const dialogueBlocks = assContent.split(/(?=Dialogue:)/);
+  const cues = [];
+
+  for (const block of dialogueBlocks) {
+    const trimmed = block.trim();
+    if (trimmed.startsWith("Dialogue:")) {
+      const dLine = trimmed.split(/\r?\n/)[0];
+      const dialoguePart = dLine.substring("Dialogue:".length).trim();
+      const parts = dialoguePart.split(",");
+      if (parts.length < 9) continue;
+
+      const sMatch = parts[1].trim().match(/(\d+):(\d{2}):(\d{2})\.(\d{2})/);
+      const eMatch = parts[2].trim().match(/(\d+):(\d{2}):(\d{2})\.(\d{2})/);
+      if (!sMatch || !eMatch) continue;
+
+      const sStr = `${sMatch[1].padStart(2, "0")}:${sMatch[2]}:${sMatch[3]},${(parseInt(sMatch[4]) * 10).toString().padStart(3, "0")}`;
+      const eStr = `${eMatch[1].padStart(2, "0")}:${eMatch[2]}:${eMatch[3]},${(parseInt(eMatch[4]) * 10).toString().padStart(3, "0")}`;
+      const sMs = parseInt(sMatch[1]) * 3600000 + parseInt(sMatch[2]) * 60000 + parseInt(sMatch[3]) * 1000 + parseInt(sMatch[4]) * 10;
+      const eMs = parseInt(eMatch[1]) * 3600000 + parseInt(eMatch[2]) * 60000 + parseInt(eMatch[3]) * 1000 + parseInt(eMatch[4]) * 10;
+      if (eMs <= sMs) continue;
+
+      const rawText = parts.slice(9).join(",").trim();
+      const cleanText = cleanAssText(rawText);
+      if (cleanText.length === 0) continue;
+
+      cues.push({
+        startStr: sStr,
+        endStr: eStr,
+        startMs: sMs,
+        text: cleanText,
+      });
+    }
+  }
+
+  cues.sort((a, b) => a.startMs - b.startMs);
+
+  let srtOutput = "";
+  cues.forEach((cue, index) => {
+    srtOutput += `${index + 1}\r\n${cue.startStr} --> ${cue.endStr}\r\n${cue.text}\r\n\r\n`;
+  });
+
+  return srtOutput;
+}
+
 // ============================================================
 // Stremio Addon Tanımı
 // ============================================================
 
 const manifest = {
   id: "community.onepace.tr.subtitles",
-  version: "1.3.9",
+  version: "1.4.0",
   name: "One Pace TR Altyazı",
   description:
     "One Pace için Türkçe altyazı addon'u. Tüm 35 Sezon (Fishman Island, Marineford, Wano vs.) desteklenir.",
@@ -376,22 +421,24 @@ builder.defineSubtitlesHandler(async (args) => {
     return { subtitles: [] };
   }
 
-  // Saf ASCII VTT URL'si (ExoPlayer TV çökmesini kesin olarak engeller)
-  const baseUrl = process.env.BASE_URL || `http://localhost:${PORT}`;
-  const vttUrl = `${baseUrl}/vtt/sub_${subKey}.vtt`;
+  const host = "one-piece-adon.onrender.com";
+  const srtUrl = `https://${host}/vtt/sub_${subKey}.srt`;
+  const vttUrl = `https://${host}/vtt/sub_${subKey}.vtt`;
 
-  // Haritaya kaydet ki VTT endpoint'i subKey ile alabilsin
+  // Haritaya kaydet ki VTT/SRT endpoint'i subKey ile alabilsin
   keyToRelativePathMap[`sub_${subKey}`] = filename;
-
-  const asciiVttUrl = `${baseUrl}/vtt/sub_${subKey}_ascii.vtt`;
-  const asciiSrtUrl = `${baseUrl}/vtt/sub_${subKey}_ascii.srt`;
 
   return {
     subtitles: [
       {
+        id: srtUrl,
+        url: srtUrl,
+        lang: "tur",
+      },
+      {
         id: vttUrl,
         url: vttUrl,
-        lang: "tur",
+        lang: "tr",
       },
     ],
   };
@@ -550,19 +597,28 @@ app.get("/vtt/*", (req, res) => {
   try {
     const buffer = fs.readFileSync(filePath);
     const assContent = decodeCp1254(buffer);
-    let vttContent = convertAssToVtt(assContent);
+
+    let outputContent = "";
+    let mimeType = "text/vtt; charset=utf-8";
+
+    if (isSrtFormat) {
+      outputContent = convertAssToSrt(assContent);
+      mimeType = "text/plain; charset=utf-8";
+    } else {
+      outputContent = convertAssToVtt(assContent);
+    }
 
     if (isAsciiMode) {
-      vttContent = convertToAsciiTurkish(vttContent);
+      outputContent = convertToAsciiTurkish(outputContent);
     }
 
     res.setHeader("Access-Control-Allow-Origin", "*");
     res.setHeader("Access-Control-Allow-Methods", "GET, OPTIONS");
     res.setHeader("Access-Control-Allow-Headers", "*");
-    res.setHeader("Content-Type", "text/vtt; charset=utf-8");
+    res.setHeader("Content-Type", mimeType);
     res.setHeader("Cache-Control", "public, max-age=86400");
-    res.send(vttContent);
-    console.log(`   ✅ VTT başarıyla gönderildi (${vttContent.length} byte)`);
+    res.send(outputContent);
+    console.log(`   ✅ Altyazı başarıyla gönderildi (${outputContent.length} byte, format=${isSrtFormat ? 'SRT' : 'VTT'})`);
   } catch (err) {
     console.error(`   ❌ Dönüştürme hatası:`, err);
     res.status(500).send("Conversion error");
