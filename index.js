@@ -331,12 +331,24 @@ function convertAssToSrt(assContent) {
 
 const manifest = {
   id: "community.onepace.tr.subtitles",
-  version: "1.4.3",
-  name: "One Pace TR Altyazı",
+  version: "2.0.0",
+  name: "One Pace TR (Video & Altyazı)",
   description:
-    "One Pace için Türkçe altyazı addon'u. Tüm 35 Sezon (Fishman Island, Marineford, Wano vs.) desteklenir.",
+    "One Pace için Türkçe altyazı ve entegre video akış eklentisi. Tüm 35 Sezon desteklenir.",
   logo: "https://i.pinimg.com/originals/4c/46/ee/4c46ee47e0710a6d928454f68fc4ee17.png",
-  resources: ["subtitles"],
+  resources: [
+    "subtitles",
+    {
+      name: "stream",
+      types: ["series"],
+      idPrefixes: [
+        "pp", "AL", "AR", "BA", "BUG", "COV", "DR", "EN", "FI", "IM",
+        "JA", "KB", "LI", "LR", "MA", "OR", "PH", "PO", "PW", "RD",
+        "RE", "REV", "RO", "RS", "SA", "SK", "SY", "TB", "WA", "WC",
+        "WS", "ZO"
+      ]
+    }
+  ],
   types: ["series", "movie", "anime", "other"],
   catalogs: [],
 };
@@ -439,6 +451,129 @@ builder.defineSubtitlesHandler(async (args) => {
       },
     ],
   };
+});
+
+// ============================================================
+// Stream Handler (Altyazı Entegreli Video Akışı Sağlayıcı)
+// ============================================================
+
+const https = require("https");
+
+function fetchFedewStream(arcCode) {
+  return new Promise((resolve) => {
+    const url = `https://raw.githubusercontent.com/fedew04/OnePaceStremio/main/stream/series/${arcCode}.json`;
+    https
+      .get(url, (res) => {
+        if (res.statusCode !== 200) return resolve([]);
+        let data = "";
+        res.on("data", (c) => (data += c));
+        res.on("end", () => {
+          try {
+            const json = JSON.parse(data);
+            resolve(json.streams || []);
+          } catch (e) {
+            resolve([]);
+          }
+        });
+      })
+      .on("error", () => resolve([]));
+  });
+}
+
+builder.defineStreamHandler(async (args) => {
+  console.log(`🎬 Stream isteği: type=${args.type}, id=${args.id}`);
+
+  let filename = null;
+  let subKey = null;
+  let arcCode = null;
+  const decodedId = decodeURIComponent(args.id);
+
+  // 1. Ark Kodu Kontrolü (AL_1, WA_5, IM_1 vb.)
+  const codeMatch = decodedId.match(/([A-Z_]+)_(\d+)/i);
+  if (codeMatch) {
+    const code = codeMatch[1].toUpperCase();
+    const ep = parseInt(codeMatch[2]);
+    arcCode = `${code}_${ep}`;
+    subKey = arcCode;
+    if (codeToSubMap[subKey]) filename = codeToSubMap[subKey];
+  }
+
+  // 2. Sezon:Bölüm Formatı (örn. pp_onepace:18:1 veya 18:1)
+  if (!filename) {
+    const parts = decodedId.split(":");
+    if (parts.length >= 2) {
+      const s = parseInt(parts[parts.length - 2]);
+      const ep = parseInt(parts[parts.length - 1]);
+      if (!isNaN(s) && !isNaN(ep)) {
+        subKey = `${s}_${ep}`;
+        if (seasonEpToSubMap[`${s}:${ep}`]) {
+          filename = seasonEpToSubMap[`${s}:${ep}`];
+        }
+      }
+    }
+  }
+
+  // 3. Fallback Kelime Arama
+  if (!filename) {
+    for (const arcDef of arcDefinitions) {
+      for (const kw of arcDef.keywords) {
+        if (decodedId.toLowerCase().includes(kw)) {
+          const epMatch = decodedId.match(/\d+/);
+          const ep = epMatch ? parseInt(epMatch[0]) : 1;
+          const key = `${arcDef.folderSeason}:${ep}`;
+          subKey = `${arcDef.folderSeason}_${ep}`;
+          if (seasonEpToSubMap[key]) {
+            filename = seasonEpToSubMap[key];
+            arcCode = `${arcDef.codes[0]}_${ep}`;
+            break;
+          }
+        }
+      }
+      if (filename) break;
+    }
+  }
+
+  if (!arcCode) {
+    arcCode = subKey;
+  }
+
+  const rawStreams = arcCode ? await fetchFedewStream(arcCode) : [];
+  if (!rawStreams || rawStreams.length === 0) {
+    console.log(`   ❌ Stream bulunamadı: ${args.id} (arcCode=${arcCode})`);
+    return { streams: [] };
+  }
+
+  const host = "one-piece-adon.onrender.com";
+  const vttUrl = `https://${host}/vtt/sub_${subKey || arcCode}.vtt`;
+  const srtUrl = `https://${host}/vtt/sub_${subKey || arcCode}.srt`;
+
+  const streams = rawStreams.map((s) => {
+    const streamObj = {
+      name: "One Pace TR",
+      title: `🇹🇷 One Pace - Türkçe Altyazılı [1080p]`,
+      subtitles: [
+        {
+          id: vttUrl,
+          url: vttUrl,
+          lang: "tur",
+        },
+        {
+          id: srtUrl,
+          url: srtUrl,
+          lang: "tr",
+        },
+      ],
+    };
+
+    if (s.infoHash) streamObj.infoHash = s.infoHash;
+    if (typeof s.fileIdx === "number") streamObj.fileIdx = s.fileIdx;
+    if (s.url) streamObj.url = s.url;
+
+    return streamObj;
+  });
+
+  console.log(`   ✅ ${streams.length} adet Türkçe altyazı entegreli stream döndürüldü (${arcCode})`);
+  return { streams };
 });
 
 // ============================================================
@@ -658,7 +793,6 @@ app.get("/vtt/*", (req, res) => {
 const addonRouter = getRouter(addonInterface);
 app.use("/", addonRouter);
 
-const https = require("https");
 setInterval(() => {
   const keepAliveUrl = process.env.BASE_URL || "https://one-piece-adon.onrender.com";
   https.get(`${keepAliveUrl}/`, (res) => {
