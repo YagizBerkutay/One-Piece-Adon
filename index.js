@@ -343,7 +343,7 @@ const allPrefixes = [
 
 const manifest = {
   id: "community.onepace.tr.subtitles",
-  version: "2.3.0",
+  version: "2.4.0",
   name: "One Pace TR (Video & Altyazı)",
   description:
     "One Pace için Türkçe altyazı ve entegre video akış eklentisi. Tüm 35 Sezon desteklenir.",
@@ -800,6 +800,46 @@ app.get("/vtt/*", (req, res) => {
     console.error(`   ❌ Dönüştürme hatası:`, err);
     res.status(500).send("Conversion error");
   }
+});
+
+// ============================================================
+// HLS Apple TV / KSPlayer Altyazı Enjeksiyon Endpoint'leri
+// ============================================================
+
+app.get("/hls/sub_:subKey.m3u8", (req, res) => {
+  const subKey = req.params.subKey;
+  const host = "one-piece-adon.onrender.com";
+  const vttUrl = `https://${host}/vtt/sub_${subKey}.vtt`;
+
+  const playlist = `#EXTM3U
+#EXT-X-TARGETDURATION:7200
+#EXT-X-VERSION:3
+#EXT-X-MEDIA-SEQUENCE:0
+#EXTINF:7200.0,
+${vttUrl}
+#EXT-X-ENDLIST
+`;
+
+  res.setHeader("Content-Type", "application/vnd.apple.mpegurl");
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  res.send(playlist);
+});
+
+app.get("/hls/master_:subKey.m3u8", (req, res) => {
+  const subKey = req.params.subKey;
+  const host = "one-piece-adon.onrender.com";
+  const subM3u8Url = `https://${host}/hls/sub_${subKey}.m3u8`;
+
+  const masterPlaylist = `#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",NAME="Türkçe",DEFAULT=YES,AUTOSELECT=YES,FORCED=NO,LANGUAGE="tr",URI="${subM3u8Url}"
+#EXT-X-STREAM-INF:BANDWIDTH=8000000,SUBTITLES="subs"
+${subM3u8Url}
+`;
+
+  res.setHeader("Content-Type", "application/vnd.apple.mpegurl");
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  res.send(masterPlaylist);
 });
 
 const addonRouter = getRouter(addonInterface);
