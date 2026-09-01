@@ -343,12 +343,18 @@ const allPrefixes = [
 
 const manifest = {
   id: "community.onepace.tr.subtitles",
-  version: "2.4.0",
+  version: "3.0.0",
   name: "One Pace TR (Video & Altyazı)",
   description:
-    "One Pace için Türkçe altyazı ve entegre video akış eklentisi. Tüm 35 Sezon desteklenir.",
+    "One Pace için Türkçe altyazı, katalog ve entegre video akış eklentisi. Tüm 35 Sezon desteklenir.",
   logo: "https://i.pinimg.com/originals/4c/46/ee/4c46ee47e0710a6d928454f68fc4ee17.png",
   resources: [
+    "catalog",
+    {
+      name: "meta",
+      types: ["series"],
+      idPrefixes: ["pp"],
+    },
     {
       name: "subtitles",
       types: ["series", "movie", "anime", "other"],
@@ -362,10 +368,69 @@ const manifest = {
   ],
   types: ["series", "movie", "anime", "other"],
   idPrefixes: allPrefixes,
-  catalogs: [],
+  catalogs: [
+    {
+      type: "series",
+      id: "seriesCatalog",
+      name: "One Pace (Türkçe)",
+      extra: [
+        {
+          name: "search",
+          isRequired: false,
+        },
+      ],
+    },
+  ],
 };
 
 const builder = new addonBuilder(manifest);
+
+// ============================================================
+// Catalog & Meta Handlers (One Pace Dizisini Otomatik Listeleme)
+// ============================================================
+
+builder.defineCatalogHandler(async (args) => {
+  console.log(`📚 Katalog isteği: type=${args.type}, id=${args.id}`);
+  return {
+    metas: [
+      {
+        type: "series",
+        id: "pp_onepace",
+        name: "One Pace (Türkçe)",
+        poster: "https://i.pinimg.com/originals/eb/85/c4/eb85c4376b474030b80afa80ad1cd13a.jpg",
+        banner: "https://i.pinimg.com/originals/4c/46/ee/4c46ee47e0710a6d928454f68fc4ee17.png",
+        genres: ["Anime", "Macera", "Aksiyon", "Komedi"],
+        description: "One Pace, One Piece animesinin manga ile birebir örtüşmesi için dolgu sahnelerden arındırılmış özel kurgu versiyonudur. Tüm 35 Sezon Türkçe altyazılı olarak sunulmaktadır.",
+      },
+    ],
+  };
+});
+
+builder.defineMetaHandler(async (args) => {
+  console.log(`📄 Meta isteği: type=${args.type}, id=${args.id}`);
+  if (args.id === "pp_onepace") {
+    return new Promise((resolve) => {
+      https
+        .get(
+          "https://raw.githubusercontent.com/fedew04/OnePaceStremio/main/meta/series/pp_onepace.json",
+          (res) => {
+            let data = "";
+            res.on("data", (c) => (data += c));
+            res.on("end", () => {
+              try {
+                const json = JSON.parse(data);
+                resolve(json);
+              } catch (e) {
+                resolve({ meta: null });
+              }
+            });
+          }
+        )
+        .on("error", () => resolve({ meta: null }));
+    });
+  }
+  return { meta: null };
+});
 
 // ============================================================
 // Subtitle Handler (Çok Katmanlı Evrensel Çözücü)
