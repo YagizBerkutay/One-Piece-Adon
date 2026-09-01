@@ -332,29 +332,36 @@ function convertAssToSrt(assContent) {
 // Stremio Addon Tanımı
 // ============================================================
 
+const allPrefixes = [
+  "pp",
+  "AL", "AM", "AR", "BA", "BUGGYS_CREW", "COVER_KOBYMEPPO", "COVER_SHSS",
+  "DI", "DR", "EH", "EN", "GA", "IM", "JA", "LI", "LO", "LR",
+  "MA", "OR", "PEN", "PH", "PO", "PW", "RD", "RE", "REV", "RM",
+  "RO", "RS", "RTS", "SA", "SAB", "SK", "SY", "TB", "WA", "WC",
+  "WH", "WS", "ZO"
+];
+
 const manifest = {
   id: "community.onepace.tr.subtitles",
-  version: "2.2.0",
+  version: "2.3.0",
   name: "One Pace TR (Video & Altyazı)",
   description:
     "One Pace için Türkçe altyazı ve entegre video akış eklentisi. Tüm 35 Sezon desteklenir.",
   logo: "https://i.pinimg.com/originals/4c/46/ee/4c46ee47e0710a6d928454f68fc4ee17.png",
   resources: [
-    "subtitles",
+    {
+      name: "subtitles",
+      types: ["series", "movie", "anime", "other"],
+      idPrefixes: allPrefixes,
+    },
     {
       name: "stream",
-      types: ["series"],
-      idPrefixes: [
-        "pp",
-        "AL", "AM", "AR", "BA", "BUGGYS_CREW", "COVER_KOBYMEPPO", "COVER_SHSS",
-        "DI", "DR", "EH", "EN", "GA", "IM", "JA", "LI", "LO", "LR",
-        "MA", "OR", "PEN", "PH", "PO", "PW", "RD", "RE", "REV", "RM",
-        "RO", "RS", "RTS", "SA", "SAB", "SK", "SY", "TB", "WA", "WC",
-        "WH", "WS", "ZO"
-      ]
-    }
+      types: ["series", "movie", "anime", "other"],
+      idPrefixes: allPrefixes,
+    },
   ],
   types: ["series", "movie", "anime", "other"],
+  idPrefixes: allPrefixes,
   catalogs: [],
 };
 
