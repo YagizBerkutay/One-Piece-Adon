@@ -342,8 +342,8 @@ const allPrefixes = [
 ];
 
 const manifest = {
-  id: "community.onepace.tr.subtitles",
-  version: "3.0.0",
+  id: "community.onepace.tr.v3",
+  version: "3.1.0",
   name: "One Pace TR (Video & Altyazı)",
   description:
     "One Pace için Türkçe altyazı, katalog ve entegre video akış eklentisi. Tüm 35 Sezon desteklenir.",
