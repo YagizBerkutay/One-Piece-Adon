@@ -334,7 +334,7 @@ function convertAssToSrt(assContent) {
 
 const manifest = {
   id: "community.onepace.tr.subtitles",
-  version: "2.1.0",
+  version: "2.2.0",
   name: "One Pace TR (Video & Altyazı)",
   description:
     "One Pace için Türkçe altyazı ve entegre video akış eklentisi. Tüm 35 Sezon desteklenir.",
@@ -345,10 +345,12 @@ const manifest = {
       name: "stream",
       types: ["series"],
       idPrefixes: [
-        "pp", "AL", "AR", "BA", "BUG", "COV", "DR", "EN", "FI", "IM",
-        "JA", "KB", "LI", "LR", "MA", "OR", "PH", "PO", "PW", "RD",
-        "RE", "REV", "RO", "RS", "SA", "SK", "SY", "TB", "WA", "WC",
-        "WS", "ZO"
+        "pp",
+        "AL", "AM", "AR", "BA", "BUGGYS_CREW", "COVER_KOBYMEPPO", "COVER_SHSS",
+        "DI", "DR", "EH", "EN", "GA", "IM", "JA", "LI", "LO", "LR",
+        "MA", "OR", "PEN", "PH", "PO", "PW", "RD", "RE", "REV", "RM",
+        "RO", "RS", "RTS", "SA", "SAB", "SK", "SY", "TB", "WA", "WC",
+        "WH", "WS", "ZO"
       ]
     }
   ],
