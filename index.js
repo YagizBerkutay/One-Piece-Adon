@@ -72,7 +72,7 @@ const arcDefinitions = [
   { folderSeason: 6,  codes: ["AR", "AP", "ARL"],                  keywords: ["arlong", "park"] },
   { folderSeason: 7,  codes: ["BUGGYS_CREW", "BU", "BUG", "TABC"], keywords: ["buggy"] },
   { folderSeason: 8,  codes: ["LO", "LT", "LOG"],                  keywords: ["loguetown"] },
-  { folderSeason: 9,  codes: ["RM", "REV"],                        keywords: ["reverse", "mountain"] },
+  { folderSeason: 9,  codes: ["RM", "RVM"],                        keywords: ["reverse", "mountain"] },
   { folderSeason: 10, codes: ["WH", "WP", "WHI"],                  keywords: ["whisky", "peak"] },
   { folderSeason: 11, codes: ["COVER_KOBYMEPPO", "KM", "KOB", "TTKM"], keywords: ["koby", "meppo"] },
   { folderSeason: 12, codes: ["LI", "LG", "LIT"],                  keywords: ["little", "garden"] },
@@ -98,7 +98,8 @@ const arcDefinitions = [
   { folderSeason: 32, codes: ["ZO", "ZOU"],                        keywords: ["zou"] },
   { folderSeason: 33, codes: ["WC", "WCI"],                        keywords: ["whole", "cake"] },
   { folderSeason: 34, codes: ["REV", "RE"],                        keywords: ["reverie"] },
-  { folderSeason: 35, codes: ["WA", "WAN"],                        keywords: ["wano"] }
+  { folderSeason: 35, codes: ["WA", "WAN"],                        keywords: ["wano"] },
+  { folderSeason: 36, codes: ["EH", "EGG", "EGGHEAD"],              keywords: ["egghead"] }
 ];
 
 const codeToSubMap = {};
@@ -343,7 +344,7 @@ const allPrefixes = [
 
 const manifest = {
   id: "community.onepace.tr.v3",
-  version: "3.1.0",
+  version: "3.2.0",
   name: "One Pace TR (Video & Altyazı)",
   description:
     "One Pace için Türkçe altyazı, katalog ve entegre video akış eklentisi. Tüm 35 Sezon desteklenir.",
@@ -643,7 +644,7 @@ builder.defineStreamHandler(async (args) => {
     };
 
     if (s.infoHash) streamObj.infoHash = s.infoHash;
-    if (typeof s.fileIdx === "number") streamObj.fileIdx = s.fileIdx;
+    streamObj.fileIdx = typeof s.fileIdx === "number" ? s.fileIdx : 0;
     if (s.url) streamObj.url = s.url;
 
     return streamObj;
