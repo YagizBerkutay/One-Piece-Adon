@@ -272,6 +272,9 @@ function convertAssToVtt(assContent) {
     }
   }
 
+  // Apple AVPlayer ve WebVTT standardı gereği satırlar kesinlikle kronolojik sıralı olmalı
+  cues.sort((a, b) => a.startMs - b.startMs);
+
   let vttOutput = "WEBVTT\n\n";
   cues.forEach((cue) => {
     vttOutput += `${cue.startStr} --> ${cue.endStr}\n${cue.text}\n\n`;
@@ -331,7 +334,7 @@ function convertAssToSrt(assContent) {
 
 const manifest = {
   id: "community.onepace.tr.subtitles",
-  version: "2.0.0",
+  version: "2.1.0",
   name: "One Pace TR (Video & Altyazı)",
   description:
     "One Pace için Türkçe altyazı ve entegre video akış eklentisi. Tüm 35 Sezon desteklenir.",
@@ -440,12 +443,12 @@ builder.defineSubtitlesHandler(async (args) => {
   return {
     subtitles: [
       {
-        id: vttUrl,
+        id: `onepace_tur_${subKey}`,
         url: vttUrl,
         lang: "tur",
       },
       {
-        id: srtUrl,
+        id: `onepace_tr_${subKey}`,
         url: srtUrl,
         lang: "tr",
       },
@@ -553,12 +556,12 @@ builder.defineStreamHandler(async (args) => {
       title: `🇹🇷 One Pace - Türkçe Altyazılı [1080p]`,
       subtitles: [
         {
-          id: vttUrl,
+          id: `onepace_tur_${subKey || arcCode}`,
           url: vttUrl,
           lang: "tur",
         },
         {
-          id: srtUrl,
+          id: `onepace_tr_${subKey || arcCode}`,
           url: srtUrl,
           lang: "tr",
         },
